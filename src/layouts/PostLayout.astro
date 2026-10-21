@@ -1,0 +1,103 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import PostCard from '../components/PostCard.astro';
+import { SITE } from '../config';
+import { t } from '../i18n/ui';
+import { alternatesFor, formatDate, getPosts, postLang, postUrl, readingMinutes, type Post } from '../lib';
+
+interface Props {
+  post: Post;
+  headings: { depth: number; slug: string; text: string }[];
+}
+const { post, headings } = Astro.props;
+const { title, description, pubDate, updatedDate, category, products } = post.data;
+const lang = postLang(post);
+const alternates = await alternatesFor(post);
+const related = (await getPosts(lang)).filter((p) => p.id !== post.id).slice(0, 2);
+const url = new URL(postUrl(post), Astro.site).href;
+const toc = headings.filter((h) => h.depth === 2);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    datePublished: pubDate.toISOString(),
+    dateModified: (updatedDate ?? pubDate).toISOString(),
+    inLanguage: lang,
+    author: { '@type': 'Organization', name: SITE.author },
+    publisher: { '@type': 'Organization', name: SITE.name },
+    mainEntityOfPage: url,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: SITE.name, item: new URL(lang === 'tr' ? '/' : '/en/', Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: title, item: url },
+    ],
+  },
+];
+---
+
+<BaseLayout lang={lang} title={title} description={description} alternates={alternates} ogType="article" jsonLd={jsonLd}>
+  <article class="container">
+    <header class="read head">
+      <span class="chip">{t(lang, `cat.${category}`)}</span>
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+      <p class="muted meta">
+        {SITE.author} ·
+        {updatedDate ? (
+          <>{t(lang, 'post.updated')}: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate, lang)}</time></>
+        ) : (
+          <time datetime={pubDate.toISOString()}>{formatDate(pubDate, lang)}</time>
+        )}
+        · {readingMinutes(post.body)} {t(lang, 'post.readingTime')}
+      </p>
+      {products.length > 0 && <p class="disclosure">{t(lang, 'disclosure')}</p>}
+    </header>
+
+    {toc.length > 2 && (
+      <nav class="read toc" aria-label={t(lang, 'post.toc')}>
+        <p>{t(lang, 'post.toc')}</p>
+        <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+      </nav>
+    )}
+
+    <div class="read prose">
+      <slot />
+    </div>
+
+    {products.length > 0 && (
+      <section class="read" aria-labelledby="picks">
+        <h2 id="picks">{t(lang, 'post.picks')}</h2>
+        {products.map((product, i) => <ProductCard lang={lang} rank={i + 1} product={product} />)}
+      </section>
+    )}
+
+    <div class="read"><AdSlot lang={lang} /></div>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related">
+        <h2 id="related">{t(lang, 'post.related')}</h2>
+        <div class="grid">{related.map((p) => <PostCard post={p} />)}</div>
+      </section>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .head { padding: 3rem 0 1rem; }
+  .lead { font-size: 1.25rem; color: var(--muted); margin: 0 0 1rem; }
+  .meta { font-size: .9rem; margin: 0; }
+  .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; margin-top: 1.25rem; }
+  .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .toc p { margin: 0 0 .25rem; font-weight: 700; }
+  .toc ol { margin: 0; padding-left: 1.2rem; }
+  .related { max-width: var(--readw); margin: 3rem auto 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+</style>

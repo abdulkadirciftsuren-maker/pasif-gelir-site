@@ -1,0 +1,28 @@
+---
+import { postLang, postUrl, readingMinutes, type Post } from '../lib';
+import { t } from '../i18n/ui';
+
+interface Props { post: Post }
+const { post } = Astro.props;
+const lang = postLang(post);
+---
+
+<a class="card" href={postUrl(post)}>
+  <span class="chip">{t(lang, `cat.${post.data.category}`)}</span>
+  <h3>{post.data.title}</h3>
+  <p>{post.data.description}</p>
+  <span class="muted meta">{readingMinutes(post.body)} {t(lang, 'post.readingTime')}</span>
+</a>
+
+<style>
+  .card {
+    display: flex; flex-direction: column; gap: .4rem; height: 100%;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.25rem; color: var(--text); text-decoration: none; transition: transform .15s, border-color .15s;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .chip { align-self: flex-start; }
+  h3 { margin: .3rem 0 0; font-size: 1.3rem; }
+  p { margin: 0; color: var(--muted); font-size: 1rem; flex: 1; }
+  .meta { font-size: .85rem; }
+</style>

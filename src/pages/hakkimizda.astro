@@ -1,0 +1,16 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { staticPages } from '../i18n/ui';
+---
+
+<PageLayout lang="tr" title="Hakkımızda" description="Demlio, evde kahve demleyenler için bağımsız, sade ve denenmiş rehberler yayınlayan bir kahve sitesidir. Nasıl çalıştığımızı anlatıyoruz." alternates={staticPages.about}>
+  <p>Demlio, evde daha iyi kahve yapmak isteyenler için kuruldu. Amacımız basit: kafa karıştıran terimleri sadeleştirmek, işe yarayan yöntemleri adım adım anlatmak ve paranı doğru ekipmana harcamana yardım etmek.</p>
+  <h2>Nasıl çalışıyoruz?</h2>
+  <ul>
+    <li><strong>Önce yöntem, sonra ürün.</strong> Her yazı önce "nasıl yapılır" sorusuna cevap verir; ürün önerileri ancak bundan sonra gelir.</li>
+    <li><strong>Abartı yok.</strong> Her ürünün eksilerini de yazarız. Herkese uyan "en iyi" ürün yoktur, senin ihtiyacına uyan vardır.</li>
+    <li><strong>Güncel tutarız.</strong> Yazılar düzenli olarak gözden geçirilir; güncelleme tarihi her yazının başında görünür.</li>
+  </ul>
+  <h2>Gelirimiz nereden geliyor?</h2>
+  <p>Site; reklamlar ve ortaklık bağlantılarıyla ayakta durur. Bir bağlantıdan alışveriş yaparsan küçük bir komisyon alabiliriz, bu sana ek maliyet getirmez. Ayrıntılar için <a href={staticPages.disclosure.tr}>ortaklık açıklamamızı</a> okuyabilirsin.</p>
+</PageLayout>

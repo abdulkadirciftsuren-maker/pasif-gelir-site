@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demlio.com/sitemap-index.xml

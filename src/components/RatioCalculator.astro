@@ -1,0 +1,85 @@
+---
+// Tek etkileşimli araç. Küçük, satır içi bir script: kütüphane yok.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { staticPages, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const tr = lang === 'tr';
+const L = tr
+  ? {
+      title: 'Kahve Oranı Hesaplayıcı',
+      desc: 'Kaç gram kahveye kaç ml su? Demleme yöntemini seç, fincan sayını gir; doğru kahve ve su miktarını anında hesapla. V60, French press ve daha fazlası.',
+      method: 'Yöntem', cups: 'Fincan', cupSize: 'Fincan boyu (ml)', ratio: 'Oran (1:x)',
+      coffee: 'Kahve', water: 'Su', grind: 'Öğütme', note: 'Oranı kendi zevkine göre ayarla: daha yoğun için sayıyı küçült, daha hafif için büyüt.',
+      methods: [['v60', 'V60 / Filtre', 16, 'Orta-ince'], ['french', 'French press', 15, 'Kalın'], ['aeropress', 'AeroPress', 14, 'İnce-orta'], ['cold', 'Soğuk demleme (konsantre)', 8, 'Çok kalın'], ['moka', 'Moka pot', 10, 'İnce']],
+    }
+  : {
+      title: 'Coffee Ratio Calculator',
+      desc: 'How many grams of coffee per ml of water? Pick your brew method and number of cups to get the exact coffee and water amounts instantly. V60, French press and more.',
+      method: 'Method', cups: 'Cups', cupSize: 'Cup size (ml)', ratio: 'Ratio (1:x)',
+      coffee: 'Coffee', water: 'Water', grind: 'Grind', note: 'Adjust to taste: lower the number for a stronger cup, raise it for a lighter one.',
+      methods: [['v60', 'V60 / Pour-over', 16, 'Medium-fine'], ['french', 'French press', 15, 'Coarse'], ['aeropress', 'AeroPress', 14, 'Fine-medium'], ['cold', 'Cold brew (concentrate)', 8, 'Extra coarse'], ['moka', 'Moka pot', 10, 'Fine']],
+    };
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: L.title, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', inLanguage: lang, offers: { '@type': 'Offer', price: '0' } }];
+---
+
+<BaseLayout lang={lang} title={L.title} description={L.desc} alternates={staticPages.calculator} jsonLd={jsonLd}>
+  <div class="container read wrap">
+    <h1>{L.title}</h1>
+    <p class="muted lead">{L.desc}</p>
+
+    <form class="calc" id="calc" onsubmit="return false">
+      <label>{L.method}
+        <select name="method">
+          {L.methods.map(([id, name, ratio, grind]) => <option value={id} data-ratio={ratio} data-grind={grind}>{name}</option>)}
+        </select>
+      </label>
+      <label>{L.cups}<input name="cups" type="number" min="1" max="20" value="2" inputmode="numeric" /></label>
+      <label>{L.cupSize}<input name="size" type="number" min="30" max="500" step="10" value="250" inputmode="numeric" /></label>
+      <label>{L.ratio}<input name="ratio" type="number" min="4" max="20" step="0.5" value="16" inputmode="decimal" /></label>
+
+      <output class="result" for="method cups size ratio" aria-live="polite">
+        <div><span>{L.coffee}</span><strong id="r-coffee">31 g</strong></div>
+        <div><span>{L.water}</span><strong id="r-water">500 ml</strong></div>
+        <div><span>{L.grind}</span><strong id="r-grind">{L.methods[0][3]}</strong></div>
+      </output>
+    </form>
+    <p class="muted">{L.note}</p>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (() => {
+    const f = document.getElementById('calc');
+    const $ = (id) => document.getElementById(id);
+    const calc = () => {
+      const water = (+f.cups.value || 0) * (+f.size.value || 0);
+      const ratio = +f.ratio.value || 16;
+      $('r-coffee').textContent = (Math.round((water / ratio) * 10) / 10).toLocaleString(document.documentElement.lang) + ' g';
+      $('r-water').textContent = water + ' ml';
+    };
+    f.method.addEventListener('change', () => {
+      const o = f.method.selectedOptions[0];
+      f.ratio.value = o.dataset.ratio;
+      $('r-grind').textContent = o.dataset.grind;
+      calc();
+    });
+    f.addEventListener('input', calc);
+    calc();
+  })();
+</script>
+
+<style>
+  .wrap { padding-top: 3rem; }
+  .lead { font-size: 1.15rem; }
+  .calc { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1.5rem 0 1rem; }
+  label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 600; }
+  input, select { font: inherit; font-weight: 400; padding: .6rem .7rem; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--text); width: 100%; }
+  .result { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
+  .result div { background: var(--accent-soft); border-radius: 12px; padding: .9rem; text-align: center; }
+  .result span { display: block; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .result strong { font: 700 1.5rem var(--serif); color: var(--accent); }
+  @media (max-width: 600px) { .calc { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .result strong { font-size: 1.15rem; } }
+</style>

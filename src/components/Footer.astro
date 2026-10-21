@@ -1,0 +1,29 @@
+---
+import { SITE } from '../config';
+import { staticPages, t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container inner">
+    <p><strong>{SITE.name}</strong> — {t(lang, 'site.tagline')}</p>
+    <nav aria-label="Footer">
+      <a href={staticPages.about[lang]}>{t(lang, 'footer.about')}</a>
+      <a href={staticPages.disclosure[lang]}>{t(lang, 'footer.disclosure')}</a>
+      <a href={staticPages.privacy[lang]}>{t(lang, 'footer.privacy')}</a>
+    </nav>
+    <p class="muted small">© {year} {SITE.name}. {t(lang, 'footer.rights')}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer { margin-top: 5rem; border-top: 1px solid var(--border); padding: 2rem 0; font-size: .95rem; }
+  .inner { display: grid; gap: .5rem; }
+  .inner p { margin: 0; }
+  nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+  nav a { color: var(--muted); }
+  .small { font-size: .85rem; }
+</style>

@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from './PostCard.astro';
+import { SITE } from '../config';
+import { staticPages, t, type Lang } from '../i18n/ui';
+import { getPosts } from '../lib';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const posts = await getPosts(lang);
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: new URL(staticPages.home[lang], Astro.site).href,
+    inLanguage: lang,
+  },
+];
+---
+
+<BaseLayout lang={lang} title={SITE.name} description={t(lang, 'site.description')} alternates={staticPages.home} jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="container">
+      <h1>{t(lang, 'home.hero')}</h1>
+      <p>{t(lang, 'home.lead')}</p>
+      <a class="btn" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
+    </div>
+  </section>
+
+  <section class="container" id="rehberler" aria-labelledby="latest">
+    <h2 id="latest">{t(lang, 'home.latest')}</h2>
+    <div class="grid">{posts.map((post) => <PostCard post={post} />)}</div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { padding: 4.5rem 0 3.5rem; background: radial-gradient(circle at 85% 20%, var(--accent-soft), transparent 55%); border-bottom: 1px solid var(--border); }
+  .hero h1 { max-width: 16ch; }
+  .hero p { max-width: 38rem; font-size: 1.2rem; color: var(--muted); margin: 0 0 1.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1.25rem; }
+</style>

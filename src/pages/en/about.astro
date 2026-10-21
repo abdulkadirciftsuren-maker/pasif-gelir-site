@@ -1,0 +1,16 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { staticPages } from '../../i18n/ui';
+---
+
+<PageLayout lang="en" title="About" description="Demlio is an independent coffee site publishing simple, tested guides for people who brew at home. Here is how we work and how we are funded." alternates={staticPages.about}>
+  <p>Demlio exists for people who want better coffee at home. Our goal is simple: cut through the jargon, explain methods that work step by step, and help you spend money on the right gear.</p>
+  <h2>How we work</h2>
+  <ul>
+    <li><strong>Method first, products second.</strong> Every article answers "how do I do this?" before recommending anything.</li>
+    <li><strong>No hype.</strong> We list the downsides of every product. There is no universal "best", only what fits your needs.</li>
+    <li><strong>Kept up to date.</strong> Articles are reviewed regularly; the last update date is shown at the top.</li>
+  </ul>
+  <h2>How we make money</h2>
+  <p>The site is funded by ads and affiliate links. If you buy through a link we may earn a small commission at no extra cost to you. See our <a href={staticPages.disclosure.en}>affiliate disclosure</a>.</p>
+</PageLayout>

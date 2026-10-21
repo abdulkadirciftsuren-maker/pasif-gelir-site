@@ -1,0 +1,26 @@
+---
+// Hakkımızda, gizlilik gibi basit metin sayfaları için.
+import BaseLayout from './BaseLayout.astro';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  alternates: Partial<Record<Lang, string>>;
+}
+const { lang, title, description, alternates } = Astro.props;
+---
+
+<BaseLayout lang={lang} title={title} description={description} alternates={alternates}>
+  <article class="container">
+    <div class="read prose page">
+      <h1>{title}</h1>
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .page { padding-top: 3rem; }
+</style>

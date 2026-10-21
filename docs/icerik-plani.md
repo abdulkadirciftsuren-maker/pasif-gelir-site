@@ -14,7 +14,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 |---|---|---|---|---|---|
 | 1 | **Kahve Çeşitleri: Espresso'dan Mırra'ya Tüm Kahve Türleri** (ana rehber) | kahve çeşitleri, kahve türleri | Bilgi | 1 | ✅ |
 | 2 | Latte, Cappuccino ve Flat White Arasındaki Fark | latte cappuccino farkı | Bilgi | 1 | ✅ |
-| 3 | Arabica ve Robusta: Farkları ve Hangisini Seçmeli? | arabica robusta farkı | Bilgi | 1 | ⬜ |
+| 3 | Arabica ve Robusta: Farkları ve Hangisini Seçmeli? | arabica robusta farkı | Bilgi | 1 | ✅ |
 | 4 | Kahve Kavurma Dereceleri: Açık, Orta, Koyu Kavrum | kahve kavurma dereceleri | Bilgi | 2 | ⬜ |
 | 5 | Kahve Bölgeleri Rehberi: Etiyopya, Kolombiya, Brezilya ve Tatları | etiyopya kahvesi, kolombiya kahvesi | Bilgi | 2 | ⬜ |
 | 6 | Specialty (Nitelikli) Kahve Nedir? | nitelikli kahve nedir | Bilgi | 2 | ⬜ |
@@ -75,6 +75,17 @@ Hedef tempo: **haftada 2-3 yazı.** Bu tempoyla ilk 30 yazı 3 ayda tamamlanır.
 - Her ürünün eksisini de yaz. Fiyat yazma, çünkü hızla eskir; "fiyatı gör" bağlantısı yeterli.
 - Her yazı en az 2 ilgili yazıya bağlantı versin.
 - 6 ayda bir gözden geçir ve `updatedDate` tarihini güncelle.
+
+## Yapay zekâ döneminde strateji
+
+Google'ın yapay zekâ özetleri ve sohbet botları "X nedir?" türü basit sorulara artık sayfaya tıklatmadan cevap veriyor. Bu yüzden içerik şu dört ilkeye göre şekilleniyor:
+
+1. **Satın alma niyeti olan yazılara ağırlık:** Makine seçimi, set önerileri, karşılaştırmalar. Satın almak isteyen okur, ürünleri ve bağlantıları görmek için yine de sayfaya tıklar. Komisyon da buradan gelir.
+2. **Deneyim ve yerel bilgi:** Kendi fotoğraflarımız, kendi denemelerimiz, Mardin'in mırrası gibi yöresel konular ve Türkiye'deki markalar ve raflar. Yapay zekânın kendi başına üretemeyeceği şeyler bunlar.
+3. **Araçlar:** Oran hesaplayıcı gibi etkileşimli sayfalar; bir sohbet cevabı bunların yerini tutmaz. İleride yeni araçlar eklenecek (örneğin "hangi kahve makinesi bana uygun?" testi).
+4. **Her bilgi yazısında pratik bir bölüm:** "Markette nasıl anlarsın", "Hangi yöntem için hangisi" gibi uygulamaya dönük kısımlar.
+
+Not: Yapay zekâ özetleri kaynak olarak sitelere bağlantı veriyor. Net, düzenli ve güvenilir yazılar bu kaynaklar arasına girme şansını artırır.
 
 ## Diller
 

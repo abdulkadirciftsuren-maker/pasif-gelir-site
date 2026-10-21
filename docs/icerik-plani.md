@@ -13,7 +13,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | # | Başlık | Hedef arama | Tür | Öncelik | Durum |
 |---|---|---|---|---|---|
 | 1 | **Kahve Çeşitleri: Espresso'dan Mırra'ya Tüm Kahve Türleri** (ana rehber) | kahve çeşitleri, kahve türleri | Bilgi | 1 | ✅ |
-| 2 | Latte, Cappuccino ve Flat White Arasındaki Fark | latte cappuccino farkı | Bilgi | 1 | ⬜ |
+| 2 | Latte, Cappuccino ve Flat White Arasındaki Fark | latte cappuccino farkı | Bilgi | 1 | ✅ |
 | 3 | Arabica ve Robusta: Farkları ve Hangisini Seçmeli? | arabica robusta farkı | Bilgi | 1 | ⬜ |
 | 4 | Kahve Kavurma Dereceleri: Açık, Orta, Koyu Kavrum | kahve kavurma dereceleri | Bilgi | 2 | ⬜ |
 | 5 | Kahve Bölgeleri Rehberi: Etiyopya, Kolombiya, Brezilya ve Tatları | etiyopya kahvesi, kolombiya kahvesi | Bilgi | 2 | ⬜ |

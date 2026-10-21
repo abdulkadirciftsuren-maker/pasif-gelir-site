@@ -32,7 +32,7 @@ Espresso, ince öğütülmüş kahveden yüksek basınçla yaklaşık 25–30 sa
 
 ### Latte, cappuccino ve flat white arasındaki fark
 
-Bu üçü en çok karıştırılan kahvelerdir. Fark, **süt miktarında ve köpüğün kalınlığında:**
+Bu üçü en çok karıştırılan kahvelerdir. Fark, **süt miktarında ve köpüğün kalınlığında** (ayrıntılı ve çizimli anlatım için [latte, cappuccino ve flat white rehberimize](/latte-cappuccino-flat-white-farki/) bak):
 
 - **Cappuccino:** Daha az süt, kalın ve havadar bir köpük. Bardak küçüktür.
 - **Latte:** En çok süt, ince bir köpük. Bardak büyüktür, tadı en yumuşak olanıdır.

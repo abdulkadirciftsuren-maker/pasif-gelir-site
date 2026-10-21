@@ -4,7 +4,7 @@ import ProductCard from '../components/ProductCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import PostCard from '../components/PostCard.astro';
 import { SITE } from '../config';
-import { t } from '../i18n/ui';
+import { staticPages, t } from '../i18n/ui';
 import { alternatesFor, formatDate, getPosts, postLang, postUrl, readingMinutes, type Post } from '../lib';
 
 interface Props {
@@ -15,7 +15,9 @@ const { post, headings } = Astro.props;
 const { title, description, pubDate, updatedDate, category, products } = post.data;
 const lang = postLang(post);
 const alternates = await alternatesFor(post);
-const related = (await getPosts(lang)).filter((p) => p.id !== post.id).slice(0, 2);
+const others = (await getPosts(lang)).filter((p) => p.id !== post.id);
+const sameTopic = others.filter((p) => p.data.category === category).slice(0, 4);
+const related = [...others.filter((p) => p.data.category !== category), ...sameTopic].slice(0, 3);
 const url = new URL(postUrl(post), Astro.site).href;
 const toc = headings.filter((h) => h.depth === 2);
 
@@ -46,7 +48,7 @@ const jsonLd = [
 <BaseLayout lang={lang} title={title} description={description} alternates={alternates} ogType="article" jsonLd={jsonLd}>
   <article class={`cat-${category}`}>
     <div class="band">
-      <header class="container"><div class="read head">
+      <header class="container layout"><div class="head">
         <span class="chip">{t(lang, `cat.${category}`)}</span>
         <h1>{title}</h1>
         <p class="lead">{description}</p>
@@ -62,44 +64,76 @@ const jsonLd = [
       </div></header>
     </div>
 
-    <div class="container">
-    {post.data.cover && (
-      <img class="read hero" src={post.data.cover} alt={post.data.coverAlt} width="640" height="360" fetchpriority="high" />
-    )}
+    <div class="container layout">
+      <div class="main">
+        {post.data.cover && (
+          <img class="hero" src={post.data.cover} alt={post.data.coverAlt} width="640" height="360" fetchpriority="high" />
+        )}
 
-    {products.length > 0 && <p class="read disclosure">{t(lang, 'disclosure')}</p>}
+        {products.length > 0 && <p class="disclosure">{t(lang, 'disclosure')}</p>}
 
-    {toc.length > 2 && (
-      <nav class="read toc" aria-label={t(lang, 'post.toc')}>
-        <p>{t(lang, 'post.toc')}</p>
-        <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
-      </nav>
-    )}
+        {toc.length > 2 && (
+          <nav class="toc toc-inline" aria-label={t(lang, 'post.toc')}>
+            <p>{t(lang, 'post.toc')}</p>
+            <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+          </nav>
+        )}
 
-    <div class="read prose">
-      <slot />
+        <div class="prose">
+          <slot />
+        </div>
+
+        {products.length > 0 && (
+          <section aria-labelledby="picks">
+            <h2 id="picks">{t(lang, 'post.picks')}</h2>
+            {products.map((product, i) => <ProductCard lang={lang} rank={i + 1} product={product} />)}
+          </section>
+        )}
+
+        <AdSlot lang={lang} />
+      </div>
+
+      <!-- Geniş ekranlarda sağ sütun: içindekiler, hesaplayıcı ve aynı konudaki yazılar -->
+      <aside class="side">
+        <div class="sticky">
+          {toc.length > 2 && (
+            <nav class="toc" aria-label={t(lang, 'post.toc')}>
+              <p>{t(lang, 'post.toc')}</p>
+              <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+            </nav>
+          )}
+          <a class="promo" href={staticPages.calculator[lang]}>
+            <strong>{t(lang, 'aside.calcTitle')}</strong>
+            <span>{t(lang, 'aside.calcText')}</span>
+          </a>
+          {sameTopic.length > 0 && (
+            <nav class="more" aria-label={t(lang, 'aside.more')}>
+              <p>{t(lang, 'aside.more')}</p>
+              <ul>{sameTopic.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul>
+            </nav>
+          )}
+        </div>
+      </aside>
     </div>
 
-    {products.length > 0 && (
-      <section class="read" aria-labelledby="picks">
-        <h2 id="picks">{t(lang, 'post.picks')}</h2>
-        {products.map((product, i) => <ProductCard lang={lang} rank={i + 1} product={product} />)}
-      </section>
-    )}
-
-    <div class="read"><AdSlot lang={lang} /></div>
-
     {related.length > 0 && (
-      <section class="related" aria-labelledby="related">
+      <section class="container related" aria-labelledby="related">
         <h2 id="related">{t(lang, 'post.related')}</h2>
         <div class="grid">{related.map((p) => <PostCard post={p} />)}</div>
       </section>
     )}
-    </div>
   </article>
 </BaseLayout>
 
 <style>
+  /* Telefonda tek sütun; geniş ekranda yazı + sağ sütun */
+  .layout { display: grid; grid-template-columns: minmax(0, 46rem); justify-content: center; gap: 3rem; }
+  .side { display: none; }
+  @media (min-width: 1080px) {
+    .layout { grid-template-columns: minmax(0, 46rem) 18rem; }
+    .side { display: block; }
+    .toc-inline { display: none; }
+  }
   .band { background: var(--cat-soft); padding: 3rem 0 6.5rem; }
   .head .chip { background: var(--surface); }
   .lead { font-size: 1.25rem; color: var(--muted); margin: 0 0 1rem; }
@@ -107,10 +141,24 @@ const jsonLd = [
   .hero { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius); margin-top: -5rem; margin-bottom: 1.5rem; box-shadow: 0 18px 40px -24px rgba(43, 26, 18, .55); }
   .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; }
   .toc { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--cat); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
-  .toc p { margin: 0 0 .25rem; font-weight: 700; }
+  .toc p, .more p { margin: 0 0 .35rem; font-weight: 700; }
   .toc ol { margin: 0; padding-left: 1.2rem; }
+  .toc li { margin: .2rem 0; }
   .toc li::marker { color: var(--cat); font-weight: 700; }
-  .related { max-width: var(--readw); margin: 3rem auto 0; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+  .side { padding-top: 1.5rem; font-size: .95rem; }
+  .sticky { position: sticky; top: 1.5rem; display: grid; gap: 1rem; }
+  .side .toc { margin: 0; }
+  .side .toc a, .more a { color: var(--text); text-decoration: none; }
+  .side .toc a:hover, .more a:hover { color: var(--cat); text-decoration: underline; }
+  .promo { display: grid; gap: .3rem; padding: 1.1rem 1.25rem; border-radius: var(--radius); background: var(--espresso); color: var(--cream); text-decoration: none; }
+  .promo strong { font: 700 1.15rem var(--serif); color: var(--warm); }
+  .promo span { opacity: .85; line-height: 1.5; }
+  .promo:hover strong { text-decoration: underline; }
+  .more { background: var(--cat-soft); border-radius: var(--radius); padding: 1rem 1.25rem; }
+  .more ul { margin: 0; padding-left: 1.1rem; }
+  .more li { margin: .4rem 0; line-height: 1.4; }
+  .more li::marker { color: var(--cat); }
+  .related { margin-top: 3rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1.25rem; }
   @media (max-width: 560px) { .band { padding: 2rem 0 4.5rem; } .hero { margin-top: -3.5rem; } }
 </style>

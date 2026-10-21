@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Bakır cezve, köpüklü Türk kahvesi fincanı, bir bardak su ve lokum">
+<rect width="640" height="360" fill="#f4e9e0"/>
+<circle cx="520" cy="70" r="120" fill="#efdccd"/>
+<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<!-- cezve -->
+<path d="M40 176 L176 192 L176 206 L36 190 Z" fill="#6b3a20"/>
+<path d="M150 160 H262 L250 176 Q244 186 250 200 L276 286 Q280 304 262 304 H150 Q132 304 136 286 L162 200 Q168 186 162 176 Z" fill="#c0703f"/>
+<path d="M150 160 H262 L256 168 H156 Z" fill="#a85d31"/>
+<path d="M170 210 L150 290" stroke="#e39a68" stroke-width="10" stroke-linecap="round" opacity=".6"/>
+<!-- fincan tabağı -->
+<ellipse cx="410" cy="300" rx="96" ry="15" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<!-- fincan -->
+<path d="M486 228 q34 2 30 28 q-4 22 -36 20" fill="none" stroke="#d8c6b6" stroke-width="14"/><path d="M486 228 q34 2 30 28 q-4 22 -36 20" fill="none" stroke="#fbf8f4" stroke-width="10"/>
+<path d="M346 214 H476 L466 270 Q460 296 432 296 H390 Q362 296 356 270 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M352 236 H470" stroke="#8a4b2a" stroke-width="6"/>
+<ellipse cx="411" cy="214" rx="65" ry="10" fill="#c99a6a"/>
+<circle cx="392" cy="213" r="3" fill="#a87a4e"/><circle cx="422" cy="216" r="2.5" fill="#a87a4e"/><circle cx="436" cy="211" r="2" fill="#a87a4e"/>
+<!-- buhar -->
+<path d="M392 196 q-10 -16 0 -30 q10 -14 0 -30 M424 196 q-10 -16 0 -30 q10 -14 0 -30" fill="none" stroke="#c9b3a2" stroke-width="5" stroke-linecap="round"/>
+<!-- su bardağı -->
+<path d="M540 200 H590 L584 304 H546 Z" fill="#dbe9ee" stroke="#b8cdd4" stroke-width="2"/>
+<path d="M542 226 H588" stroke="#b8cdd4" stroke-width="2"/>
+<!-- lokum -->
+<rect x="300" y="306" width="30" height="24" rx="5" fill="#f2c4cf"/><rect x="326" y="314" width="30" height="24" rx="5" fill="#fbf8f4" stroke="#e0d0c4"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="V60 demleme aparatına kettle ile su dökülmesi">
+<rect width="640" height="360" fill="#f4e9e0"/>
+<circle cx="120" cy="80" r="110" fill="#efdccd"/>
+<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<!-- sürahi -->
+<path d="M262 214 H378 L384 296 Q384 304 376 304 H264 Q256 304 256 296 Z" fill="#dbe9ee" stroke="#b8cdd4" stroke-width="2"/>
+<path d="M260 252 H380 L383 296 Q383 302 376 302 H264 Q257 302 257 296 Z" fill="#8a4b2a" opacity=".85"/>
+<!-- v60 -->
+<path d="M232 120 H408 L346 210 H294 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="3"/>
+<path d="M280 210 H360 V220 H280 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M246 128 H394 L372 160 H268 Z" fill="#9a6036"/>
+<!-- kettle -->
+<path d="M470 40 H580 Q596 40 596 56 V128 H462 V56 Q462 40 470 40 Z" fill="#2a211c"/>
+<path d="M596 60 q30 0 30 34 q0 30 -30 30" fill="none" stroke="#2a211c" stroke-width="10"/>
+<path d="M466 110 Q420 96 380 60 L372 70 Q412 110 462 128 Z" fill="#2a211c"/>
+<path d="M374 66 Q356 90 332 136" fill="none" stroke="#9cc3d0" stroke-width="5" stroke-linecap="round"/>
+</svg>

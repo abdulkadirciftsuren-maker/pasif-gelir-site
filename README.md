@@ -29,6 +29,12 @@ Gelir modeli: **Google AdSense reklamları + ortaklık (affiliate) komisyonları
 
 Kurallardan biri ihlal edilirse (örneğin açıklama çok kısaysa) site derlenmez ve hatanın nerede olduğu yazılır. Bu sayede yarım kalmış bir yazı yanlışlıkla yayına çıkmaz.
 
+## Görseller
+
+- Kapak görseli: yazının üst kısmına `cover: "/img/kapak/dosya.svg"` ve `coverAlt: "görselin açıklaması"` ekle. Dosyalar `public/img/` altında durur.
+- Şu anki görseller siteye özel çizimlerdir (SVG). Çok hafiftirler ve telif sorunu yoktur.
+- Kendi fotoğraflarını sohbete eklemen yeterli. Küçültme, WebP'ye çevirme ve yazıya yerleştirme işini Claude yapar.
+
 ## Ayarlar — `src/config.ts`
 
 - `name`: site adı ("Demlio" geçici bir isim; alan adını alınca değiştirebilirsin)

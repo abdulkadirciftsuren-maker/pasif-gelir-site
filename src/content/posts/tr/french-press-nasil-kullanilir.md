@@ -4,6 +4,8 @@ description: "French press ile tortusuz, yumuşak ve dolgun gövdeli kahve yapma
 pubDate: 2026-10-14
 category: yontem
 translationKey: french-press-guide
+cover: "/img/kapak/french-press.svg"
+coverAlt: "Kahve dolu French press ve yanında bir fincan"
 ---
 
 French press, evde kahve demlemenin en kolay ve en hata affeden yöntemidir. Özel bir dökme tekniği gerekmez; kahveyi ve suyu birleştirip beklersin. Yine de birkaç küçük ayrıntı, "çamurlu ve acı" bir fincanla "dolgun ve tatlı" bir fincan arasındaki farkı belirler.

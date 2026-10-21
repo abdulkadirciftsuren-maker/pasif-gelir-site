@@ -81,4 +81,11 @@ p { text-wrap: pretty; }
 .prose table { width: 100%; border-collapse: collapse; font-size: 1rem; display: block; overflow-x: auto; }
 .prose th, .prose td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--border); }
 .prose th { font-weight: 700; background: var(--accent-soft); }
+.prose img { border-radius: var(--radius); }
+/* Adım adım görseller: yazı içinde <div class="steps"> ile kullanılır. */
+.prose .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
+.prose .steps figure { margin: 0; }
+.prose .steps figcaption { font-size: .9rem; color: var(--muted); margin-top: .4rem; line-height: 1.4; }
+.prose .steps figcaption b { color: var(--accent); }
+@media (max-width: 480px) { .prose .steps { gap: .6rem; } }
 .prose code { font-size: .9em; background: var(--accent-soft); padding: .1rem .35rem; border-radius: 6px; }

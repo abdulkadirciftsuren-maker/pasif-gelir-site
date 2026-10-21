@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Manuel kahve öğütücü ve kahve çekirdekleri">
+<rect width="640" height="360" fill="#f4e9e0"/>
+<circle cx="140" cy="90" r="120" fill="#efdccd"/>
+<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<!-- kol -->
+<rect x="300" y="64" width="150" height="12" rx="6" fill="#2a211c"/>
+<rect x="296" y="56" width="20" height="28" rx="4" fill="#4a3a32"/>
+<rect x="430" y="40" width="22" height="40" rx="11" fill="#8a4b2a"/>
+<!-- gövde -->
+<rect x="262" y="84" width="96" height="214" rx="16" fill="#3a2f28"/>
+<rect x="262" y="130" width="96" height="70" fill="#c0703f"/>
+<rect x="262" y="200" width="96" height="6" fill="#2a211c"/>
+<path d="M278 96 V286" stroke="#5a4a40" stroke-width="8" stroke-linecap="round"/>
+<!-- çekirdekler -->
+<g fill="#6b3a20">
+<ellipse cx="420" cy="296" rx="16" ry="11" transform="rotate(-20 420 296)"/>
+<ellipse cx="456" cy="302" rx="16" ry="11" transform="rotate(15 456 302)"/>
+<ellipse cx="190" cy="300" rx="16" ry="11" transform="rotate(25 190 300)"/>
+<ellipse cx="490" cy="290" rx="16" ry="11"/>
+</g>
+<g stroke="#3a1f10" stroke-width="2.5" fill="none">
+<path d="M408 300 q12 -2 24 -8"/><path d="M444 298 q12 2 24 8"/><path d="M178 296 q12 2 24 8"/><path d="M476 290 h28"/>
+</g>
+</svg>

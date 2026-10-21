@@ -4,6 +4,8 @@ description: "Bıçaklı mı, çarklı mı? Manuel mi, elektrikli mi? Bütçene 
 pubDate: 2026-10-08
 category: ekipman
 translationKey: grinder-guide
+cover: "/img/kapak/ogutucu.svg"
+coverAlt: "Manuel kahve öğütücü ve kahve çekirdekleri"
 products:
   - name: Timemore Chestnut C3
     bestFor: "İlk ciddi öğütücüsünü arayan, filtre kahve içen"

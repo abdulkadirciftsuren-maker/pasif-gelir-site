@@ -5,6 +5,8 @@ pubDate: 2026-10-01
 updatedDate: 2026-10-18
 category: yontem
 translationKey: v60-guide
+cover: "/img/kapak/v60.svg"
+coverAlt: "V60 demleme aparatına kettle ile su dökülmesi"
 products:
   - name: Hario V60 02 (seramik veya plastik)
     bestFor: "Yöntemi öğrenmek isteyen herkes; 1-2 fincanlık demlemeler"

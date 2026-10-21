@@ -4,6 +4,8 @@ description: "Blade or burr? Manual or electric? A clear, independent guide to p
 pubDate: 2026-10-08
 category: ekipman
 translationKey: grinder-guide
+cover: "/img/kapak/ogutucu.svg"
+coverAlt: "A manual coffee grinder with coffee beans"
 products:
   - name: Timemore Chestnut C3
     bestFor: "First serious grinder for pour-over drinkers"

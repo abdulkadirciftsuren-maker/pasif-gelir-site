@@ -22,6 +22,9 @@ const posts = defineCollection({
     category: z.enum(['yontem', 'ekipman', 'temel']),
     // Aynı yazının farklı dillerdeki sürümleri aynı anahtarı paylaşır (hreflang bağlantısı için).
     translationKey: z.string(),
+    // Kapak görseli: public/img altındaki dosyanın yolu, ör. "/img/kapak/v60.svg"
+    cover: z.string().optional(),
+    coverAlt: z.string().default(''),
     products: z.array(product).default([]),
     draft: z.boolean().default(false),
   }),

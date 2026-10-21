@@ -61,6 +61,10 @@ const jsonLd = [
       {products.length > 0 && <p class="disclosure">{t(lang, 'disclosure')}</p>}
     </header>
 
+    {post.data.cover && (
+      <img class="read hero" src={post.data.cover} alt={post.data.coverAlt} width="640" height="360" fetchpriority="high" />
+    )}
+
     {toc.length > 2 && (
       <nav class="read toc" aria-label={t(lang, 'post.toc')}>
         <p>{t(lang, 'post.toc')}</p>
@@ -95,6 +99,7 @@ const jsonLd = [
   .lead { font-size: 1.25rem; color: var(--muted); margin: 0 0 1rem; }
   .meta { font-size: .9rem; margin: 0; }
   .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; margin-top: 1.25rem; }
+  .hero { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius); margin-bottom: 1.5rem; }
   .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
   .toc p { margin: 0 0 .25rem; font-weight: 700; }
   .toc ol { margin: 0; padding-left: 1.2rem; }

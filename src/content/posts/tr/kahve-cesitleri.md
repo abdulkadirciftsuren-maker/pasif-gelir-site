@@ -1,9 +1,11 @@
 ---
 title: "Kahve Çeşitleri: Espresso'dan Mırra'ya Tüm Kahve Türleri"
 description: "Espresso, latte, cappuccino, flat white, Türk kahvesi, mırra, dibek ve dünyadan yöresel kahveler: tüm kahve çeşitleri, farkları ve hangisinin sana uygun olduğu."
-pubDate: 2026-10-22
+pubDate: 2026-10-21
 category: temel
 translationKey: coffee-types
+cover: "/img/kapak/kahve-cesitleri.svg"
+coverAlt: "Espresso, cappuccino, latte ve Türk kahvesi yan yana"
 ---
 
 Kafede menüye bakınca kaybolmak çok normal: latte, flat white, cortado, macchiato... Çoğu aslında aynı iki malzemenin farklı oranlarda buluşmasından ibaret: **espresso ve süt.** Bu rehberde kahve çeşitlerini dört grupta topladık: espresso bazlı kahveler, demleme kahveler, Türkiye'nin yöresel kahveleri ve dünyadan geleneksel kahveler.
@@ -55,7 +57,7 @@ Türkiye'nin kahve kültürü tek bir fincandan ibaret değil. Bölgeden bölgey
 
 ### Türk kahvesi
 
-Un kıvamında öğütülmüş kahvenin suyla (isteğe göre şekerle) cezvede yavaşça pişirilmesiyle yapılır ve **telvesiyle birlikte** servis edilir. Bu pişirme ve sunum geleneği UNESCO Somut Olmayan Kültürel Miras listesinde yer alır. İyi bir Türk kahvesinin ölçüsü bol ve kalıcı köpüğüdür. Yanında su ve çoğu zaman lokum ikram edilir.
+Un kıvamında öğütülmüş kahvenin suyla (isteğe göre şekerle) cezvede yavaşça pişirilmesiyle yapılır ve **telvesiyle birlikte** servis edilir. Bu pişirme ve sunum geleneği UNESCO Somut Olmayan Kültürel Miras listesinde yer alır. İyi bir Türk kahvesinin ölçüsü bol ve kalıcı köpüğüdür. Yanında su ve çoğu zaman lokum ikram edilir. Bol köpüklü Türk kahvesinin adım adım tarifi için [Türk kahvesi rehberimize](/turk-kahvesi-nasil-yapilir/) bak.
 
 ### Mırra (Mardin ve Güneydoğu)
 

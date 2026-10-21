@@ -5,6 +5,8 @@ pubDate: 2026-10-01
 updatedDate: 2026-10-18
 category: yontem
 translationKey: v60-guide
+cover: "/img/kapak/v60.svg"
+coverAlt: "Pouring water into a V60 dripper with a gooseneck kettle"
 products:
   - name: Hario V60 02 (ceramic or plastic)
     bestFor: "Anyone learning pour-over; 1–2 cup brews"

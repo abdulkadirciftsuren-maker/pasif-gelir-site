@@ -29,7 +29,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 
 | # | Başlık | Hedef arama | Tür | Öncelik | Durum |
 |---|---|---|---|---|---|
-| 11 | **Türk Kahvesi Nasıl Yapılır? Bol Köpüklü Tarif** | türk kahvesi nasıl yapılır | Tarif | 1 | ⏳ |
+| 11 | **Türk Kahvesi Nasıl Yapılır? Bol Köpüklü Tarif** | türk kahvesi nasıl yapılır | Tarif | 1 | ✅ |
 | 12 | V60 ile Kahve Demleme | v60 nasıl yapılır | Tarif | — | ✅ |
 | 13 | French Press Nasıl Kullanılır? | french press kullanımı | Tarif | — | ✅ |
 | 14 | Moka Pot ile Kahve Nasıl Yapılır? | moka pot kullanımı | Tarif | 1 | ⏳ |

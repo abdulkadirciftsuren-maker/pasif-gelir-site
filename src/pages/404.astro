@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { t } from '../i18n/ui';
+---
+
+<BaseLayout lang="tr" title={t('tr', '404.title')} description={t('tr', '404.text')} noindex>
+  <div class="container read" style="padding:5rem 0;text-align:center">
+    <h1>{t('tr', '404.title')}</h1>
+    <p class="muted">{t('tr', '404.text')}</p>
+    <p><a class="btn" href="/">{t('tr', '404.home')}</a> &nbsp; <a href="/en/">English →</a></p>
+  </div>
+</BaseLayout>

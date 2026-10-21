@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ocakta moka pot ve yanında bir fincan kahve">
+<rect width="640" height="360" fill="#fbe1cc"/>
+<circle cx="520" cy="80" r="120" fill="#f5cdae"/>
+<rect y="300" width="640" height="60" fill="#efc3a0"/>
+<!-- ocak -->
+<rect x="186" y="290" width="208" height="14" rx="7" fill="#2a211c"/>
+<g fill="#5b8fd6"><path d="M220 290 q-7 -14 3 -23 q0 11 7 13 q3 5 -2 10z"/><path d="M348 290 q-7 -14 3 -23 q0 11 7 13 q3 5 -2 10z"/><path d="M234 290 q-5 -10 2 -16 q0 8 5 9 q2 4 -2 7z"/><path d="M336 290 q-5 -10 2 -16 q0 8 5 9 q2 4 -2 7z"/></g>
+<!-- alt hazne -->
+<path d="M236 286 L250 200 H330 L344 286 Z" fill="#b9bfc4"/>
+<path d="M258 206 L248 280" stroke="#e3e7ea" stroke-width="8" stroke-linecap="round"/>
+<path d="M290 200 L290 286" stroke="#a3aab0" stroke-width="2"/>
+<!-- bel -->
+<rect x="246" y="188" width="88" height="14" rx="3" fill="#8f979e"/>
+<!-- üst hazne -->
+<path d="M250 188 L238 104 H342 L330 188 Z" fill="#c9ced2"/>
+<path d="M256 112 L264 180" stroke="#eef0f2" stroke-width="8" stroke-linecap="round"/>
+<path d="M290 104 L290 188" stroke="#a3aab0" stroke-width="2"/>
+<!-- ağız ve kapak -->
+<path d="M232 104 H346 L340 92 H226 Q214 92 210 100 Z" fill="#aeb4b9"/>
+<rect x="282" y="78" width="16" height="14" rx="4" fill="#2a211c"/>
+<!-- sap -->
+<path d="M342 112 H372 Q380 112 378 122 L364 176 Q362 182 354 182 H336" fill="none" stroke="#2a211c" stroke-width="14" stroke-linejoin="round"/>
+<!-- buhar -->
+<path d="M200 96 q-10 -16 0 -30 q10 -14 0 -30" fill="none" stroke="#e0b392" stroke-width="5" stroke-linecap="round"/>
+<!-- fincan -->
+<ellipse cx="500" cy="300" rx="70" ry="12" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M548 244 q28 2 24 22 q-4 16 -28 14" fill="none" stroke="#d8c6b6" stroke-width="12"/><path d="M548 244 q28 2 24 22 q-4 16 -28 14" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M450 232 H552 Q550 294 501 296 Q452 294 450 232 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<ellipse cx="501" cy="232" rx="51" ry="9" fill="#7a3f1f"/>
+<ellipse cx="495" cy="231" rx="30" ry="4" fill="#a8603a"/>
+</svg>

@@ -1,0 +1,53 @@
+---
+import { STORES, type StoreKey } from '../config';
+import { t, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  rank: number;
+  product: { name: string; bestFor: string; pros: string[]; cons: string[]; store: StoreKey; url: string };
+}
+const { lang, rank, product } = Astro.props;
+const store = STORES[product.store].name;
+const cta = lang === 'tr' ? `${store}${t(lang, 'product.cta')}` : `${t(lang, 'product.cta')}${store}`;
+---
+
+<article class="product">
+  <header>
+    <span class="rank" aria-hidden="true">{rank}</span>
+    <div>
+      <h3>{product.name}</h3>
+      <p class="best"><strong>{t(lang, 'product.best')}:</strong> {product.bestFor}</p>
+    </div>
+  </header>
+  <div class="cols">
+    {product.pros.length > 0 && (
+      <div>
+        <p class="label good">{t(lang, 'product.pros')}</p>
+        <ul>{product.pros.map((p) => <li>{p}</li>)}</ul>
+      </div>
+    )}
+    {product.cons.length > 0 && (
+      <div>
+        <p class="label bad">{t(lang, 'product.cons')}</p>
+        <ul>{product.cons.map((c) => <li>{c}</li>)}</ul>
+      </div>
+    )}
+  </div>
+  <!-- rel="sponsored": Google'ın ortaklık bağlantıları için istediği işaret. -->
+  <a class="btn" href={product.url} rel="sponsored nofollow noopener" target="_blank">{cta} →</a>
+</article>
+
+<style>
+  .product { background: var(--surface); border: 1px solid var(--border); border-top: 5px solid var(--cat, var(--accent)); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; }
+  .product .btn { background: var(--cat, var(--accent)); color: #fff; }
+  header { display: flex; gap: .9rem; align-items: flex-start; }
+  .rank { flex: none; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center; background: var(--cat, var(--accent)); color: #fff; font-weight: 700; }
+  h3 { margin: .1rem 0 .25rem; }
+  .best { margin: 0; color: var(--muted); font-size: 1rem; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .5rem 1.5rem; margin: .75rem 0 1rem; font-size: 1rem; }
+  .cols ul { margin: 0; padding-left: 1.1rem; }
+  .label { margin: 0 0 .25rem; font-weight: 700; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
+  .good { color: var(--good); }
+  .bad { color: var(--bad); }
+</style>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Cappuccino, flat white ve latte yan yana">
+<rect width="640" height="360" fill="#e3e4f6"/>
+<circle cx="110" cy="70" r="120" fill="#cfd1ef"/>
+<rect y="296" width="640" height="64" fill="#c4c6e6"/>
+<!-- cappuccino -->
+<ellipse cx="150" cy="298" rx="88" ry="14" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M214 214 q36 2 32 28 q-4 22 -36 20" fill="none" stroke="#d8c6b6" stroke-width="14"/><path d="M214 214 q36 2 32 28 q-4 22 -36 20" fill="none" stroke="#fbf8f4" stroke-width="10"/>
+<path d="M82 196 H218 Q216 290 150 292 Q84 290 82 196 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M84 196 Q86 170 150 168 Q214 170 216 196 Z" fill="#f3e6d6"/>
+<ellipse cx="150" cy="196" rx="68" ry="12" fill="#e9d6bf"/>
+<g fill="#b9875a" opacity=".8"><circle cx="140" cy="186" r="2.5"/><circle cx="152" cy="180" r="2"/><circle cx="162" cy="188" r="2.5"/><circle cx="148" cy="192" r="2"/></g>
+<!-- flat white -->
+<ellipse cx="338" cy="298" rx="70" ry="12" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M386 230 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#d8c6b6" stroke-width="12"/><path d="M386 230 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M284 218 H392 Q390 292 338 294 Q286 292 284 218 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<ellipse cx="338" cy="218" rx="54" ry="10" fill="#a8693d"/>
+<path d="M338 226 q-16 -4 -14 -10 q8 2 14 6 q6 -4 14 -6 q2 6 -14 10z M338 218 q-10 -3 -9 -8 q5 1 9 4 q4 -3 9 -4 q1 5 -9 8z" fill="#fbf1e4"/>
+<!-- latte bardağı -->
+<path d="M470 110 H574 L564 296 H480 Z" fill="#fbf8f4" stroke="#cdbcae" stroke-width="2"/>
+<path d="M472 128 H572 L571 146 H473 Z" fill="#fffaf4"/>
+<path d="M473 146 H571 L566 250 H477 Z" fill="#d9b48f"/>
+<path d="M477 250 H566 L564 296 H480 Z" fill="#8a4b2a"/>
+<path d="M486 120 L494 286" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+</svg>

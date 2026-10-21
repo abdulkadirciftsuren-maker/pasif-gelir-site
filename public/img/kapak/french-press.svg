@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kahve dolu French press ve fincan">
+<rect width="640" height="360" fill="#dfe8ef"/>
+<circle cx="500" cy="90" r="120" fill="#cbd9e5"/>
+<rect y="300" width="640" height="60" fill="#c1d0dc"/>
+<rect x="300" y="40" width="10" height="70" fill="#2a211c"/>
+<circle cx="305" cy="36" r="12" fill="#2a211c"/>
+<rect x="224" y="98" width="162" height="16" rx="6" fill="#2a211c"/>
+<path d="M386 140 h30 q12 0 12 12 v100 q0 12 -12 12 h-30" fill="none" stroke="#2a211c" stroke-width="12"/>
+<rect x="232" y="112" width="146" height="186" rx="6" fill="#dbe9ee" stroke="#b8cdd4" stroke-width="2"/>
+<rect x="236" y="150" width="138" height="144" rx="4" fill="#6b3a20"/>
+<rect x="236" y="140" width="138" height="14" fill="#b9875a"/>
+<rect x="226" y="292" width="158" height="10" rx="4" fill="#2a211c"/>
+<path d="M226 112 V296 M384 112 V296" stroke="#2a211c" stroke-width="6"/>
+<!-- fincan -->
+<path d="M152 238 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#d8c6b6" stroke-width="13"/><path d="M152 238 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#fbf8f4" stroke-width="9"/>
+<path d="M70 222 H160 Q158 294 115 296 Q72 294 70 222 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<ellipse cx="115" cy="222" rx="45" ry="8" fill="#6b3a20"/>
+</svg>

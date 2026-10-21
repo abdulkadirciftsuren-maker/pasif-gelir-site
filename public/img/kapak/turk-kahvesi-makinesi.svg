@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Türk kahvesi makinesi ve köpüklü bir fincan kahve">
+<rect width="640" height="360" fill="#ece0f0"/>
+<circle cx="110" cy="80" r="120" fill="#ddcbe5"/>
+<rect y="300" width="640" height="60" fill="#d3bfdd"/>
+<!-- makine gövdesi -->
+<path d="M190 70 H380 Q404 70 404 94 V300 H166 V94 Q166 70 190 70 Z" fill="#2a211c"/>
+<path d="M176 62 H394 Q404 62 404 72 V92 H166 V72 Q166 62 176 62 Z" fill="#c0703f"/>
+<!-- pişirme bölmesi -->
+<rect x="196" y="120" width="178" height="150" rx="14" fill="#4a3a32"/>
+<!-- küçük cezve -->
+<path d="M250 168 H320 L313 178 Q310 184 313 192 L330 246 Q332 258 320 258 H250 Q238 258 240 246 L257 192 Q260 184 257 178 Z" fill="#d9a074"/>
+<path d="M320 196 H356 V206 H318 Z" fill="#2a211c"/>
+<ellipse cx="285" cy="170" rx="34" ry="5" fill="#c99a6a"/>
+<!-- düğme ve ışık -->
+<circle cx="285" cy="286" r="0" fill="none"/>
+<rect x="196" y="280" width="178" height="12" rx="6" fill="#3a2f28"/>
+<circle cx="364" cy="102" r="7" fill="#6cc7b6"/>
+<!-- fincan -->
+<ellipse cx="520" cy="300" rx="80" ry="13" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M580 236 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#d8c6b6" stroke-width="13"/><path d="M580 236 q30 2 26 24 q-4 18 -30 16" fill="none" stroke="#fbf8f4" stroke-width="9"/>
+<path d="M466 222 H580 L571 268 Q566 294 540 294 H506 Q480 294 475 268 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M471 242 H576" stroke="#8a4b2a" stroke-width="5"/>
+<ellipse cx="523" cy="222" rx="57" ry="9" fill="#c99a6a"/>
+<circle cx="506" cy="221" r="3" fill="#a87a4e"/><circle cx="534" cy="224" r="2.5" fill="#a87a4e"/>
+<path d="M508 204 q-9 -14 0 -27 q9 -13 0 -27 M536 204 q-9 -14 0 -27 q9 -13 0 -27" fill="none" stroke="#c9b3a2" stroke-width="5" stroke-linecap="round"/>
+</svg>

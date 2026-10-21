@@ -1,0 +1,17 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { staticPages } from '../../i18n/ui';
+---
+
+<PageLayout lang="de" title="Über uns" description="Fincanla ist eine unabhängige Kaffee-Website mit einfachen, erprobten Anleitungen für alle, die zu Hause Kaffee zubereiten – von der Cezve bis zum Handfilter." alternates={staticPages.about}>
+  <p>Fincanla – auf Türkisch „mit einer Tasse“ – ist für alle da, die zu Hause besseren Kaffee machen möchten. Unser Ziel ist einfach: Fachbegriffe verständlich erklären, Zubereitungsmethoden Schritt für Schritt zeigen und dir helfen, dein Geld für das richtige Zubehör auszugeben.</p>
+  <p>Unsere Wurzeln liegen in der türkischen Kaffeekultur. Deshalb findest du bei uns besonders ausführliche Ratgeber rund um türkischen Kaffee, die Cezve und regionale Spezialitäten.</p>
+  <h2>So arbeiten wir</h2>
+  <ul>
+    <li><strong>Erst die Methode, dann das Produkt.</strong> Jeder Artikel beantwortet zuerst die Frage „Wie mache ich das?“.</li>
+    <li><strong>Kein Hype.</strong> Wir nennen bei jedem Produkt auch die Nachteile.</li>
+    <li><strong>Aktuell.</strong> Artikel werden regelmäßig überprüft; das Datum der letzten Aktualisierung steht oben im Artikel.</li>
+  </ul>
+  <h2>Wie wir uns finanzieren</h2>
+  <p>Die Website finanziert sich über Werbung und Affiliate-Links. Kaufst du über einen Link, erhalten wir eventuell eine kleine Provision; für dich ändert sich der Preis nicht. Details im <a href={staticPages.disclosure.de}>Affiliate-Hinweis</a>.</p>
+</PageLayout>

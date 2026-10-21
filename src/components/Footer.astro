@@ -1,0 +1,32 @@
+---
+import { SITE } from '../config';
+import { staticPages, t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container inner">
+    <p><strong>{SITE.name}</strong> — {t(lang, 'site.tagline')}</p>
+    <nav aria-label="Footer">
+      <a href={staticPages.about[lang]}>{t(lang, 'footer.about')}</a>
+      <a href={staticPages.disclosure[lang]}>{t(lang, 'footer.disclosure')}</a>
+      <a href={staticPages.privacy[lang]}>{t(lang, 'footer.privacy')}</a>
+      <a href={staticPages.imprint[lang]}>{t(lang, 'footer.imprint')}</a>
+    </nav>
+    <p class="muted small">© {year} {SITE.name}. {t(lang, 'footer.rights')}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer { margin-top: 5rem; background: var(--espresso); color: var(--cream); padding: 2.5rem 0; font-size: .95rem; }
+  .inner { display: grid; gap: .5rem; }
+  .inner p { margin: 0; }
+  nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+  nav a { color: var(--cream); opacity: .8; }
+  nav a:hover { color: var(--warm); opacity: 1; }
+  .muted { color: var(--cream); opacity: .6; }
+  .small { font-size: .85rem; }
+</style>

@@ -1,4 +1,4 @@
-# İçerik Planı: ilk 30 yazı
+# İçerik Planı: ilk 32 yazı
 
 Durum: ✅ yazıldı · ⏳ sırada · ⬜ planlandı
 
@@ -12,7 +12,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 
 | # | Başlık | Hedef arama | Tür | Öncelik | Durum |
 |---|---|---|---|---|---|
-| 1 | **Kahve Çeşitleri: Espresso'dan Latte'ye Tüm Kahve Türleri** (ana rehber) | kahve çeşitleri, kahve türleri | Bilgi | 1 | ⏳ |
+| 1 | **Kahve Çeşitleri: Espresso'dan Mırra'ya Tüm Kahve Türleri** (ana rehber) | kahve çeşitleri, kahve türleri | Bilgi | 1 | ✅ |
 | 2 | Latte, Cappuccino ve Flat White Arasındaki Fark | latte cappuccino farkı | Bilgi | 1 | ⬜ |
 | 3 | Arabica ve Robusta: Farkları ve Hangisini Seçmeli? | arabica robusta farkı | Bilgi | 1 | ⬜ |
 | 4 | Kahve Kavurma Dereceleri: Açık, Orta, Koyu Kavrum | kahve kavurma dereceleri | Bilgi | 2 | ⬜ |
@@ -22,6 +22,8 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ⬜ |
 | 9 | Kafeinsiz Kahve Nasıl Yapılır, Tadı Farklı mı? | kafeinsiz kahve | Bilgi | 3 | ⬜ |
 | 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ⬜ |
+| 10a | Mırra Nedir? Mardin'in Acı Kahvesi, Yapılışı ve Geleneği | mırra nedir, mırra kahvesi | Bilgi | 2 | ⬜ |
+| 10b | Türkiye'nin Yöresel Kahveleri: Menengiç, Dibek, Kenger ve Daha Fazlası | yöresel kahveler, menengiç kahvesi | Bilgi | 2 | ⬜ |
 
 ## Küme 2: Demleme Yöntemleri ve Tarifler (en çok aranan küme)
 

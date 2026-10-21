@@ -5,22 +5,30 @@ import { staticPages, type Lang } from '../i18n/ui';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
-const tr = lang === 'tr';
-const L = tr
-  ? {
-      title: 'Kahve Oranı Hesaplayıcı',
-      desc: 'Kaç gram kahveye kaç ml su? Demleme yöntemini seç, fincan sayını gir; doğru kahve ve su miktarını anında hesapla. V60, French press ve daha fazlası.',
-      method: 'Yöntem', cups: 'Fincan', cupSize: 'Fincan boyu (ml)', ratio: 'Oran (1:x)',
-      coffee: 'Kahve', water: 'Su', grind: 'Öğütme', note: 'Oranı kendi zevkine göre ayarla: daha yoğun için sayıyı küçült, daha hafif için büyüt.',
-      methods: [['v60', 'V60 / Filtre', 16, 'Orta-ince'], ['french', 'French press', 15, 'Kalın'], ['aeropress', 'AeroPress', 14, 'İnce-orta'], ['cold', 'Soğuk demleme (konsantre)', 8, 'Çok kalın'], ['moka', 'Moka pot', 10, 'İnce']],
-    }
-  : {
-      title: 'Coffee Ratio Calculator',
-      desc: 'How many grams of coffee per ml of water? Pick your brew method and number of cups to get the exact coffee and water amounts instantly. V60, French press and more.',
-      method: 'Method', cups: 'Cups', cupSize: 'Cup size (ml)', ratio: 'Ratio (1:x)',
-      coffee: 'Coffee', water: 'Water', grind: 'Grind', note: 'Adjust to taste: lower the number for a stronger cup, raise it for a lighter one.',
-      methods: [['v60', 'V60 / Pour-over', 16, 'Medium-fine'], ['french', 'French press', 15, 'Coarse'], ['aeropress', 'AeroPress', 14, 'Fine-medium'], ['cold', 'Cold brew (concentrate)', 8, 'Extra coarse'], ['moka', 'Moka pot', 10, 'Fine']],
-    };
+const texts = {
+  tr: {
+    title: 'Kahve Oranı Hesaplayıcı',
+    desc: 'Kaç gram kahveye kaç ml su? Demleme yöntemini seç, fincan sayını gir; doğru kahve ve su miktarını anında hesapla. V60, French press ve daha fazlası.',
+    method: 'Yöntem', cups: 'Fincan', cupSize: 'Fincan boyu (ml)', ratio: 'Oran (1:x)',
+    coffee: 'Kahve', water: 'Su', grind: 'Öğütme', note: 'Oranı kendi zevkine göre ayarla: daha yoğun için sayıyı küçült, daha hafif için büyüt.',
+    methods: [['v60', 'V60 / Filtre', 16, 'Orta-ince'], ['french', 'French press', 15, 'Kalın'], ['aeropress', 'AeroPress', 14, 'İnce-orta'], ['cold', 'Soğuk demleme (konsantre)', 8, 'Çok kalın'], ['moka', 'Moka pot', 10, 'İnce']],
+  },
+  de: {
+    title: 'Kaffee-Rechner: Das richtige Verhältnis',
+    desc: 'Wie viel Kaffee auf wie viel Wasser? Methode wählen, Tassen eingeben und sofort die richtige Kaffee- und Wassermenge für V60, French Press und mehr erhalten.',
+    method: 'Methode', cups: 'Tassen', cupSize: 'Tassengröße (ml)', ratio: 'Verhältnis (1:x)',
+    coffee: 'Kaffee', water: 'Wasser', grind: 'Mahlgrad', note: 'Passe das Verhältnis an deinen Geschmack an: kleinere Zahl für kräftigeren, größere für milderen Kaffee.',
+    methods: [['v60', 'V60 / Handfilter', 16, 'Mittelfein'], ['french', 'French Press', 15, 'Grob'], ['aeropress', 'AeroPress', 14, 'Fein bis mittel'], ['cold', 'Cold Brew (Konzentrat)', 8, 'Sehr grob'], ['moka', 'Espressokocher', 10, 'Fein']],
+  },
+  en: {
+    title: 'Coffee Ratio Calculator',
+    desc: 'How many grams of coffee per ml of water? Pick your brew method and number of cups to get the exact coffee and water amounts instantly. V60, French press and more.',
+    method: 'Method', cups: 'Cups', cupSize: 'Cup size (ml)', ratio: 'Ratio (1:x)',
+    coffee: 'Coffee', water: 'Water', grind: 'Grind', note: 'Adjust to taste: lower the number for a stronger cup, raise it for a lighter one.',
+    methods: [['v60', 'V60 / Pour-over', 16, 'Medium-fine'], ['french', 'French press', 15, 'Coarse'], ['aeropress', 'AeroPress', 14, 'Fine-medium'], ['cold', 'Cold brew (concentrate)', 8, 'Extra coarse'], ['moka', 'Moka pot', 10, 'Fine']],
+  },
+} as const;
+const L = texts[lang];
 const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: L.title, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', inLanguage: lang, offers: { '@type': 'Offer', price: '0' } }];
 ---
 

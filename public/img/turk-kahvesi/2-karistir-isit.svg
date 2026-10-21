@@ -3,6 +3,4 @@
 <g transform="translate(0 -10)"><path d="M30 112 L130 124 L130 136 L26 122 Z" fill="#6b3a20"/><path d="M110 92 H210 L200 106 Q195 114 200 126 L222 200 Q226 214 210 214 H110 Q94 214 98 200 L120 126 Q125 114 120 106 Z" fill="#c0703f"/><path d="M110 92 H210 L205 99 H115 Z" fill="#a85d31"/><path d="M128 136 L112 200" stroke="#e39a68" stroke-width="8" stroke-linecap="round" opacity=".6"/></g>
 <rect x="70" y="206" width="180" height="14" rx="7" fill="#3a2f28"/>
 <g fill="#5b8fd6"><path d="M130 206 q-8 -14 4 -24 q0 12 8 14 q4 6 -2 10z"/><path d="M156 206 q-8 -16 4 -28 q0 14 8 16 q4 6 -2 12z"/><path d="M182 206 q-8 -14 4 -24 q0 12 8 14 q4 6 -2 10z"/></g>
-<text x="250" y="60" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#8a4b2a">kısık</text>
-<text x="250" y="82" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#8a4b2a">ateş</text>
 </svg>

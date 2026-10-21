@@ -3,7 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../config';
-import { t, type Lang } from '../i18n/ui';
+import { locales, t, type Lang } from '../i18n/ui';
 
 interface Props {
   lang: Lang;
@@ -40,7 +40,7 @@ const xDefault = alternates.tr ?? alternates.en;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={lang === 'tr' ? 'tr_TR' : 'en_US'} />
+    <meta property="og:locale" content={locales[lang].og} />
     <meta name="twitter:card" content="summary" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -59,7 +59,7 @@ const xDefault = alternates.tr ?? alternates.en;
     }
   </head>
   <body>
-    <a class="skip" href="#main">{lang === 'tr' ? 'İçeriğe geç' : 'Skip to content'}</a>
+    <a class="skip" href="#main">{{ tr: 'İçeriğe geç', de: 'Zum Inhalt', en: 'Skip to content' }[lang]}</a>
     <Header lang={lang} alternates={alternates} />
     <main id="main">
       <slot />

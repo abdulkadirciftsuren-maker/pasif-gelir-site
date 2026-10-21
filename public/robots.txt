@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://demlio.com/sitemap-index.xml
+Sitemap: https://fincanla.com/sitemap-index.xml

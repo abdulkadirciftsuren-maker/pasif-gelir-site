@@ -7,7 +7,7 @@ const product = z.object({
   bestFor: z.string(),
   pros: z.array(z.string()).default([]),
   cons: z.array(z.string()).default([]),
-  store: z.enum(['trendyol', 'hepsiburada', 'amazonTr', 'amazonUs']),
+  store: z.enum(['trendyol', 'hepsiburada', 'amazonTr', 'amazonUs', 'amazonDe']),
   url: z.string(),
 });
 

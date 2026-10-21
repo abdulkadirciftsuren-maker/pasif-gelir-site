@@ -89,7 +89,17 @@ Not: Yapay zekâ özetleri kaynak olarak sitelere bağlantı veriyor. Net, düze
 
 ## Diller
 
-Şu anda **Türkçe + İngilizce.** İngilizceye yalnızca Türkçede iyi performans gösteren yazıları çevireceğiz.
+Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Almanca → İngilizce.**
 
-- **Almanca:** iyi bir 3. dil adayı (yüksek reklam geliri, güçlü kahve kültürü, Amazon.de). Türkçe taraf trafik aldıktan sonra, yaklaşık 9-12. ayda değerlendirilecek.
-- **Rusça / Ukraynaca:** şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok, bu yüzden iki gelir kaynağımız da zayıf. Ukrayna pazarı küçük ve reklam gelirleri düşük.
+- **Almanca (/de/):** Amazon.de ortaklık programı, yüksek reklam gelirleri ve Türk kahvesi konusunda Almanca içeriğin zayıf olması. Önce Türk kahvesi kümesi çevrilecek, sonra en iyi performans gösteren Türkçe yazılar.
+  - ✅ Türkischen Kaffee zubereiten
+  - ✅ Türkische Kaffeemaschine
+- **İngilizce (/en/):** Yalnızca Türkçede ve Almancada iyi performans gösteren yazılar çevrilecek.
+- **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.
+
+## Yasal (Almanya)
+
+- Impressum (künye) zorunlu: `src/config.ts` içindeki `IMPRESSUM` alanı yayından önce doldurulmalı.
+- Gizlilik politikası (DSGVO) şablonu hazır; reklam eklendiğinde güncellenecek.
+- AdSense açılırken Avrupa için çerez onayı penceresi (Google'ın sertifikalı çözümü) kurulacak.
+- Gelir başlamadan önce Gewerbe kaydı ve vergi için bir Steuerberater'a danışılmalı.

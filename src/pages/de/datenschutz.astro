@@ -1,0 +1,20 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { staticPages } from '../../i18n/ui';
+---
+
+<PageLayout lang="de" title="Datenschutzerklärung" description="Datenschutzerklärung von Fincanla: welche Daten beim Besuch verarbeitet werden, wie Hosting, Cookies und Affiliate-Links funktionieren und welche Rechte du hast." alternates={staticPages.privacy}>
+  <p><em>Hinweis für den Betreiber: Dies ist eine Vorlage. Vor der Veröffentlichung prüfen und bei Aktivierung von Werbung oder Statistik-Diensten ergänzen.</em></p>
+  <h2>1. Verantwortlicher</h2>
+  <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist der im <a href={staticPages.imprint.de}>Impressum</a> genannte Betreiber.</p>
+  <h2>2. Hosting und Server-Logfiles</h2>
+  <p>Diese Website wird über Cloudflare bereitgestellt. Beim Aufruf der Seiten werden technisch notwendige Daten (z. B. IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Browsertyp) verarbeitet, um die Website sicher und stabil auszuliefern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb).</p>
+  <h2>3. Keine Registrierung, keine Formulare</h2>
+  <p>Fincanla bietet keine Benutzerkonten und keine Kontaktformulare an. Wenn du uns per E-Mail kontaktierst, verwenden wir deine Angaben nur zur Beantwortung deiner Anfrage.</p>
+  <h2>4. Cookies und Werbung</h2>
+  <p>Derzeit setzt diese Website keine Werbe- oder Analyse-Cookies. Sollten wir künftig Werbung (z. B. Google AdSense) einsetzen, geschieht dies nur nach deiner ausdrücklichen Einwilligung über ein Einwilligungs-Banner (Art. 6 Abs. 1 lit. a DSGVO, § 25 TDDDG). Diese Erklärung wird dann entsprechend ergänzt.</p>
+  <h2>5. Affiliate-Links</h2>
+  <p>Wenn du auf einen Affiliate-Link klickst, gelangst du auf die Website des Händlers (z. B. Amazon). Dort kann ein Cookie gesetzt werden, um den Kauf unserer Website zuzuordnen. Für diese Verarbeitung ist der jeweilige Händler verantwortlich.</p>
+  <h2>6. Deine Rechte</h2>
+  <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+</PageLayout>

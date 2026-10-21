@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { defaultLang, type Lang } from './i18n/ui';
+import { defaultLang, locales, type Lang } from './i18n/ui';
 
 export type Post = CollectionEntry<'posts'>;
 
@@ -33,7 +33,7 @@ export function readingMinutes(body = ''): number {
 }
 
 export function formatDate(date: Date, lang: Lang): string {
-  return date.toLocaleDateString(lang === 'tr' ? 'tr-TR' : 'en-US', {
+  return date.toLocaleDateString(locales[lang].date, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

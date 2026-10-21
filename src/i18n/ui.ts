@@ -1,4 +1,4 @@
-export const languages = { tr: 'Türkçe', en: 'English' } as const;
+export const languages = { tr: 'Türkçe', de: 'Deutsch', en: 'English' } as const;
 export type Lang = keyof typeof languages;
 export const defaultLang: Lang = 'tr';
 
@@ -31,6 +31,7 @@ export const ui = {
     'footer.privacy': 'Gizlilik',
     'footer.disclosure': 'Ortaklık Açıklaması',
     'footer.about': 'Hakkımızda',
+    'footer.imprint': 'Künye (Impressum)',
     'cat.yontem': 'Demleme Yöntemi',
     'cat.ekipman': 'Ekipman',
     'cat.temel': 'Kahve Bilgisi',
@@ -44,6 +45,49 @@ export const ui = {
     '404.title': 'Sayfa bulunamadı',
     '404.text': 'Aradığın sayfa taşınmış ya da hiç var olmamış olabilir.',
     '404.home': 'Ana sayfaya dön',
+  },
+  de: {
+    'site.tagline': 'Ehrliche Ratgeber für besseren Kaffee zu Hause',
+    'site.description':
+      'Anleitungen zur Kaffeezubereitung zu Hause, Rezepte und unabhängige Vergleiche von Kaffeezubehör. Erprobte Methoden statt Werbelisten.',
+    'nav.guides': 'Ratgeber',
+    'nav.tools': 'Kaffee-Rechner',
+    'nav.about': 'Über uns',
+    'home.hero': 'Besserer Kaffee zu Hause – Schritt für Schritt.',
+    'home.lead':
+      'Zubereitungsmethoden, einfache Rezepte und Empfehlungen für Zubehör, das wirklich hält, was es verspricht. Kurz, klar, ohne Hype.',
+    'home.latest': 'Neueste Ratgeber',
+    'home.cta': 'Kaffee-Rechner ausprobieren',
+    'post.updated': 'Aktualisiert',
+    'post.readingTime': 'Min. Lesezeit',
+    'post.toc': 'In diesem Artikel',
+    'post.picks': 'Unsere Empfehlungen',
+    'post.related': 'Das könnte dich auch interessieren',
+    'product.best': 'Ideal für',
+    'product.pros': 'Vorteile',
+    'product.cons': 'Nachteile',
+    'product.cta': 'Preis ansehen bei ',
+    'disclosure':
+      'Dieser Artikel enthält Affiliate-Links. Kaufst du über einen dieser Links, erhalten wir eine kleine Provision – für dich ändert sich der Preis nicht. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.',
+    'ad.label': 'Anzeige',
+    'footer.rights': 'Alle Rechte vorbehalten.',
+    'footer.privacy': 'Datenschutz',
+    'footer.disclosure': 'Affiliate-Hinweis',
+    'footer.about': 'Über uns',
+    'footer.imprint': 'Impressum',
+    'cat.yontem': 'Zubereitung',
+    'cat.ekipman': 'Zubehör',
+    'cat.temel': 'Kaffeewissen',
+    'cat.yontem.desc': 'Schritt-für-Schritt-Rezepte, von der Cezve bis zum V60.',
+    'cat.ekipman.desc': 'Ehrliche Kaufberatung für jedes Budget.',
+    'cat.temel.desc': 'Kaffeesorten, regionale Spezialitäten und Grundwissen.',
+    'home.topics': 'Nach Thema',
+    'aside.calcTitle': 'Kaffee-Rechner',
+    'aside.calcText': 'Wie viel Kaffee für wie viel Wasser? In Sekunden berechnet →',
+    'aside.more': 'Mehr zu diesem Thema',
+    '404.title': 'Seite nicht gefunden',
+    '404.text': 'Die gesuchte Seite wurde verschoben oder existiert nicht.',
+    '404.home': 'Zur Startseite',
   },
   en: {
     'site.tagline': 'Honest guides for better coffee at home',
@@ -73,6 +117,7 @@ export const ui = {
     'footer.privacy': 'Privacy',
     'footer.disclosure': 'Affiliate Disclosure',
     'footer.about': 'About',
+    'footer.imprint': 'Imprint',
     'cat.yontem': 'Brew Method',
     'cat.ekipman': 'Gear',
     'cat.temel': 'Coffee Basics',
@@ -95,7 +140,7 @@ export function t(lang: Lang, key: UIKey): string {
   return ui[lang][key] ?? ui[defaultLang][key];
 }
 
-/** Dile göre URL öneki: tr → "/", en → "/en/" */
+/** Dile göre URL öneki: tr → "/", en → "/en/", de → "/de/" */
 export function localePath(lang: Lang, path = ''): string {
   const clean = path.replace(/^\/+/, '');
   return lang === defaultLang ? `/${clean}` : `/${lang}/${clean}`;
@@ -103,9 +148,17 @@ export function localePath(lang: Lang, path = ''): string {
 
 /** Sabit sayfaların diller arası karşılıkları (hreflang için). */
 export const staticPages = {
-  home: { tr: '/', en: '/en/' },
-  about: { tr: '/hakkimizda/', en: '/en/about/' },
-  privacy: { tr: '/gizlilik/', en: '/en/privacy/' },
-  disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/' },
-  calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/' },
+  home: { tr: '/', en: '/en/', de: '/de/' },
+  about: { tr: '/hakkimizda/', en: '/en/about/', de: '/de/ueber-uns/' },
+  privacy: { tr: '/gizlilik/', en: '/en/privacy/', de: '/de/datenschutz/' },
+  disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/', de: '/de/affiliate-hinweis/' },
+  calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/', de: '/de/kaffee-rechner/' },
+  imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/' },
 } as const;
+
+/** Dile göre tarih biçimi ve Open Graph yerel kodu */
+export const locales: Record<Lang, { date: string; og: string }> = {
+  tr: { date: 'tr-TR', og: 'tr_TR' },
+  de: { date: 'de-DE', og: 'de_DE' },
+  en: { date: 'en-US', og: 'en_US' },
+};

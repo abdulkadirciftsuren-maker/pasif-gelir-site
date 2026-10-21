@@ -1,14 +1,16 @@
 ---
 import { SITE } from '../config';
-import { localePath, staticPages, t, type Lang } from '../i18n/ui';
+import { languages, localePath, staticPages, t, type Lang } from '../i18n/ui';
 
 interface Props {
   lang: Lang;
   alternates: Partial<Record<Lang, string>>;
 }
 const { lang, alternates } = Astro.props;
-const other: Lang = lang === 'tr' ? 'en' : 'tr';
-const otherHref = alternates[other] ?? staticPages.home[other];
+// Bu sayfanın diğer dillerdeki karşılığı yoksa o dilin ana sayfasına gider.
+const others = (Object.keys(languages) as Lang[])
+  .filter((l) => l !== lang)
+  .map((l) => ({ lang: l, href: alternates[l] ?? staticPages.home[l] }));
 ---
 
 <header class="site-header">
@@ -25,7 +27,9 @@ const otherHref = alternates[other] ?? staticPages.home[other];
       <a href={localePath(lang) + '#rehberler'}>{t(lang, 'nav.guides')}</a>
       <a href={staticPages.calculator[lang]}>{t(lang, 'nav.tools')}</a>
       <a href={staticPages.about[lang]} class="hide-sm">{t(lang, 'nav.about')}</a>
-      <a href={otherHref} hreflang={other} lang={other} class="lang">{other.toUpperCase()}</a>
+      {others.map((o) => (
+        <a href={o.href} hreflang={o.lang} lang={o.lang} class="lang" title={languages[o.lang]}>{o.lang.toUpperCase()}</a>
+      ))}
     </nav>
   </div>
 </header>
@@ -39,5 +43,5 @@ const otherHref = alternates[other] ?? staticPages.home[other];
   nav a { color: var(--cream); text-decoration: none; white-space: nowrap; opacity: .9; }
   nav a:hover { color: var(--warm); opacity: 1; }
   .lang { border: 1px solid rgba(246, 234, 217, .35); border-radius: 999px; padding: .15rem .6rem; font-size: .8rem; font-weight: 700; }
-  @media (max-width: 560px) { .hide-sm { display: none; } nav { gap: .7rem; font-size: .85rem; } .logo { font-size: 1.15rem; } }
+  @media (max-width: 560px) { .hide-sm { display: none; } nav { gap: .5rem; font-size: .85rem; } .logo { font-size: 1.15rem; } .lang { padding: .1rem .45rem; } }
 </style>

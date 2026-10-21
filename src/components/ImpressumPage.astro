@@ -1,0 +1,43 @@
+---
+// Impressum nach § 5 DDG. Bilgiler src/config.ts içindeki IMPRESSUM alanından gelir.
+import PageLayout from '../layouts/PageLayout.astro';
+import { IMPRESSUM } from '../config';
+import { staticPages, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const v = (x: string) => x || '[Bitte ausfüllen]';
+const intro = {
+  tr: 'Almanya yasaları (§ 5 DDG) gereği site sahibinin bilgileri aşağıdadır.',
+  en: 'Information pursuant to German law (§ 5 DDG).',
+  de: '',
+}[lang];
+const title = { tr: 'Künye (Impressum)', en: 'Imprint (Impressum)', de: 'Impressum' }[lang];
+const description = {
+  tr: 'Fincanla künyesi: Alman yasalarına (§ 5 DDG) göre site sahibinin adı, adresi ve iletişim bilgileri burada yer alır.',
+  en: 'Fincanla imprint: name, postal address and contact details of the site owner as required by German law (§ 5 DDG).',
+  de: 'Impressum von Fincanla: Angaben gemäß § 5 DDG mit Name, Anschrift und Kontaktmöglichkeiten des Betreibers dieser Website.',
+}[lang];
+---
+
+<PageLayout lang={lang} title={title} description={description} alternates={staticPages.imprint}>
+  {intro && <p>{intro}</p>}
+  <h2>Angaben gemäß § 5 DDG</h2>
+  <p>
+    {v(IMPRESSUM.name)}<br />
+    {v(IMPRESSUM.street)}<br />
+    {v(IMPRESSUM.city)}<br />
+    {IMPRESSUM.country}
+  </p>
+  <h2>Kontakt</h2>
+  <p>
+    E-Mail: {v(IMPRESSUM.email)}
+    {IMPRESSUM.phone && <><br />Telefon: {IMPRESSUM.phone}</>}
+  </p>
+  <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+  <p>{v(IMPRESSUM.name)}, Anschrift wie oben.</p>
+  <h2>Affiliate-Links</h2>
+  <p>Diese Website enthält Affiliate-Links. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Mehr dazu im <a href={staticPages.disclosure.de}>Affiliate-Hinweis</a>.</p>
+  <h2>Verbraucherstreitbeilegung</h2>
+  <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+</PageLayout>

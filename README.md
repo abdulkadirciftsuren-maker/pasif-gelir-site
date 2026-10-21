@@ -1,6 +1,8 @@
-# Demlio — evde kahve demleme rehberi (pasif gelir sitesi)
+# Fincanla — evde kahve rehberi (pasif gelir sitesi)
 
-Hafif, hızlı, SEO odaklı, iki dilli (önce Türkçe, sonra İngilizce) bir niş içerik sitesi.
+Adres: https://fincanla.com
+
+Hafif, hızlı, SEO odaklı, üç dilli bir niş içerik sitesi. Öncelik sırası: Türkçe (kök adres), Almanca (/de/), İngilizce (/en/).
 Gelir modeli: **Google AdSense reklamları + ortaklık (affiliate) komisyonları.**
 
 ## Neden bu niş: evde kahve demleme
@@ -25,7 +27,7 @@ Gelir modeli: **Google AdSense reklamları + ortaklık (affiliate) komisyonları
    - `category`: `yontem`, `ekipman` veya `temel`
    - `translationKey`: İngilizce sürümüyle **aynı** olmalı (dil bağlantısı bunun üzerinden kurulur)
    - `products`: isteğe bağlı ürün kutuları (`url` alanına ortaklık bağlantını yaz)
-3. İngilizce sürümü `src/content/posts/en/` klasörüne aynı `translationKey` ile ekle. İngilizce sürüm şart değil.
+3. Almanca sürümü `src/content/posts/de/`, İngilizce sürümü `src/content/posts/en/` klasörüne aynı `translationKey` ile ekle. Çeviri şart değil.
 
 Kurallardan biri ihlal edilirse (örneğin açıklama çok kısaysa) site derlenmez ve hatanın nerede olduğu yazılır. Bu sayede yarım kalmış bir yazı yanlışlıkla yayına çıkmaz.
 
@@ -37,7 +39,8 @@ Kurallardan biri ihlal edilirse (örneğin açıklama çok kısaysa) site derlen
 
 ## Ayarlar — `src/config.ts`
 
-- `name`: site adı ("Demlio" geçici bir isim; alan adını alınca değiştirebilirsin)
+- `name`: site adı
+- `IMPRESSUM`: Almanya'daki yasal künye bilgileri (ad, adres, e-posta). **Yayına almadan önce doldurulmalı.**
 - `adsenseClient`: AdSense onayı gelince `ca-pub-...` kimliğini yaz; reklamlar o zaman otomatik açılır
 - Alan adı: `astro.config.mjs` içindeki `SITE` ve `public/robots.txt`
 

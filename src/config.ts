@@ -1,8 +1,8 @@
 // Sitenin tüm ayarları burada. Teknik bilgi gerekmez: sadece tırnak içindeki değerleri değiştir.
 
 export const SITE = {
-  name: 'Demlio',
-  author: 'Demlio Editörleri',
+  name: 'Fincanla',
+  author: 'Fincanla',
   // Google AdSense onayı gelince "ca-pub-..." kimliğini buraya yaz. Boş kaldıkça reklam kodu yüklenmez.
   adsenseClient: '',
   // Google Search Console doğrulama kodu (isteğe bağlı).
@@ -15,6 +15,18 @@ export const STORES = {
   hepsiburada: { name: 'Hepsiburada', lang: 'tr' },
   amazonTr: { name: 'Amazon.com.tr', lang: 'tr' },
   amazonUs: { name: 'Amazon', lang: 'en' },
+  amazonDe: { name: 'Amazon.de', lang: 'de' },
 } as const;
 
 export type StoreKey = keyof typeof STORES;
+
+// Impressum (künye): Almanya'da yaşayan site sahipleri için yasal zorunluluk (§ 5 DDG).
+// Yayına almadan önce MUTLAKA doldur. Boş alanlar sayfada "[Bitte ausfüllen]" olarak görünür.
+export const IMPRESSUM = {
+  name: '',
+  street: '',
+  city: '', // ör. "12345 Berlin"
+  country: 'Deutschland',
+  email: '',
+  phone: '', // isteğe bağlı ama önerilir
+};

@@ -44,26 +44,30 @@ const jsonLd = [
 ---
 
 <BaseLayout lang={lang} title={title} description={description} alternates={alternates} ogType="article" jsonLd={jsonLd}>
-  <article class="container">
-    <header class="read head">
-      <span class="chip">{t(lang, `cat.${category}`)}</span>
-      <h1>{title}</h1>
-      <p class="lead">{description}</p>
-      <p class="muted meta">
-        {SITE.author} ·
-        {updatedDate ? (
-          <>{t(lang, 'post.updated')}: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate, lang)}</time></>
-        ) : (
-          <time datetime={pubDate.toISOString()}>{formatDate(pubDate, lang)}</time>
-        )}
-        · {readingMinutes(post.body)} {t(lang, 'post.readingTime')}
-      </p>
-      {products.length > 0 && <p class="disclosure">{t(lang, 'disclosure')}</p>}
-    </header>
+  <article class={`cat-${category}`}>
+    <div class="band">
+      <header class="container"><div class="read head">
+        <span class="chip">{t(lang, `cat.${category}`)}</span>
+        <h1>{title}</h1>
+        <p class="lead">{description}</p>
+        <p class="meta">
+          {SITE.author} ·
+          {updatedDate ? (
+            <>{t(lang, 'post.updated')}: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate, lang)}</time></>
+          ) : (
+            <time datetime={pubDate.toISOString()}>{formatDate(pubDate, lang)}</time>
+          )}
+          · {readingMinutes(post.body)} {t(lang, 'post.readingTime')}
+        </p>
+      </div></header>
+    </div>
 
+    <div class="container">
     {post.data.cover && (
       <img class="read hero" src={post.data.cover} alt={post.data.coverAlt} width="640" height="360" fetchpriority="high" />
     )}
+
+    {products.length > 0 && <p class="read disclosure">{t(lang, 'disclosure')}</p>}
 
     {toc.length > 2 && (
       <nav class="read toc" aria-label={t(lang, 'post.toc')}>
@@ -91,18 +95,22 @@ const jsonLd = [
         <div class="grid">{related.map((p) => <PostCard post={p} />)}</div>
       </section>
     )}
+    </div>
   </article>
 </BaseLayout>
 
 <style>
-  .head { padding: 3rem 0 1rem; }
+  .band { background: var(--cat-soft); padding: 3rem 0 6.5rem; }
+  .head .chip { background: var(--surface); }
   .lead { font-size: 1.25rem; color: var(--muted); margin: 0 0 1rem; }
-  .meta { font-size: .9rem; margin: 0; }
-  .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; margin-top: 1.25rem; }
-  .hero { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius); margin-bottom: 1.5rem; }
-  .toc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .meta { font-size: .9rem; margin: 0; color: var(--muted); }
+  .hero { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius); margin-top: -5rem; margin-bottom: 1.5rem; box-shadow: 0 18px 40px -24px rgba(43, 26, 18, .55); }
+  .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; }
+  .toc { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--cat); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
   .toc p { margin: 0 0 .25rem; font-weight: 700; }
   .toc ol { margin: 0; padding-left: 1.2rem; }
+  .toc li::marker { color: var(--cat); font-weight: 700; }
   .related { max-width: var(--readw); margin: 3rem auto 0; }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
+  @media (max-width: 560px) { .band { padding: 2rem 0 4.5rem; } .hero { margin-top: -3.5rem; } }
 </style>

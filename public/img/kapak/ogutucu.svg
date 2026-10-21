@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Manuel kahve öğütücü ve kahve çekirdekleri">
-<rect width="640" height="360" fill="#f4e9e0"/>
-<circle cx="140" cy="90" r="120" fill="#efdccd"/>
-<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<rect width="640" height="360" fill="#f5e6bf"/>
+<circle cx="140" cy="90" r="120" fill="#ecd6a0"/>
+<rect y="300" width="640" height="60" fill="#e3cb92"/>
 <!-- kol -->
 <rect x="300" y="64" width="150" height="12" rx="6" fill="#2a211c"/>
 <rect x="296" y="56" width="20" height="28" rx="4" fill="#4a3a32"/>

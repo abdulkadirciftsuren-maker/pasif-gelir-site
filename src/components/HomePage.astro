@@ -8,6 +8,10 @@ import { getPosts } from '../lib';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const posts = await getPosts(lang);
+const latest = posts.slice(0, 3);
+const categories = (['yontem', 'ekipman', 'temel'] as const)
+  .map((cat) => ({ cat, posts: posts.filter((p) => p.data.category === cat) }))
+  .filter((c) => c.posts.length > 0);
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -21,22 +25,45 @@ const jsonLd = [
 
 <BaseLayout lang={lang} title={SITE.name} description={t(lang, 'site.description')} alternates={staticPages.home} jsonLd={jsonLd}>
   <section class="hero">
-    <div class="container">
-      <h1>{t(lang, 'home.hero')}</h1>
-      <p>{t(lang, 'home.lead')}</p>
-      <a class="btn" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
+    <div class="container hero-grid">
+      <div>
+        <h1>{t(lang, 'home.hero')}</h1>
+        <p>{t(lang, 'home.lead')}</p>
+        <a class="btn" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
+      </div>
+      <img src="/img/kapak/turk-kahvesi.svg" alt="" width="640" height="360" fetchpriority="high" />
     </div>
   </section>
 
-  <section class="container" id="rehberler" aria-labelledby="latest">
+  <section class="container section" id="rehberler" aria-labelledby="latest">
     <h2 id="latest">{t(lang, 'home.latest')}</h2>
-    <div class="grid">{posts.map((post) => <PostCard post={post} />)}</div>
+    <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
   </section>
+
+  {categories.map(({ cat, posts }) => (
+    <section class={`topic cat-${cat}`} aria-labelledby={`topic-${cat}`}>
+      <div class="container">
+        <span class="chip">{t(lang, 'home.topics')}</span>
+        <h2 id={`topic-${cat}`}>{t(lang, `cat.${cat}`)}</h2>
+        <p class="muted">{t(lang, `cat.${cat}.desc`)}</p>
+        <div class="grid">{posts.map((post) => <PostCard post={post} />)}</div>
+      </div>
+    </section>
+  ))}
 </BaseLayout>
 
 <style>
-  .hero { padding: 4.5rem 0 3.5rem; background: radial-gradient(circle at 85% 20%, var(--accent-soft), transparent 55%); border-bottom: 1px solid var(--border); }
-  .hero h1 { max-width: 16ch; }
-  .hero p { max-width: 38rem; font-size: 1.2rem; color: var(--muted); margin: 0 0 1.75rem; }
+  .hero { padding: 4rem 0; background: linear-gradient(135deg, var(--espresso) 0%, var(--espresso-2) 100%); color: var(--cream); }
+  .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: center; }
+  .hero h1 { max-width: 16ch; color: #fff; }
+  .hero p { max-width: 34rem; font-size: 1.2rem; opacity: .85; margin: 0 0 1.75rem; }
+  .hero .btn { background: var(--warm); color: var(--espresso); }
+  .hero img { width: 100%; border-radius: 20px; box-shadow: 0 24px 50px -20px rgba(0, 0, 0, .6); }
+  .section { padding: 1rem 1rem 2rem; }
+  .topic { background: var(--cat-soft); padding: 2.5rem 0 3rem; margin-top: 1.5rem; }
+  .topic .chip { background: var(--surface); }
+  .topic h2 { margin: .6rem 0 .25rem; color: var(--cat); }
+  .topic p { margin: 0 0 1.25rem; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1.25rem; }
+  @media (max-width: 760px) { .hero-grid { grid-template-columns: 1fr; } .hero { padding: 3rem 0; } }
 </style>

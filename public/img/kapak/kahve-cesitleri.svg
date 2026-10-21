@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Espresso, cappuccino, latte ve Türk kahvesi yan yana">
-<rect width="640" height="360" fill="#f4e9e0"/>
-<rect y="292" width="640" height="68" fill="#e6d3c3"/>
+<rect width="640" height="360" fill="#f6dcd6"/>
+<rect y="292" width="640" height="68" fill="#e8bfb5"/>
 <!-- espresso -->
 <ellipse cx="105" cy="294" rx="56" ry="10" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
 <path d="M140 242 q26 2 22 20 q-3 14 -26 12" fill="none" stroke="#d8c6b6" stroke-width="12"/><path d="M140 242 q26 2 22 20 q-3 14 -26 12" fill="none" stroke="#fbf8f4" stroke-width="8"/>

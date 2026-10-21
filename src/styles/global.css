@@ -1,7 +1,19 @@
 /* Harici font yok: sistem fontları = sıfır gecikme. */
 :root {
-  --bg: #fbf8f4;
+  --bg: #faf5ee;
   --surface: #ffffff;
+  /* Koyu kahve bantları (üst menü, ana sayfa girişi, alt bilgi) */
+  --espresso: #2b1a12;
+  --espresso-2: #4a2c1c;
+  --cream: #f6ead9;
+  --warm: #e8955f;
+  /* Kategori renkleri: yöntem = kiremit, ekipman = petrol yeşili, bilgi = hardal */
+  --c-yontem: #b9562a;
+  --c-yontem-soft: #fbe6d8;
+  --c-ekipman: #1f7468;
+  --c-ekipman-soft: #d9f0ea;
+  --c-temel: #a8780f;
+  --c-temel-soft: #f9edc9;
   --text: #2a211c;
   --muted: #6f625a;
   --border: #e9e1d8;
@@ -21,6 +33,14 @@
   :root {
     --bg: #17120f;
     --surface: #211a16;
+    --espresso: #0f0a08;
+    --espresso-2: #2a1a12;
+    --c-yontem: #f0996a;
+    --c-yontem-soft: #3a2218;
+    --c-ekipman: #6cc7b6;
+    --c-ekipman-soft: #16302c;
+    --c-temel: #e6bb55;
+    --c-temel-soft: #33290f;
     --text: #efe7e0;
     --muted: #b3a59a;
     --border: #3a2f28;
@@ -64,23 +84,37 @@ p { text-wrap: pretty; }
 }
 .btn:hover { filter: brightness(1.08); }
 .chip {
-  display: inline-block; font-size: .78rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
-  color: var(--accent); background: var(--accent-soft); padding: .2rem .6rem; border-radius: 999px;
+  display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--cat, var(--accent)); background: var(--cat-soft, var(--accent-soft)); padding: .2rem .65rem; border-radius: 999px;
 }
+.cat-yontem { --cat: var(--c-yontem); --cat-soft: var(--c-yontem-soft); }
+.cat-ekipman { --cat: var(--c-ekipman); --cat-soft: var(--c-ekipman-soft); }
+.cat-temel { --cat: var(--c-temel); --cat-soft: var(--c-temel-soft); }
 
 /* Yazı gövdesi */
 .prose { font-size: 1.125rem; }
-.prose h2 { padding-top: .5rem; border-top: 1px solid var(--border); }
+.prose h2 { display: flex; align-items: center; gap: .65rem; margin-top: 3rem; }
+.prose h2::before { content: ''; flex: none; width: .45rem; height: 1.5rem; border-radius: 4px; background: var(--cat, var(--accent)); }
 .prose ul, .prose ol { padding-left: 1.3rem; }
-.prose li { margin: .35rem 0; }
+.prose li { margin: .45rem 0; }
+.prose ul li::marker { color: var(--cat, var(--accent)); }
+/* Numaralı adımlar: renkli yuvarlak rozetler */
+.prose ol { list-style: none; counter-reset: step; padding-left: 0; }
+.prose ol > li { counter-increment: step; position: relative; padding-left: 2.6rem; }
+.prose ol > li::before {
+  content: counter(step); position: absolute; left: 0; top: .1rem; width: 1.8rem; height: 1.8rem; border-radius: 50%;
+  display: grid; place-items: center; font-size: .9rem; font-weight: 700; background: var(--cat, var(--accent)); color: #fff;
+}
 .prose blockquote {
-  margin: 1.5rem 0; padding: 1rem 1.25rem; background: var(--accent-soft);
-  border-left: 4px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0;
+  margin: 1.75rem 0; padding: 1.1rem 1.35rem; background: var(--cat-soft, var(--accent-soft));
+  border-left: 5px solid var(--cat, var(--accent)); border-radius: 0 var(--radius) var(--radius) 0;
 }
 .prose blockquote p { margin: 0; }
-.prose table { width: 100%; border-collapse: collapse; font-size: 1rem; display: block; overflow-x: auto; }
-.prose th, .prose td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--border); }
-.prose th { font-weight: 700; background: var(--accent-soft); }
+.prose table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 1rem; display: block; overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
+.prose th, .prose td { text-align: left; padding: .65rem .85rem; border-bottom: 1px solid var(--border); }
+.prose tr:last-child td { border-bottom: 0; }
+.prose th { font-weight: 700; background: var(--cat, var(--accent)); color: #fff; }
+.prose tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--cat-soft, var(--accent-soft)) 55%, transparent); }
 .prose img { border-radius: var(--radius); }
 /* Adım adım görseller: yazı içinde <div class="steps"> ile kullanılır. */
 .prose .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }

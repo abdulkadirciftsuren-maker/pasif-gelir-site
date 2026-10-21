@@ -99,7 +99,7 @@ Kahve telvesiyle birlikte servis edildiği için son yudumları içme. Telve fin
 
 ## Cezve mi, makine mi?
 
-**Cezve** tam kontrol sağlar ve geleneksel tadı verir, ama ocak başında beklemeyi gerektirir. **Türk kahvesi makinesi** ise taşırma derdini ortadan kaldırır ve her seferinde aynı sonucu verir. Kalabalık sofralarda ya da sabah aceleyle kahve yapanlar için çok pratiktir. İkisi de iyi kahve yapar. Asıl farkı kahvenin tazeliği ve doğru ölçü yaratır.
+**Cezve** tam kontrol sağlar ve geleneksel tadı verir, ama ocak başında beklemeyi gerektirir. **Türk kahvesi makinesi** ise taşırma derdini ortadan kaldırır ve her seferinde aynı sonucu verir. Kalabalık sofralarda ya da sabah aceleyle kahve yapanlar için çok pratiktir. İkisi de iyi kahve yapar. Asıl farkı kahvenin tazeliği ve doğru ölçü yaratır. Makine almayı düşünüyorsan [Türk kahvesi makinesi seçim rehberimize](/turk-kahvesi-makinesi-secimi/) bak.
 
 ## Sık sorulan sorular
 

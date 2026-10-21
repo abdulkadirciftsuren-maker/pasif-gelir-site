@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Bakır cezve, köpüklü Türk kahvesi fincanı, bir bardak su ve lokum">
-<rect width="640" height="360" fill="#f4e9e0"/>
-<circle cx="520" cy="70" r="120" fill="#efdccd"/>
-<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<rect width="640" height="360" fill="#d4ebe6"/>
+<circle cx="520" cy="70" r="120" fill="#bfe0d8"/>
+<rect y="300" width="640" height="60" fill="#b3d4cc"/>
 <!-- cezve -->
 <path d="M40 176 L176 192 L176 206 L36 190 Z" fill="#6b3a20"/>
 <path d="M150 160 H262 L250 176 Q244 186 250 200 L276 286 Q280 304 262 304 H150 Q132 304 136 286 L162 200 Q168 186 162 176 Z" fill="#c0703f"/>

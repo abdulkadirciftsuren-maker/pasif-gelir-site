@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Köpük cezvenin ağzına yükseldiğinde ocaktan alınması">
-<rect width="320" height="240" rx="16" fill="#f4e9e0"/>
+<rect width="320" height="240" rx="16" fill="#d4ebe6"/>
 <g transform="translate(0 6)"><path d="M30 112 L130 124 L130 136 L26 122 Z" fill="#6b3a20"/><path d="M110 92 H210 L200 106 Q195 114 200 126 L222 200 Q226 214 210 214 H110 Q94 214 98 200 L120 126 Q125 114 120 106 Z" fill="#c0703f"/><path d="M110 92 H210 L205 99 H115 Z" fill="#a85d31"/><path d="M128 136 L112 200" stroke="#e39a68" stroke-width="8" stroke-linecap="round" opacity=".6"/></g>
 <path d="M114 100 Q118 70 160 68 Q202 70 206 100 Z" fill="#c99a6a"/>
 <g fill="#a87a4e"><circle cx="146" cy="84" r="3"/><circle cx="170" cy="80" r="2.5"/><circle cx="186" cy="90" r="2"/></g>

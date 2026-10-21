@@ -20,10 +20,12 @@ const year = new Date().getFullYear();
 </footer>
 
 <style>
-  .site-footer { margin-top: 5rem; border-top: 1px solid var(--border); padding: 2rem 0; font-size: .95rem; }
+  .site-footer { margin-top: 5rem; background: var(--espresso); color: var(--cream); padding: 2.5rem 0; font-size: .95rem; }
   .inner { display: grid; gap: .5rem; }
   .inner p { margin: 0; }
   nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
-  nav a { color: var(--muted); }
+  nav a { color: var(--cream); opacity: .8; }
+  nav a:hover { color: var(--warm); opacity: 1; }
+  .muted { color: var(--cream); opacity: .6; }
   .small { font-size: .85rem; }
 </style>

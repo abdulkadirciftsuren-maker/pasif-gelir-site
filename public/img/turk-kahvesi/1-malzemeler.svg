@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Cezveye kahve, şeker ve soğuk su konması">
-<rect width="320" height="240" rx="16" fill="#f4e9e0"/>
+<rect width="320" height="240" rx="16" fill="#d4ebe6"/>
 <g transform="translate(0 6)"><path d="M30 112 L130 124 L130 136 L26 122 Z" fill="#6b3a20"/><path d="M110 92 H210 L200 106 Q195 114 200 126 L222 200 Q226 214 210 214 H110 Q94 214 98 200 L120 126 Q125 114 120 106 Z" fill="#c0703f"/><path d="M110 92 H210 L205 99 H115 Z" fill="#a85d31"/><path d="M128 136 L112 200" stroke="#e39a68" stroke-width="8" stroke-linecap="round" opacity=".6"/></g>
 <path d="M196 30 L262 54" stroke="#9a8a7e" stroke-width="7" stroke-linecap="round"/>
 <ellipse cx="190" cy="28" rx="18" ry="9" fill="#9a8a7e"/>

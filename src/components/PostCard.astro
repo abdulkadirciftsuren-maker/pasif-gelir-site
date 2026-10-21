@@ -7,7 +7,7 @@ const { post } = Astro.props;
 const lang = postLang(post);
 ---
 
-<a class="card" href={postUrl(post)}>
+<a class={`card cat-${post.data.category}`} href={postUrl(post)}>
   {post.data.cover && <img class="cover" src={post.data.cover} alt="" width="640" height="360" loading="lazy" decoding="async" />}
   <span class="chip">{t(lang, `cat.${post.data.category}`)}</span>
   <h3>{post.data.title}</h3>
@@ -21,7 +21,7 @@ const lang = postLang(post);
     background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
     padding: 1.25rem; overflow: hidden; color: var(--text); text-decoration: none; transition: transform .15s, border-color .15s;
   }
-  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .card:hover { transform: translateY(-3px); border-color: var(--cat); box-shadow: 0 10px 24px -14px var(--cat); }
   .cover { margin: -1.25rem -1.25rem .5rem; width: calc(100% + 2.5rem); max-width: none; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
   .chip { align-self: flex-start; }
   h3 { margin: .3rem 0 0; font-size: 1.3rem; }

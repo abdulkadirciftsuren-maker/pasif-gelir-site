@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="V60 demleme aparatına kettle ile su dökülmesi">
-<rect width="640" height="360" fill="#f4e9e0"/>
-<circle cx="120" cy="80" r="110" fill="#efdccd"/>
-<rect y="300" width="640" height="60" fill="#e6d3c3"/>
+<rect width="640" height="360" fill="#e1ead9"/>
+<circle cx="120" cy="80" r="110" fill="#cfdcc3"/>
+<rect y="300" width="640" height="60" fill="#c6d4b8"/>
 <!-- sürahi -->
 <path d="M262 214 H378 L384 296 Q384 304 376 304 H264 Q256 304 256 296 Z" fill="#dbe9ee" stroke="#b8cdd4" stroke-width="2"/>
 <path d="M260 252 H380 L383 296 Q383 302 376 302 H264 Q257 302 257 296 Z" fill="#8a4b2a" opacity=".85"/>

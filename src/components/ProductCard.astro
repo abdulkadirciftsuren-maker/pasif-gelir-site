@@ -39,9 +39,10 @@ const cta = lang === 'tr' ? `${store}${t(lang, 'product.cta')}` : `${t(lang, 'pr
 </article>
 
 <style>
-  .product { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; }
+  .product { background: var(--surface); border: 1px solid var(--border); border-top: 5px solid var(--cat, var(--accent)); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; }
+  .product .btn { background: var(--cat, var(--accent)); color: #fff; }
   header { display: flex; gap: .9rem; align-items: flex-start; }
-  .rank { flex: none; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+  .rank { flex: none; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center; background: var(--cat, var(--accent)); color: #fff; font-weight: 700; }
   h3 { margin: .1rem 0 .25rem; }
   .best { margin: 0; color: var(--muted); font-size: 1rem; }
   .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .5rem 1.5rem; margin: .75rem 0 1rem; font-size: 1rem; }

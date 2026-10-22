@@ -48,7 +48,7 @@ Ganze Bohnen sind der einfachste Weg zu besserem Kaffee: Gemahlener Kaffee verli
 | Zubereitung | Röstgrad | Tipp |
 | --- | --- | --- |
 | Siebträger / Espresso | Mittel bis dunkel | Mischung mit etwas Robusta für Crema |
-| Kaffeevollautomat | Mittel | Sehr ölige, dunkle Bohnen können das Mahlwerk verkleben |
+| Kaffeevollautomat | Mittel | Sehr ölige, dunkle Bohnen können das Mahlwerk verkleben, siehe [Kaffeevollautomat kaufen](/de/kaffeevollautomat-kaufen/) |
 | Espressokocher | Mittel bis dunkel | Siehe [Espressokocher-Anleitung](/de/espressokocher-anleitung/) |
 | Filtermaschine | Hell bis mittel | Passt gut zu einer [guten Filterkaffeemaschine](/de/filterkaffeemaschine-kaufen/) |
 | Handfilter (V60) | Hell | Siehe [V60-Anleitung](/de/v60-handfilter-anleitung/) |

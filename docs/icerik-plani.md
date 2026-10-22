@@ -127,6 +127,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ Kaffeemaschine entkalken (önce Almanca)
   - ✅ Filterkaffeemaschine kaufen
   - ✅ Kaffeebohnen kaufen
+  - ✅ Kaffeevollautomat kaufen
 - **İngilizce (/en/):** 10 yazı: V60, öğütücü, Türk kahvesi tarifi, kahve çeşitleri, cezve, Türk kahvesi makinesi, moka pot, French press, latte/cappuccino, Arabica/Robusta.
   - Not: İngilizce ürün bağlantıları Amazon.com'a gidiyor ve henüz ortaklık kimliği yok (Amazon.com Associates başvurusu yapılmadı).
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.

@@ -56,7 +56,7 @@ Kahve terazisi, kahveni en çok iyileştiren ama en ucuz ekipmanlardan biri. Bir
 1. Filtreyi sürahiyle birlikte teraziye koy, dara tuşuna bas.
 2. **15 g** kahve koy, tekrar dara.
 3. Zamanlayıcıyı başlat ve **250 g** suyu birkaç seferde dök.
-4. Hedef: yaklaşık **2:30–3:30 dakikada** bitirmek. Tarifin tamamı [V60 rehberimizde](/v60-ile-kahve-demleme/).
+4. Hedef: yaklaşık **2:30–3:30 dakikada** bitirmek. Tarifin tamamı [V60 rehberimizde](/v60-ile-kahve-demleme/). Sakin bir döküm için [ince uçlu kettle](/ince-uclu-kettle/) işini kolaylaştırır.
 
 ### Espresso
 

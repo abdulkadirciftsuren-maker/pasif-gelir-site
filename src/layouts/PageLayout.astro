@@ -8,11 +8,12 @@ interface Props {
   title: string;
   description: string;
   alternates: Partial<Record<Lang, string>>;
+  noindex?: boolean;
 }
-const { lang, title, description, alternates } = Astro.props;
+const { lang, title, description, alternates, noindex = false } = Astro.props;
 ---
 
-<BaseLayout lang={lang} title={title} description={description} alternates={alternates}>
+<BaseLayout lang={lang} title={title} description={description} alternates={alternates} noindex={noindex}>
   <article class="container">
     <div class="read prose page">
       <h1>{title}</h1>

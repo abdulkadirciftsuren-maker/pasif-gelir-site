@@ -20,7 +20,8 @@ const description = {
 }[lang];
 ---
 
-<PageLayout lang={lang} title={title} description={description} alternates={staticPages.imprint}>
+<!-- noindex: ziyaretçiler görür ama sayfa Google arama sonuçlarında çıkmaz (adres gizliliği için). -->
+<PageLayout lang={lang} title={title} description={description} alternates={staticPages.imprint} noindex>
   {intro && <p>{intro}</p>}
   <h2>Angaben gemäß § 5 DDG</h2>
   <p>

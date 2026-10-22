@@ -24,7 +24,7 @@ const others = (Object.keys(languages) as Lang[])
       <a href={staticPages.calculator[lang]} class="hide-xs">{t(lang, 'nav.tools')}</a>
       <a href={staticPages.about[lang]} class="hide-sm">{t(lang, 'nav.about')}</a>
       {others.map((o) => (
-        <a href={o.href} hreflang={o.lang} lang={o.lang} class="lang" title={languages[o.lang]}>{o.lang.toUpperCase()}</a>
+        <a href={o.href} hreflang={o.lang} lang={o.lang} class="lang" title={languages[o.lang]} translate="no">{o.lang.toUpperCase()}</a>
       ))}
     </nav>
   </div>

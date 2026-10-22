@@ -97,7 +97,7 @@ Mit Gas- oder Elektroherd ist Aluminium der Klassiker. In Deutschland haben viel
 - Nach jeder Benutzung zerlegen, **mit lauwarmem Wasser ausspülen** und erst vollständig trocken wieder zusammensetzen.
 - Alu-Kocher **nicht in die Spülmaschine** – sie laufen dunkel an und der Kaffee schmeckt metallisch.
 - Die Löcher der Siebplatte gelegentlich prüfen; sind sie verstopft, läuft der Kaffee langsam.
-- Bei hartem Wasser – in Bayern sehr verbreitet – den Wasserbehälter ab und zu mit Zitronensäure entkalken.
+- Bei hartem Wasser – in Bayern sehr verbreitet – den Wasserbehälter ab und zu mit Zitronensäure entkalken. Mehr dazu: [Kaffeemaschine entkalken](/de/kaffeemaschine-entkalken/).
 
 ## Häufige Fragen
 

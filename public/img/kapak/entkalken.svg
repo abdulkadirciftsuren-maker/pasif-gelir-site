@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Filterkaffeemaschine mit Wassertank, eine Zitrone und Wassertropfen">
+<rect width="640" height="360" fill="#dcecef"/>
+<circle cx="540" cy="70" r="120" fill="#c8e0e5"/>
+<rect y="300" width="640" height="60" fill="#bad6dc"/>
+<!-- makine gövdesi -->
+<path d="M120 80 H300 Q316 80 316 96 V300 H120 Z" fill="#2a211c"/>
+<rect x="104" y="72" width="212" height="34" rx="10" fill="#3a2f28"/>
+<!-- su haznesi -->
+<rect x="250" y="120" width="52" height="150" rx="8" fill="#9cc3d0" opacity=".85"/>
+<rect x="256" y="190" width="40" height="74" rx="4" fill="#5b8fd6" opacity=".7"/>
+<path d="M262 132 V256" stroke="#eef6f8" stroke-width="5" stroke-linecap="round"/>
+<!-- filtre ve sürahi -->
+<path d="M140 116 H226 L214 150 H152 Z" fill="#4a3a32"/>
+<path d="M146 180 H222 L230 286 Q230 296 220 296 H148 Q138 296 138 286 Z" fill="#dbe9ee" stroke="#b8cdd4" stroke-width="2"/>
+<path d="M141 230 H227 L229 286 Q229 294 220 294 H148 Q140 294 140 286 Z" fill="#8a4b2a" opacity=".85"/>
+<path d="M222 196 q20 2 18 28 q-2 22 -20 24" fill="none" stroke="#2a211c" stroke-width="8"/>
+<!-- damlalar -->
+<g fill="#5b8fd6"><path d="M184 152 q-6 10 0 14 q6 -4 0 -14z"/><path d="M184 168 q-5 8 0 11 q5 -3 0 -11z" opacity=".7"/></g>
+<!-- limon -->
+<ellipse cx="440" cy="268" rx="52" ry="38" fill="#f2d14b"/>
+<ellipse cx="490" cy="268" rx="8" ry="6" fill="#e2bd30"/>
+<path d="M410 252 q12 -10 30 -8" stroke="#fbe88e" stroke-width="6" fill="none" stroke-linecap="round"/>
+<!-- limon dilimi -->
+<circle cx="540" cy="286" r="26" fill="#f2d14b"/>
+<circle cx="540" cy="286" r="20" fill="#fbe88e"/>
+<g stroke="#f2d14b" stroke-width="2.5"><path d="M540 266 V306"/><path d="M520 286 H560"/><path d="M526 272 L554 300"/><path d="M554 272 L526 300"/></g>
+<!-- kireç işaretleri -->
+<g fill="#ffffff" opacity=".9"><circle cx="380" cy="150" r="10"/><circle cx="402" cy="128" r="6"/><circle cx="360" cy="124" r="5"/></g>
+</svg>

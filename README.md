@@ -40,6 +40,7 @@ Kurallardan biri ihlal edilirse (örneğin açıklama çok kısaysa) site derlen
 ## Ayarlar — `src/config.ts`
 
 - `name`: site adı
+- `STORES`: ortaklık mağazaları. `tag` alanına ortaklık kimliği yazılınca o mağazanın bütün bağlantılarına otomatik eklenir (Amazon.de: `fincanla-21`).
 - `IMPRESSUM`: Almanya'daki yasal künye bilgileri (ad, adres, e-posta). **Yayına almadan önce doldurulmalı.**
 - `adsenseClient`: AdSense onayı gelince `ca-pub-...` kimliğini yaz; reklamlar o zaman otomatik açılır
 - Alan adı: `astro.config.mjs` içindeki `SITE` ve `public/robots.txt`

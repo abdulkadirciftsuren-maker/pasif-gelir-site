@@ -10,15 +10,25 @@ export const SITE = {
 };
 
 // Ortaklık (affiliate) mağazaları. Her ürün kutusundaki "store" alanı bu anahtarlardan birini kullanır.
-export const STORES = {
+// tag: ortaklık kimliği. Doluysa o mağazanın bütün bağlantılarına otomatik eklenir (ör. ?tag=fincanla-21).
+export const STORES: Record<string, { name: string; lang: string; tag?: string }> = {
   trendyol: { name: 'Trendyol', lang: 'tr' },
   hepsiburada: { name: 'Hepsiburada', lang: 'tr' },
   amazonTr: { name: 'Amazon.com.tr', lang: 'tr' },
   amazonUs: { name: 'Amazon', lang: 'en' },
-  amazonDe: { name: 'Amazon.de', lang: 'de' },
-} as const;
+  amazonDe: { name: 'Amazon.de', lang: 'de', tag: 'fincanla-21' },
+};
 
-export type StoreKey = keyof typeof STORES;
+export type StoreKey = 'trendyol' | 'hepsiburada' | 'amazonTr' | 'amazonUs' | 'amazonDe';
+
+/** Ürün bağlantısına mağazanın ortaklık kimliğini ekler. */
+export function affiliateUrl(store: StoreKey, url: string): string {
+  const tag = STORES[store].tag;
+  if (!tag) return url;
+  const u = new URL(url);
+  u.searchParams.set('tag', tag);
+  return u.toString();
+}
 
 // Impressum (künye): Almanya'da yaşayan site sahipleri için yasal zorunluluk (§ 5 DDG).
 // Yayına almadan önce MUTLAKA doldur. Boş alanlar sayfada "[Bitte ausfüllen]" olarak görünür.

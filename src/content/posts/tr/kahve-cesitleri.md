@@ -67,11 +67,11 @@ Mardin, Şanlıurfa ve çevresinde içilen **mırra**, Türkiye'nin en sert kahv
 - **Geleneği:** Mırra misafirliğin, taziyenin ve sözün simgesidir. Fincanı içtikten sonra boş olarak masaya bırakmanın, servis eden kişiye karşı yükümlülük doğurduğu anlatılır. Bu yüzden yörede fincan mutlaka ele geri verilir.
 - **Tadı:** İlk yudumda şaşırtıcı derecede acıdır, ardından ağızda uzun süren bir kahve tadı kalır. Bazı ailelerde kakule eklenir.
 
-Mırra, Arap kahvesi (*qahwa*) geleneğinin Anadolu'daki yorumudur ve bölgede gelenek olarak sürmektedir.
+Mırra, Arap kahvesi (*qahwa*) geleneğinin Anadolu'daki yorumudur ve bölgede gelenek olarak sürmektedir. Mırranın yapılışı ve servis adabı için [mırra yazımıza](/mirra-nedir/) bak.
 
 ### Dibek kahvesi
 
-Adını, kahvenin dövüldüğü taş ya da ahşap havandan, yani **dibekten** alır. Taşla dövülen kahve, öğütücüdeki kadar ısınmadığı için daha yumuşak bir tat verir. Bugün markette satılan dibek kahvelerinin çoğu bir **karışımdır**: içinde kakao, süt tozu ya da damla sakızı bulunabilir. Saf kahve istiyorsan etiketi kontrol et.
+Adını, kahvenin dövüldüğü taş ya da ahşap havandan, yani **dibekten** alır. Taşla dövülen kahve, öğütücüdeki kadar ısınmadığı için daha yumuşak bir tat verir. Bugün markette satılan dibek kahvelerinin çoğu bir **karışımdır**: içinde kakao, süt tozu ya da damla sakızı bulunabilir. Saf kahve istiyorsan etiketi kontrol et. Ayrıntılar [dibek kahvesi yazımızda](/dibek-kahvesi-nedir/).
 
 ### Menengiç kahvesi (Gaziantep ve Güneydoğu)
 

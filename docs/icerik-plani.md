@@ -22,8 +22,9 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ⬜ |
 | 9 | Kafeinsiz Kahve Nasıl Yapılır, Tadı Farklı mı? | kafeinsiz kahve | Bilgi | 3 | ⬜ |
 | 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ⬜ |
-| 10a | Mırra Nedir? Mardin'in Acı Kahvesi, Yapılışı ve Geleneği | mırra nedir, mırra kahvesi | Bilgi | 2 | ⬜ |
-| 10b | Türkiye'nin Yöresel Kahveleri: Menengiç, Dibek, Kenger ve Daha Fazlası | yöresel kahveler, menengiç kahvesi | Bilgi | 2 | ⬜ |
+| 10a | Mırra Nedir? Mardin ve Urfa'nın Acı Kahvesi | mırra nedir, mırra kahvesi | Bilgi | 2 | ✅ |
+| 10b | Dibek Kahvesi Nedir? | dibek kahvesi nedir | Bilgi | 2 | ✅ |
+| 10c | Menengiç Kahvesi Nedir? (kafeinsiz) | menengiç kahvesi | Bilgi | 3 | ⬜ |
 
 ## Küme 2: Demleme Yöntemleri ve Tarifler (en çok aranan küme)
 
@@ -86,6 +87,25 @@ Google'ın yapay zekâ özetleri ve sohbet botları "X nedir?" türü basit soru
 4. **Her bilgi yazısında pratik bir bölüm:** "Markette nasıl anlarsın", "Hangi yöntem için hangisi" gibi uygulamaya dönük kısımlar.
 
 Not: Yapay zekâ özetleri kaynak olarak sitelere bağlantı veriyor. Net, düzenli ve güvenilir yazılar bu kaynaklar arasına girme şansını artırır.
+
+## Satışa götüren yazılar ve kelimeler
+
+Para getiren aramalar, "satın alma niyeti" taşıyan aramalardır. Bilgi yazıları ziyaretçi getirir; satın alma yazıları komisyon getirir.
+
+| Niyet | Türkçe kelimeler | Almanca kelimeler |
+| --- | --- | --- |
+| Satın almak | en iyi, önerisi, hangisi, alınır mı, fiyat | kaufen, Test, Vergleich, beste, Empfehlung |
+| Karşılaştırmak | mı yoksa, farkı, karşılaştırma | oder, Unterschied, vs |
+| Sorun çözmek (ürüne götürür) | kireç temizleme, köpük olmuyor, bozuldu | entkalken, reinigen, schäumt nicht |
+
+Kural: Her bilgi yazısı en az bir satın alma rehberine iç bağlantı verir.
+
+### Mevsimsel: soğuk kahveler (Mart–Nisan'da yayında olmalı)
+
+Yazın aramalar çok artar ve ürün satışı getirir (cold brew demliği, buzlu kahve bardağı, soğuk köpük yapan süt köpürtücü).
+
+- TR: "Cold Brew Nasıl Yapılır?", "Evde Buzlu Latte ve Soğuk Kahve Tarifleri", "Cold Brew Demliği Seçimi"
+- DE: "Cold Brew selber machen", "Eiskaffee Rezepte", "Cold Brew Maker kaufen"
 
 ## Diller
 

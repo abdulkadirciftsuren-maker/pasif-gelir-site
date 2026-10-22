@@ -97,6 +97,8 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ Kaffeesorten
   - ✅ Espressokocher richtig benutzen
   - ✅ Kaffeemühle kaufen
+  - ✅ Latte, Cappuccino, Flat White
+  - ✅ Arabica oder Robusta
 - **İngilizce (/en/):** Yalnızca Türkçede ve Almancada iyi performans gösteren yazılar çevrilecek.
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.
 

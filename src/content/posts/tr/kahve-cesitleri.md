@@ -75,7 +75,7 @@ Adını, kahvenin dövüldüğü taş ya da ahşap havandan, yani **dibekten** a
 
 ### Menengiç kahvesi (Gaziantep ve Güneydoğu)
 
-Aslında kahve değildir. Menengiç (yabani fıstık) ağacının kavrulup ezilen meyvelerinden yapılır. **Kafein içermez**, sütle pişirilir ve fıstıksı, yağlı, kendine has bir tadı vardır. Kafeinden kaçınanlar için güzel bir alternatiftir.
+Aslında kahve değildir. Menengiç (yabani fıstık) ağacının kavrulup ezilen meyvelerinden yapılır. **Kafein içermez**, sütle pişirilir ve fıstıksı, yağlı, kendine has bir tadı vardır. Kafeinden kaçınanlar için güzel bir alternatiftir. Tarifi ve ayrıntıları [menengiç kahvesi yazımızda](/menengic-kahvesi-nedir/).
 
 ### Kenger kahvesi
 

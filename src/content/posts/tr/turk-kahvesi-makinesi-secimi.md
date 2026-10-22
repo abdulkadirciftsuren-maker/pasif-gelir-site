@@ -77,7 +77,7 @@ Cezvede iyi kahve yapmayı öğrenmek istersen [Türk kahvesi tarifimize](/turk-
 
 - **Her kullanımdan sonra** pişirme kabını durula ve kurula.
 - **Haftada bir** iç yüzeyi yumuşak bir süngerle temizle. Aşındırıcı ürün kullanma.
-- **Su hazneli modellerde** kireçlenmeye dikkat et. Kireç, ısıtmayı yavaşlatır ve tadı bozar. Üreticinin önerdiği aralıklarla kireç temizliği yap; sert sulu bölgelerde bu aralık kısalır.
+- **Su hazneli modellerde** kireçlenmeye dikkat et. Kireç, ısıtmayı yavaşlatır ve tadı bozar. Üreticinin önerdiği aralıklarla kireç temizliği yap; sert sulu bölgelerde bu aralık kısalır. Nasıl yapılacağını [kahve makinesi kireç temizleme rehberimizde](/kahve-makinesi-kirec-temizleme/) anlattık.
 - Makineyi **suya batırma.** Gövdede elektronik parçalar bulunur.
 
 ## Sık sorulan sorular

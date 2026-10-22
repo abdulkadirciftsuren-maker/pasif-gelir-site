@@ -24,7 +24,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ⬜ |
 | 10a | Mırra Nedir? Mardin ve Urfa'nın Acı Kahvesi | mırra nedir, mırra kahvesi | Bilgi | 2 | ✅ |
 | 10b | Dibek Kahvesi Nedir? | dibek kahvesi nedir | Bilgi | 2 | ✅ |
-| 10c | Menengiç Kahvesi Nedir? (kafeinsiz) | menengiç kahvesi | Bilgi | 3 | ⬜ |
+| 10c | Menengiç Kahvesi Nedir? (kafeinsiz) | menengiç kahvesi | Bilgi | 3 | ✅ |
 
 ## Küme 2: Demleme Yöntemleri ve Tarifler (en çok aranan küme)
 

@@ -91,7 +91,7 @@ Geleneksel yöntem günler sürebilir. İlk deneme için en kolay yol **hazır m
 Güneydoğu'nun kahve kültürü mırrayla sınırlı değil:
 
 - **Dibek kahvesi:** Taş havanda dövülerek yapılan, daha yumuşak içimli kahve. Ayrıntılar [dibek kahvesi yazımızda](/dibek-kahvesi-nedir/).
-- **Menengiç kahvesi:** Yabani fıstıktan yapılır, kafeinsizdir, sütle pişirilir.
+- **[Menengiç kahvesi](/menengic-kahvesi-nedir/):** Yabani fıstıktan yapılır, kafeinsizdir, sütle pişirilir.
 - **Kenger kahvesi:** Kenger bitkisinin tohumlarından yapılır, kafeinsizdir.
 
 Tüm çeşitler için [kahve çeşitleri rehberimize](/kahve-cesitleri/) bakabilirsin.

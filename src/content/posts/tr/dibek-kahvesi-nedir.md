@@ -74,7 +74,7 @@ Suyun yerine aynı miktarda **soğuk süt** kullan. Süt sudan daha hızlı taş
 ## Diğer yöresel kahveler
 
 - **Mırra:** Mardin ve Urfa'nın saatlerce pişirilen, çok acı kahvesi. Hikâyesi ve geleneği için [mırra yazımıza](/mirra-nedir/) bak.
-- **Menengiç kahvesi:** Yabani fıstıktan yapılır, kafeinsizdir.
+- **[Menengiç kahvesi](/menengic-kahvesi-nedir/):** Yabani fıstıktan yapılır, kafeinsizdir.
 - **Damla sakızlı ve Osmanlı kahvesi:** Türk kahvesinin aromalı çeşitleri.
 
 Tüm çeşitler için [kahve çeşitleri rehberimize](/kahve-cesitleri/) bakabilirsin.

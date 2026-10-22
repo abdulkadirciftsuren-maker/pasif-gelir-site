@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Eine digitale Kaffeewaage mit Timer, darauf ein Handfilter über einer Glaskanne">
+<rect width="640" height="360" fill="#fbf3c9"/>
+<circle cx="90" cy="80" r="110" fill="#f5e8a8"/>
+<rect y="300" width="640" height="60" fill="#efe0a0"/>
+<!-- waage -->
+<rect x="170" y="268" width="300" height="34" rx="10" fill="#2a211c"/>
+<rect x="180" y="262" width="280" height="10" rx="5" fill="#4a3d35"/>
+<rect x="196" y="276" width="110" height="20" rx="4" fill="#1f7468"/>
+<text x="206" y="292" font-family="ui-monospace,Menlo,monospace" font-size="16" font-weight="700" fill="#c8ece4">300.0g</text>
+<rect x="334" y="276" width="76" height="20" rx="4" fill="#1f7468"/>
+<text x="342" y="292" font-family="ui-monospace,Menlo,monospace" font-size="16" font-weight="700" fill="#c8ece4">2:45</text>
+<circle cx="432" cy="286" r="7" fill="#c4562f"/>
+<!-- glaskanne -->
+<path d="M262 170 H378 L392 254 Q392 262 384 262 H256 Q248 262 248 254 Z" fill="#dfeef2" opacity=".85" stroke="#9cc3d0" stroke-width="3"/>
+<path d="M254 214 H386 L392 254 Q392 262 384 262 H256 Q248 262 248 254 Z" fill="#6b3f26"/>
+<rect x="290" y="186" width="60" height="12" rx="6" fill="#c69a6d"/>
+<!-- handfilter -->
+<path d="M240 96 H400 L350 166 H290 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="3"/>
+<path d="M262 108 L300 160 M320 104 V160 M378 108 L340 160" stroke="#e9ddd0" stroke-width="3"/>
+<rect x="282" y="164" width="76" height="10" rx="3" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M400 112 q30 4 26 30 q-4 18 -30 16" fill="none" stroke="#fbf8f4" stroke-width="10"/>
+<!-- wasserkessel -->
+<path d="M486 158 q-30 -40 -76 -54" fill="none" stroke="#5b8fd6" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 10"/>
+<path d="M500 170 H570 L578 250 Q578 258 570 258 H500 Q492 258 492 250 Z" fill="#9aa7b4"/>
+<path d="M500 186 L470 150" stroke="#7d8a97" stroke-width="7" stroke-linecap="round"/>
+<path d="M570 186 q34 6 30 36 q-4 22 -30 24" fill="none" stroke="#2a211c" stroke-width="8"/>
+<rect x="510" y="160" width="50" height="12" rx="5" fill="#7d8a97"/>
+<rect x="490" y="256" width="92" height="10" rx="4" fill="#2a211c"/>
+</svg>

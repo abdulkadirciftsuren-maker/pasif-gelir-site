@@ -85,7 +85,7 @@ Viele Einsteigermaschinen kommen mit **druckunterstützten (doppelwandigen) Sieb
 1. **Frische Bohnen** mit Röstdatum besorgen – mittlere bis dunkle Röstung. Tipps in [Kaffeebohnen kaufen](/de/kaffeebohnen-kaufen/).
 2. **Start-Rezept:** 18 g Kaffee im Doppelsieb, etwa 36 g Espresso in der Tasse, in 25–30 Sekunden.
 3. **Nur den Mahlgrad ändern:** Läuft er zu schnell und schmeckt sauer → feiner mahlen. Läuft er zu langsam und schmeckt bitter → gröber mahlen.
-4. **Waage benutzen:** Eine einfache Kaffeewaage mit Timer macht das Einstellen viel leichter.
+4. **Waage benutzen:** Eine einfache Kaffeewaage mit Timer macht das Einstellen viel leichter – siehe [Kaffeewaage kaufen](/de/kaffeewaage-kaufen/).
 
 ## Häufige Fragen
 

@@ -1,5 +1,5 @@
 ---
-import { STORES, type StoreKey } from '../config';
+import { STORES, affiliateUrl, type StoreKey } from '../config';
 import { t, type Lang } from '../i18n/ui';
 
 interface Props {
@@ -35,7 +35,7 @@ const cta = lang === 'tr' ? `${store}${t(lang, 'product.cta')}` : `${t(lang, 'pr
     )}
   </div>
   <!-- rel="sponsored": Google'ın ortaklık bağlantıları için istediği işaret. -->
-  <a class="btn" href={product.url} rel="sponsored nofollow noopener" target="_blank">{cta} →</a>
+  <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{cta} →</a>
 </article>
 
 <style>

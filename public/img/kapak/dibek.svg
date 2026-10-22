@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Taş dibek ve tokmak, yanında köpüklü bir fincan dibek kahvesi">
+<rect width="640" height="360" fill="#e4e0d6"/>
+<circle cx="110" cy="70" r="120" fill="#d6d0c2"/>
+<rect y="300" width="640" height="60" fill="#cbc3b1"/>
+<!-- taş dibek -->
+<path d="M150 160 H330 L316 280 Q312 296 296 296 H184 Q168 296 164 280 Z" fill="#8f8a80"/>
+<ellipse cx="240" cy="160" rx="90" ry="18" fill="#a29d92"/>
+<ellipse cx="240" cy="162" rx="70" ry="12" fill="#5a3018"/>
+<path d="M172 190 L182 276" stroke="#a9a49a" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+<!-- tokmak -->
+<path d="M300 40 L250 150" stroke="#8a4b2a" stroke-width="18" stroke-linecap="round"/>
+<path d="M300 40 L314 10" stroke="#6b3a20" stroke-width="22" stroke-linecap="round"/>
+<!-- çekirdekler -->
+<g fill="#6b3a20"><ellipse cx="370" cy="290" rx="10" ry="7" transform="rotate(-20 370 290)"/><ellipse cx="392" cy="294" rx="10" ry="7" transform="rotate(15 392 294)"/><ellipse cx="120" cy="292" rx="10" ry="7"/></g>
+<!-- fincan -->
+<ellipse cx="510" cy="300" rx="66" ry="11" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M556 244 q26 2 22 22 q-4 16 -26 14" fill="none" stroke="#d8c6b6" stroke-width="12"/><path d="M556 244 q26 2 22 22 q-4 16 -26 14" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M462 232 H558 L550 270 Q546 294 522 294 H498 Q474 294 470 270 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M466 250 H554" stroke="#8a4b2a" stroke-width="5"/>
+<ellipse cx="510" cy="232" rx="48" ry="8" fill="#d9b48f"/>
+<g fill="#b9875a"><circle cx="496" cy="231" r="3"/><circle cx="518" cy="234" r="2.5"/><circle cx="530" cy="230" r="2"/></g>
+</svg>

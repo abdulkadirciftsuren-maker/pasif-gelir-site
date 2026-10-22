@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Graphic: espresso, milk and foam ratios in cappuccino, flat white and latte">
+<rect width="720" height="380" rx="18" fill="#e3e4f6"/>
+<g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="middle">
+<!-- cappuccino: 1/3 espresso, 1/3 süt, 1/3 köpük -->
+<text x="130" y="44" font-size="22" font-weight="700" fill="#2a211c">Cappuccino</text>
+<text x="130" y="68" font-size="15" fill="#5a4e47">~150–180 ml</text>
+<path d="M60 96 H200 L190 300 Q188 316 172 316 H88 Q72 316 70 300 Z" fill="#fbf8f4" stroke="#b9a99c" stroke-width="3"/>
+<path d="M61 100 H199 L196 170 H64 Z" fill="#fffaf4"/>
+<path d="M64 170 H196 L193 240 H67 Z" fill="#e9d0b3"/>
+<path d="M67 240 H193 L190 300 Q188 314 172 314 H88 Q72 314 70 300 Z" fill="#8a4b2a"/>
+<text x="130" y="140" font-size="15" fill="#5a4e47">foam</text>
+<text x="130" y="210" font-size="15" fill="#5a3a24">milk</text>
+<text x="130" y="282" font-size="15" fill="#fbf1e4">espresso</text>
+<!-- flat white: espresso daha fazla, ince köpük -->
+<text x="360" y="44" font-size="22" font-weight="700" fill="#2a211c">Flat White</text>
+<text x="360" y="68" font-size="15" fill="#5a4e47">~150–180 ml</text>
+<path d="M290 96 H430 L420 300 Q418 316 402 316 H318 Q302 316 300 300 Z" fill="#fbf8f4" stroke="#b9a99c" stroke-width="3"/>
+<path d="M291 100 H429 L428 120 H292 Z" fill="#fffaf4"/>
+<path d="M292 120 H428 L424 220 H296 Z" fill="#e9d0b3"/>
+<path d="M296 220 H424 L420 300 Q418 314 402 314 H318 Q302 314 300 300 Z" fill="#8a4b2a"/>
+<text x="360" y="176" font-size="15" fill="#5a3a24">milk</text>
+<text x="360" y="272" font-size="15" fill="#fbf1e4">2× espresso</text>
+<!-- latte: bol süt -->
+<text x="590" y="44" font-size="22" font-weight="700" fill="#2a211c">Latte</text>
+<text x="590" y="68" font-size="15" fill="#5a4e47">~240–350 ml</text>
+<path d="M520 96 H660 L650 300 Q648 316 632 316 H548 Q532 316 530 300 Z" fill="#fbf8f4" stroke="#b9a99c" stroke-width="3"/>
+<path d="M521 100 H659 L658 126 H522 Z" fill="#fffaf4"/>
+<path d="M522 126 H658 L652 262 H528 Z" fill="#e9d0b3"/>
+<path d="M528 262 H652 L650 300 Q648 314 632 314 H548 Q532 314 530 300 Z" fill="#8a4b2a"/>
+<text x="590" y="200" font-size="15" fill="#5a3a24">lots of milk</text>
+<text x="590" y="294" font-size="15" fill="#fbf1e4">espresso</text>
+<text x="360" y="356" font-size="14" fill="#5a4e47">Ratios vary from café to café – the graphic shows the rule of thumb.</text>
+</g>
+</svg>

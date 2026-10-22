@@ -94,6 +94,9 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 - **Almanca (/de/):** Amazon.de ortaklık programı, yüksek reklam gelirleri ve Türk kahvesi konusunda Almanca içeriğin zayıf olması. Önce Türk kahvesi kümesi çevrilecek, sonra en iyi performans gösteren Türkçe yazılar.
   - ✅ Türkischen Kaffee zubereiten
   - ✅ Türkische Kaffeemaschine
+  - ✅ Kaffeesorten
+  - ✅ Espressokocher richtig benutzen
+  - ✅ Kaffeemühle kaufen
 - **İngilizce (/en/):** Yalnızca Türkçede ve Almancada iyi performans gösteren yazılar çevrilecek.
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.
 

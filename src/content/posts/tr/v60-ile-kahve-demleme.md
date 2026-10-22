@@ -36,7 +36,7 @@ V60, konik şekli ve büyük tek deliğiyle suyun kahveden geçiş hızını tam
 
 - V60 02 demleme aparatı ve uygun filtre kâğıdı
 - 15 g taze kavrulmuş kahve (son 2–6 hafta içinde kavrulmuş ideal)
-- Terazi (gramla ölçmek, kaşıkla ölçmekten çok daha tutarlı sonuç verir)
+- Terazi (gramla ölçmek, kaşıkla ölçmekten çok daha tutarlı sonuç verir; seçim için [kahve terazisi rehberimiz](/kahve-terazisi/))
 - Mümkünse kuğu boyunlu bir kettle
 - Öğütücü — kahveyi demlemeden hemen önce öğütmek en büyük farkı yaratır
 

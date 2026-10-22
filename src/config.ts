@@ -23,10 +23,10 @@ export type StoreKey = keyof typeof STORES;
 // Impressum (künye): Almanya'da yaşayan site sahipleri için yasal zorunluluk (§ 5 DDG).
 // Yayına almadan önce MUTLAKA doldur. Boş alanlar sayfada "[Bitte ausfüllen]" olarak görünür.
 export const IMPRESSUM = {
-  name: '',
-  street: '',
-  city: '', // ör. "12345 Berlin"
+  name: 'Abdülkadir Ciftsüren',
+  street: 'Rieschstraße 21',
+  city: '83646 Bad Tölz',
   country: 'Deutschland',
-  email: '',
-  phone: '', // isteğe bağlı ama önerilir
+  email: 'abdulkadirciftsuren@gmail.com',
+  phone: '+49 151 55613593', // isteğe bağlı ama önerilir
 };

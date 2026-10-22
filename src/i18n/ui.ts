@@ -4,6 +4,7 @@ export const defaultLang: Lang = 'tr';
 
 export const ui = {
   tr: {
+    'site.slogan': 'Kahve Keyfi',
     'site.tagline': 'Evde daha iyi kahve için dürüst rehberler',
     'site.description':
       'Evde kahve demleme rehberleri, tarifler ve bağımsız ekipman karşılaştırmaları. Reklam kokan listeler değil, denenmiş yöntemler.',
@@ -47,6 +48,7 @@ export const ui = {
     '404.home': 'Ana sayfaya dön',
   },
   de: {
+    'site.slogan': 'Kaffeegenuss',
     'site.tagline': 'Ehrliche Ratgeber für besseren Kaffee zu Hause',
     'site.description':
       'Anleitungen zur Kaffeezubereitung zu Hause, Rezepte und unabhängige Vergleiche von Kaffeezubehör. Erprobte Methoden statt Werbelisten.',
@@ -90,6 +92,7 @@ export const ui = {
     '404.home': 'Zur Startseite',
   },
   en: {
+    'site.slogan': 'The joy of coffee',
     'site.tagline': 'Honest guides for better coffee at home',
     'site.description':
       'Home coffee brewing guides, recipes and independent gear comparisons. Tested methods, not ad-stuffed lists.',

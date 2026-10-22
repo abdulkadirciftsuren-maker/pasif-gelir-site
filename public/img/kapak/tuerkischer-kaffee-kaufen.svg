@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Packungen türkischer Kaffee, eine Dose und eine Tasse mit Schaum">
+<rect width="640" height="360" fill="#f9e3c7"/>
+<circle cx="540" cy="70" r="120" fill="#f3d2a8"/>
+<rect y="300" width="640" height="60" fill="#ecc596"/>
+<!-- paket 1 -->
+<path d="M80 120 H200 L206 300 H74 Z" fill="#8a4b2a"/>
+<path d="M80 120 L92 104 H188 L200 120 Z" fill="#6b3a20"/>
+<rect x="96" y="170" width="88" height="60" rx="8" fill="#f6ead9"/>
+<path d="M118 214 H162 L159 224 Q157 230 150 230 H130 Q123 230 121 224 Z" fill="#8a4b2a"/>
+<ellipse cx="140" cy="214" rx="22" ry="4" fill="#c99a6a"/>
+<path d="M134 200 q-4 -6 0 -12 M146 200 q-4 -6 0 -12" fill="none" stroke="#8a4b2a" stroke-width="2.4" stroke-linecap="round"/>
+<!-- paket 2 -->
+<path d="M220 150 H320 L325 300 H215 Z" fill="#1f7468"/>
+<path d="M220 150 L230 136 H310 L320 150 Z" fill="#185c52"/>
+<rect x="234" y="190" width="72" height="50" rx="8" fill="#f6ead9"/>
+<g fill="#6b3a20"><ellipse cx="258" cy="215" rx="8" ry="11" transform="rotate(-20 258 215)"/><ellipse cx="282" cy="215" rx="8" ry="11" transform="rotate(20 282 215)"/></g>
+<!-- teneke kutu -->
+<rect x="340" y="190" width="80" height="110" rx="8" fill="#c0703f"/>
+<rect x="336" y="180" width="88" height="18" rx="6" fill="#a85d31"/>
+<rect x="352" y="225" width="56" height="40" rx="4" fill="#f6ead9"/>
+<path d="M362 245 h36" stroke="#a85d31" stroke-width="4"/>
+<!-- fincan -->
+<ellipse cx="520" cy="300" rx="70" ry="12" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M570 246 q28 2 24 22 q-4 16 -28 14" fill="none" stroke="#d8c6b6" stroke-width="12"/><path d="M570 246 q28 2 24 22 q-4 16 -28 14" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M470 234 H572 L564 272 Q560 294 536 294 H506 Q482 294 478 272 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M474 252 H568" stroke="#8a4b2a" stroke-width="5"/>
+<ellipse cx="521" cy="234" rx="51" ry="8" fill="#c99a6a"/>
+<g fill="#a87a4e"><circle cx="506" cy="233" r="3"/><circle cx="530" cy="236" r="2.5"/><circle cx="542" cy="232" r="2"/></g>
+</svg>

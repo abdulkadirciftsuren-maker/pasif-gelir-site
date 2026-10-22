@@ -65,7 +65,7 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 ## Daha yüksek bütçe
 
 10. **El ya da elektrikli kahve öğütücü:** Hazır öğütülmüş kahve alan biri için lezzette en büyük fark. Seçim için [öğütücü rehberimize](/en-iyi-kahve-ogutucu/) bak.
-11. **Elektrikli süt köpürtücü:** Sıcak ve soğuk köpük tek tuşla.
+11. **Elektrikli süt köpürtücü:** Sıcak ve soğuk köpük tek tuşla. V60 sevenler için bir alternatif: [ince uçlu kettle](/ince-uclu-kettle/).
 12. **Türk kahvesi makinesi:** Her gün Türk kahvesi içenlerin vazgeçemediği cihaz. Seçim rehberi: [Türk kahvesi makinesi seçimi](/turk-kahvesi-makinesi-secimi/).
 
 ## Büyük hediye

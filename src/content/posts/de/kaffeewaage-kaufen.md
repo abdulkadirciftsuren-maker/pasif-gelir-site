@@ -56,7 +56,7 @@ Eine Kaffeewaage ist das günstigste Zubehör, das deinen Kaffee am meisten verb
 1. Filter mit Kanne auf die Waage, Tara drücken.
 2. **15 g** Kaffee einwiegen, erneut Tara.
 3. Timer starten, **250 g** Wasser in Etappen aufgießen.
-4. Ziel: fertig nach etwa **2:30–3:30 Minuten**. Das ganze Rezept steht in der [V60-Anleitung](/de/v60-handfilter-anleitung/).
+4. Ziel: fertig nach etwa **2:30–3:30 Minuten**. Das ganze Rezept steht in der [V60-Anleitung](/de/v60-handfilter-anleitung/). Für einen ruhigen Aufguss hilft ein [Wasserkocher mit Schwanenhals](/de/wasserkocher-schwanenhals/).
 
 ### Espresso (Siebträger)
 

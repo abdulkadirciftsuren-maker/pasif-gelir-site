@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ein Geschenk mit roter Schleife, eine Tasse Kaffee, ein Espressokocher und Kaffeebohnen">
+<rect width="640" height="360" fill="#dff3e8"/>
+<circle cx="540" cy="70" r="120" fill="#cbead8"/>
+<rect y="300" width="640" height="60" fill="#bfe1cc"/>
+<!-- sterne -->
+<g fill="#e8b84a"><path d="M80 60 l5 11 12 1 -9 8 3 12 -11 -6 -11 6 3 -12 -9 -8 12 -1z"/><path d="M600 200 l3 7 8 1 -6 5 2 8 -7 -4 -7 4 2 -8 -6 -5 8 -1z"/><path d="M380 50 l3 7 8 1 -6 5 2 8 -7 -4 -7 4 2 -8 -6 -5 8 -1z"/></g>
+<!-- espressokocher -->
+<path d="M90 300 L100 230 H170 L180 300 Z" fill="#9aa7b4"/>
+<rect x="96" y="222" width="78" height="10" rx="3" fill="#7d8a97"/>
+<path d="M104 222 L112 168 H158 L166 222 Z" fill="#b3bec9"/>
+<path d="M112 168 L120 156 H150 L158 168 Z" fill="#7d8a97"/>
+<path d="M166 186 q26 2 24 26 q-2 16 -22 16" fill="none" stroke="#2a211c" stroke-width="10"/>
+<path d="M104 180 l-14 -6" stroke="#7d8a97" stroke-width="6" stroke-linecap="round"/>
+<!-- geschenk -->
+<rect x="230" y="170" width="180" height="130" rx="6" fill="#c4562f"/>
+<rect x="220" y="150" width="200" height="34" rx="6" fill="#a8441f"/>
+<rect x="308" y="150" width="24" height="150" fill="#e8b84a"/>
+<path d="M320 150 C290 110 250 120 266 144 C276 158 310 152 320 150 Z" fill="#e8b84a"/>
+<path d="M320 150 C350 110 390 120 374 144 C364 158 330 152 320 150 Z" fill="#e8b84a"/>
+<circle cx="320" cy="150" r="10" fill="#d4a032"/>
+<!-- tasse -->
+<path d="M460 228 H546 L540 290 Q538 300 528 300 H478 Q468 300 466 290 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M544 242 q30 2 28 26 q-2 20 -30 18" fill="none" stroke="#d8c6b6" stroke-width="12"/>
+<ellipse cx="503" cy="229" rx="42" ry="6" fill="#6b3f26"/>
+<g fill="none" stroke="#fbf8f4" stroke-width="4" stroke-linecap="round"><path d="M490 214 q-8 -12 0 -24 q8 -12 0 -24"/><path d="M514 214 q8 -12 0 -24 q-8 -12 0 -24"/></g>
+<!-- bohnen -->
+<g transform="translate(220 322) rotate(20)"><ellipse rx="13" ry="9" fill="#5a3522"/><path d="M-11 0 Q-4 -5 0 0 T11 0" fill="none" stroke="#2a1810" stroke-width="2.2"/></g>
+<g transform="translate(250 334) rotate(140)"><ellipse rx="13" ry="9" fill="#5a3522"/><path d="M-11 0 Q-4 -5 0 0 T11 0" fill="none" stroke="#2a1810" stroke-width="2.2"/></g>
+<g transform="translate(430 330) rotate(60)"><ellipse rx="13" ry="9" fill="#5a3522"/><path d="M-11 0 Q-4 -5 0 0 T11 0" fill="none" stroke="#2a1810" stroke-width="2.2"/></g>
+<g transform="translate(580 326) rotate(170)"><ellipse rx="13" ry="9" fill="#5a3522"/><path d="M-11 0 Q-4 -5 0 0 T11 0" fill="none" stroke="#2a1810" stroke-width="2.2"/></g>
+</svg>

@@ -77,7 +77,7 @@ Wie die Zubereitung in der Cezve gelingt, erklärt unsere [Anleitung für türki
 
 - **Nach jeder Benutzung** den Kochbehälter ausspülen und abtrocknen.
 - **Einmal pro Woche** die Innenfläche mit einem weichen Schwamm reinigen, keine Scheuermittel verwenden.
-- **Bei Modellen mit Wassertank** auf Kalk achten. In vielen Regionen Deutschlands ist das Wasser hart – entkalke deshalb in den vom Hersteller empfohlenen Abständen, eher öfter.
+- **Bei Modellen mit Wassertank** auf Kalk achten. In vielen Regionen Deutschlands ist das Wasser hart – entkalke deshalb in den vom Hersteller empfohlenen Abständen, eher öfter. Wie das geht, erklärt unser Ratgeber [Kaffeemaschine entkalken](/de/kaffeemaschine-entkalken/).
 - Die Maschine **nie ins Wasser tauchen**: Im Gehäuse befindet sich Elektronik.
 
 ## Häufige Fragen

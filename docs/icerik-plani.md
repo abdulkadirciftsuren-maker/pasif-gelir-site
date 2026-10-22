@@ -104,6 +104,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ Milchaufschäumer kaufen (yalnızca Almanca)
   - ✅ V60 Handfilter
   - ✅ French Press
+  - ✅ Kaffeemaschine entkalken (önce Almanca)
 - **İngilizce (/en/):** Yalnızca Türkçede ve Almancada iyi performans gösteren yazılar çevrilecek.
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.
 

@@ -98,6 +98,7 @@ Gazlı ya da elektrikli ocağın varsa alüminyum klasik seçenektir. İndüksiy
 - Alüminyum potu **bulaşık makinesine koyma.** Kararır ve kahveye metalik tat geçer.
 - Süzgeç plakasının deliklerini ara sıra kontrol et. Tıkanırsa kahve yavaş akar.
 - Contayı ve süzgeç plakasını gerektiğinde değiştir. Yedek parçalar ucuzdur ve kolay bulunur.
+- Suyun sertse alt haznede kireç birikir. Ara sıra limon tuzuyla temizle; nasıl yapılacağını [kireç temizleme rehberimizde](/kahve-makinesi-kirec-temizleme/) anlattık.
 
 ## Sık sorulan sorular
 

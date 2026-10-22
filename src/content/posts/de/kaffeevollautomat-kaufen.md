@@ -71,7 +71,7 @@ Am besten passen **mittlere Röstungen** – „Café Crème“ oder „Espresso
 
 ## Vollautomat oder Alternative?
 
-- **Siebträger:** mehr Kontrolle und oft besserer Espresso, aber mehr Handarbeit und Übung.
+- **Siebträger:** mehr Kontrolle und oft besserer Espresso, aber mehr Handarbeit und Übung – siehe [Siebträgermaschine kaufen](/de/siebtraegermaschine-kaufen/).
 - **Filterkaffeemaschine:** günstiger und ideal für große Kannen schwarzen Kaffee – siehe [Filterkaffeemaschine kaufen](/de/filterkaffeemaschine-kaufen/).
 - **Espressokocher + Milchaufschäumer:** die günstigste Lösung für Cappuccino zu Hause – siehe [Espressokocher-Anleitung](/de/espressokocher-anleitung/) und [Milchaufschäumer kaufen](/de/milchaufschaeumer-kaufen/).
 

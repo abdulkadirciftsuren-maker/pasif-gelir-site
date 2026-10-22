@@ -48,7 +48,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 21 | Kahve Öğütücü Seçimi | kahve öğütücü | Ticari | — | ✅ |
 | 22 | **Türk Kahvesi Makinesi Seçimi** | türk kahvesi makinesi | Ticari | 1 | ✅ |
 | 23 | Evde Espresso Makinesi: Nereden Başlamalı? | ev tipi espresso makinesi | Ticari | 1 | ✅ |
-| 24 | Filtre Kahve Makinesi Seçimi | filtre kahve makinesi önerisi | Ticari | 1 | ⬜ |
+| 24 | Filtre Kahve Makinesi Seçimi | filtre kahve makinesi önerisi | Ticari | 1 | ✅ |
 | 25 | Moka Pot Seçimi: Alüminyum mu, Çelik mi? | moka pot önerisi | Ticari | 2 | ⬜ |
 | 26 | Süt Köpürtücü Seçimi | süt köpürtücü | Ticari | 2 | ⬜ |
 | 27 | Kahve Terazisi Gerekli mi? En İyi Seçenekler | kahve terazisi | Ticari | 3 | ⬜ |
@@ -125,6 +125,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ V60 Handfilter
   - ✅ French Press
   - ✅ Kaffeemaschine entkalken (önce Almanca)
+  - ✅ Filterkaffeemaschine kaufen
 - **İngilizce (/en/):** 10 yazı: V60, öğütücü, Türk kahvesi tarifi, kahve çeşitleri, cezve, Türk kahvesi makinesi, moka pot, French press, latte/cappuccino, Arabica/Robusta.
   - Not: İngilizce ürün bağlantıları Amazon.com'a gidiyor ve henüz ortaklık kimliği yok (Amazon.com Associates başvurusu yapılmadı).
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.

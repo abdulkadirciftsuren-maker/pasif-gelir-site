@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Drei Cezven in verschiedenen Größen aus Kupfer und Edelstahl">
+<rect width="640" height="360" fill="#dfe6f3"/>
+<circle cx="110" cy="70" r="120" fill="#cbd6ea"/>
+<rect y="300" width="640" height="60" fill="#bfcbe2"/>
+<!-- küçük bakır -->
+<path d="M30 214 L132 228 L132 238 L26 224 Z" fill="#6b3a20"/>
+<path d="M112 200 H182 L174 210 Q170 216 174 224 L190 284 Q192 296 180 296 H114 Q102 296 104 284 L120 224 Q124 216 120 210 Z" fill="#c0703f"/>
+<path d="M112 200 H182 L178 206 H116 Z" fill="#a85d31"/>
+<path d="M126 232 L114 284" stroke="#e39a68" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+<!-- orta bakır -->
+<path d="M160 178 L296 196 L296 208 L156 190 Z" fill="#6b3a20"/>
+<path d="M272 164 H372 L362 178 Q357 186 362 198 L384 280 Q388 296 372 296 H272 Q256 296 260 280 L282 198 Q287 186 282 178 Z" fill="#c0703f"/>
+<path d="M272 164 H372 L366 172 H278 Z" fill="#a85d31"/>
+<path d="M290 206 L272 280" stroke="#e39a68" stroke-width="9" stroke-linecap="round" opacity=".6"/>
+<!-- çelik -->
+<path d="M410 196 L484 206 L484 216 L406 206 Z" fill="#2a211c"/>
+<path d="M464 180 H556 L548 192 Q544 198 548 208 L568 282 Q571 296 556 296 H464 Q449 296 452 282 L472 208 Q476 198 472 192 Z" fill="#c9ced2"/>
+<path d="M464 180 H556 L551 187 H469 Z" fill="#aeb4b9"/>
+<path d="M480 214 L464 282" stroke="#eef0f2" stroke-width="9" stroke-linecap="round"/>
+<rect x="452" y="294" width="116" height="8" rx="3" fill="#8f979e"/>
+</svg>

@@ -33,8 +33,8 @@ Türkischer Kaffee braucht wenige Zutaten, aber etwas Geduld. Das Geheimnis eine
 
 ## Was du brauchst
 
-- **Cezve (Kännchen):** Die Größe sollte zur Tassenzahl passen. Für 1–2 Tassen eine kleine Cezve – in einer großen verteilt sich der Schaum.
-- **Frischer türkischer Kaffee:** Pulverfein gemahlen und nach dem Öffnen möglichst innerhalb von 2–3 Wochen verbraucht. In Deutschland findest du ihn in türkischen Supermärkten und online.
+- **Cezve (Kännchen):** Die Größe sollte zur Tassenzahl passen. Für 1–2 Tassen eine kleine Cezve – in einer großen verteilt sich der Schaum. Welche passt zu deinem Herd? Siehe [Cezve kaufen](/de/cezve-kaufen/).
+- **Frischer türkischer Kaffee:** Pulverfein gemahlen und nach dem Öffnen möglichst innerhalb von 2–3 Wochen verbraucht. In Deutschland findest du ihn in türkischen Supermärkten und online. Worauf du beim Kauf achten solltest: [Türkischen Kaffee kaufen](/de/tuerkischen-kaffee-kaufen/).
 - **Kaltes Trinkwasser:** Bei sehr kalkhaltigem Leitungswasser lieber gefiltertes Wasser verwenden.
 - **Mokkatasse, Teelöffel und ein Glas Wasser zum Servieren.**
 

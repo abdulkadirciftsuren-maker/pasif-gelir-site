@@ -1,0 +1,35 @@
+---
+// Fincanla logosu: ince çizgili fincan + el yazısı havasında "fincanla" + küçük ".com" + slogan.
+import { t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+
+<span class="logo-mark">
+  <svg class="cup" width="38" height="38" viewBox="0 0 48 48" aria-hidden="true">
+    <path d="M19 4c-3 4 3 6 0 10M25 2c-3 4 3 6 0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    <ellipse cx="22" cy="20" rx="16" ry="3.5" fill="none" stroke="currentColor" stroke-width="2.2" />
+    <path d="M6 20c0 11 7 18 16 18s16-7 16-18" fill="none" stroke="currentColor" stroke-width="2.2" />
+    <path d="M37.5 23c6-1.5 8 6 1 9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M8 43h28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+  </svg>
+  <span class="words">
+    <span class="name">fincanla<small>.com</small></span>
+    <span class="slogan">{t(lang, 'site.slogan')}</span>
+  </span>
+</span>
+
+<style>
+  .logo-mark { display: inline-flex; align-items: center; gap: .55rem; line-height: 1; }
+  .cup { color: var(--warm); flex: none; }
+  .words { display: flex; flex-direction: column; gap: .2rem; }
+  .name { font: italic 700 1.7rem/1 var(--serif); letter-spacing: -.01em; }
+  .name small { font: 400 .55rem var(--sans); font-style: normal; opacity: .65; margin-left: .1rem; vertical-align: super; letter-spacing: .02em; }
+  .slogan { font: .72rem var(--sans); letter-spacing: .18em; text-transform: uppercase; opacity: .7; }
+  @media (max-width: 560px) {
+    .cup { width: 30px; height: 30px; }
+    .name { font-size: 1.35rem; }
+    .slogan { font-size: .6rem; letter-spacing: .14em; }
+  }
+</style>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Portafiltreli bir espresso makinesi ve espresso fincanı">
+<rect width="640" height="360" fill="#f3e0e6"/>
+<circle cx="110" cy="70" r="120" fill="#ebccd6"/>
+<rect y="300" width="640" height="60" fill="#e2bccb"/>
+<!-- makine gövdesi -->
+<rect x="180" y="70" width="240" height="230" rx="18" fill="#c9ced2"/>
+<rect x="180" y="70" width="240" height="40" rx="18" fill="#aeb4b9"/>
+<rect x="196" y="122" width="208" height="54" rx="10" fill="#2a211c"/>
+<circle cx="236" cy="149" r="14" fill="#4a3a32"/><circle cx="236" cy="149" r="6" fill="#e8955f"/>
+<rect x="270" y="140" width="96" height="18" rx="9" fill="#4a3a32"/>
+<!-- grup başlığı ve portafiltre -->
+<rect x="266" y="176" width="68" height="18" rx="4" fill="#8f979e"/>
+<path d="M262 194 H338 L330 212 H270 Z" fill="#2a211c"/>
+<path d="M338 200 L462 214 L462 226 L334 212 Z" fill="#2a211c"/>
+<!-- buhar çubuğu -->
+<path d="M396 176 L404 250" stroke="#8f979e" stroke-width="7" stroke-linecap="round"/>
+<!-- damlama tablası -->
+<rect x="196" y="270" width="208" height="16" rx="5" fill="#8f979e"/>
+<!-- espresso akışı ve fincan -->
+<path d="M292 212 V246 M308 212 V246" stroke="#6b3a20" stroke-width="4" stroke-linecap="round"/>
+<path d="M278 246 H322 L318 266 Q316 270 310 270 H290 Q284 270 282 266 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<!-- yandaki fincan -->
+<ellipse cx="520" cy="300" rx="56" ry="10" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M556 254 q24 2 21 20 q-3 14 -24 12" fill="none" stroke="#d8c6b6" stroke-width="11"/><path d="M556 254 q24 2 21 20 q-3 14 -24 12" fill="none" stroke="#fbf8f4" stroke-width="7"/>
+<path d="M484 244 H558 L552 276 Q548 294 528 294 H514 Q494 294 490 276 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<ellipse cx="521" cy="244" rx="37" ry="7" fill="#b9875a"/>
+<ellipse cx="516" cy="243" rx="20" ry="3" fill="#d4a57a"/>
+</svg>

@@ -77,7 +77,7 @@ Tam adıyla *caffè latte*, İtalyanca "sütlü kahve" anlamına gelir. **Bol bu
 
 ## Evde nasıl yapılır?
 
-Espresso makinen olmasa da bu üç kahvenin ev usulü versiyonlarını yapabilirsin.
+Espresso makinen olmasa da bu üç kahvenin ev usulü versiyonlarını yapabilirsin. Makine almayı düşünüyorsan [evde espresso makinesi rehberimize](/evde-espresso-makinesi/) bak.
 
 1. **Yoğun bir kahve hazırla.** Espresso makinen yoksa en iyi alternatif [moka pottur](/moka-pot-ile-kahve/). French press ile çok yoğun demlenmiş bir kahve de olur.
 2. **Sütü ısıt.** Sütü kaynatmadan, elle tutulamayacak kadar sıcak olana kadar (yaklaşık 60 °C) ısıt. Kaynayan süt tatlılığını kaybeder ve iyi köpürmez.

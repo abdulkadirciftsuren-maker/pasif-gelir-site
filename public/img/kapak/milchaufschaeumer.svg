@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Elektrischer Milchaufschäumer, Handaufschäumer und ein Glas Latte mit Schaum">
+<rect width="640" height="360" fill="#e6f0dc"/>
+<circle cx="540" cy="70" r="120" fill="#d4e6c4"/>
+<rect y="300" width="640" height="60" fill="#c8ddb4"/>
+<!-- elektrikli köpürtücü: taban -->
+<rect x="70" y="282" width="150" height="20" rx="8" fill="#2a211c"/>
+<!-- sürahi gövdesi -->
+<path d="M84 140 H206 L202 282 H88 Z" fill="#c9ced2"/>
+<path d="M84 140 H206 L204 156 H86 Z" fill="#aeb4b9"/>
+<path d="M98 168 L100 270" stroke="#eef0f2" stroke-width="10" stroke-linecap="round"/>
+<path d="M206 170 q34 4 32 40 q-2 34 -34 38" fill="none" stroke="#2a211c" stroke-width="12"/>
+<rect x="120" y="128" width="50" height="14" rx="6" fill="#2a211c"/>
+<circle cx="145" cy="292" r="4" fill="#6cc7b6"/>
+<!-- el köpürtücüsü -->
+<rect x="268" y="96" width="26" height="110" rx="12" fill="#2a211c"/>
+<circle cx="281" cy="118" r="5" fill="#e8955f"/>
+<path d="M281 206 V262" stroke="#9aa1a6" stroke-width="4"/>
+<circle cx="281" cy="270" r="12" fill="none" stroke="#9aa1a6" stroke-width="4"/>
+<path d="M272 266 q9 8 18 0" fill="none" stroke="#9aa1a6" stroke-width="3"/>
+<!-- latte bardağı -->
+<path d="M420 120 H520 L510 300 H430 Z" fill="#fbf8f4" stroke="#cdbcae" stroke-width="2"/>
+<path d="M422 132 H518 L516 168 H424 Z" fill="#fffaf4"/>
+<path d="M424 168 H516 L512 248 H428 Z" fill="#d9b48f"/>
+<path d="M428 248 H512 L510 300 H430 Z" fill="#8a4b2a"/>
+<path d="M436 124 q14 -18 28 0 q14 -18 28 0 q14 -18 26 0" fill="#fffaf4" stroke="#e8ddd0" stroke-width="2"/>
+<path d="M440 140 L446 290" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+</svg>

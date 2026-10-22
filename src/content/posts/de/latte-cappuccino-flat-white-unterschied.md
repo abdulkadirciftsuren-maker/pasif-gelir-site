@@ -83,7 +83,7 @@ Auch ohne Espressomaschine kannst du alle drei Getränke zu Hause nachmachen.
 
 1. **Starken Kaffee zubereiten.** Ohne Espressomaschine ist der [Espressokocher](/de/espressokocher-anleitung/) die beste Alternative. Auch sehr stark gebrühter French-Press-Kaffee funktioniert.
 2. **Milch erwärmen.** Nicht kochen, nur so heiß, dass man sie kaum noch anfassen kann (etwa 60 °C). Gekochte Milch verliert ihre Süße und schäumt schlecht.
-3. **Aufschäumen.** Mit einem Hand- oder elektrischen Milchaufschäumer. Ohne Gerät: Milch in einem Schraubglas 30 Sekunden schütteln oder den Stempel einer French Press mehrmals schnell auf und ab bewegen.
+3. **Aufschäumen.** Mit einem Hand- oder elektrischen Milchaufschäumer. Welcher Typ zu dir passt, steht in unserem Ratgeber [Milchaufschäumer kaufen](/de/milchaufschaeumer-kaufen/). Ohne Gerät: Milch in einem Schraubglas 30 Sekunden schütteln oder den Stempel einer French Press mehrmals schnell auf und ab bewegen.
 4. **Kombinieren.**
    - **Cappuccino:** etwas Milch, darauf viel Schaum.
    - **Latte:** viel Milch, darauf eine dünne Schaumschicht.

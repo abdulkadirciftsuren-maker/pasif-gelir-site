@@ -59,7 +59,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | # | Başlık | Hedef arama | Tür | Öncelik | Durum |
 |---|---|---|---|---|---|
 | 29 | Kahve Makinesi Kireç Temizleme (Sirke, Limon Tuzu, Hazır Ürün) | kahve makinesi kireç temizleme | Bilgi + Ticari | 1 | ✅ |
-| 30 | Kahvem Neden Acı/Ekşi? Tat Sorunlarına Çözüm Rehberi | kahve neden acı olur | Bilgi | 2 | ⬜ |
+| 30 | Kahvem Neden Acı/Ekşi? Tat Sorunlarına Çözüm Rehberi | kahve neden acı olur | Bilgi | 2 | ✅ (TR/DE/EN) |
 
 ## Yazım sırası (ilk 10)
 

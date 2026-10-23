@@ -65,7 +65,7 @@ Bir taban üzerinde duran küçük bir sürahi: Sütü koy, tuşa bas, hazır. A
 
 - **Artıları:** elektrik gerekmez, uzun ömürlü, şaşırtıcı derecede ince ve kalıcı köpük.
 - **Eksileri:** biraz kol gücü ister, süt önceden ısıtılmalı.
-- **Cihaz yoksa:** Bir **French press**'in pistonunu aynı şekilde kullanabilirsin, aynı mantıkla çalışır. Bkz. [French press rehberi](/french-press-nasil-kullanilir/).
+- **Cihaz yoksa:** Bkz. [makinesiz süt köpürtme](/makinesiz-sut-kopurtme/). Bir **French press**'in pistonunu aynı şekilde kullanabilirsin, aynı mantıkla çalışır. Bkz. [French press rehberi](/french-press-nasil-kullanilir/).
 
 ## Hangi süt en iyi köpürür?
 

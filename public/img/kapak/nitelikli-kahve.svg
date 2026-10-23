@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Köken, rakım ve tat notları yazan bir nitelikli kahve paketi, puan rozeti, V60 ve fincan">
+<rect width="640" height="360" fill="#f7eef0"/>
+<circle cx="540" cy="80" r="120" fill="#efdfe3"/>
+<rect y="300" width="640" height="60" fill="#e6d0d6"/>
+<!-- paket -->
+<path d="M150 90 H290 L300 300 H140 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M150 90 L158 66 H282 L290 90 Z" fill="#e9dccc"/>
+<rect x="146" y="60" width="148" height="10" rx="3" fill="#7d8a97"/>
+<rect x="166" y="110" width="108" height="14" rx="4" fill="#2a211c"/>
+<g fill="#8a7a6c"><rect x="166" y="138" width="84" height="7" rx="3"/><rect x="166" y="154" width="96" height="7" rx="3"/><rect x="166" y="170" width="70" height="7" rx="3"/></g>
+<!-- tat notları ikonları -->
+<circle cx="180" cy="210" r="10" fill="#5b3b8c"/>
+<circle cx="210" cy="210" r="10" fill="#e8b84a"/>
+<path d="M240 200 q10 10 0 20 q-10 -10 0 -20" fill="#6f8f4e"/>
+<rect x="166" y="240" width="108" height="8" rx="4" fill="#c4562f"/>
+<!-- rozet -->
+<g transform="translate(300 96)">
+<circle r="34" fill="#c4562f"/>
+<circle r="26" fill="none" stroke="#fbf8f4" stroke-width="2" stroke-dasharray="4 4"/>
+<text y="9" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="800" fill="#fbf8f4">80+</text>
+</g>
+<!-- v60 ve fincan -->
+<path d="M400 190 H500 L470 234 H430 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<rect x="424" y="232" width="52" height="8" rx="3" fill="#d8c6b6"/>
+<path d="M418 240 H482 L476 294 Q474 300 466 300 H434 Q426 300 424 294 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M480 250 q22 2 20 18 q-2 14 -22 12" fill="none" stroke="#d8c6b6" stroke-width="7"/>
+<ellipse cx="450" cy="241" rx="30" ry="4" fill="#8a5232"/>
+</svg>

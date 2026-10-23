@@ -42,6 +42,7 @@ const c = ct(lang);
     document.getElementById('pv-text').textContent = item.text || '';
     prevBtn.hidden = index === 0;
     nextBtn.hidden = index >= list.length - 1;
+    dialog.scrollTop = 0;
     // Sıradaki fotoğrafı önceden yükle, geçiş beklemesin
     if (list[index + 1]) new Image().src = `/foto/${list[index + 1].id}`;
   }
@@ -59,6 +60,8 @@ const c = ct(lang);
       index = i;
       show();
       dialog.showModal();
+      // Arkadaki sayfa kaymasın, sadece görüntüleyici kaysın
+      document.documentElement.style.overflow = 'hidden';
       // Telefonun "geri" tuşu sayfadan çıkmasın, sadece fotoğrafı kapatsın
       history.pushState({ pv: true }, '');
       pushed = true;
@@ -66,6 +69,7 @@ const c = ct(lang);
   };
   let pushed = false;
   dialog.addEventListener('close', () => {
+    document.documentElement.style.overflow = '';
     if (pushed) { pushed = false; history.back(); }
   });
   window.addEventListener('popstate', () => {
@@ -100,26 +104,33 @@ const c = ct(lang);
 </script>
 
 <style>
-  .pv { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(12, 8, 6, .96); color: #f6ead9; overflow: hidden; }
+  .pv { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(12, 8, 6, .96); color: #f6ead9; overflow-y: auto; overscroll-behavior: contain; }
   .pv::backdrop { background: rgba(12, 8, 6, .9); }
-  .pv-fig { margin: 0; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .75rem; padding: 4rem 4.5rem 1.5rem; box-sizing: border-box; }
+  /* Uzun notlar için görüntüleyici aşağı kaydırılabilir; Kapat ve oklar ekranda sabit kalır */
+  .pv-fig { margin: 0; min-height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .75rem; padding: 4rem 4.5rem 3rem; box-sizing: border-box; }
   /* Fotoğraf hiç kırpılmadan, ekrana sığacak şekilde gösterilir */
-  .pv-fig img { max-width: 100%; max-height: calc(100dvh - 12rem); width: auto; height: auto; object-fit: contain; border-radius: 10px; }
+  .pv-fig img { max-width: 100%; max-height: min(calc(100dvh - 9rem), 68dvh); width: auto; height: auto; object-fit: contain; border-radius: 10px; }
   .pv-fig figcaption { display: grid; gap: .2rem; text-align: center; max-width: 40rem; line-height: 1.45; }
   .pv-count { font-size: .85rem; opacity: .7; }
   .pv-title { font: 700 1.15rem var(--serif); }
   .pv-title:empty, .pv-text:empty, .pv-count:empty { display: none; }
   .pv-by { opacity: .85; }
   .pv-text { white-space: pre-line; opacity: .9; }
-  .pv-nav, .pv-close { position: absolute; z-index: 2; border: 0; background: rgba(255, 255, 255, .16); color: #fff; cursor: pointer; font: inherit; border-radius: 999px; }
-  .pv-close { top: .9rem; right: .9rem; padding: .55rem 1.1rem; font-weight: 700; background: rgba(255, 255, 255, .92); color: #2b1a12; }
+  .pv-nav, .pv-close { position: fixed; z-index: 2; border: 0; background: rgba(255, 255, 255, .16); color: #fff; cursor: pointer; font: inherit; border-radius: 999px; }
+  .pv-close { top: .9rem; right: .9rem; padding: .55rem 1.1rem; font-weight: 700; background: rgba(255, 255, 255, .92); color: #2b1a12; box-shadow: 0 4px 16px rgba(0, 0, 0, .4); }
   .pv-nav { top: 50%; transform: translateY(-50%); width: 3rem; height: 3rem; font-size: 2.2rem; line-height: 1; }
   .pv-prev { left: .9rem; }
   .pv-next { right: .9rem; }
   .pv-nav:hover { background: rgba(255, 255, 255, .3); }
   .pv-close:hover { background: #fff; }
+  /* Yatay geniş ekranda (dizüstü) yazı fotoğrafın yanında durur, aşağı kaydırmaya gerek kalmaz */
+  @media (min-width: 900px) and (orientation: landscape) {
+    .pv-fig { flex-direction: row; gap: 2rem; padding: 4rem 5rem 2rem; }
+    .pv-fig img { max-width: calc(100% - 24rem); max-height: calc(100dvh - 6rem); }
+    .pv-fig figcaption { width: 22rem; flex: none; text-align: left; justify-items: start; max-height: calc(100dvh - 8rem); overflow-y: auto; }
+  }
   @media (max-width: 640px) {
-    .pv-fig { padding: 4rem .75rem 1.25rem; }
+    .pv-fig { padding: 4rem .75rem 2.5rem; }
     .pv-nav { width: 2.5rem; height: 2.5rem; font-size: 1.8rem; background: rgba(0, 0, 0, .45); }
     .pv-prev { left: .4rem; }
     .pv-next { right: .4rem; }

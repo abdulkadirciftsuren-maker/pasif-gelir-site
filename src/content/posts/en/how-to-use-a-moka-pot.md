@@ -73,6 +73,8 @@ The basket sets the dose: **just fill it level.** The ratio is roughly 1:7 to 1:
 
 ## Aluminium or stainless steel?
 
+Full comparison and size guide: [moka pot buying guide](/en/moka-pot-buying-guide/).
+
 | | Aluminium | Stainless steel |
 | --- | --- | --- |
 | Price | Lower | Higher |

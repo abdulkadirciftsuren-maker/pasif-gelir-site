@@ -49,7 +49,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 22 | **Türk Kahvesi Makinesi Seçimi** | türk kahvesi makinesi | Ticari | 1 | ✅ |
 | 23 | Evde Espresso Makinesi: Nereden Başlamalı? | ev tipi espresso makinesi | Ticari | 1 | ✅ |
 | 24 | Filtre Kahve Makinesi Seçimi | filtre kahve makinesi önerisi | Ticari | 1 | ✅ |
-| 25 | Moka Pot Seçimi: Alüminyum mu, Çelik mi? | moka pot önerisi | Ticari | 2 | ⬜ |
+| 25 | Moka Pot Seçimi: Alüminyum mu, Çelik mi? | moka pot önerisi | Ticari | 2 | ✅ (TR/DE/EN) |
 | 26 | Süt Köpürtücü Seçimi | süt köpürtücü | Ticari | 2 | ✅ |
 | 27 | Kahve Terazisi Gerekli mi? En İyi Seçenekler | kahve terazisi | Ticari | 3 | ✅ |
 | 28 | Yeni Başlayanlar İçin Kahve Seti (Bütçeye Göre 3 Set) | kahve seti, kahve hediyesi | Ticari | 2 (yılbaşı öncesi) | ⬜ |

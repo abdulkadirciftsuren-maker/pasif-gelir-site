@@ -82,6 +82,8 @@ Her seferinde tek bir şeyi değiştir. Yoksa neyin işe yaradığını anlayama
 
 ## Alüminyum mu, çelik mi?
 
+Ayrıntılı karşılaştırma ve boy seçimi: [moka pot seçimi](/moka-pot-secimi/).
+
 | | Alüminyum | Paslanmaz çelik |
 | --- | --- | --- |
 | Fiyat | Daha uygun | Daha pahalı |

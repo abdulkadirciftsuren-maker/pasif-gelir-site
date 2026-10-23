@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yan yana iki moka pot: mat gri alüminyum ve parlak paslanmaz çelik; arkada gaz ocağı ve indüksiyon ocağı simgesi">
+<rect width="640" height="360" fill="#eef3f8"/>
+<circle cx="320" cy="90" r="120" fill="#dfe7f0"/>
+<rect y="300" width="640" height="60" fill="#d2dce8"/>
+<!-- ocak simgeleri -->
+<g transform="translate(200 307)"><ellipse rx="70" ry="10" fill="#2a211c"/><g fill="#5b8fd6"><path d="M-30 -8 q4 -14 8 0z"/><path d="M-4 -10 q4 -16 8 0z"/><path d="M22 -8 q4 -14 8 0z"/></g></g>
+<g transform="translate(440 307)"><ellipse rx="70" ry="10" fill="#2a211c"/><ellipse rx="44" ry="6" fill="none" stroke="#c4562f" stroke-width="2"/><ellipse rx="28" ry="4" fill="none" stroke="#c4562f" stroke-width="2"/></g>
+<g transform="translate(200 0)">
+<path d="M-48 300 L-38 220 H38 L48 300 Z" fill="#a9b3bd"/>
+<path d="M-20 300 L-16 220 H-6 L-10 300 Z" fill="#e6ebf0" opacity=".55"/>
+<rect x="-44" y="210" width="88" height="14" rx="3" fill="#7d8a97"/>
+<path d="M-38 210 L-28 140 H28 L38 210 Z" fill="#a9b3bd"/>
+<path d="M-14 210 L-10 140 H-2 L-6 210 Z" fill="#e6ebf0" opacity=".55"/>
+<path d="M-28 140 L-18 124 H18 L28 140 Z" fill="#7d8a97"/>
+<circle cy="118" r="7" fill="#2a211c"/>
+<path d="M28 154 L52 146" stroke="#7d8a97" stroke-width="4"/>
+<path d="M36 158 q34 4 32 36 q-2 22 -30 22" fill="none" stroke="#2a211c" stroke-width="12"/>
+</g>
+<g transform="translate(440 0)">
+<path d="M-48 300 L-38 220 H38 L48 300 Z" fill="#d7dee6"/>
+<path d="M-20 300 L-16 220 H-6 L-10 300 Z" fill="#ffffff" opacity=".55"/>
+<rect x="-44" y="210" width="88" height="14" rx="3" fill="#9aa7b4"/>
+<path d="M-38 210 L-28 140 H28 L38 210 Z" fill="#d7dee6"/>
+<path d="M-14 210 L-10 140 H-2 L-6 210 Z" fill="#ffffff" opacity=".55"/>
+<path d="M-28 140 L-18 124 H18 L28 140 Z" fill="#9aa7b4"/>
+<circle cy="118" r="7" fill="#2a211c"/>
+<path d="M28 154 L52 146" stroke="#9aa7b4" stroke-width="4"/>
+<path d="M36 158 q34 4 32 36 q-2 22 -30 22" fill="none" stroke="#2a211c" stroke-width="12"/>
+</g>
+</svg>

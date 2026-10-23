@@ -157,7 +157,7 @@ export const ui = {
     'product.cons': 'Cons',
     'product.cta': 'Check price at ',
     'disclosure':
-      'No extra cost to you: if you buy through our store links (affiliate links), the price stays the same. The store pays us a small commission, which keeps our guides free. It never affects our picks.',
+      'No extra cost to you: if you buy through our store links (affiliate links), the price stays the same. The store pays us a small commission, which keeps our guides free. It never affects our picks. As an Amazon Associate we earn from qualifying purchases.',
     'ad.label': 'Advertisement',
     'footer.rights': 'All rights reserved.',
     'footer.privacy': 'Privacy',

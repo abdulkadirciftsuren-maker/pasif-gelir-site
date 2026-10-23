@@ -86,7 +86,7 @@ Tarçın şurubu için vanilya yerine 2 tarçın çubuğu kullan. Karamel için 
 - **Tarçın ya da kakao:** Süt köpüğünün üstüne serpmek için
 - **Kakule:** Arap kahvesinin ve [mırranın](/mirra-nedir/) vazgeçilmezi. Türk kahvesine de bir tutam yakışır, bkz. [Türk kahvesi rehberi](/turk-kahvesi-nasil-yapilir/)
 - **Damla sakızı:** Türk kahvesine Ege usulü ferah bir aroma verir
-- **Bitkisel sütler:** Yulaf ya da "barista" sütleri iyi köpürür
+- **Bitkisel sütler:** Yulaf ya da "barista" sütleri iyi köpürür, bkz. [bitkisel süt ile kahve](/bitkisel-sut-ile-kahve/)
 - **Kahve kreması:** Pratik, ama tadı süt köpüğüyle aynı değildir
 
 ## Sık sorulan sorular

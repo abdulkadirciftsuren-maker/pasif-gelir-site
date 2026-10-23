@@ -82,7 +82,7 @@ Bir taban üzerinde duran küçük bir sürahi: Sütü koy, tuşa bas, hazır. A
 
 1. **Soğuk süt kullan.** Buzdolabından yeni çıkmış süt en iyi köpürür.
 2. **Fazla ısıtma.** İdeal sıcaklık yaklaşık **60–65 °C**: sürahiyi elinde zor tutacağın kadar sıcak. 70 °C'nin üstünde süt doğal tatlılığını kaybeder ve köpük dağılır.
-3. **Bitkisel sütlerde "barista" yazanı seç.** Bunlar özellikle köpürtmek için yapılır ve kahvede kesilmez.
+3. **Bitkisel sütlerde "barista" yazanı seç.** Bunlar özellikle köpürtmek için yapılır ve kahvede kesilmez. Ayrıntılar [bitkisel süt ile kahve rehberimizde](/bitkisel-sut-ile-kahve/).
 
 ## Cappuccino, latte ya da flat white?
 

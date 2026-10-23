@@ -38,8 +38,10 @@ export const ui = {
     'product.pros': 'Artıları',
     'product.cons': 'Eksileri',
     'product.cta': "'da fiyatı gör",
+    'product.ctaDe': "Amazon.de'de gör",
+    'product.ctaDeNote': 'Almanya ve Avrupa için',
     'disclosure':
-      'Sana ek ücret yok: Mağaza bağlantılarından alışveriş yaparsan fiyat aynı kalır. Mağaza, bizi önerdiğimiz için küçük bir teşekkür payı öder; bu sayede rehberlerimiz ücretsiz kalır. Önerilerimiz bundan etkilenmez.',
+      'Sana ek ücret yok: Mağaza bağlantılarından alışveriş yaparsan fiyat aynı kalır. Mağaza, bizi önerdiğimiz için küçük bir teşekkür payı öder; bu sayede rehberlerimiz ücretsiz kalır. Önerilerimiz bundan etkilenmez. Amazon Ortağı olarak uygun satışlardan kazanç elde ediyoruz.',
     'ad.label': 'Reklam',
     'footer.rights': 'Tüm hakları saklıdır.',
     'footer.privacy': 'Gizlilik',

@@ -1,5 +1,5 @@
 ---
-import { STORES, affiliateUrl, type StoreKey } from '../config';
+import { STORES, affiliateUrl, amazonDeSearchUrl, type StoreKey } from '../config';
 import { t, type Lang } from '../i18n/ui';
 
 interface Props {
@@ -9,6 +9,8 @@ interface Props {
 }
 const { lang, rank, product } = Astro.props;
 const store = STORES[product.store].name;
+// Türkçe sayfada, ürün zaten Amazon.de'den değilse Avrupa'daki okurlar için ikinci düğme
+const showDe = lang === 'tr' && product.store !== 'amazonDe';
 const cta = lang === 'tr' ? `${store}${t(lang, 'product.cta')}` : `${t(lang, 'product.cta')}${store}`;
 ---
 
@@ -35,12 +37,23 @@ const cta = lang === 'tr' ? `${store}${t(lang, 'product.cta')}` : `${t(lang, 'pr
     )}
   </div>
   <!-- rel="sponsored": Google'ın ortaklık bağlantıları için istediği işaret. -->
-  <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{cta} →</a>
+  <div class="ctas">
+    <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{cta} →</a>
+    {showDe && (
+      <a class="btn de" href={amazonDeSearchUrl(product.name)} rel="sponsored nofollow noopener" target="_blank">
+        🇪🇺 {t(lang, 'product.ctaDe')} →<small>{t(lang, 'product.ctaDeNote')}</small>
+      </a>
+    )}
+  </div>
 </article>
 
 <style>
   .product { background: var(--surface); border: 1px solid var(--border); border-top: 5px solid var(--cat, var(--accent)); border-radius: var(--radius); padding: 1.25rem; margin: 1rem 0; }
   .product .btn { background: var(--cat, var(--accent)); color: var(--accent-ink); }
+  .ctas { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  .product .btn.de { background: transparent; color: var(--cat, var(--accent)); box-shadow: inset 0 0 0 2px var(--cat, var(--accent)); }
+  .product .btn.de { border-radius: 14px; padding: .45rem 1.1rem; line-height: 1.3; text-align: center; }
+  .btn.de small { display: block; font-weight: 400; font-size: .78rem; opacity: .85; }
   header { display: flex; gap: .9rem; align-items: flex-start; }
   .rank { flex: none; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center; background: var(--cat, var(--accent)); color: var(--accent-ink); font-weight: 700; }
   h3 { margin: .1rem 0 .25rem; }

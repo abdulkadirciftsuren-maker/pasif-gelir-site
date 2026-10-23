@@ -1,0 +1,50 @@
+---
+import { type Lang } from '../../i18n/ui';
+import { communityPages, ct } from '../../i18n/community';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const c = ct(lang);
+const galleryUrl = communityPages.gallery[lang];
+const shareUrl = communityPages.share[lang];
+---
+
+<div class="status-box">
+  <p id="st-text" class="big">…</p>
+  <p id="st-reason" hidden></p>
+  <p id="st-note" class="muted" hidden></p>
+  <p class="links">
+    <a id="st-gallery" class="btn" href={galleryUrl} hidden>{c.seeGallery}</a>
+    <a class="btn ghost" href={shareUrl}>{c.tryAgain}</a>
+  </p>
+</div>
+
+<script define:vars={{ c }}>
+  const text = document.getElementById('st-text');
+  const token = new URLSearchParams(location.search).get('t') || '';
+  fetch(`/api/durum?t=${encodeURIComponent(token)}`)
+    .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+    .then((d) => {
+      text.textContent = c.status[d.status] || c.status.notFound;
+      if (d.reason) {
+        const reason = document.getElementById('st-reason');
+        reason.textContent = `${c.reasonLabel}: ${c.reasons[d.reason] || c.reasons.diger}`;
+        reason.hidden = false;
+      }
+      if (d.note) {
+        const note = document.getElementById('st-note');
+        note.textContent = d.note;
+        note.hidden = false;
+      }
+      if (d.status === 'approved') document.getElementById('st-gallery').hidden = false;
+    })
+    .catch(() => { text.textContent = c.status.notFound; });
+</script>
+
+<style>
+  .status-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; }
+  .big { font-size: 1.25rem; font-weight: 700; margin-top: 0; }
+  .muted { color: var(--muted); }
+  .links { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 0; }
+  .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+</style>

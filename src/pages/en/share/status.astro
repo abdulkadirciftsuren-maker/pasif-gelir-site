@@ -1,0 +1,11 @@
+---
+import PageLayout from '../../../layouts/PageLayout.astro';
+import Status from '../../../components/community/Status.astro';
+import { communityPages, ct } from '../../../i18n/community';
+
+const c = ct('en');
+---
+
+<PageLayout lang="en" title={c.statusTitle} description={c.statusDesc} alternates={communityPages.status} noindex>
+  <Status lang="en" />
+</PageLayout>

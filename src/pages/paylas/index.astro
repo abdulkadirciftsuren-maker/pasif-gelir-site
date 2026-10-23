@@ -1,0 +1,11 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import ShareForm from '../../components/community/ShareForm.astro';
+import { communityPages, ct } from '../../i18n/community';
+
+const c = ct('tr');
+---
+
+<PageLayout lang="tr" title={c.shareTitle} description={c.shareDesc} alternates={communityPages.share}>
+  <ShareForm lang="tr" />
+</PageLayout>

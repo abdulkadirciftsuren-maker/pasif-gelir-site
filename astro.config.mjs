@@ -15,7 +15,7 @@ export default defineConfig({
   },
   integrations: [
     // Dil karşılıkları (hreflang) her sayfanın <head> kısmında; slug'lar dile göre farklı olduğu için burada değil.
-    sitemap({ filter: (page) => !/\/(404|kunye|imprint|impressum)\/$/.test(page) }),
+    sitemap({ filter: (page) => !/\/(404|kunye|imprint|impressum|yonetim|durum|status)\/$/.test(page) }),
   ],
   build: { inlineStylesheets: 'always' },
 });

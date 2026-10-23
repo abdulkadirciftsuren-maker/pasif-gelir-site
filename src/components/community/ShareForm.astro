@@ -1,0 +1,175 @@
+---
+import { staticPages, type Lang } from '../../i18n/ui';
+import { communityPages, ct } from '../../i18n/community';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const c = ct(lang);
+const statusBase = communityPages.status[lang];
+---
+
+<div class="share">
+  <p class="lead">{c.shareLead}</p>
+
+  <div class="rules">
+    <p><strong>{c.rulesTitle}</strong></p>
+    <ul>{c.rules.map((r) => <li>{r}</li>)}</ul>
+  </div>
+
+  <p id="share-soon" class="note" hidden>{c.soon}</p>
+
+  <form id="share-form" hidden>
+    <label class="field">
+      <span>{c.photo}</span>
+      <input type="file" name="image" accept="image/jpeg,image/png,image/webp,image/heic,image/*" required />
+      <small>{c.photoHelp}</small>
+    </label>
+    <img id="share-preview" alt="" hidden />
+    <label class="field">
+      <span>{c.name}</span>
+      <input type="text" name="name" maxlength="40" minlength="2" required autocomplete="nickname" />
+      <small>{c.nameHelp}</small>
+    </label>
+    <label class="field">
+      <span>{c.titleLabel}</span>
+      <input type="text" name="title" maxlength="80" />
+    </label>
+    <label class="field">
+      <span>{c.textLabel}</span>
+      <textarea name="text" maxlength="600" rows="4"></textarea>
+    </label>
+    <label class="check">
+      <input type="checkbox" name="consent" value="1" required />
+      <span>{c.consent} <a href={staticPages.privacy[lang]}>{c.privacy}</a></span>
+    </label>
+    <div id="share-captcha"></div>
+    <p id="share-error" class="error" role="alert" hidden></p>
+    <button class="btn" type="submit">{c.send}</button>
+  </form>
+
+  <div id="share-done" class="done" hidden>
+    <p><strong>{c.sentTitle}</strong></p>
+    <p>{c.sentText}</p>
+    <p><a id="share-link" href="#"></a></p>
+    <button id="share-copy" class="btn ghost" type="button">{c.copy}</button>
+  </div>
+</div>
+
+<script define:vars={{ lang, c, statusBase }}>
+  const form = document.getElementById('share-form');
+  const soon = document.getElementById('share-soon');
+  const errorBox = document.getElementById('share-error');
+  const preview = document.getElementById('share-preview');
+  let widgetId = null;
+  const field = (n) => form.elements.namedItem(n);
+
+  function showError(code) {
+    errorBox.textContent = c.errors[code] || c.errors.generic;
+    errorBox.hidden = false;
+  }
+
+  // Büyük fotoğrafları göndermeden önce en fazla 1600 piksel genişliğe küçültür (JPEG).
+  async function shrink(file) {
+    try {
+      const bitmap = await createImageBitmap(file);
+      const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(bitmap.width * scale);
+      canvas.height = Math.round(bitmap.height * scale);
+      canvas.getContext('2d').drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+      return await new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', 0.85));
+    } catch {
+      return file;
+    }
+  }
+
+  field('image').addEventListener('change', () => {
+    const f = field('image').files[0];
+    if (!f) { preview.hidden = true; return; }
+    preview.src = URL.createObjectURL(f);
+    preview.hidden = false;
+  });
+
+  fetch('/api/ayar').then((r) => r.json()).then((cfg) => {
+    if (!cfg.ready) { soon.hidden = false; return; }
+    form.hidden = false;
+    const s = document.createElement('script');
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    s.async = true;
+    s.onload = () => {
+      widgetId = window.turnstile.render('#share-captcha', { sitekey: cfg.turnstileSiteKey, language: lang });
+    };
+    document.head.append(s);
+  }).catch(() => { soon.hidden = false; });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errorBox.hidden = true;
+    if (field('name').value.trim().length < 2) return showError('name');
+    if (!field('consent').checked) return showError('consent');
+    const file = field('image').files[0];
+    if (!file) return showError('image');
+    const button = form.querySelector('button[type=submit]');
+    button.disabled = true;
+    button.textContent = c.sending;
+    try {
+      const data = new FormData();
+      data.append('lang', lang);
+      data.append('name', field('name').value);
+      data.append('title', field('title').value);
+      data.append('text', field('text').value);
+      data.append('consent', '1');
+      data.append('image', await shrink(file), 'foto.jpg');
+      data.append('cf-turnstile-response', window.turnstile ? window.turnstile.getResponse(widgetId) || '' : '');
+      const res = await fetch('/api/paylas', { method: 'POST', body: data });
+      const out = await res.json().catch(() => ({}));
+      if (!res.ok || !out.token) {
+        showError(out.error);
+        if (window.turnstile && widgetId !== null) window.turnstile.reset(widgetId);
+        return;
+      }
+      const url = `${location.origin}${statusBase}?t=${out.token}`;
+      try {
+        const saved = JSON.parse(localStorage.getItem('fincanla-gonderiler') || '[]');
+        saved.unshift(url);
+        localStorage.setItem('fincanla-gonderiler', JSON.stringify(saved.slice(0, 20)));
+      } catch {}
+      const link = document.getElementById('share-link');
+      link.href = url;
+      link.textContent = url;
+      form.hidden = true;
+      document.getElementById('share-done').hidden = false;
+    } catch {
+      showError('generic');
+    } finally {
+      button.disabled = false;
+      button.textContent = c.send;
+    }
+  });
+
+  document.getElementById('share-copy').addEventListener('click', async (e) => {
+    try {
+      await navigator.clipboard.writeText(document.getElementById('share-link').href);
+      e.target.textContent = c.copied;
+    } catch {}
+  });
+</script>
+
+<style>
+  .lead { font-size: 1.15rem; color: var(--muted); }
+  .rules { background: var(--accent-soft); border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1rem 0 1.5rem; }
+  .rules p { margin: 0 0 .25rem; }
+  .rules ul { margin: 0; padding-left: 1.2rem; }
+  form { display: grid; gap: 1.1rem; }
+  .field { display: grid; gap: .3rem; }
+  .field span { font-weight: 700; }
+  .field small { color: var(--muted); }
+  input[type=text], textarea, input[type=file] { font: inherit; padding: .6rem .8rem; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); width: 100%; }
+  .check { display: flex; gap: .6rem; align-items: flex-start; line-height: 1.5; }
+  .check input { margin-top: .35rem; width: 1.1rem; height: 1.1rem; flex: none; }
+  #share-preview { max-width: 100%; max-height: 22rem; border-radius: var(--radius); object-fit: contain; }
+  .error { color: var(--bad); font-weight: 600; margin: 0; }
+  .note, .done { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; }
+  .done a { word-break: break-all; }
+  .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+</style>

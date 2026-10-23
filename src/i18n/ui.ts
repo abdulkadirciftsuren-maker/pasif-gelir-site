@@ -4,6 +4,13 @@ export const defaultLang: Lang = 'tr';
 
 export const ui = {
   tr: {
+    'nav.community': 'Okur Fotoğrafları',
+    'community.promoTitle': '📷 Kahve fotoğrafını paylaş',
+    'community.promoText': 'Her ay en güzel fotoğraf "Ayın Fotoğrafı" seçilir ve bir rehberin kapağı olur →',
+    'community.homeTitle': 'Okurlarımızdan',
+    'community.homeText': 'Fincanını, demleme anını ya da kahve köşeni paylaş. Her ay en güzel fotoğraf "Ayın Fotoğrafı" seçilir, adınla bir rehberimizin kapağına konur.',
+    'community.homeCta': 'Fotoğrafını paylaş',
+    'community.homeGallery': 'Galeriye bak',
     'nav.home': 'Ana sayfa',
     'post.quickPicks': 'Hızlı öneriler',
     'post.allPicks': 'Ayrıntılı karşılaştırma ↓',
@@ -54,6 +61,13 @@ export const ui = {
     '404.home': 'Ana sayfaya dön',
   },
   de: {
+    'nav.community': 'Leserfotos',
+    'community.promoTitle': '📷 Teile dein Kaffeefoto',
+    'community.promoText': 'Jeden Monat wird das schönste Foto zum „Foto des Monats“ und Titelbild eines Ratgebers →',
+    'community.homeTitle': 'Von unseren Lesern',
+    'community.homeText': 'Zeig uns deine Tasse, deinen Brühmoment oder deine Kaffeeecke. Jeden Monat küren wir das „Foto des Monats“ – mit deinem Namen als Titelbild eines Ratgebers.',
+    'community.homeCta': 'Foto teilen',
+    'community.homeGallery': 'Zur Galerie',
     'nav.home': 'Startseite',
     'post.quickPicks': 'Schnelle Empfehlungen',
     'post.allPicks': 'Ausführlicher Vergleich ↓',
@@ -104,6 +118,13 @@ export const ui = {
     '404.home': 'Zur Startseite',
   },
   en: {
+    'nav.community': 'Reader Photos',
+    'community.promoTitle': '📷 Share your coffee photo',
+    'community.promoText': 'Every month the best photo becomes "Photo of the Month" and the cover of a guide →',
+    'community.homeTitle': 'From our readers',
+    'community.homeText': 'Show us your cup, your brewing moment or your coffee corner. Every month we pick a "Photo of the Month" and use it, with your name, as the cover of one of our guides.',
+    'community.homeCta': 'Share your photo',
+    'community.homeGallery': 'See the gallery',
     'nav.home': 'Home',
     'post.quickPicks': 'Quick picks',
     'post.allPicks': 'Full comparison ↓',

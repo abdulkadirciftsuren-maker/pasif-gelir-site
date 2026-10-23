@@ -21,7 +21,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 7 | Kahve Çekirdeği Nasıl Saklanır? (Buzdolabı efsanesi dahil) | kahve nasıl saklanır | Bilgi | 2 | ✅ (TR/DE/EN) |
 | 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ⬜ |
 | 9 | Kafeinsiz Kahve Nasıl Yapılır, Tadı Farklı mı? | kafeinsiz kahve | Bilgi | 3 | ⬜ |
-| 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ⬜ |
+| 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ✅ (TR/DE/EN) |
 | 10a | Mırra Nedir? Mardin ve Urfa'nın Acı Kahvesi | mırra nedir, mırra kahvesi | Bilgi | 2 | ✅ |
 | 10b | Dibek Kahvesi Nedir? | dibek kahvesi nedir | Bilgi | 2 | ✅ |
 | 10c | Menengiç Kahvesi Nedir? (kafeinsiz) | menengiç kahvesi | Bilgi | 3 | ✅ |

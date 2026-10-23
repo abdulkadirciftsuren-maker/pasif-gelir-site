@@ -84,15 +84,15 @@ Pulverfein gemahlener Kaffee wird mit Wasser (und nach Wunsch Zucker) langsam in
 
 - **Wie trinkt man ihn?** Nur ein, zwei Schlucke in kleinen Tassen ohne Henkel. Die Tasse wird nicht abgestellt, sondern direkt dem Gastgeber zurückgegeben.
 - **Tradition:** Mırra steht für Gastfreundschaft, Trauer und ein gegebenes Wort. Es heißt, wer die leere Tasse auf dem Tisch abstellt, gehe gegenüber dem Gastgeber eine Verpflichtung ein – deshalb wird sie immer zurückgereicht.
-- **Geschmack:** Überraschend bitter beim ersten Schluck, danach ein lang anhaltendes Kaffeearoma. Manche Familien geben Kardamom dazu.
+- **Geschmack:** Überraschend bitter beim ersten Schluck, danach ein lang anhaltendes Kaffeearoma. Manche Familien geben Kardamom dazu. Alles über Zubereitung und Tradition: [Mırra](/de/mirra-kaffee/).
 
 ### Dibek-Kaffee
 
-Benannt nach dem Stein- oder Holzmörser (*dibek*), in dem der Kaffee gestampft wird. Da er dabei weniger warm wird als in der Mühle, schmeckt er milder. Viele im Handel erhältliche Dibek-Kaffees sind **Mischungen** mit Kakao, Milchpulver oder Mastix – wer puren Kaffee will, sollte die Zutatenliste prüfen.
+Benannt nach dem Stein- oder Holzmörser (*dibek*), in dem der Kaffee gestampft wird. Da er dabei weniger warm wird als in der Mühle, schmeckt er milder. Viele im Handel erhältliche Dibek-Kaffees sind **Mischungen** mit Kakao, Milchpulver oder Mastix – wer puren Kaffee will, sollte die Zutatenliste prüfen. Mehr in [Dibek-Kaffee](/de/dibek-kaffee/).
 
 ### Menengiç-Kaffee (Gaziantep)
 
-Eigentlich kein Kaffee: Er wird aus den gerösteten Früchten der Terebinthe (wilde Pistazie) gemacht, ist **koffeinfrei**, wird mit Milch gekocht und schmeckt nussig und leicht ölig – eine schöne Alternative für alle, die auf Koffein verzichten.
+Eigentlich kein Kaffee: Er wird aus den gerösteten Früchten der Terebinthe (wilde Pistazie) gemacht, ist **koffeinfrei**, wird mit Milch gekocht und schmeckt nussig und leicht ölig – eine schöne Alternative für alle, die auf Koffein verzichten. Rezept und Kauftipps: [Menengiç-Kaffee](/de/menengic-kaffee/).
 
 ### Kenger-Kaffee
 

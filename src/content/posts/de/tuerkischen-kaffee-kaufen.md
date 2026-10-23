@@ -53,8 +53,8 @@ Unser Tipp: **Probier zwei oder drei Marken in kleinen Packungen** und vergleich
 | **Mit Mastix (Damla Sakızlı)** | Mit Mastixharz aromatisiert, frisch und leicht harzig | Für Neugierige |
 | **Mit Kardamom** | Würzige Note, verbreitet im Nahen Osten | Wer es aromatisch mag |
 | **„Osmanischer Kaffee“** | Meist Mischungen mit Gewürzen, Kakao oder Mastix | Je nach Marke sehr unterschiedlich |
-| **Dibek-Kaffee** | Traditionell im Mörser gestampft, oft mit Kakao oder Milchpulver gemischt | Wer es milder und süßlicher mag |
-| **Menengiç-Kaffee** | Kein echter Kaffee, aus wilden Pistazien – koffeinfrei | Wer Koffein meiden möchte |
+| **Dibek-Kaffee** | Traditionell im Mörser gestampft, oft mit Kakao oder Milchpulver gemischt | Wer es milder und süßlicher mag – siehe [Dibek-Kaffee](/de/dibek-kaffee/) |
+| **Menengiç-Kaffee** | Kein echter Kaffee, aus wilden Pistazien – koffeinfrei | Wer Koffein meiden möchte – siehe [Menengiç-Kaffee](/de/menengic-kaffee/) |
 
 Mehr über regionale Spezialitäten erfährst du in unserem Ratgeber zu den [Kaffeesorten](/de/kaffeesorten/).
 

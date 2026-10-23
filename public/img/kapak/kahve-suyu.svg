@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Büyük bir su damlası, filtreli su sürahisi, bir bardak su ve bir fincan kahve">
+<rect width="640" height="360" fill="#e5f0fb"/>
+<circle cx="540" cy="70" r="120" fill="#d3e5f6"/>
+<rect y="300" width="640" height="60" fill="#c6dbef"/>
+<!-- damla -->
+<path d="M120 60 C120 60 70 130 70 170 C70 200 92 222 120 222 C148 222 170 200 170 170 C170 130 120 60 120 60 Z" fill="#5b8fd6"/>
+<path d="M98 170 q0 -20 14 -36" fill="none" stroke="#cfe2fb" stroke-width="6" stroke-linecap="round"/>
+<!-- sürahi -->
+<path d="M220 140 H300 L306 296 Q306 300 300 300 H220 Q214 300 214 296 Z" fill="#dfeef8" opacity=".9" stroke="#9cc3d0" stroke-width="3"/>
+<rect x="224" y="150" width="72" height="56" rx="6" fill="#ffffff" stroke="#9cc3d0" stroke-width="2"/>
+<path d="M218 210 H302 L306 296 Q306 300 300 300 H220 Q214 300 214 296 Z" fill="#8fb9e8" opacity=".7"/>
+<path d="M210 140 H310" stroke="#7d96a0" stroke-width="8" stroke-linecap="round"/>
+<path d="M300 150 q30 8 26 50 q-4 30 -26 34" fill="none" stroke="#7d96a0" stroke-width="8"/>
+<!-- bardak -->
+<path d="M352 220 H402 L398 300 H356 Z" fill="#dfeef8" opacity=".9" stroke="#9cc3d0" stroke-width="3"/>
+<path d="M354 244 H400 L398 300 H356 Z" fill="#8fb9e8" opacity=".7"/>
+<!-- fincan -->
+<path d="M450 232 H530 L524 290 Q522 300 512 300 H468 Q458 300 456 290 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M528 244 q28 2 26 24 q-2 18 -28 16" fill="none" stroke="#d8c6b6" stroke-width="9"/>
+<ellipse cx="490" cy="233" rx="40" ry="6" fill="#6b3f26"/>
+<g fill="none" stroke="#fbf8f4" stroke-width="4" stroke-linecap="round"><path d="M480 218 q-8 -12 0 -24"/><path d="M502 218 q8 -12 0 -24"/></g>
+</svg>

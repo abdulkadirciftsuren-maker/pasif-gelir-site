@@ -53,7 +53,7 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 2. **Türk kahvesi fincan takımı:** Yeni ev, nişan, bayram... Her zaman yerini bulur.
 3. **Taze kavrulmuş çekirdek kahve:** Kavrum tarihi yakın olan bir paket. Nasıl seçileceği [kahve çekirdeği rehberimizde](/kahve-cekirdegi-nasil-secilir/).
 4. **Dibek kahvesi ya da menengiç:** Farklı bir tat arayanlara. Ayrıntılar [dibek kahvesi](/dibek-kahvesi-nedir/) ve [menengiç kahvesi](/menengic-kahvesi-nedir/) yazılarımızda.
-5. **El tipi süt köpürtücü:** Evde latte ve cappuccino için en ucuz yol. Farklar [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/).
+5. **El tipi süt köpürtücü:** Evde latte ve cappuccino için en ucuz yol. Seçim için [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/). Farklar [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/).
 
 ## Orta bütçe
 

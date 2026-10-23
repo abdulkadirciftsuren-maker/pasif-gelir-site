@@ -57,7 +57,7 @@ Karşılaştırma için: Çekirdek kahveyle çalışan tam otomatik ya da espres
 1. **Önce sistemi seç:** Kapsüller sistemler arasında değiştirilemez. Makinenin fiyatına değil, içtiğin kahveye ve kapsül fiyatına göre karar ver.
 2. **Su haznesi:** Küçük makinelerde genelde 1 litrenin altında. Kalabalık evde sık doldurmak gerekir.
 3. **Bardak yüksekliği:** Latte bardağın akıtma ucunun altına sığıyor mu? Birçok makinede katlanır bir tabla var.
-4. **Süt:** Bazı modellerde süt köpürtücü dahil gelir. Ayrı bir süt köpürtücü de iş görür.
+4. **Süt:** Bazı modellerde süt köpürtücü dahil gelir. Ayrı bir süt köpürtücü de iş görür, bkz. [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/).
 5. **Ayarlanabilir fincan boyu:** Espresso ve lungo her seferinde aynı çıkar.
 6. **Kireç:** Kapsül makineleri de kireçlenir. Nasıl temizleneceği [kireç temizleme rehberimizde](/kahve-makinesi-kirec-temizleme/).
 7. **Kapsül bulma kolaylığı:** Yaşadığın yerde marketlerde ve internette hangi sistemin kapsülü kolay bulunuyor, ona bak.

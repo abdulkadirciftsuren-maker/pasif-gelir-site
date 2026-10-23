@@ -58,7 +58,7 @@ Bir pompa genelde 7–10 ml verir, pompanın üstünde yazar. Az başla, gerekir
 
 1. **Önce şurup:** Bardağa ilk şurubu koy, döküşte kendiliğinden karışır.
 2. **Üstüne espresso** ya da [moka pot kahvesi](/moka-pot-ile-kahve/), hafifçe karıştır.
-3. **Köpürtülmüş süt** ekle. Espresso makinen yoksa bir süt köpürtücü işini görür.
+3. **Köpürtülmüş süt** ekle. Espresso makinen yoksa bir süt köpürtücü işini görür, bkz. [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/).
 4. **Kaynayan süte şurup koyma:** Bazı şuruplar çok yüksek sıcaklıkta hafif acılaşabilir ya da sütü kesebilir.
 
 ## Alırken nelere bakmalı?

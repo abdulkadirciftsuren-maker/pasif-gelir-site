@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Köpüklü süt dolu kapaklı bir kavanoz, French press ve bir çırpma teli; yanda köpüklü bir fincan">
+<rect width="640" height="360" fill="#f3efe2"/>
+<circle cx="540" cy="80" r="120" fill="#e9e2cc"/>
+<rect y="300" width="640" height="60" fill="#e0d6ba"/>
+<!-- kavanoz -->
+<rect x="80" y="120" width="100" height="180" rx="16" fill="#e6f1f4" opacity=".85" stroke="#9cc3d0" stroke-width="3"/>
+<rect x="84" y="200" width="92" height="96" rx="12" fill="#fbf8f4"/>
+<rect x="84" y="150" width="92" height="56" rx="10" fill="#ffffff"/>
+<g fill="#efe7da"><circle cx="104" cy="170" r="6"/><circle cx="126" cy="164" r="7"/><circle cx="150" cy="172" r="6"/><circle cx="116" cy="186" r="5"/><circle cx="160" cy="188" r="5"/></g>
+<rect x="74" y="100" width="112" height="26" rx="8" fill="#c4562f"/>
+<!-- french press -->
+<rect x="250" y="130" width="90" height="166" rx="8" fill="#e6f1f4" opacity=".85" stroke="#9cc3d0" stroke-width="3"/>
+<rect x="254" y="190" width="82" height="102" rx="6" fill="#fbf8f4"/>
+<rect x="254" y="150" width="82" height="44" fill="#ffffff"/>
+<rect x="244" y="118" width="102" height="16" rx="5" fill="#3a2f28"/>
+<rect x="291" y="84" width="8" height="66" fill="#7d8a97"/>
+<circle cx="295" cy="80" r="9" fill="#3a2f28"/>
+<rect x="258" y="146" width="74" height="6" rx="3" fill="#7d8a97"/>
+<path d="M340 160 q30 4 28 40 q-2 30 -28 34" fill="none" stroke="#3a2f28" stroke-width="9"/>
+<rect x="246" y="294" width="98" height="8" rx="3" fill="#3a2f28"/>
+<!-- çırpma teli -->
+<g transform="translate(440 300) rotate(-20)">
+<rect x="-5" y="-150" width="10" height="70" rx="5" fill="#b07a45"/>
+<path d="M0 -80 C-26 -50 -22 -6 0 0 C22 -6 26 -50 0 -80 Z M0 -80 C-12 -50 -10 -6 0 0 C10 -6 12 -50 0 -80 Z" fill="none" stroke="#9aa7b4" stroke-width="3"/>
+</g>
+<!-- fincan -->
+<path d="M488 236 H568 L562 292 Q560 300 552 300 H504 Q496 300 494 292 Z" fill="#c4562f"/>
+<path d="M566 248 q24 2 22 20 q-2 16 -24 14" fill="none" stroke="#c4562f" stroke-width="8"/>
+<ellipse cx="528" cy="236" rx="40" ry="8" fill="#fbf8f4"/>
+<path d="M528 230 c-10 0 -12 6 -4 8 c-6 2 -2 6 4 6 c6 0 10 -4 4 -6 c8 -2 6 -8 -4 -8 z" fill="#c69a6d"/>
+</svg>

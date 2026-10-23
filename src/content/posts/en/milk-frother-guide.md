@@ -65,7 +65,7 @@ A jug with a mesh plunger that you pump up and down quickly several times. With 
 
 - **Pros:** no power, durable, surprisingly fine and stable foam.
 - **Cons:** takes a little effort, and the milk has to be heated first.
-- **No gadget at all?** Use the plunger of a **French press** the same way – it works on the same principle. See [How to use a French press](/en/how-to-use-a-french-press/).
+- **No gadget at all?** Use the plunger of a **French press** the same way – it works on the same principle. See [How to use a French press](/en/how-to-use-a-french-press/). More options in [how to froth milk without a frother](/en/how-to-froth-milk-without-a-frother/).
 
 ## Which milk froths best?
 

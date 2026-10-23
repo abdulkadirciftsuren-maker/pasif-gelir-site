@@ -65,7 +65,7 @@ Ein Kännchen mit einem Siebkolben, den du mehrmals schnell auf und ab bewegst. 
 
 - **Vorteile:** kein Strom, langlebig, erstaunlich feiner und stabiler Schaum.
 - **Nachteile:** etwas Kraft nötig, Milch muss vorher erwärmt werden.
-- **Notlösung ohne Gerät:** Den Stempel einer **French Press** genauso benutzen – funktioniert nach demselben Prinzip.
+- **Notlösung ohne Gerät** (mehr in [Milch aufschäumen ohne Gerät](/de/milch-aufschaeumen-ohne-geraet/)): Den Stempel einer **French Press** genauso benutzen – funktioniert nach demselben Prinzip.
 
 ## Welche Milch schäumt am besten?
 

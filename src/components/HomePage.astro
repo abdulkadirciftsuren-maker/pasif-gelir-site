@@ -10,7 +10,7 @@ import PhotoViewer from './community/PhotoViewer.astro';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const posts = await getPosts(lang);
-const latest = posts.slice(0, 3);
+const latest = posts.slice(0, 4);
 // Arama kutusu için küçük dizin: başlık, açıklama, kategori adı ve adres
 const searchIndex = posts.map((p) => ({
   t: p.data.title,
@@ -50,22 +50,41 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="container section" id="rehberler" aria-labelledby="latest">
-    <h2 id="latest">{t(lang, 'home.latest')}</h2>
-    <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
-  </section>
+  <!-- Geniş ekranda iki sütun: solda son rehberler, sağda okur fotoğrafları ve kısa yollar -->
+  <div class="container home-main">
+    <section class="section" id="rehberler" aria-labelledby="latest">
+      <h2 id="latest">{t(lang, 'home.latest')}</h2>
+      <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
+    </section>
 
-  <section class="container community" aria-labelledby="community">
-    <div>
-      <h2 id="community">{t(lang, 'community.homeTitle')}</h2>
-      <p>{t(lang, 'community.homeText')}</p>
-    </div>
-    <p class="actions">
-      <a class="btn" href={communityPages.share[lang]}>📷 {t(lang, 'community.homeCta')}</a>
-      <a class="link" href={communityPages.gallery[lang]}>{t(lang, 'community.homeGallery')} →</a>
-    </p>
-    <div id="home-strip" class="strip" hidden></div>
-  </section>
+    <aside class="home-side">
+      <section class="community" aria-labelledby="community">
+        <div>
+          <h2 id="community">{t(lang, 'community.homeTitle')}</h2>
+          <p>{t(lang, 'community.homeText')}</p>
+        </div>
+        <div id="home-strip" class="strip" hidden></div>
+        <p class="actions">
+          <a class="btn" href={communityPages.share[lang]}>📷 {t(lang, 'community.homeCta')}</a>
+          <a class="link" href={communityPages.gallery[lang]}>{t(lang, 'community.homeGallery')} →</a>
+        </p>
+      </section>
+      <div class="side-extra">
+        <a class="promo" href={staticPages.calculator[lang]}>
+          <strong>{t(lang, 'aside.calcTitle')}</strong>
+          <span>{t(lang, 'aside.calcText')}</span>
+        </a>
+        <nav class="topics" aria-label={t(lang, 'home.topics')}>
+          <p>{t(lang, 'home.topics')}</p>
+          <ul>
+            {categories.map(({ cat, posts }) => (
+              <li class={`cat-${cat}`}><a href={`#topic-${cat}`}>{t(lang, `cat.${cat}`)}</a> <span>{posts.length}</span></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </aside>
+  </div>
   <PhotoViewer lang={lang} />
 
   {categories.map(({ cat, posts }) => (
@@ -171,8 +190,8 @@ const jsonLd = [
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .hero .btn { background: var(--warm); color: var(--espresso); }
   .hero img { width: 100%; border-radius: 20px; box-shadow: 0 24px 50px -20px rgba(0, 0, 0, .6); }
-  .section { padding: 1rem 1rem 2rem; }
-  .community { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: var(--accent-soft); border-radius: var(--radius); padding: 1.5rem 1.75rem; margin-top: 1rem; }
+  .section { padding: 1rem 0 2rem; }
+  .community { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: var(--accent-soft); border-radius: var(--radius); padding: 1.5rem 1.75rem; }
   .community h2 { margin: 0 0 .4rem; }
   .community p { margin: 0; max-width: 40rem; }
   .community .actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
@@ -180,9 +199,35 @@ const jsonLd = [
   /* Okur fotoğrafları şeridi: telefonda parmakla yana kaydırılır */
   .strip { flex-basis: 100%; display: flex; gap: .8rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; -webkit-overflow-scrolling: touch; }
   .strip :global(.tile) { flex: 0 0 8.5rem; scroll-snap-align: start; display: grid; gap: .35rem; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; color: var(--text); text-align: left; text-decoration: none; }
-  .strip :global(.tile img) { width: 8.5rem; height: 8.5rem; object-fit: cover; border-radius: var(--radius); background: var(--surface); }
+  .strip :global(.tile img) { width: 100%; aspect-ratio: 1; height: auto; object-fit: cover; border-radius: var(--radius); background: var(--surface); transition: transform .2s; }
+  .strip :global(.tile:hover img) { transform: scale(1.03); }
   .strip :global(.tile span) { font-size: .85rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .strip :global(.tile.all) { height: 8.5rem; display: grid; place-items: center; text-align: center; border: 2px dashed var(--accent); border-radius: var(--radius); color: var(--accent); font-weight: 700; }
+  .strip :global(.tile.all) { aspect-ratio: 1; display: grid; place-items: center; text-align: center; border: 2px dashed var(--accent); border-radius: var(--radius); color: var(--accent); font-weight: 700; }
+  .side-extra { display: none; }
+  /* Geniş ekran: sağda sabit kalan sütun; fotoğraflar iki sütunlu, daha büyük */
+  @media (min-width: 1100px) {
+    .home-main { display: grid; grid-template-columns: minmax(0, 1fr) 24rem; gap: 2.5rem; align-items: start; padding-top: 1rem; }
+    .home-side { display: grid; gap: 1.25rem; margin-top: 3.4rem; }
+    .community { display: grid; gap: 1rem; padding: 1.5rem; }
+    .community .actions { justify-content: space-between; }
+    .strip { display: grid; grid-template-columns: 1fr 1fr; overflow: visible; padding: 0; }
+    /* En yeni fotoğraf büyük, altında dört küçük */
+    .strip :global(.tile:first-child) { grid-column: span 2; }
+    .strip :global(.tile:nth-child(n+6):not(.all)) { display: none; }
+    .side-extra { display: grid; gap: 1.25rem; }
+    .promo { display: grid; gap: .3rem; padding: 1.1rem 1.25rem; border-radius: var(--radius); background: var(--espresso); color: var(--cream); text-decoration: none; }
+    .promo strong { font: 700 1.1rem var(--serif); color: #fff; }
+    .promo span { opacity: .85; font-size: .95rem; }
+    .promo:hover { filter: brightness(1.15); }
+    .topics { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; }
+    .topics p { margin: 0 0 .5rem; font-size: .8rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+    .topics ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .35rem; }
+    .topics li { display: flex; justify-content: space-between; align-items: center; }
+    .topics a { color: var(--cat); font-weight: 600; text-decoration: none; }
+    .topics a:hover { text-decoration: underline; }
+    .topics span { font-size: .8rem; color: var(--muted); background: var(--cat-soft); border-radius: 999px; padding: 0 .55rem; }
+  }
+  @media (max-width: 1099px) { .home-side { margin-top: 1rem; } }
   .topic { background: var(--cat-soft); padding: 2.5rem 0 3rem; margin-top: 1.5rem; }
   .topic .chip { background: var(--surface); }
   .topic h2 { margin: .6rem 0 .25rem; color: var(--cat); }

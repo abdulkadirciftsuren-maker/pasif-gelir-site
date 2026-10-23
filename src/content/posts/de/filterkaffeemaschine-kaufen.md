@@ -56,6 +56,8 @@ Die Filterkaffeemaschine ist in Deutschland der Klassiker: Wasser und Kaffee rei
 
 ## 6 Tipps für besseren Kaffee aus jeder Maschine
 
+Ausführlich: [Besserer Filterkaffee aus der Maschine](/de/filterkaffee-besser-machen/).
+
 1. **Richtiges Verhältnis:** etwa 55–65 g Kaffee pro Liter Wasser. Für deine Tassenzahl hilft der [Kaffee-Rechner](/de/kaffee-rechner/).
 2. **Frisch mahlen:** mittelfein. Welche Mühle passt, steht in [Kaffeemühle kaufen](/de/kaffeemuehle-kaufen/).
 3. **Filter ausspülen:** Die Filtertüte kurz mit heißem Wasser anfeuchten und das Wasser wegschütten – so verschwindet der Papiergeschmack.

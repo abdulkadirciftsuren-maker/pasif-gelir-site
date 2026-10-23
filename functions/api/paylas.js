@@ -15,8 +15,9 @@ export async function onRequestPost({ request, env }) {
     return json({ error: 'bad_request' }, 400);
   }
 
-  if (!(await verifyTurnstile(env, form.get('cf-turnstile-response'), request))) {
-    return json({ error: 'captcha' }, 400);
+  const captcha = await verifyTurnstile(env, form.get('cf-turnstile-response'), request);
+  if (!captcha.ok) {
+    return json({ error: 'captcha', codes: captcha.codes }, 400);
   }
 
   const lang = LANGS.includes(form.get('lang')) ? form.get('lang') : 'tr';

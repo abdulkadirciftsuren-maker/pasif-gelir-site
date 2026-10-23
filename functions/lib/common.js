@@ -51,8 +51,9 @@ export async function ipHash(request, env) {
   return (await sha256Hex(`fincanla-ip:${env.ADMIN_PASSWORD}:${ip}`)).slice(0, 32);
 }
 
+/** { ok, codes }: codes, Cloudflare'in hata kodları (ör. invalid-input-secret); sorun ararken işe yarar. */
 export async function verifyTurnstile(env, token, request) {
-  if (!token) return false;
+  if (!token) return { ok: false, codes: ['missing-input-response'] };
   const body = new FormData();
   body.append('secret', env.TURNSTILE_SECRET);
   body.append('response', token);
@@ -62,9 +63,9 @@ export async function verifyTurnstile(env, token, request) {
     const url = env.TURNSTILE_VERIFY_URL || 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
     const r = await fetch(url, { method: 'POST', body });
     const data = await r.json().catch(() => ({}));
-    return data.success === true;
+    return { ok: data.success === true, codes: Array.isArray(data['error-codes']) ? data['error-codes'].slice(0, 3) : [] };
   } catch {
-    return false;
+    return { ok: false, codes: ['fetch-failed'] };
   }
 }
 

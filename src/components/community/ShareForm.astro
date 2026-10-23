@@ -63,8 +63,9 @@ const statusBase = communityPages.status[lang];
   let widgetId = null;
   const field = (n) => form.elements.namedItem(n);
 
-  function showError(code) {
-    errorBox.textContent = c.errors[code] || c.errors.generic;
+  function showError(code, details) {
+    // Hata kodunu küçük ekliyoruz; sorun bildiren biri ekran görüntüsü atarsa sebebi görünür.
+    errorBox.textContent = (c.errors[code] || c.errors.generic) + (details && details.length ? ` (${details.join(', ')})` : '');
     errorBox.hidden = false;
   }
 
@@ -124,7 +125,7 @@ const statusBase = communityPages.status[lang];
       const res = await fetch('/api/paylas', { method: 'POST', body: data });
       const out = await res.json().catch(() => ({}));
       if (!res.ok || !out.token) {
-        showError(out.error);
+        showError(out.error, out.codes);
         if (window.turnstile && widgetId !== null) window.turnstile.reset(widgetId);
         return;
       }

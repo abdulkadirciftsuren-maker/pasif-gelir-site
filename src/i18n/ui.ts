@@ -4,6 +4,12 @@ export const defaultLang: Lang = 'tr';
 
 export const ui = {
   tr: {
+    'nav.home': 'Ana sayfa',
+    'post.quickPicks': 'Hızlı öneriler',
+    'post.allPicks': 'Ayrıntılı karşılaştırma ↓',
+    'search.label': 'Sitede ara',
+    'search.placeholder': 'Ne arıyorsun? Örn. espresso makinesi, cezve, V60…',
+    'search.empty': 'Sonuç bulunamadı. Başka bir kelime dene.',
     'site.slogan': 'Kahve Keyfi',
     'site.tagline': 'Evde daha iyi kahve için dürüst rehberler',
     'site.description':
@@ -48,6 +54,12 @@ export const ui = {
     '404.home': 'Ana sayfaya dön',
   },
   de: {
+    'nav.home': 'Startseite',
+    'post.quickPicks': 'Schnelle Empfehlungen',
+    'post.allPicks': 'Ausführlicher Vergleich ↓',
+    'search.label': 'Auf der Seite suchen',
+    'search.placeholder': 'Wonach suchst du? z. B. Siebträger, Kaffeebohnen, V60…',
+    'search.empty': 'Keine Treffer. Versuch ein anderes Wort.',
     'site.slogan': 'Kaffeegenuss',
     'site.tagline': 'Ehrliche Ratgeber für besseren Kaffee zu Hause',
     'site.description':
@@ -92,6 +104,12 @@ export const ui = {
     '404.home': 'Zur Startseite',
   },
   en: {
+    'nav.home': 'Home',
+    'post.quickPicks': 'Quick picks',
+    'post.allPicks': 'Full comparison ↓',
+    'search.label': 'Search the site',
+    'search.placeholder': 'What are you looking for? e.g. moka pot, grinder, V60…',
+    'search.empty': 'No results. Try another word.',
     'site.slogan': 'The joy of coffee',
     'site.tagline': 'Honest guides for better coffee at home',
     'site.description':

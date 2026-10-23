@@ -3,12 +3,20 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from './PostCard.astro';
 import { SITE } from '../config';
 import { staticPages, t, type Lang } from '../i18n/ui';
-import { getPosts } from '../lib';
+import { getPosts, postUrl } from '../lib';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const posts = await getPosts(lang);
 const latest = posts.slice(0, 3);
+// Arama kutusu için küçük dizin: başlık, açıklama, kategori adı ve adres
+const searchIndex = posts.map((p) => ({
+  t: p.data.title,
+  d: p.data.description,
+  c: t(lang, `cat.${p.data.category}`),
+  u: postUrl(p),
+}));
+const searchTexts = { empty: t(lang, 'search.empty') };
 const categories = (['yontem', 'ekipman', 'temel'] as const)
   .map((cat) => ({ cat, posts: posts.filter((p) => p.data.category === cat) }))
   .filter((c) => c.posts.length > 0);
@@ -29,6 +37,11 @@ const jsonLd = [
       <div>
         <h1>{t(lang, 'home.hero')}</h1>
         <p>{t(lang, 'home.lead')}</p>
+        <form class="search" role="search" action="#" onsubmit="return false">
+          <label for="q" class="sr-only">{t(lang, 'search.label')}</label>
+          <input id="q" type="search" placeholder={t(lang, 'search.placeholder')} autocomplete="off" />
+          <ul id="results" hidden></ul>
+        </form>
         <a class="btn" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
       </div>
       <img src="/img/kapak/turk-kahvesi.svg" alt="" width="640" height="360" fetchpriority="high" />
@@ -52,11 +65,59 @@ const jsonLd = [
   ))}
 </BaseLayout>
 
+<script define:vars={{ searchIndex, searchTexts, lang }}>
+  // Türkçe/Almanca harfleri sadeleştirir: "Öğütücü" → "ogutucu", "Mühle" → "muhle"
+  const norm = (s) => s.toLocaleLowerCase(lang).replace(/ı/g, 'i').replace(/ß/g, 'ss')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const items = searchIndex.map((i) => ({ ...i, n: norm(`${i.t} ${i.d} ${i.c}`) }));
+  const input = document.getElementById('q');
+  const list = document.getElementById('results');
+  input.addEventListener('input', () => {
+    const words = norm(input.value).split(/\s+/).filter((w) => w.length > 1);
+    list.replaceChildren();
+    if (!words.length) { list.hidden = true; return; }
+    const hits = items
+      .map((i) => ({ i, score: words.filter((w) => i.n.includes(w)).length + (words.every((w) => norm(i.t).includes(w)) ? 2 : 0) }))
+      .filter((h) => h.score >= words.length)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 8);
+    if (!hits.length) {
+      const li = document.createElement('li');
+      li.className = 'empty';
+      li.textContent = searchTexts.empty;
+      list.append(li);
+    }
+    for (const { i } of hits) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = i.u;
+      const strong = document.createElement('strong');
+      strong.textContent = i.t;
+      const small = document.createElement('small');
+      small.textContent = i.c;
+      a.append(strong, small);
+      li.append(a);
+      list.append(li);
+    }
+    list.hidden = false;
+  });
+</script>
+
 <style>
   .hero { padding: 4rem 0; background: linear-gradient(135deg, var(--espresso) 0%, var(--espresso-2) 100%); color: var(--cream); }
   .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: center; }
   .hero h1 { max-width: 16ch; color: #fff; }
   .hero p { max-width: 34rem; font-size: 1.2rem; opacity: .85; margin: 0 0 1.75rem; }
+  .search { position: relative; max-width: 34rem; margin: 0 0 1.25rem; }
+  .search input { width: 100%; box-sizing: border-box; padding: .85rem 1.1rem; font-size: 1.05rem; border-radius: 999px; border: 2px solid transparent; background: #fff; color: #2b1a12; }
+  .search input:focus { outline: none; border-color: var(--warm); }
+  .search ul { position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + .4rem); list-style: none; margin: 0; padding: .35rem; background: #fff; border-radius: 14px; box-shadow: 0 18px 40px -16px rgba(0, 0, 0, .45); max-height: 22rem; overflow-y: auto; }
+  .search :global(li a) { display: grid; gap: .1rem; padding: .6rem .8rem; border-radius: 10px; color: #2b1a12; text-decoration: none; }
+  .search :global(li a:hover), .search :global(li a:focus) { background: #f6eadb; }
+  .search :global(strong) { font-weight: 700; line-height: 1.35; }
+  .search :global(small) { color: #7a6a60; }
+  .search :global(.empty) { padding: .6rem .8rem; color: #7a6a60; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .hero .btn { background: var(--warm); color: var(--espresso); }
   .hero img { width: 100%; border-radius: 20px; box-shadow: 0 24px 50px -20px rgba(0, 0, 0, .6); }
   .section { padding: 1rem 1rem 2rem; }

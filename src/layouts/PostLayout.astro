@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import PostCard from '../components/PostCard.astro';
-import { SITE } from '../config';
+import { SITE, STORES, affiliateUrl } from '../config';
 import { staticPages, t } from '../i18n/ui';
 import { alternatesFor, formatDate, getPosts, postLang, postUrl, readingMinutes, type Post } from '../lib';
 
@@ -49,6 +49,11 @@ const jsonLd = [
   <article class={`cat-${category}`}>
     <div class="band">
       <header class="container layout"><div class="head">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href={staticPages.home[lang]}>← {t(lang, 'nav.home')}</a>
+          <span aria-hidden="true">›</span>
+          <a href={`${staticPages.home[lang]}#topic-${category}`}>{t(lang, `cat.${category}`)}</a>
+        </nav>
         <span class="chip">{t(lang, `cat.${category}`)}</span>
         <h1>{title}</h1>
         <p class="lead">{description}</p>
@@ -71,6 +76,24 @@ const jsonLd = [
         )}
 
         {products.length > 0 && <p class="disclosure">{t(lang, 'disclosure')}</p>}
+
+        {products.length > 0 && (
+          <section class="quick" aria-labelledby="quick">
+            <h2 id="quick">{t(lang, 'post.quickPicks')}</h2>
+            <ol>
+              {products.map((product) => (
+                <li>
+                  <div>
+                    <strong>{product.name}</strong>
+                    <span>{product.bestFor}</span>
+                  </div>
+                  <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{STORES[product.store].name} →</a>
+                </li>
+              ))}
+            </ol>
+            <a class="all" href="#picks">{t(lang, 'post.allPicks')}</a>
+          </section>
+        )}
 
         {toc.length > 2 && (
           <nav class="toc toc-inline" aria-label={t(lang, 'post.toc')}>
@@ -139,6 +162,18 @@ const jsonLd = [
   .lead { font-size: 1.25rem; color: var(--muted); margin: 0 0 1rem; }
   .meta { font-size: .9rem; margin: 0; color: var(--muted); }
   .hero { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius); margin-top: -5rem; margin-bottom: 1.5rem; box-shadow: 0 18px 40px -24px rgba(43, 26, 18, .55); }
+  .crumbs { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: 0 0 .9rem; font-size: .9rem; color: var(--muted); }
+  .crumbs a { color: var(--text); font-weight: 600; text-decoration: none; }
+  .crumbs a:hover { color: var(--cat); text-decoration: underline; }
+  .quick { background: var(--surface); border: 1px solid var(--border); border-top: 5px solid var(--cat); border-radius: var(--radius); padding: 1rem 1.25rem; margin: 0 0 1.5rem; }
+  .quick h2 { margin: 0 0 .5rem; font-size: 1.2rem; }
+  .quick ol { list-style: none; margin: 0; padding: 0; }
+  .quick li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; padding: .7rem 0; border-top: 1px solid var(--border); }
+  .quick li:first-child { border-top: 0; }
+  .quick li div { display: grid; gap: .1rem; flex: 1 1 16rem; }
+  .quick li span { color: var(--muted); font-size: .92rem; line-height: 1.4; }
+  .quick .btn { background: var(--cat); color: #fff; padding: .45rem .9rem; font-size: .92rem; white-space: nowrap; }
+  .quick .all { display: inline-block; margin-top: .4rem; font-size: .92rem; color: var(--cat); font-weight: 600; }
   .disclosure { font-size: .85rem; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); padding: .6rem .9rem; }
   .toc { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--cat); border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 1rem; }
   .toc p, .more p { margin: 0 0 .35rem; font-weight: 700; }

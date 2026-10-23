@@ -4,7 +4,8 @@ import PostCard from './PostCard.astro';
 import { SITE } from '../config';
 import { staticPages, t, type Lang } from '../i18n/ui';
 import { getPosts, postUrl } from '../lib';
-import { communityPages } from '../i18n/community';
+import { communityPages, ct } from '../i18n/community';
+import PhotoViewer from './community/PhotoViewer.astro';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -63,7 +64,9 @@ const jsonLd = [
       <a class="btn" href={communityPages.share[lang]}>📷 {t(lang, 'community.homeCta')}</a>
       <a class="link" href={communityPages.gallery[lang]}>{t(lang, 'community.homeGallery')} →</a>
     </p>
+    <div id="home-strip" class="strip" hidden></div>
   </section>
+  <PhotoViewer lang={lang} />
 
   {categories.map(({ cat, posts }) => (
     <section class={`topic cat-${cat}`} aria-labelledby={`topic-${cat}`}>
@@ -76,6 +79,42 @@ const jsonLd = [
     </section>
   ))}
 </BaseLayout>
+
+<script define:vars={{ by: ct(lang).by, seeAll: ct(lang).seeAll, galleryUrl: communityPages.gallery[lang] }}>
+  // Ana sayfadaki okur fotoğrafları şeridi: en yeni fotoğraflar yana kayar, dokununca büyür.
+  (async () => {
+    const strip = document.getElementById('home-strip');
+    try {
+      const res = await fetch('/api/galeri?sayfa=0');
+      if (!res.ok) return;
+      const data = await res.json();
+      const items = data.items.slice(0, 12);
+      if (items.length === 0) return;
+      items.forEach((item, i) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'tile';
+        const img = document.createElement('img');
+        img.src = `/foto/${item.id}`;
+        img.alt = item.title || `${by}: ${item.name}`;
+        img.loading = 'lazy';
+        const cap = document.createElement('span');
+        cap.textContent = item.name;
+        btn.append(img, cap);
+        btn.addEventListener('click', () => window.fincanlaViewer.open(items, i));
+        strip.append(btn);
+      });
+      if (data.more || data.items.length > items.length) {
+        const all = document.createElement('a');
+        all.className = 'tile all';
+        all.href = galleryUrl;
+        all.textContent = `${seeAll} →`;
+        strip.append(all);
+      }
+      strip.hidden = false;
+    } catch {}
+  })();
+</script>
 
 <script define:vars={{ searchIndex, searchTexts, lang }}>
   // Türkçe/Almanca harfleri sadeleştirir: "Öğütücü" → "ogutucu", "Mühle" → "muhle"
@@ -138,6 +177,12 @@ const jsonLd = [
   .community p { margin: 0; max-width: 40rem; }
   .community .actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
   .community .link { font-weight: 600; }
+  /* Okur fotoğrafları şeridi: telefonda parmakla yana kaydırılır */
+  .strip { flex-basis: 100%; display: flex; gap: .8rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; -webkit-overflow-scrolling: touch; }
+  .strip :global(.tile) { flex: 0 0 8.5rem; scroll-snap-align: start; display: grid; gap: .35rem; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; color: var(--text); text-align: left; text-decoration: none; }
+  .strip :global(.tile img) { width: 8.5rem; height: 8.5rem; object-fit: cover; border-radius: var(--radius); background: var(--surface); }
+  .strip :global(.tile span) { font-size: .85rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .strip :global(.tile.all) { height: 8.5rem; display: grid; place-items: center; text-align: center; border: 2px dashed var(--accent); border-radius: var(--radius); color: var(--accent); font-weight: 700; }
   .topic { background: var(--cat-soft); padding: 2.5rem 0 3rem; margin-top: 1.5rem; }
   .topic .chip { background: var(--surface); }
   .topic h2 { margin: .6rem 0 .25rem; color: var(--cat); }

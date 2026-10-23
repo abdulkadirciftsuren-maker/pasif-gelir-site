@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kavrum tarihi işaretli bir takvim, valfli kahve paketi ve ön demlemede kabaran taze kahve">
+<rect width="640" height="360" fill="#f1f5e6"/>
+<circle cx="540" cy="80" r="120" fill="#e4ecd0"/>
+<rect y="300" width="640" height="60" fill="#d9e3c0"/>
+<!-- takvim -->
+<rect x="90" y="90" width="150" height="150" rx="12" fill="#fbf8f4" stroke="#c9b9a6" stroke-width="3"/>
+<rect x="90" y="90" width="150" height="34" rx="12" fill="#c4562f"/>
+<rect x="90" y="110" width="150" height="14" fill="#c4562f"/>
+<g fill="#7d8a97"><rect x="114" y="80" width="8" height="22" rx="4"/><rect x="208" y="80" width="8" height="22" rx="4"/></g>
+<g fill="#e3d8ca">
+<rect x="104" y="136" width="20" height="16" rx="3"/><rect x="132" y="136" width="20" height="16" rx="3"/><rect x="160" y="136" width="20" height="16" rx="3"/><rect x="188" y="136" width="20" height="16" rx="3"/><rect x="216" y="136" width="14" height="16" rx="3"/>
+<rect x="104" y="160" width="20" height="16" rx="3"/><rect x="160" y="160" width="20" height="16" rx="3"/><rect x="188" y="160" width="20" height="16" rx="3"/><rect x="216" y="160" width="14" height="16" rx="3"/>
+<rect x="104" y="184" width="20" height="16" rx="3"/><rect x="132" y="184" width="20" height="16" rx="3"/><rect x="160" y="184" width="20" height="16" rx="3"/><rect x="188" y="184" width="20" height="16" rx="3"/><rect x="216" y="184" width="14" height="16" rx="3"/>
+<rect x="104" y="208" width="20" height="16" rx="3"/><rect x="132" y="208" width="20" height="16" rx="3"/><rect x="160" y="208" width="20" height="16" rx="3"/>
+</g>
+<rect x="132" y="160" width="20" height="16" rx="3" fill="#1f7468"/>
+<circle cx="142" cy="168" r="16" fill="none" stroke="#1f7468" stroke-width="3"/>
+<!-- paket -->
+<path d="M280 150 H360 L368 300 H272 Z" fill="#c89b6d"/>
+<path d="M280 150 L286 128 H354 L360 150 Z" fill="#a87d52"/>
+<rect x="276" y="124" width="88" height="10" rx="3" fill="#7d8a97"/>
+<circle cx="320" cy="180" r="10" fill="#a87d52"/><circle cx="320" cy="180" r="4" fill="#8a6440"/>
+<rect x="292" y="210" width="56" height="40" rx="5" fill="#fbf8f4"/>
+<rect x="300" y="220" width="40" height="6" rx="3" fill="#1f7468"/>
+<rect x="300" y="232" width="28" height="5" rx="2" fill="#8a7a6c"/>
+<!-- V60 bloom -->
+<path d="M420 190 H540 L506 244 H454 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M430 192 Q480 160 530 192 Z" fill="#7a4a2c"/>
+<g fill="#c69a6d"><circle cx="462" cy="182" r="4"/><circle cx="482" cy="176" r="5"/><circle cx="500" cy="183" r="4"/></g>
+<rect x="448" y="242" width="64" height="8" rx="3" fill="#d8c6b6"/>
+<path d="M440 250 H520 L514 296 Q512 302 504 302 H456 Q448 302 446 296 Z" fill="#dfeef8" opacity=".8" stroke="#9cc3d0" stroke-width="2"/>
+<path d="M444 276 H516 L514 296 Q512 302 504 302 H456 Q448 302 446 296 Z" fill="#6b3f26"/>
+</svg>

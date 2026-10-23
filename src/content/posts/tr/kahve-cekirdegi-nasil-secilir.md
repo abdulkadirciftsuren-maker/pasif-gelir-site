@@ -67,6 +67,8 @@ Türk kahvesi genelde Brezilya Arabica'sından, orta kavrumla yapılır ve **un 
 
 ## Çekirdeği doğru saklamak
 
+Ayrıntılı rehber: [kahve nasıl saklanır](/kahve-nasil-saklanir/).
+
 1. **Hava almadan:** Valfli orijinal paketinde, ağzı iyice kapalı, ya da bir saklama kabında.
 2. **Karanlık ve serin yerde:** Ocağın yanına ve güneşe koyma.
 3. **Buzdolabına koyma:** Nem ve kokular aromaya zarar verir. Dondurucuya ancak porsiyonlara ayırıp iyi kapalı poşetlerde koyabilirsin. Çözülen kahveyi tekrar dondurma.

@@ -32,7 +32,7 @@ export const ui = {
     'product.cons': 'Eksileri',
     'product.cta': "'da fiyatı gör",
     'disclosure':
-      'Bu yazıdaki bazı bağlantılar ortaklık bağlantısıdır. Bu bağlantılardan alışveriş yaparsan, sana ek maliyet olmadan küçük bir komisyon kazanabiliriz. Önerilerimiz bundan etkilenmez.',
+      'Sana ek ücret yok: Mağaza bağlantılarından alışveriş yaparsan fiyat aynı kalır. Mağaza, bizi önerdiğimiz için küçük bir teşekkür payı öder; bu sayede rehberlerimiz ücretsiz kalır. Önerilerimiz bundan etkilenmez.',
     'ad.label': 'Reklam',
     'footer.rights': 'Tüm hakları saklıdır.',
     'footer.privacy': 'Gizlilik',
@@ -82,7 +82,7 @@ export const ui = {
     'product.cons': 'Nachteile',
     'product.cta': 'Preis ansehen bei ',
     'disclosure':
-      'Dieser Artikel enthält Affiliate-Links. Kaufst du über einen dieser Links, erhalten wir eine kleine Provision – für dich ändert sich der Preis nicht. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.',
+      'Für dich kostet es keinen Cent mehr: Kaufst du über unsere Shop-Links (Affiliate-Links), bleibt der Preis gleich. Der Shop zahlt uns eine kleine Provision – so bleiben unsere Ratgeber kostenlos. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.',
     'ad.label': 'Anzeige',
     'footer.rights': 'Alle Rechte vorbehalten.',
     'footer.privacy': 'Datenschutz',
@@ -132,7 +132,7 @@ export const ui = {
     'product.cons': 'Cons',
     'product.cta': 'Check price at ',
     'disclosure':
-      'Some links in this article are affiliate links. If you buy through them we may earn a small commission at no extra cost to you. It never affects our picks.',
+      'No extra cost to you: if you buy through our store links (affiliate links), the price stays the same. The store pays us a small commission, which keeps our guides free. It never affects our picks.',
     'ad.label': 'Advertisement',
     'footer.rights': 'All rights reserved.',
     'footer.privacy': 'Privacy',

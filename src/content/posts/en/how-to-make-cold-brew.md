@@ -37,7 +37,7 @@ No:
 
 - **Iced coffee:** Hot-brewed coffee that's cooled down. Quick, but it can turn bitter as it cools.
 - **Cold brew:** Never heated; steeps cold for hours. Smoother, sweeter, less bitter.
-- **Japanese-style iced coffee:** Hot coffee brewed straight onto ice – fast and aromatic. We cover iced coffee recipes in a separate article.
+- **Japanese-style iced coffee:** Hot coffee brewed straight onto ice – fast and aromatic. Iced coffee recipes are in [iced latte and 5 cold coffee drinks](/en/iced-latte-recipe/).
 
 ## What you need
 

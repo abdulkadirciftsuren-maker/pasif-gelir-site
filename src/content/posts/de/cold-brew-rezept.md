@@ -37,7 +37,7 @@ Nein:
 
 - **Eiskaffee:** Heiß gebrühter, abgekühlter Kaffee. Schnell gemacht, kann beim Abkühlen bitter werden.
 - **Cold Brew:** Nie erhitzt, zieht stundenlang kalt. Weicher, süßer, weniger bitter.
-- **Japanischer Eiskaffee:** Heißer Kaffee wird direkt auf Eis gebrüht – schnell und aromatisch. Eiskaffee-Rezepte gibt es in einem eigenen Artikel.
+- **Japanischer Eiskaffee:** Heißer Kaffee wird direkt auf Eis gebrüht – schnell und aromatisch. Eiskaffee-Rezepte findest du in [Iced Latte und 5 kalte Kaffeegetränke](/de/eiskaffee-rezepte/).
 
 ## Was du brauchst
 

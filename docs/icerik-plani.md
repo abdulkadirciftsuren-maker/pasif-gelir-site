@@ -52,7 +52,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 25 | Moka Pot Seçimi: Alüminyum mu, Çelik mi? | moka pot önerisi | Ticari | 2 | ✅ (TR/DE/EN) |
 | 26 | Süt Köpürtücü Seçimi | süt köpürtücü | Ticari | 2 | ✅ |
 | 27 | Kahve Terazisi Gerekli mi? En İyi Seçenekler | kahve terazisi | Ticari | 3 | ✅ |
-| 28 | Yeni Başlayanlar İçin Kahve Seti (Bütçeye Göre 3 Set) | kahve seti, kahve hediyesi | Ticari | 2 (yılbaşı öncesi) | ⬜ |
+| 28 | Yeni Başlayanlar İçin Kahve Seti (Bütçeye Göre 3 Set) | kahve seti, kahve hediyesi | Ticari | 2 (yılbaşı öncesi) | ✅ (TR/DE/EN) |
 
 ## Küme 4: Bakım ve Sorun Giderme (sürekli aranır)
 

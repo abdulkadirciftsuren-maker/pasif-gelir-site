@@ -76,6 +76,8 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 
 ## Doğru kahve hediyesi için 4 ipucu
 
+Hazır alışveriş listeleri için [yeni başlayanlar için kahve seti](/yeni-baslayanlar-icin-kahve-seti/) yazımıza da bak.
+
 1. **Büyük makineyi sürpriz yapma:** Makineler zevke ve mutfaktaki yere çok bağlıdır. Önce çaktırmadan sor.
 2. **Set hazırla:** Küçük hediyeler birlikte daha etkileyici görünür. Örneğin cezve + iki fincan + taze kahve + lokum ya da V60 + filtre + çekirdek.
 3. **Taze kahve seç:** Kavrum ya da çekim tarihi yakın olan, küçük paketler.

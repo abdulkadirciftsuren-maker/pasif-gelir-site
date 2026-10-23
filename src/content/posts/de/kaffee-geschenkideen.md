@@ -76,6 +76,8 @@ Kaffee geht immer – aber welches Geschenk freut einen Kaffeeliebhaber wirklich
 
 ## 4 Tipps für das perfekte Kaffeegeschenk
 
+Fertige Einkaufslisten findest du im [Kaffee-Starterset](/de/kaffee-starter-set/).
+
 1. **Keine großen Geräte als Überraschung:** Maschinen hängen stark vom Geschmack und Platz ab. Lieber vorher unauffällig nachfragen.
 2. **Bohnen statt Pulver:** Wer eine Mühle hat, freut sich über ganze Bohnen. Ohne Mühle lieber frisch gemahlen in kleiner Menge.
 3. **Kombinieren:** Kleine Geschenke wirken als Set größer – z. B. Cezve + Tassen + Kaffee oder V60 + Filter + Bohnen.

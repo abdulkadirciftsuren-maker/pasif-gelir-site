@@ -1,6 +1,7 @@
 ---
 // Reklam alanı. Yer önceden ayrılır, böylece reklam yüklenince sayfa "zıplamaz" (Google bunu ölçer: CLS).
-// config.ts'de adsenseClient boşsa hiçbir şey göstermez.
+// config.ts'de adsenseClient boşsa ya da reklam birimi (slot) verilmemişse hiçbir şey göstermez;
+// o durumda reklamları Google'ın otomatik reklamları yerleştirir.
 import { SITE } from '../config';
 import { t, type Lang } from '../i18n/ui';
 
@@ -9,7 +10,7 @@ const { lang, slot = '' } = Astro.props;
 ---
 
 {
-  SITE.adsenseClient && (
+  SITE.adsenseClient && slot && (
     <aside class="ad" aria-label={t(lang, 'ad.label')}>
       <span class="ad-label">{t(lang, 'ad.label')}</span>
       <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true" />

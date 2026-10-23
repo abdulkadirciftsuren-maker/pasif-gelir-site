@@ -4,7 +4,7 @@ export const SITE = {
   name: 'Fincanla',
   author: 'Fincanla',
   // Google AdSense onayı gelince "ca-pub-..." kimliğini buraya yaz. Boş kaldıkça reklam kodu yüklenmez.
-  adsenseClient: '',
+  adsenseClient: 'ca-pub-3936992976474644',
   // Google Search Console doğrulama kodu (isteğe bağlı).
   googleSiteVerification: '',
 };

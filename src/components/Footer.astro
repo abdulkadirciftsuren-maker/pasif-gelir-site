@@ -17,10 +17,25 @@ const year = new Date().getFullYear();
       <a href={staticPages.disclosure[lang]}>{t(lang, 'footer.disclosure')}</a>
       <a href={staticPages.privacy[lang]}>{t(lang, 'footer.privacy')}</a>
       <a href={staticPages.imprint[lang]}>{t(lang, 'footer.imprint')}</a>
+      {SITE.adsenseClient && <button id="consent-settings" class="linkish" type="button" hidden>{t(lang, 'footer.consent')}</button>}
     </nav>
     <p class="muted small">© {year} {SITE.name}. {t(lang, 'footer.rights')}</p>
   </div>
 </footer>
+
+<script is:inline>
+  // Google'ın çerez izni penceresi (AdSense "Gizlilik ve mesajlar") yüklüyse, okur iznini buradan değiştirebilir.
+  (function () {
+    var btn = document.getElementById('consent-settings');
+    if (!btn) return;
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+    window.googlefc.callbackQueue.push({ CONSENT_API_READY: function () { btn.hidden = false; } });
+    btn.addEventListener('click', function () {
+      if (window.googlefc && window.googlefc.showRevocationMessage) window.googlefc.showRevocationMessage();
+    });
+  })();
+</script>
 
 <style>
   .site-footer { margin-top: 5rem; background: var(--espresso); color: var(--cream); padding: 2.5rem 0; font-size: .95rem; }
@@ -29,6 +44,8 @@ const year = new Date().getFullYear();
   nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
   nav a { color: var(--cream); opacity: .8; }
   nav a:hover { color: var(--warm); opacity: 1; }
+  .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--cream); opacity: .8; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .linkish:hover { color: var(--warm); opacity: 1; }
   .muted { color: var(--cream); opacity: .6; }
   .small { font-size: .85rem; }
 </style>

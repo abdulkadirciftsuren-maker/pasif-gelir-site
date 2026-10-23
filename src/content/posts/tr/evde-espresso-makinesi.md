@@ -88,4 +88,4 @@ Espresso makinesi alanların çoğu aslında latte ya da cappuccino içmek istiy
 
 **Hangi kahveyi kullanmalıyım?** Taze kavrulmuş, kavrum tarihi yazan çekirdek kahve. Espresso için genelde orta-koyu kavrumlar ya da Arabica/Robusta karışımları tercih edilir. Ayrıntılar [Arabica ve Robusta rehberimizde](/arabica-robusta-farki/).
 
-**Kapsüllü makine "gerçek espresso" mu?** Basınçla demlendiği için espressoya yakın bir kahve verir, ama lezzeti ayarlama imkânı çok sınırlıdır ve fincan başı maliyeti yüksektir.
+**Kapsüllü makine "gerçek espresso" mu?** Basınçla demlendiği için espressoya yakın bir kahve verir, ama lezzeti ayarlama imkânı çok sınırlıdır ve fincan başı maliyeti yüksektir. Sistemlerin karşılaştırması [kapsül kahve makinesi rehberimizde](/kapsul-kahve-makinesi/).

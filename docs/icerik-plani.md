@@ -16,7 +16,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 2 | Latte, Cappuccino ve Flat White Arasındaki Fark | latte cappuccino farkı | Bilgi | 1 | ✅ |
 | 3 | Arabica ve Robusta: Farkları ve Hangisini Seçmeli? | arabica robusta farkı | Bilgi | 1 | ✅ |
 | 4 | Kahve Kavurma Dereceleri: Açık, Orta, Koyu Kavrum | kahve kavurma dereceleri | Bilgi | 2 | ✅ (TR/DE/EN) |
-| 5 | Kahve Bölgeleri Rehberi: Etiyopya, Kolombiya, Brezilya ve Tatları | etiyopya kahvesi, kolombiya kahvesi | Bilgi | 2 | ⬜ |
+| 5 | Kahve Bölgeleri Rehberi: Etiyopya, Kolombiya, Brezilya ve Tatları | etiyopya kahvesi, kolombiya kahvesi | Bilgi | 2 | ✅ (TR/DE/EN) |
 | 6 | Specialty (Nitelikli) Kahve Nedir? | nitelikli kahve nedir | Bilgi | 2 | ⬜ |
 | 7 | Kahve Çekirdeği Nasıl Saklanır? (Buzdolabı efsanesi dahil) | kahve nasıl saklanır | Bilgi | 2 | ⬜ |
 | 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ⬜ |

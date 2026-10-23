@@ -29,7 +29,7 @@ products:
 
 Kapsülü tak, tuşa bas, kahven hazır: Kapsül makinesi evde espresso içmenin en kolay yolu. Küçüktür, alırken ucuzdur ve neredeyse bakım istemez. Ama hangi sistem sana uygun? Uzun vadede ne kadar tutar? Bu rehberde en yaygın sistemleri karşılaştırıyoruz.
 
-> **Kısa cevap:** Çoğunlukla **espresso** içiyorsan ve tasarruf etmek istiyorsan **Nespresso Original** al. En çok uyumlu ve ucuz kapsül bu sistem için var. **Büyük kupa** kahve seviyorsan **Nespresso Vertuo**, **sütlü kahveleri kapsülle** yapmak istiyorsan **Dolce Gusto** daha uygun. Günde birkaç fincan içiyorsan uzun vadede [tam otomatik ya da espresso makinesi](/evde-espresso-makinesi/) daha ekonomik.
+> **Kısa cevap:** Çoğunlukla **espresso** içiyorsan ve tasarruf etmek istiyorsan **Nespresso Original** al. En çok uyumlu ve ucuz kapsül bu sistem için var. **Büyük kupa** kahve seviyorsan **Nespresso Vertuo**, **sütlü kahveleri kapsülle** yapmak istiyorsan **Dolce Gusto** daha uygun. Günde birkaç fincan içiyorsan uzun vadede [tam otomatik](/tam-otomatik-kahve-makinesi/) ya da [espresso makinesi](/evde-espresso-makinesi/) daha ekonomik.
 
 ## Sistemlerin karşılaştırması
 

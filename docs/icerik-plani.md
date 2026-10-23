@@ -50,8 +50,8 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 23 | Evde Espresso Makinesi: Nereden Başlamalı? | ev tipi espresso makinesi | Ticari | 1 | ✅ |
 | 24 | Filtre Kahve Makinesi Seçimi | filtre kahve makinesi önerisi | Ticari | 1 | ✅ |
 | 25 | Moka Pot Seçimi: Alüminyum mu, Çelik mi? | moka pot önerisi | Ticari | 2 | ⬜ |
-| 26 | Süt Köpürtücü Seçimi | süt köpürtücü | Ticari | 2 | ⬜ |
-| 27 | Kahve Terazisi Gerekli mi? En İyi Seçenekler | kahve terazisi | Ticari | 3 | ⬜ |
+| 26 | Süt Köpürtücü Seçimi | süt köpürtücü | Ticari | 2 | ✅ |
+| 27 | Kahve Terazisi Gerekli mi? En İyi Seçenekler | kahve terazisi | Ticari | 3 | ✅ |
 | 28 | Yeni Başlayanlar İçin Kahve Seti (Bütçeye Göre 3 Set) | kahve seti, kahve hediyesi | Ticari | 2 (yılbaşı öncesi) | ⬜ |
 
 ## Küme 4: Bakım ve Sorun Giderme (sürekli aranır)
@@ -141,6 +141,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ Hafermilch für Kaffee
   - ✅ Kapsül Kahve Makinesi (TR eşi)
   - ✅ Süt Köpürtücü Seçimi (TR eşi)
+  - ✅ Türk Kahvesi Nasıl Seçilir?, Cezve Seçimi, Tam Otomatik Kahve Makinesi (TR eşleri)
 - **İngilizce (/en/):** 10 yazı: V60, öğütücü, Türk kahvesi tarifi, kahve çeşitleri, cezve, Türk kahvesi makinesi, moka pot, French press, latte/cappuccino, Arabica/Robusta.
   - Not: İngilizce ürün bağlantıları Amazon.com'a gidiyor ve henüz ortaklık kimliği yok (Amazon.com Associates başvurusu yapılmadı).
 - **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.

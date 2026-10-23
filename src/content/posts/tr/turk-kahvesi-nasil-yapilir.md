@@ -33,8 +33,8 @@ Türk kahvesi az malzemeyle yapılır ama sabır ister. Bol köpüklü bir finca
 
 ## İhtiyacın olanlar
 
-- **Cezve:** Fincan sayısına uygun boyda olmalı. 1–2 fincan için küçük cezve kullan, çünkü büyük cezvede köpük dağılır.
-- **Taze Türk kahvesi:** Un kıvamında öğütülmüş, açıldıktan sonra mümkünse 2–3 haftada tüketilmiş.
+- **Cezve:** Fincan sayısına uygun boyda olmalı. 1–2 fincan için küçük cezve kullan, çünkü büyük cezvede köpük dağılır. Malzeme ve boy için [cezve seçimi rehberimize](/cezve-secimi/) bak.
+- **Taze Türk kahvesi:** Un kıvamında öğütülmüş, açıldıktan sonra mümkünse 2–3 haftada tüketilmiş. Bkz. [Türk kahvesi nasıl seçilir](/turk-kahvesi-nasil-secilir/).
 - **Soğuk içme suyu:** Musluk suyunun tadı kötüyse arıtılmış ya da şişe su kullan.
 - **Fincan, çay kaşığı ve servis için bir bardak su.**
 

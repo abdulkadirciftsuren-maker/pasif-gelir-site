@@ -49,7 +49,7 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 
 ## Uygun bütçe
 
-1. **Bakır cezve:** Küçük ama anlamlı bir hediye. Doğru boyut için [Türk kahvesi rehberimize](/turk-kahvesi-nasil-yapilir/) göz at.
+1. **Bakır cezve:** Küçük ama anlamlı bir hediye. Doğru boyut ve malzeme için [cezve seçimi rehberimize](/cezve-secimi/) göz at.
 2. **Türk kahvesi fincan takımı:** Yeni ev, nişan, bayram... Her zaman yerini bulur.
 3. **Taze kavrulmuş çekirdek kahve:** Kavrum tarihi yakın olan bir paket. Nasıl seçileceği [kahve çekirdeği rehberimizde](/kahve-cekirdegi-nasil-secilir/).
 4. **Dibek kahvesi ya da menengiç:** Farklı bir tat arayanlara. Ayrıntılar [dibek kahvesi](/dibek-kahvesi-nedir/) ve [menengiç kahvesi](/menengic-kahvesi-nedir/) yazılarımızda.
@@ -72,7 +72,7 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 
 13. **Filtre kahve makinesi:** Her gün sürahi sürahi kahve içenlere. Bkz. [filtre kahve makinesi seçimi](/filtre-kahve-makinesi-secimi/).
 14. **Espresso makinesi:** Kahveyi hobi olarak görenlere, mümkünse bir öğütücüyle birlikte. Bkz. [evde espresso makinesi](/evde-espresso-makinesi/).
-15. **Tam otomatik kahve makinesi:** Tek tuşla espresso ve sütlü kahve isteyenler için.
+15. **Tam otomatik kahve makinesi:** Tek tuşla espresso ve sütlü kahve isteyenler için. Bkz. [tam otomatik kahve makinesi](/tam-otomatik-kahve-makinesi/).
 
 ## Doğru kahve hediyesi için 4 ipucu
 

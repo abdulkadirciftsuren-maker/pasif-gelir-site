@@ -82,6 +82,8 @@ Die Menge bestimmt das Trichtersieb: **einfach glatt füllen.** Das Verhältnis 
 
 ## Aluminium oder Edelstahl?
 
+Ausführlicher Vergleich mit Größenwahl: [Espressokocher kaufen](/de/espressokocher-kaufen/).
+
 | | Aluminium | Edelstahl |
 | --- | --- | --- |
 | Preis | Günstiger | Teurer |

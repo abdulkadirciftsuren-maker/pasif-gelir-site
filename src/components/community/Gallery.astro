@@ -1,6 +1,7 @@
 ---
 import { type Lang } from '../../i18n/ui';
 import { communityPages, ct } from '../../i18n/community';
+import PhotoViewer from './PhotoViewer.astro';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -15,31 +16,14 @@ const c = ct(lang);
   <p class="more-wrap"><button id="gal-more" class="btn ghost" type="button" hidden>{c.more}</button></p>
 </div>
 
-<dialog id="gal-dialog">
-  <img id="gal-big" alt="" />
-  <div class="info">
-    <p id="gal-title" class="title"></p>
-    <p id="gal-by" class="by"></p>
-    <p id="gal-text" class="text"></p>
-  </div>
-  <form method="dialog"><button class="btn" type="submit">{c.close}</button></form>
-</dialog>
+<PhotoViewer lang={lang} />
 
 <script define:vars={{ c }}>
   const grid = document.getElementById('gal-grid');
   const note = document.getElementById('gal-note');
   const moreBtn = document.getElementById('gal-more');
-  const dialog = document.getElementById('gal-dialog');
   let page = 0;
-
-  function open(item) {
-    document.getElementById('gal-big').src = `/foto/${item.id}`;
-    document.getElementById('gal-big').alt = item.title || item.name;
-    document.getElementById('gal-title').textContent = item.title || '';
-    document.getElementById('gal-by').textContent = `${c.by}: ${item.name}`;
-    document.getElementById('gal-text').textContent = item.text || '';
-    dialog.showModal();
-  }
+  const items = [];
 
   function card(item) {
     const btn = document.createElement('button');
@@ -53,7 +37,8 @@ const c = ct(lang);
     cap.className = 'cap';
     cap.textContent = item.title ? `${item.title} · ${item.name}` : item.name;
     btn.append(img, cap);
-    btn.addEventListener('click', () => open(item));
+    const i = items.push(item) - 1;
+    btn.addEventListener('click', () => window.fincanlaViewer.open(items, i));
     return btn;
   }
 
@@ -72,7 +57,6 @@ const c = ct(lang);
   }
 
   moreBtn.addEventListener('click', () => { page += 1; load(); });
-  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
   load();
 </script>
 
@@ -85,11 +69,4 @@ const c = ct(lang);
   .grid :global(.cap) { font-size: .9rem; color: var(--muted); line-height: 1.35; }
   .more-wrap { text-align: center; margin-top: 1.5rem; }
   .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
-  dialog { max-width: min(92vw, 56rem); border: 0; border-radius: var(--radius); padding: 1rem; background: var(--surface); color: var(--text); }
-  dialog::backdrop { background: rgba(20, 12, 8, .75); }
-  dialog img { display: block; max-width: 100%; max-height: 70vh; margin: 0 auto; border-radius: 10px; }
-  .info p { margin: .4rem 0; }
-  .title { font: 700 1.2rem var(--serif); }
-  .by { color: var(--muted); }
-  .text { white-space: pre-line; }
 </style>

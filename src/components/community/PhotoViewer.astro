@@ -1,0 +1,112 @@
+---
+// Tam ekran fotoğraf görüntüleyici: dokununca büyür, ok tuşları ya da parmakla kaydırarak sıradakine geçilir.
+// Kullanım: window.fincanlaViewer.open(items, index) — items, /api/galeri'den gelen kayıtlar.
+import { type Lang } from '../../i18n/ui';
+import { ct } from '../../i18n/community';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const c = ct(lang);
+---
+
+<dialog id="pv" class="pv" aria-label={c.galleryTitle}>
+  <button class="pv-close" type="button" aria-label={c.close}>✕</button>
+  <button class="pv-nav pv-prev" type="button" aria-label={c.prev}>‹</button>
+  <figure class="pv-fig">
+    <img id="pv-img" alt="" />
+    <figcaption>
+      <span id="pv-count" class="pv-count"></span>
+      <strong id="pv-title" class="pv-title"></strong>
+      <span id="pv-by" class="pv-by"></span>
+      <span id="pv-text" class="pv-text"></span>
+    </figcaption>
+  </figure>
+  <button class="pv-nav pv-next" type="button" aria-label={c.next}>›</button>
+</dialog>
+
+<script define:vars={{ c }}>
+  const dialog = document.getElementById('pv');
+  const img = document.getElementById('pv-img');
+  const prevBtn = dialog.querySelector('.pv-prev');
+  const nextBtn = dialog.querySelector('.pv-next');
+  let list = [];
+  let index = 0;
+
+  function show() {
+    const item = list[index];
+    img.src = `/foto/${item.id}`;
+    img.alt = item.title || item.name;
+    document.getElementById('pv-count').textContent = list.length > 1 ? `${index + 1} / ${list.length}` : '';
+    document.getElementById('pv-title').textContent = item.title || '';
+    document.getElementById('pv-by').textContent = `${c.by}: ${item.name}`;
+    document.getElementById('pv-text').textContent = item.text || '';
+    prevBtn.hidden = index === 0;
+    nextBtn.hidden = index >= list.length - 1;
+    // Sıradaki fotoğrafı önceden yükle, geçiş beklemesin
+    if (list[index + 1]) new Image().src = `/foto/${list[index + 1].id}`;
+  }
+
+  function go(step) {
+    const n = index + step;
+    if (n < 0 || n >= list.length) return;
+    index = n;
+    show();
+  }
+
+  window.fincanlaViewer = {
+    open(items, i) {
+      list = items;
+      index = i;
+      show();
+      dialog.showModal();
+    },
+  };
+
+  prevBtn.addEventListener('click', () => go(-1));
+  nextBtn.addEventListener('click', () => go(1));
+  dialog.querySelector('.pv-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  // Belge düzeyinde dinliyoruz: son fotoğrafta "sonraki" düğmesi gizlenince odak dialog'dan çıkabiliyor
+  document.addEventListener('keydown', (e) => {
+    if (!dialog.open) return;
+    if (e.key === 'ArrowLeft') go(-1);
+    if (e.key === 'ArrowRight') go(1);
+  });
+
+  // Parmakla sağa/sola kaydırma
+  let startX = null;
+  let startY = 0;
+  dialog.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; startY = e.touches[0].clientY; }, { passive: true });
+  dialog.addEventListener('touchend', (e) => {
+    if (startX === null) return;
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    startX = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(dx < 0 ? 1 : -1);
+  });
+</script>
+
+<style>
+  .pv { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(12, 8, 6, .96); color: #f6ead9; }
+  .pv[open] { display: grid; grid-template-columns: auto 1fr auto; align-items: center; }
+  .pv::backdrop { background: rgba(12, 8, 6, .9); }
+  .pv-fig { margin: 0; display: grid; gap: .75rem; justify-items: center; padding: 3.5rem .5rem 1.5rem; max-height: 100dvh; }
+  .pv-fig img { max-width: 100%; max-height: 72dvh; object-fit: contain; border-radius: 10px; }
+  .pv-fig figcaption { display: grid; gap: .2rem; text-align: center; max-width: 40rem; line-height: 1.45; }
+  .pv-count { font-size: .85rem; opacity: .7; }
+  .pv-title { font: 700 1.15rem var(--serif); }
+  .pv-title:empty, .pv-text:empty, .pv-count:empty { display: none; }
+  .pv-by { opacity: .85; }
+  .pv-text { white-space: pre-line; opacity: .9; }
+  .pv-nav, .pv-close { border: 0; background: rgba(255, 255, 255, .12); color: #fff; cursor: pointer; font: inherit; border-radius: 999px; }
+  .pv-nav { width: 2.75rem; height: 2.75rem; margin: 0 .5rem; font-size: 2rem; line-height: 1; }
+  .pv-close { position: absolute; top: .75rem; right: .75rem; width: 2.5rem; height: 2.5rem; font-size: 1.1rem; }
+  .pv-nav:hover, .pv-close:hover { background: rgba(255, 255, 255, .25); }
+  /* Telefonda oklar fotoğrafın üstünde, kenarlarda dursun */
+  @media (max-width: 640px) {
+    .pv[open] { grid-template-columns: 1fr; }
+    .pv-nav { position: absolute; top: 40dvh; margin: 0; }
+    .pv-prev { left: .4rem; }
+    .pv-next { right: .4rem; }
+  }
+</style>

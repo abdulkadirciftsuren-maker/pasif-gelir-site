@@ -19,3 +19,5 @@
 - Turnstile widget adı **fincanla**, hostname fincanla.com (www dahil).
 - Tablolar ilk istekte kod tarafından otomatik kurulur (`ensureSchema`).
 - Yönetim sayfası: `/yonetim/` (noindex, robots.txt ile kapalı).
+- Cloudflare'de bağlantı ya da değişken değişince yeni bir yayın (deploy) gerekir; yoksa eski değerler kullanılır.
+- Paylaşım formunda robot doğrulaması hata verirse ekranda Cloudflare hata kodu görünür (ör. `invalid-input-secret` = TURNSTILE_SECRET yanlış).

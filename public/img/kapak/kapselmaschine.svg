@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Eine kompakte Kapselmaschine mit Espressotasse und bunten Kaffeekapseln">
+<rect width="640" height="360" fill="#f6f4d3"/>
+<circle cx="100" cy="80" r="110" fill="#ece8b8"/>
+<rect y="300" width="640" height="60" fill="#e2dca6"/>
+<!-- maschine -->
+<path d="M210 90 Q210 70 230 70 H330 Q350 70 350 90 V300 H210 Z" fill="#c4562f"/>
+<rect x="210" y="70" width="140" height="40" rx="18" fill="#a8441f"/>
+<rect x="240" y="78" width="80" height="22" rx="8" fill="#2a211c"/>
+<circle cx="336" cy="128" r="8" fill="#fbf8f4"/>
+<circle cx="336" cy="150" r="8" fill="#fbf8f4" opacity=".7"/>
+<rect x="226" y="150" width="96" height="18" rx="6" fill="#2a211c"/>
+<rect x="262" y="168" width="24" height="12" rx="3" fill="#4a3d35"/>
+<rect x="222" y="180" width="104" height="96" rx="6" fill="#8f3a1a"/>
+<rect x="216" y="276" width="128" height="16" rx="5" fill="#2a211c"/>
+<rect x="352" y="120" width="30" height="170" rx="8" fill="#dfeef2" opacity=".8" stroke="#9cc3d0" stroke-width="2"/>
+<rect x="356" y="190" width="22" height="96" rx="5" fill="#9cc3d0" opacity=".7"/>
+<!-- tasse -->
+<path d="M248 238 H300 L296 274 Q295 278 290 278 H258 Q253 278 252 274 Z" fill="#fbf8f4"/>
+<path d="M298 246 q16 2 14 14 q-2 10 -16 9" fill="none" stroke="#fbf8f4" stroke-width="5"/>
+<ellipse cx="274" cy="239" rx="26" ry="4" fill="#c69a6d"/>
+<path d="M274 180 V234" stroke="#6b3f26" stroke-width="3"/>
+<!-- kapseln -->
+<g>
+<path d="M440 300 L452 262 H488 L500 300 Z" fill="#1f7468"/><ellipse cx="470" cy="300" rx="34" ry="6" fill="#185c52"/>
+<path d="M500 300 L512 262 H548 L560 300 Z" fill="#e8b84a"/><ellipse cx="530" cy="300" rx="34" ry="6" fill="#c99a2e"/>
+<path d="M470 254 L482 216 H518 L530 254 Z" fill="#5b3b8c"/><ellipse cx="500" cy="254" rx="34" ry="6" fill="#47306e"/>
+<path d="M560 300 L572 262 H608 L620 300 Z" fill="#2a211c"/><ellipse cx="590" cy="300" rx="34" ry="6" fill="#1a1411"/>
+</g>
+<g fill="none" stroke="#fbf8f4" stroke-width="3" stroke-linecap="round"><path d="M266 228 q-5 -8 0 -16"/><path d="M282 228 q5 -8 0 -16"/></g>
+</svg>

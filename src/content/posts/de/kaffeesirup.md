@@ -85,7 +85,7 @@ Für Zimtsirup nimmst du 2 Zimtstangen statt Vanille, für Karamell lässt du de
 
 - **Zimt oder Kakao** zum Bestäuben des Milchschaums
 - **Kardamom:** Klassisch im arabischen und türkischen Kaffee – mehr in [Türkischen Kaffee zubereiten](/de/tuerkischen-kaffee-zubereiten/)
-- **Pflanzendrinks:** Hafer- oder Barista-Drinks schäumen gut auf
+- **Pflanzendrinks:** Hafer- oder Barista-Drinks schäumen gut auf – mehr in [Hafermilch für Kaffee](/de/hafermilch-fuer-kaffee/)
 - **Kaffeesahne oder Kaffeeweißer:** Schnell, aber geschmacklich nicht mit Milchschaum vergleichbar
 
 ## Häufige Fragen

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kahve kuşağını gösteren sade bir dünya haritası; Latin Amerika, Afrika ve Asya'da kahve bölgeleri işaretli">
+<rect width="640" height="360" fill="#dcebf2"/>
+<!-- kahve kuşağı -->
+<!-- kıtalar (soyut) -->
+<g fill="#efe3cc" stroke="#d6c4a2" stroke-width="2">
+<path d="M70 70 Q120 50 170 80 Q190 120 160 150 Q150 170 175 190 Q200 230 185 280 Q170 320 150 300 Q140 250 120 220 Q90 190 95 160 Q60 130 70 70 Z"/>
+<path d="M300 90 Q350 70 390 100 Q400 140 380 170 Q390 210 360 260 Q340 290 320 260 Q310 220 300 190 Q280 160 290 130 Q285 105 300 90 Z"/>
+<path d="M410 80 Q480 60 560 90 Q590 120 560 150 Q540 170 520 165 Q500 190 470 180 Q440 160 430 140 Q400 120 410 80 Z"/>
+<path d="M520 230 Q560 220 590 240 Q600 270 570 280 Q540 285 525 265 Z"/>
+</g>
+<rect y="150" width="640" height="90" fill="#8fc49a" opacity=".5"/>
+<path d="M0 150 H640 M0 240 H640" stroke="#7fae86" stroke-width="2" stroke-dasharray="8 8"/>
+<!-- pinler -->
+<g>
+<g transform="translate(165 205)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#c4562f"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+<g transform="translate(150 255)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#c4562f"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+<g transform="translate(365 195)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#1f7468"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+<g transform="translate(355 225)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#1f7468"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+<g transform="translate(500 195)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#a8780f"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+<g transform="translate(545 260)"><path d="M0 0 C-12 -16 -12 -32 0 -32 C12 -32 12 -16 0 0 Z" fill="#a8780f"/><circle cy="-22" r="5" fill="#fbf8f4"/></g>
+</g>
+<!-- fincan -->
+<path d="M40 300 H96 L92 336 Q91 342 85 342 H51 Q45 342 44 336 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M94 308 q16 2 14 14 q-2 10 -16 9" fill="none" stroke="#d8c6b6" stroke-width="5"/>
+<ellipse cx="68" cy="301" rx="28" ry="4" fill="#6b3f26"/>
+</svg>

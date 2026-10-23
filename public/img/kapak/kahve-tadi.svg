@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ortada bir fincan kahve, solda limon dilimi (ekşi), sağda bitter çikolata (acı), üstünde denge terazisi">
+<rect width="640" height="360" fill="#f3e6e0"/>
+<circle cx="320" cy="150" r="140" fill="#ecd7cf"/>
+<rect y="300" width="640" height="60" fill="#e3c9be"/>
+<!-- terazi -->
+<rect x="316" y="70" width="8" height="150" fill="#6b5a50"/>
+<circle cx="320" cy="66" r="9" fill="#6b5a50"/>
+<path d="M170 92 L470 78" stroke="#6b5a50" stroke-width="6" stroke-linecap="round"/>
+<path d="M170 92 L140 150 M170 92 L200 150" stroke="#6b5a50" stroke-width="2"/>
+<path d="M470 78 L440 136 M470 78 L500 136" stroke="#6b5a50" stroke-width="2"/>
+<path d="M128 150 H212 Q206 168 170 168 Q134 168 128 150 Z" fill="#9aa7b4"/>
+<path d="M428 136 H512 Q506 154 470 154 Q434 154 428 136 Z" fill="#9aa7b4"/>
+<!-- limon -->
+<circle cx="170" cy="134" r="22" fill="#f2d24b"/>
+<circle cx="170" cy="134" r="17" fill="#fbe9a0"/>
+<g stroke="#f2d24b" stroke-width="2"><path d="M170 117 V151"/><path d="M153 134 H187"/><path d="M158 122 L182 146"/><path d="M182 122 L158 146"/></g>
+<!-- çikolata -->
+<rect x="446" y="104" width="48" height="32" rx="3" fill="#3a2418"/>
+<g stroke="#57372a" stroke-width="2"><path d="M462 104 V136"/><path d="M478 104 V136"/><path d="M446 120 H494"/></g>
+<!-- fincan -->
+<ellipse cx="320" cy="298" rx="92" ry="12" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M262 222 H378 L368 286 Q366 296 354 296 H286 Q274 296 272 286 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M376 236 q32 2 30 26 q-2 20 -32 18" fill="none" stroke="#d8c6b6" stroke-width="10"/>
+<ellipse cx="320" cy="223" rx="58" ry="9" fill="#6b3f26"/>
+<g fill="none" stroke="#fbf8f4" stroke-width="4" stroke-linecap="round"><path d="M306 206 q-8 -12 0 -22"/><path d="M334 206 q8 -12 0 -22"/></g>
+<!-- etiketler -->
+<g font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#6b5a50"><text x="146" y="200">?</text><text x="462" y="186">?</text></g>
+</svg>

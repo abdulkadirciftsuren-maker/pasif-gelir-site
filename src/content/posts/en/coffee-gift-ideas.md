@@ -76,6 +76,8 @@ Coffee is always a safe bet – but what gift will really delight a coffee lover
 
 ## 4 tips for the perfect coffee gift
 
+For ready-made shopping lists, see the [coffee starter kit](/en/coffee-starter-kit/).
+
 1. **Don't surprise people with big machines:** Machines depend heavily on taste and counter space. Better to ask discreetly first.
 2. **Beans, not ground coffee:** Anyone with a grinder will be happy with whole beans. Without a grinder, give a small amount of freshly ground coffee.
 3. **Combine:** Small gifts feel bigger as a set – e.g. cezve + cups + coffee, or V60 + filters + beans.

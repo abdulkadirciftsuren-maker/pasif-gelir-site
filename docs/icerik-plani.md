@@ -39,7 +39,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 17 | Makinesiz Süt Köpürtme: 3 Kolay Yöntem | süt nasıl köpürtülür | Tarif | 2 | ⬜ |
 | 18 | AeroPress Kullanımı ve En İyi 3 Tarif | aeropress tarifi | Tarif | 3 | ✅ (TR/DE/EN) |
 | 19 | Chemex ile Kahve Demleme | chemex nasıl kullanılır | Tarif | 3 | ✅ (TR/DE/EN) |
-| 20 | Filtre Kahve Makinesinden Daha İyi Kahve Almanın 7 Yolu | filtre kahve makinesi kullanımı | Tarif | 2 | ⬜ |
+| 20 | Filtre Kahve Makinesinden Daha İyi Kahve Almanın 7 Yolu | filtre kahve makinesi kullanımı | Tarif | 2 | ✅ (TR/DE/EN) |
 
 ## Küme 3: Ekipman (para kazandıran küme)
 

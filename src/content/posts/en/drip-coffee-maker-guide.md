@@ -56,6 +56,8 @@ The drip coffee maker is a kitchen classic: add water and coffee, wait a few min
 
 ## 6 tips for better coffee from any machine
 
+The full guide: [7 ways to make better drip coffee](/en/better-drip-coffee-tips/).
+
 1. **Right ratio:** about 55–65 g of coffee per liter of water. The [coffee ratio calculator](/en/coffee-ratio-calculator/) helps for your number of cups.
 2. **Grind fresh:** medium. Which grinder fits is covered in [Best coffee grinder](/en/best-coffee-grinder/).
 3. **Rinse the filter:** Briefly wet the paper filter with hot water and pour the water away – this removes the papery taste.

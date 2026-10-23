@@ -56,6 +56,8 @@ Filtre kahve makinesi, evde ve ofiste en pratik kahve yöntemlerinden biri: suyu
 
 ## Her makinede daha lezzetli kahve için 6 ipucu
 
+Ayrıntılı rehber: [filtre kahve makinesinden daha iyi kahve almanın 7 yolu](/filtre-kahve-makinesi-kullanimi/).
+
 1. **Doğru oran:** Litre suya yaklaşık 55–65 g kahve. Fincan sayısına göre [kahve oranı hesaplayıcımızı](/kahve-orani-hesaplayici/) kullanabilirsin.
 2. **Taze öğüt:** Orta kalınlıkta öğüt. Hazır öğütülmüş kahve kullanıyorsan küçük paket al. Öğütücü seçimi için [öğütücü rehberimize](/en-iyi-kahve-ogutucu/) bak.
 3. **Filtreyi ısla:** Kâğıt filtreyi önce sıcak suyla ıslatıp suyunu dökersen kâğıt tadı gider.

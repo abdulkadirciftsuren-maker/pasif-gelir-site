@@ -21,3 +21,10 @@
 - Yönetim sayfası: `/yonetim/` (noindex, robots.txt ile kapalı).
 - Cloudflare'de bağlantı ya da değişken değişince yeni bir yayın (deploy) gerekir; yoksa eski değerler kullanılır.
 - Paylaşım formunda robot doğrulaması hata verirse ekranda Cloudflare hata kodu görünür (ör. `invalid-input-secret` = TURNSTILE_SECRET yanlış).
+
+## Gelir hesapları (durum)
+- Amazon.de PartnerNet: `fincanla-21` (Almanca sayfalar + Türkçe sayfalardaki "Amazon.de'de gör" düğmeleri).
+- Amazon.com Associates: `fincanla-20` (İngilizce sayfalar). 23.10.2026'da başvuruldu; 180 gün içinde 3 nitelikli satış gerekir (~21.04.2027), olmazsa yeniden başvurulabilir. Ödeme/vergi (W-8BEN) bilgileri henüz girilmedi; kullanıcı kendisi girecek.
+- Amazon.com.tr: yalnızca Türkiye'de ikamet edenlere açık, kullanıcı başvuramıyor.
+- Google AdSense: `ca-pub-3936992976474644`, site 23.10.2026'da incelemeye gönderildi. Onay gelince AdSense → "Datenschutz und Mitteilungen" altında Avrupa (DSGVO) izin mesajı kurulacak; altbilgideki "Çerez ayarları" düğmesi bu araca bağlı.
+- Kullanıcı ~2 Kasım 2026'da otelden taşınıyor: Impressum (src/config.ts), AdSense ve Amazon adreslerini güncelle.

@@ -15,7 +15,7 @@ export const STORES: Record<string, { name: string; lang: string; tag?: string }
   trendyol: { name: 'Trendyol', lang: 'tr' },
   hepsiburada: { name: 'Hepsiburada', lang: 'tr' },
   amazonTr: { name: 'Amazon.com.tr', lang: 'tr' },
-  amazonUs: { name: 'Amazon', lang: 'en' },
+  amazonUs: { name: 'Amazon', lang: 'en', tag: 'fincanla-20' },
   amazonDe: { name: 'Amazon.de', lang: 'de', tag: 'fincanla-21' },
 };
 

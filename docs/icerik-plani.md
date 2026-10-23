@@ -35,7 +35,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 13 | French Press Nasıl Kullanılır? | french press kullanımı | Tarif | — | ✅ |
 | 14 | Moka Pot ile Kahve Nasıl Yapılır? | moka pot kullanımı | Tarif | 1 | ✅ |
 | 15 | Cold Brew (Soğuk Demleme) Tarifi | cold brew nasıl yapılır | Tarif | 1 (yaz öncesi) | ✅ (TR/DE/EN) |
-| 16 | Evde Buzlu Latte ve 5 Soğuk Kahve Tarifi | ice latte tarifi | Tarif | 2 (yaz öncesi) | ⬜ |
+| 16 | Evde Buzlu Latte ve 5 Soğuk Kahve Tarifi | ice latte tarifi | Tarif | 2 (yaz öncesi) | ✅ (TR/DE/EN) |
 | 17 | Makinesiz Süt Köpürtme: 3 Kolay Yöntem | süt nasıl köpürtülür | Tarif | 2 | ✅ (TR/DE/EN) |
 | 18 | AeroPress Kullanımı ve En İyi 3 Tarif | aeropress tarifi | Tarif | 3 | ✅ (TR/DE/EN) |
 | 19 | Chemex ile Kahve Demleme | chemex nasıl kullanılır | Tarif | 3 | ✅ (TR/DE/EN) |

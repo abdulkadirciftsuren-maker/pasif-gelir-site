@@ -37,7 +37,7 @@ Hayır:
 
 - **Buzlu kahve:** Sıcak demlenip soğutulan kahve. Hızlı yapılır, ama soğudukça acılaşabilir.
 - **Cold brew:** Hiç ısıtılmaz, soğuk suda saatlerce demlenir. Daha yumuşak, tatlı ve az acıdır.
-- **Japon usulü buzlu kahve:** Sıcak kahve doğrudan buzun üzerine demlenir. Hızlı ve aromatiktir. Buzlu kahve tariflerini ayrı bir yazıda anlatacağız.
+- **Japon usulü buzlu kahve:** Sıcak kahve doğrudan buzun üzerine demlenir. Hızlı ve aromatiktir. Buzlu kahve tarifleri için [buzlu latte ve 5 soğuk kahve](/buzlu-latte-tarifi/) yazımıza bak.
 
 ## İhtiyacın olanlar
 

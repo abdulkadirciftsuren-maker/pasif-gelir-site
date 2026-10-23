@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Katmanlı buzlu latte dolu uzun bir bardak, pipet ve buz küpleri; yanında dondurmalı bir affogato kasesi">
+<rect width="640" height="360" fill="#e9f5fb"/>
+<circle cx="540" cy="80" r="120" fill="#d6ebf6"/>
+<rect y="300" width="640" height="60" fill="#c8e0ee"/>
+<!-- uzun bardak -->
+<path d="M200 80 H310 L298 300 H212 Z" fill="#e6f1f4" opacity=".9" stroke="#9cc3d0" stroke-width="3"/>
+<path d="M204 150 H306 L302 210 H208 Z" fill="#fbf8f4"/>
+<path d="M208 210 H302 L298 300 H212 Z" fill="#c69a6d"/>
+<path d="M204 120 H306 L304 150 H206 Z" fill="#6b3f26"/>
+<path d="M208 210 q20 -10 46 0 q26 10 48 0" fill="none" stroke="#a87d52" stroke-width="4" opacity=".7"/>
+<g fill="#ffffff" opacity=".85" stroke="#cfe2e8" stroke-width="2">
+<rect x="216" y="132" width="28" height="26" rx="5" transform="rotate(-10 230 145)"/>
+<rect x="254" y="160" width="28" height="26" rx="5" transform="rotate(14 268 173)"/>
+<rect x="224" y="186" width="26" height="24" rx="5" transform="rotate(6 237 198)"/>
+<rect x="268" y="226" width="24" height="22" rx="5" transform="rotate(-8 280 237)"/>
+</g>
+<path d="M270 40 L284 170" stroke="#c4562f" stroke-width="9" stroke-linecap="round"/>
+<!-- affogato -->
+<path d="M400 248 H520 Q516 300 460 300 Q404 300 400 248 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<circle cx="460" cy="238" r="30" fill="#f6ead9"/>
+<path d="M430 246 q30 22 60 0 q-4 20 -30 22 q-26 -2 -30 -22 z" fill="#6b3f26" opacity=".85"/>
+<path d="M466 210 L476 196" stroke="#c4562f" stroke-width="5" stroke-linecap="round"/>
+<!-- buz küpleri yerde -->
+<g fill="#ffffff" opacity=".9" stroke="#cfe2e8" stroke-width="2"><rect x="560" y="276" width="26" height="24" rx="5" transform="rotate(12 573 288)"/><rect x="120" y="280" width="22" height="20" rx="4" transform="rotate(-10 131 290)"/></g>
+</svg>

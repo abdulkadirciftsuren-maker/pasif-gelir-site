@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ahşap yakalıklı ve deri bağcıklı cam bir Chemex, içinde kağıt filtre ve kahve, yanında bir fincan">
+<rect width="640" height="360" fill="#e9f1ea"/>
+<circle cx="110" cy="80" r="110" fill="#d8e7da"/>
+<rect y="300" width="640" height="60" fill="#cadecd"/>
+<!-- chemex üst koni -->
+<path d="M220 50 H400 L330 160 H290 Z" fill="#e6f1f4" opacity=".85" stroke="#9cc3d0" stroke-width="3"/>
+<!-- filtre -->
+<path d="M226 44 H394 L332 150 H288 Z" fill="#fbf8f4" stroke="#e2d6c8" stroke-width="2"/>
+<path d="M250 70 H370 L340 120 H280 Z" fill="#7a4a2c"/>
+<!-- alt koni -->
+<path d="M290 160 H330 L410 290 Q412 300 400 300 H220 Q208 300 210 290 Z" fill="#e6f1f4" opacity=".85" stroke="#9cc3d0" stroke-width="3"/>
+<path d="M250 236 H370 L404 290 Q406 296 398 296 H222 Q214 296 216 290 Z" fill="#6b3f26"/>
+<!-- ahşap yaka -->
+<path d="M272 140 H348 L336 192 H284 Z" fill="#b07a45"/>
+<path d="M278 150 H342" stroke="#8a5a2e" stroke-width="2"/>
+<!-- deri bağ + boncuk -->
+<path d="M312 172 Q300 200 296 214 M312 172 Q322 200 330 212" fill="none" stroke="#5b3a22" stroke-width="3"/>
+<circle cx="312" cy="172" r="7" fill="#3a2418"/>
+<!-- ağız -->
+<path d="M394 50 L410 44" stroke="#9cc3d0" stroke-width="3"/>
+<!-- fincan -->
+<path d="M470 236 H550 L544 292 Q542 300 534 300 H486 Q478 300 476 292 Z" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M548 248 q26 2 24 22 q-2 18 -26 16" fill="none" stroke="#d8c6b6" stroke-width="9"/>
+<ellipse cx="510" cy="237" rx="40" ry="6" fill="#8a5232"/>
+<g fill="none" stroke="#fbf8f4" stroke-width="4" stroke-linecap="round"><path d="M500 222 q-8 -12 0 -24"/><path d="M522 222 q8 -12 0 -24"/></g>
+</svg>

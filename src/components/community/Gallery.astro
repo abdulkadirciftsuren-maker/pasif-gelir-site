@@ -63,10 +63,11 @@ const c = ct(lang);
 <style>
   .lead { font-size: 1.15rem; color: var(--muted); }
   .note { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: .9rem; margin-top: 1.25rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: .9rem; margin-top: 1.25rem; }
   .grid :global(.item) { display: grid; gap: .35rem; padding: 0; border: 0; background: none; cursor: pointer; text-align: left; font: inherit; color: var(--text); }
-  .grid :global(.item img) { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); background: var(--accent-soft); }
+  .grid :global(.item img) { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius); background: var(--accent-soft); }
   .grid :global(.cap) { font-size: .9rem; color: var(--muted); line-height: 1.35; }
+  @media (min-width: 800px) { .grid { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1.25rem; } }
   .more-wrap { text-align: center; margin-top: 1.5rem; }
   .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
 </style>

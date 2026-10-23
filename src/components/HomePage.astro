@@ -199,10 +199,10 @@ const jsonLd = [
   /* Okur fotoğrafları şeridi: telefonda parmakla yana kaydırılır */
   .strip { flex-basis: 100%; display: flex; gap: .8rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; -webkit-overflow-scrolling: touch; }
   .strip :global(.tile) { flex: 0 0 8.5rem; scroll-snap-align: start; display: grid; gap: .35rem; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; color: var(--text); text-align: left; text-decoration: none; }
-  .strip :global(.tile img) { width: 100%; aspect-ratio: 1; height: auto; object-fit: cover; border-radius: var(--radius); background: var(--surface); transition: transform .2s; }
+  .strip :global(.tile img) { width: 100%; aspect-ratio: 4 / 5; height: auto; object-fit: cover; border-radius: var(--radius); background: var(--surface); transition: transform .2s; }
   .strip :global(.tile:hover img) { transform: scale(1.03); }
   .strip :global(.tile span) { font-size: .85rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .strip :global(.tile.all) { aspect-ratio: 1; display: grid; place-items: center; text-align: center; border: 2px dashed var(--accent); border-radius: var(--radius); color: var(--accent); font-weight: 700; }
+  .strip :global(.tile.all) { aspect-ratio: 4 / 5; display: grid; place-items: center; text-align: center; border: 2px dashed var(--accent); border-radius: var(--radius); color: var(--accent); font-weight: 700; }
   .side-extra { display: none; }
   /* Geniş ekran: sağda sabit kalan sütun; fotoğraflar iki sütunlu, daha büyük */
   @media (min-width: 1100px) {
@@ -213,6 +213,8 @@ const jsonLd = [
     .strip { display: grid; grid-template-columns: 1fr 1fr; overflow: visible; padding: 0; }
     /* En yeni fotoğraf büyük, altında dört küçük */
     .strip :global(.tile:first-child) { grid-column: span 2; }
+    /* Büyük fotoğraf kırpılmadan, kendi oranıyla görünür */
+    .strip :global(.tile:first-child img) { aspect-ratio: auto; max-height: 30rem; object-fit: contain; background: rgba(0, 0, 0, .06); }
     .strip :global(.tile:nth-child(n+6):not(.all)) { display: none; }
     .side-extra { display: grid; gap: 1.25rem; }
     .promo { display: grid; gap: .3rem; padding: 1.1rem 1.25rem; border-radius: var(--radius); background: var(--espresso); color: var(--cream); text-decoration: none; }

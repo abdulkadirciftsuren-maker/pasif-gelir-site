@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import PostCard from '../components/PostCard.astro';
-import { SITE, STORES, affiliateUrl } from '../config';
+import { SITE, STORES, affiliateUrl, amazonDeSearchUrl } from '../config';
 import { staticPages, t } from '../i18n/ui';
 import { communityPages } from '../i18n/community';
 import { alternatesFor, formatDate, getPosts, postLang, postUrl, readingMinutes, type Post } from '../lib';
@@ -88,7 +88,12 @@ const jsonLd = [
                     <strong>{product.name}</strong>
                     <span>{product.bestFor}</span>
                   </div>
-                  <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{STORES[product.store].name} →</a>
+                  <span class="qbtns">
+                    <a class="btn" href={affiliateUrl(product.store, product.url)} rel="sponsored nofollow noopener" target="_blank">{STORES[product.store].name} →</a>
+                    {lang === 'tr' && product.store !== 'amazonDe' && (
+                      <a class="de" href={amazonDeSearchUrl(product.name)} rel="sponsored nofollow noopener" target="_blank">🇪🇺 Amazon.de</a>
+                    )}
+                  </span>
                 </li>
               ))}
             </ol>
@@ -178,6 +183,8 @@ const jsonLd = [
   .quick li div { display: grid; gap: .1rem; flex: 1 1 16rem; }
   .quick li span { color: var(--muted); font-size: .92rem; line-height: 1.4; }
   .quick .btn { background: var(--cat); color: var(--accent-ink); padding: .45rem .9rem; font-size: .92rem; white-space: nowrap; }
+  .quick .qbtns { display: flex; align-items: center; gap: .75rem; }
+  .quick .de { font-size: .9rem; font-weight: 600; color: var(--cat); white-space: nowrap; }
   .quick .all { display: inline-block; margin-top: .4rem; font-size: .92rem; color: var(--cat); font-weight: 600; }
   .disclosure { font-size: .85rem; line-height: 1.5; color: var(--muted); background: var(--cat-soft); border-radius: var(--radius); padding: .6rem .9rem .6rem 2.4rem; position: relative; }
   .disclosure::before { content: '✓'; position: absolute; left: .9rem; top: .55rem; font-weight: 700; color: var(--good); }

@@ -30,6 +30,12 @@ export function affiliateUrl(store: StoreKey, url: string): string {
   return u.toString();
 }
 
+/** Türkçe sayfalardaki "Amazon.de'de gör" düğmesi: ürün adıyla Amazon.de araması, ortaklık kimliğiyle.
+ *  Almanya ve Avrupa'da yaşayan Türk okurlar buradan alırsa komisyon gelir. */
+export function amazonDeSearchUrl(name: string): string {
+  return `https://www.amazon.de/s?k=${encodeURIComponent(name)}&tag=${STORES.amazonDe.tag}`;
+}
+
 // Impressum (künye): Almanya'da yaşayan site sahipleri için yasal zorunluluk (§ 5 DDG).
 // Yayına almadan önce MUTLAKA doldur. Boş alanlar sayfada "[Bitte ausfüllen]" olarak görünür.
 export const IMPRESSUM = {

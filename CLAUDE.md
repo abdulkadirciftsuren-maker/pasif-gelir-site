@@ -12,3 +12,10 @@
 
 ## Gizlilik
 - Kullanıcının Steuer-ID, IBAN, kart bilgisi, SMS kodu gibi bilgileri asla repoya ya da siteye yazılmaz.
+
+## Topluluk (okur fotoğrafları) – Cloudflare kurulumu
+- Pages projesi **fincanla** → Ayarlar → Bağlantılar: `DB` = D1 **fincanla-topluluk**, `FOTO` = KV **fincanla-fotolar**.
+- Değişkenler: `TURNSTILE_SITE_KEY` (metin), `TURNSTILE_SECRET` (gizli), `ADMIN_PASSWORD` (gizli). Değerler sadece Cloudflare'de durur, repoya yazılmaz.
+- Turnstile widget adı **fincanla**, hostname fincanla.com (www dahil).
+- Tablolar ilk istekte kod tarafından otomatik kurulur (`ensureSchema`).
+- Yönetim sayfası: `/yonetim/` (noindex, robots.txt ile kapalı).

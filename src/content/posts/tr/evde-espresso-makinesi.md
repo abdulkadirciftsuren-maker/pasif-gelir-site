@@ -80,7 +80,7 @@ Giriş seviyesi portafiltreli makinelerin çoğu **basınçlı (çift cidarlı) 
 
 ## Sütlü kahveler
 
-Espresso makinesi alanların çoğu aslında latte ya da cappuccino içmek istiyor. Buhar çubuğu kullanmak biraz pratik ister. İlk haftalarda zorlanırsan ayrı bir süt köpürtücüsü işini kolaylaştırır. Farkları [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/) anlattık.
+Espresso makinesi alanların çoğu aslında latte ya da cappuccino içmek istiyor. Buhar çubuğu kullanmak biraz pratik ister. İlk haftalarda zorlanırsan ayrı bir süt köpürtücüsü işini kolaylaştırır, bkz. [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/). Farkları [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/) anlattık.
 
 ## Sık sorulan sorular
 

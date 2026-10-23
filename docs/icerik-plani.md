@@ -155,3 +155,39 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 - Gizlilik politikası (DSGVO) şablonu hazır; reklam eklendiğinde güncellenecek.
 - AdSense açılırken Avrupa için çerez onayı penceresi (Google'ın sertifikalı çözümü) kurulacak.
 - Gelir başlamadan önce Gewerbe kaydı ve vergi için bir Steuerberater'a danışılmalı.
+
+## 2. dalga: Yeni konu listesi (Ekim 2026)
+
+İlk 30 maddelik planın tamamı üç dilde yayında (126 yazı). Yeni konular, öncelik sırasıyla:
+
+| # | Konu | Neden? | Dil önceliği | Zaman |
+| --- | --- | --- | --- | --- |
+| 31 | Kış kahveleri: tarçınlı, balkabaklı (pumpkin spice), zencefilli latte | Mevsim şimdi; DE'de "Kürbis Latte" çok aranır | DE + TR + EN | Hemen (Kasım) |
+| 32 | Sıcak çikolata tarifi (+ süt köpürtücü ile) | Kış trafiği, süt köpürtücüye link | TR + DE + EN | Hemen |
+| 33 | Türk kahvesi falı nasıl bakılır? (eğlence amaçlı, semboller) | TR'de çok yüksek arama hacmi | TR (+ DE Türk topluluğu) | Kasım |
+| 34 | En iyi kahve makinesi 2026: türlerine göre seçim | Para kazandıran "en iyi" araması | DE + TR + EN | Kasım (yılbaşı öncesi) |
+| 35 | De'Longhi mi, Philips mi, Siemens mi? Tam otomatik karşılaştırma | DE'de yüksek fiyatlı ürün, yüksek komisyon | DE önce | Kasım |
+| 36 | Espresso aksesuarları: tamper, süt potu, knock box, dağıtıcı | Siebträger alanların ek alışverişi | DE + EN + TR | Aralık |
+| 37 | Latte art nasıl yapılır? (kalp, tulip) | Çok aranır, süt potu ve makineye link | TR + DE + EN | Aralık |
+| 38 | Termos kupa ve to-go kupa rehberi | Hediye ve günlük ürün | DE + TR + EN | Aralık |
+| 39 | Espresso çeşitleri: macchiato, cortado, americano, lungo, ristretto | Bilgi trafiği, kahve çeşitleri yazısını tamamlar | 3 dil | Ocak |
+| 40 | Chai latte tarifi | Kış ve kafe içeceği | 3 dil | Ocak |
+| 41 | Kampta ve seyahatte kahve (AeroPress Go, el öğütücü, kamp ocağı) | Bahar/yaz öncesi, ürün linkli | DE + EN + TR | Şubat |
+| 42 | Ofis için kahve makinesi seçimi | Yüksek tutarlı satış | DE + TR | Şubat |
+| 43 | Kahvenin tarihi: Osmanlı kahvehaneleri ve kahvenin Avrupa'ya yolculuğu | Kültür, TR ve DE için ilgi çekici, link alma şansı | TR + DE + EN | Şubat |
+| 44 | Ramazan'da kahve: iftar ve sahurda kahve (kafein ve uyku) | Mevsimsel TR + DE Türk topluluğu | TR + DE | Ramazan'dan 4 hafta önce |
+| 45 | Kahve makinesi günlük temizliği (kireç dışında) | Bakım ürünlerine link | 3 dil | Mart |
+| 46 | Kahvede ne kadar kafein var? (yöntemlere göre tablo, sağlık tavsiyesi vermeden) | Çok aranan bilgi | 3 dil | Mart |
+
+Notlar:
+- Sağlık konularında tıbbi tavsiye verilmez; genel bilgi ve "doktoruna danış" notu eklenir.
+- Fal yazısı "eğlence amaçlı gelenek" olarak yazılır.
+- Search Console verisi gelince (Kasım ortası) sıralama yeniden gözden geçirilecek.
+
+## Topluluk fikri: Okur fotoğrafları ve "Ayın fotoğrafı" (taslak)
+
+- Okurlar kendi kahve fotoğraflarını e-postayla gönderir (ör. foto@fincanla.com, Cloudflare Email Routing ile Gmail'e yönlendirilir).
+- Gönderim kuralları: fotoğraf kendine ait olmalı, yüz/kişisel bilgi olmamalı, isim (ya da takma ad) ile yayın izni verilmeli.
+- Fotoğraflar elle seçilir ve küçültülerek (webp) siteye eklenir: "Okur Fotoğrafları" sayfası (3 dil).
+- Her ay bir "Ayın fotoğrafı" seçilir, ilgili yazının kapağına konur ve altına "Fotoğraf: İsim" yazılır.
+- Yorum/fikir paylaşımı: ilk aşamada e-posta; trafik artınca moderasyonlu bir yorum sistemi değerlendirilecek.

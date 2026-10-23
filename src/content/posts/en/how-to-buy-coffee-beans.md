@@ -63,6 +63,8 @@ Whole beans are the easiest way to better coffee: ground coffee loses its aroma 
 
 ## How to store beans
 
+The full guide: [how to store coffee beans](/en/how-to-store-coffee-beans/).
+
 1. **Airtight:** In the original bag with a valve (tightly closed) or in a storage canister.
 2. **Dark and cool:** Not next to the stove and not in the sun.
 3. **Not in the fridge:** Moisture and odors harm the aroma. Freezing only works in portions, in well-sealed bags – and don't refreeze the beans.

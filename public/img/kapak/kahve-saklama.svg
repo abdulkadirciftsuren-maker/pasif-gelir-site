@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ağzı kapalı, ışık geçirmeyen bir kahve saklama kabı ve kahve paketi; yanda üzeri çizili bir buzdolabı işareti">
+<rect width="640" height="360" fill="#eef0f5"/>
+<circle cx="110" cy="80" r="110" fill="#e0e3ee"/>
+<rect y="300" width="640" height="60" fill="#d5d9e6"/>
+<!-- saklama kabı -->
+<rect x="150" y="130" width="120" height="170" rx="14" fill="#2a211c"/>
+<rect x="142" y="110" width="136" height="30" rx="10" fill="#1f7468"/>
+<rect x="196" y="98" width="28" height="16" rx="6" fill="#185c52"/>
+<rect x="166" y="190" width="88" height="40" rx="6" fill="#3a2f28"/>
+<g transform="translate(210 210)"><ellipse rx="13" ry="9" fill="#c69a6d"/><path d="M-11 0 Q-4 -5 0 0 T11 0" fill="none" stroke="#3a2f28" stroke-width="2.2"/></g>
+<!-- paket -->
+<path d="M300 150 H380 L388 300 H292 Z" fill="#c89b6d"/>
+<path d="M300 150 L306 128 H374 L380 150 Z" fill="#a87d52"/>
+<rect x="296" y="124" width="88" height="10" rx="3" fill="#7d8a97"/>
+<circle cx="340" cy="180" r="9" fill="#a87d52"/><circle cx="340" cy="180" r="4" fill="#8a6440"/>
+<rect x="312" y="210" width="56" height="44" rx="5" fill="#fbf8f4"/>
+<rect x="320" y="220" width="40" height="6" rx="3" fill="#c4562f"/>
+<rect x="320" y="234" width="30" height="5" rx="2" fill="#8a7a6c"/>
+<!-- buzdolabı + çarpı -->
+<g transform="translate(470 150)">
+<rect width="90" height="150" rx="10" fill="#fbf8f4" stroke="#9aa7b4" stroke-width="4"/>
+<path d="M0 54 H90" stroke="#9aa7b4" stroke-width="4"/>
+<rect x="70" y="18" width="6" height="22" rx="3" fill="#9aa7b4"/>
+<rect x="70" y="70" width="6" height="30" rx="3" fill="#9aa7b4"/>
+<path d="M-14 -10 L104 160 M104 -10 L-14 160" stroke="#c4562f" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+</g>
+</svg>

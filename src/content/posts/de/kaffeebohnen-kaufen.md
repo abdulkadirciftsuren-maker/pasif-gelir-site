@@ -63,6 +63,8 @@ Ganze Bohnen sind der einfachste Weg zu besserem Kaffee: Gemahlener Kaffee verli
 
 ## Bohnen richtig lagern
 
+Ausführlich: [Kaffee richtig aufbewahren](/de/kaffeebohnen-aufbewahren/).
+
 1. **Luftdicht:** In der Originalpackung mit Ventil (gut verschlossen) oder in einer Vorratsdose.
 2. **Dunkel und kühl:** Nicht neben dem Herd und nicht in der Sonne.
 3. **Nicht im Kühlschrank:** Feuchtigkeit und Gerüche schaden dem Aroma. Einfrieren geht nur portionsweise in gut verschlossenen Beuteln – und die Bohnen dann nicht wieder einfrieren.

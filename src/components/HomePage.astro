@@ -4,6 +4,7 @@ import PostCard from './PostCard.astro';
 import { SITE } from '../config';
 import { staticPages, t, type Lang } from '../i18n/ui';
 import { getPosts, postUrl } from '../lib';
+import { communityPages } from '../i18n/community';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -51,6 +52,17 @@ const jsonLd = [
   <section class="container section" id="rehberler" aria-labelledby="latest">
     <h2 id="latest">{t(lang, 'home.latest')}</h2>
     <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
+  </section>
+
+  <section class="container community" aria-labelledby="community">
+    <div>
+      <h2 id="community">{t(lang, 'community.homeTitle')}</h2>
+      <p>{t(lang, 'community.homeText')}</p>
+    </div>
+    <p class="actions">
+      <a class="btn" href={communityPages.share[lang]}>📷 {t(lang, 'community.homeCta')}</a>
+      <a class="link" href={communityPages.gallery[lang]}>{t(lang, 'community.homeGallery')} →</a>
+    </p>
   </section>
 
   {categories.map(({ cat, posts }) => (
@@ -121,6 +133,11 @@ const jsonLd = [
   .hero .btn { background: var(--warm); color: var(--espresso); }
   .hero img { width: 100%; border-radius: 20px; box-shadow: 0 24px 50px -20px rgba(0, 0, 0, .6); }
   .section { padding: 1rem 1rem 2rem; }
+  .community { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: var(--accent-soft); border-radius: var(--radius); padding: 1.5rem 1.75rem; margin-top: 1rem; }
+  .community h2 { margin: 0 0 .4rem; }
+  .community p { margin: 0; max-width: 40rem; }
+  .community .actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+  .community .link { font-weight: 600; }
   .topic { background: var(--cat-soft); padding: 2.5rem 0 3rem; margin-top: 1.5rem; }
   .topic .chip { background: var(--surface); }
   .topic h2 { margin: .6rem 0 .25rem; color: var(--cat); }

@@ -1,6 +1,7 @@
 ---
 import { SITE } from '../config';
 import { staticPages, t, type Lang } from '../i18n/ui';
+import { communityPages } from '../i18n/community';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -11,6 +12,7 @@ const year = new Date().getFullYear();
   <div class="container inner">
     <p><strong>{SITE.name}</strong> — {t(lang, 'site.tagline')}</p>
     <nav aria-label="Footer">
+      <a href={communityPages.gallery[lang]}>{t(lang, 'nav.community')}</a>
       <a href={staticPages.about[lang]}>{t(lang, 'footer.about')}</a>
       <a href={staticPages.disclosure[lang]}>{t(lang, 'footer.disclosure')}</a>
       <a href={staticPages.privacy[lang]}>{t(lang, 'footer.privacy')}</a>

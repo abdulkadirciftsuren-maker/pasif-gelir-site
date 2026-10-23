@@ -5,6 +5,7 @@ import AdSlot from '../components/AdSlot.astro';
 import PostCard from '../components/PostCard.astro';
 import { SITE, STORES, affiliateUrl } from '../config';
 import { staticPages, t } from '../i18n/ui';
+import { communityPages } from '../i18n/community';
 import { alternatesFor, formatDate, getPosts, postLang, postUrl, readingMinutes, type Post } from '../lib';
 
 interface Props {
@@ -129,6 +130,10 @@ const jsonLd = [
             <strong>{t(lang, 'aside.calcTitle')}</strong>
             <span>{t(lang, 'aside.calcText')}</span>
           </a>
+          <a class="promo share-promo" href={communityPages.share[lang]}>
+            <strong>{t(lang, 'community.promoTitle')}</strong>
+            <span>{t(lang, 'community.promoText')}</span>
+          </a>
           {sameTopic.length > 0 && (
             <nav class="more" aria-label={t(lang, 'aside.more')}>
               <p>{t(lang, 'aside.more')}</p>
@@ -190,6 +195,8 @@ const jsonLd = [
   .promo strong { font: 700 1.15rem var(--serif); color: var(--warm); }
   .promo span { opacity: .85; line-height: 1.5; }
   .promo:hover strong { text-decoration: underline; }
+  .share-promo { background: var(--cat-soft); color: var(--text); }
+  .share-promo strong { color: var(--cat); }
   .more { background: var(--cat-soft); border-radius: var(--radius); padding: 1rem 1.25rem; }
   .more ul { margin: 0; padding-left: 1.1rem; }
   .more li { margin: .4rem 0; line-height: 1.4; }

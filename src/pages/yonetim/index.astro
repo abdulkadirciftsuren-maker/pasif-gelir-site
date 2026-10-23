@@ -1,0 +1,210 @@
+---
+// Yönetici sayfası: yalnızca şifreyi bilen site sahibi kullanır. Arama motorlarına kapalı.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { ct } from '../../i18n/community';
+
+const reasons = ct('tr').reasons;
+---
+
+<BaseLayout lang="tr" title="Yönetim" description="Fincanla yönetim sayfası" noindex>
+  <section class="container admin">
+    <h1>Yönetim</h1>
+
+    <p id="adm-soon" class="box" hidden>
+      Sistem henüz kurulmadı. Cloudflare ayarları tamamlanınca bu sayfa çalışacak.
+    </p>
+
+    <form id="adm-login" class="box" hidden>
+      <label>Şifre <input type="password" name="password" autocomplete="current-password" required /></label>
+      <button class="btn" type="submit">Giriş yap</button>
+      <p id="adm-login-error" class="error" hidden></p>
+    </form>
+
+    <div id="adm-panel" hidden>
+      <div class="bar">
+        <nav class="tabs" aria-label="Durum">
+          <button type="button" data-tab="pending" class="active">Bekleyen <span data-count="pending">0</span></button>
+          <button type="button" data-tab="approved">Yayında <span data-count="approved">0</span></button>
+          <button type="button" data-tab="rejected">Reddedilen <span data-count="rejected">0</span></button>
+          <button type="button" data-tab="removed">Kaldırılan <span data-count="removed">0</span></button>
+        </nav>
+        <button id="adm-logout" class="btn ghost" type="button">Çıkış</button>
+      </div>
+      <p id="adm-empty" class="box" hidden>Bu bölümde gönderi yok.</p>
+      <div id="adm-list" class="list"></div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script define:vars={{ reasons }}>
+  const $ = (id) => document.getElementById(id);
+  const labels = { tr: 'Türkçe', de: 'Almanca', en: 'İngilizce' };
+  let tab = 'pending';
+
+  async function api(path, options = {}) {
+    const res = await fetch(path, { credentials: 'same-origin', ...options });
+    const data = await res.json().catch(() => ({}));
+    return { ok: res.ok, status: res.status, data };
+  }
+
+  function date(ms) {
+    return ms ? new Date(ms).toLocaleString('tr-TR') : '';
+  }
+
+  function reasonSelect() {
+    const sel = document.createElement('select');
+    Object.entries(reasons).forEach(([key, label]) => {
+      const o = document.createElement('option');
+      o.value = key;
+      o.textContent = label;
+      sel.append(o);
+    });
+    return sel;
+  }
+
+  async function decide(id, action, reason, note) {
+    const r = await api('/api/yonetim/karar', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ id, action, reason, note }),
+    });
+    if (!r.ok) alert('İşlem yapılamadı. Sayfayı yenileyip tekrar dene.');
+    load();
+  }
+
+  function card(item) {
+    const el = document.createElement('article');
+    el.className = 'card';
+    if (item.status === 'pending' || item.status === 'approved') {
+      const img = document.createElement('img');
+      img.src = item.status === 'approved' ? `/foto/${item.id}` : `/api/yonetim/foto/${item.id}`;
+      img.alt = '';
+      img.loading = 'lazy';
+      img.addEventListener('click', () => window.open(img.src, '_blank'));
+      el.append(img);
+    }
+    const info = document.createElement('div');
+    info.className = 'info';
+    const lines = [
+      ['Ad', item.name],
+      ['Başlık', item.title],
+      ['Not', item.text],
+      ['Dil', labels[item.lang] || item.lang],
+      ['Gönderildi', date(item.created_at)],
+      ['Karar', date(item.decided_at)],
+      ['Sebep', item.reason ? reasons[item.reason] : ''],
+      ['Açıklama', item.note],
+    ];
+    lines.filter(([, v]) => v).forEach(([k, v]) => {
+      const p = document.createElement('p');
+      const b = document.createElement('strong');
+      b.textContent = `${k}: `;
+      p.append(b, document.createTextNode(v));
+      info.append(p);
+    });
+    el.append(info);
+
+    if (item.status === 'pending' || item.status === 'approved') {
+      const actions = document.createElement('div');
+      actions.className = 'actions';
+      if (item.status === 'pending') {
+        const ok = document.createElement('button');
+        ok.className = 'btn ok';
+        ok.type = 'button';
+        ok.textContent = '✅ Yayınla';
+        ok.addEventListener('click', () => decide(item.id, 'approve'));
+        actions.append(ok);
+      }
+      const sel = reasonSelect();
+      const note = document.createElement('input');
+      note.type = 'text';
+      note.maxLength = 200;
+      note.placeholder = 'Kısa açıklama (isteğe bağlı, gönderen görür)';
+      const no = document.createElement('button');
+      no.className = 'btn no';
+      no.type = 'button';
+      no.textContent = item.status === 'pending' ? '❌ Reddet ve sil' : '🗑️ Yayından kaldır ve sil';
+      no.addEventListener('click', () => {
+        if (confirm('Fotoğraf kalıcı olarak silinecek. Emin misin?')) {
+          decide(item.id, item.status === 'pending' ? 'reject' : 'remove', sel.value, note.value);
+        }
+      });
+      actions.append(sel, note, no);
+      el.append(actions);
+    }
+    return el;
+  }
+
+  async function load() {
+    const r = await api(`/api/yonetim/liste?durum=${tab}`);
+    if (r.status === 401) return showLogin();
+    if (!r.ok) return;
+    document.querySelectorAll('[data-count]').forEach((s) => { s.textContent = r.data.counts[s.dataset.count] || 0; });
+    const list = $('adm-list');
+    list.replaceChildren(...r.data.items.map(card));
+    $('adm-empty').hidden = r.data.items.length > 0;
+  }
+
+  function showLogin() {
+    $('adm-panel').hidden = true;
+    $('adm-login').hidden = false;
+  }
+
+  function showPanel() {
+    $('adm-login').hidden = true;
+    $('adm-panel').hidden = false;
+    load();
+  }
+
+  document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+    tab = b.dataset.tab;
+    document.querySelectorAll('[data-tab]').forEach((x) => x.classList.toggle('active', x === b));
+    load();
+  }));
+
+  $('adm-login').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const r = await api('/api/yonetim/giris', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ password: e.target.password.value }),
+    });
+    const err = $('adm-login-error');
+    if (r.ok) { e.target.reset(); err.hidden = true; return showPanel(); }
+    err.textContent = r.status === 429 ? 'Çok fazla deneme. 15 dakika sonra tekrar dene.' : 'Şifre yanlış.';
+    err.hidden = false;
+  });
+
+  $('adm-logout').addEventListener('click', async () => {
+    await api('/api/yonetim/giris', { method: 'DELETE' });
+    showLogin();
+  });
+
+  api('/api/yonetim/giris').then((r) => {
+    if (!r.ok || !r.data.ready) { $('adm-soon').hidden = false; return; }
+    if (r.data.admin) showPanel(); else showLogin();
+  });
+</script>
+
+<style>
+  .admin { padding-top: 2rem; }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; max-width: 32rem; display: grid; gap: .75rem; }
+  .box input { font: inherit; padding: .5rem .7rem; border: 1px solid var(--border); border-radius: 8px; width: 100%; background: var(--bg); color: var(--text); }
+  .error { color: var(--bad); margin: 0; }
+  .bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem; align-items: center; margin-bottom: 1rem; }
+  .tabs { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .tabs button { font: inherit; border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: .4rem .9rem; cursor: pointer; }
+  .tabs button.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .tabs span { font-weight: 700; }
+  .list { display: grid; gap: 1rem; }
+  .list :global(.card) { display: grid; grid-template-columns: minmax(0, 14rem) 1fr; gap: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; }
+  .list :global(.card img) { width: 100%; border-radius: 10px; cursor: zoom-in; }
+  .list :global(.info p) { margin: .2rem 0; white-space: pre-line; word-break: break-word; }
+  .list :global(.actions) { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .list :global(.actions select), .list :global(.actions input) { font: inherit; padding: .45rem .6rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
+  .list :global(.actions input) { flex: 1 1 14rem; }
+  .list :global(.btn.ok) { background: var(--good); color: #fff; }
+  .list :global(.btn.no) { background: var(--bad); color: #fff; }
+  .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  @media (max-width: 600px) { .list :global(.card) { grid-template-columns: 1fr; } }
+</style>

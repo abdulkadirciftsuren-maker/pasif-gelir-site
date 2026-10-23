@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /yonetim/
+Disallow: /api/
 
 Sitemap: https://fincanla.com/sitemap-index.xml

@@ -75,7 +75,7 @@ Tamamen değil, ama tadını biraz iyileştirebilirsin:
 
 - **Biraz daha ince öğüt** ve **biraz daha fazla kahve** kullan.
 - Sade yerine **sütlü** iç; süt bayatlığı daha az hissettirir. Bkz. [süt köpürtücü seçimi](/sut-kopurtucu-secimi/).
-- **Soğuk demleme** dene: Bayat çekirdekler cold brew'da daha az kusur gösterir.
+- **Soğuk demleme** dene: Bayat çekirdekler [cold brew](/cold-brew-nasil-yapilir/)'da daha az kusur gösterir.
 
 ## Sık sorulan sorular
 

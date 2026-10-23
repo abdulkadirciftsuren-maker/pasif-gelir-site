@@ -75,7 +75,7 @@ Nicht ganz, aber etwas verbessern:
 
 - **Etwas feiner mahlen** und **etwas mehr Kaffee** nehmen.
 - Mit **Milch** trinken – sie überdeckt Altersnoten. Siehe [Milchaufschäumer kaufen](/de/milchaufschaeumer-kaufen/).
-- **Cold Brew** probieren – ältere Bohnen fallen dabei weniger auf.
+- **[Cold Brew](/de/cold-brew-rezept/)** probieren – ältere Bohnen fallen dabei weniger auf.
 
 ## Häufige Fragen
 

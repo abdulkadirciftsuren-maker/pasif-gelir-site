@@ -75,7 +75,7 @@ Not completely, but you can improve it:
 
 - **Grind a little finer** and use **a little more coffee**.
 - Drink it **with milk** – it masks stale notes. See the [milk frother guide](/en/milk-frother-guide/).
-- Try **cold brew** – older beans show fewer flaws that way.
+- Try **[cold brew](/en/how-to-make-cold-brew/)** – older beans show fewer flaws that way.
 
 ## FAQ
 

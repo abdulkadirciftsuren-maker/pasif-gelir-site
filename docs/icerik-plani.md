@@ -19,7 +19,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 5 | Kahve Bölgeleri Rehberi: Etiyopya, Kolombiya, Brezilya ve Tatları | etiyopya kahvesi, kolombiya kahvesi | Bilgi | 2 | ✅ (TR/DE/EN) |
 | 6 | Specialty (Nitelikli) Kahve Nedir? | nitelikli kahve nedir | Bilgi | 2 | ✅ (TR/DE/EN) |
 | 7 | Kahve Çekirdeği Nasıl Saklanır? (Buzdolabı efsanesi dahil) | kahve nasıl saklanır | Bilgi | 2 | ✅ (TR/DE/EN) |
-| 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ⬜ |
+| 8 | Taze Kahve Nasıl Anlaşılır? Kavrum Tarihi Okuma | taze kahve, kavrum tarihi | Bilgi | 3 | ✅ (TR/DE/EN) |
 | 9 | Kafeinsiz Kahve Nasıl Yapılır, Tadı Farklı mı? | kafeinsiz kahve | Bilgi | 3 | ✅ (TR/DE/EN) |
 | 10 | Kahve İçin Hangi Su? Musluk, Arıtma, Şişe Suyu | kahve için su | Bilgi | 3 | ✅ (TR/DE/EN) |
 | 10a | Mırra Nedir? Mardin ve Urfa'nın Acı Kahvesi | mırra nedir, mırra kahvesi | Bilgi | 2 | ✅ |

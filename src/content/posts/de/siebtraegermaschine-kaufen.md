@@ -93,4 +93,4 @@ Viele Einsteigermaschinen kommen mit **druckunterstützten (doppelwandigen) Sieb
 
 **Welche Bohnen für Espresso?** Frisch geröstete Bohnen mit Röstdatum, meist mittel bis dunkel geröstet oder als Arabica-Robusta-Mischung. Siehe [Arabica oder Robusta](/de/arabica-robusta-unterschied/).
 
-**Ist Kapselkaffee „echter“ Espresso?** Er wird mit Druck gebrüht und kommt dem Espresso nahe, lässt sich aber kaum einstellen und ist pro Tasse deutlich teurer.
+**Ist Kapselkaffee „echter“ Espresso?** Er wird mit Druck gebrüht und kommt dem Espresso nahe, lässt sich aber kaum einstellen und ist pro Tasse deutlich teurer. Ein Vergleich der Systeme steht in [Kapselmaschine kaufen](/de/kapselmaschine-kaufen/).

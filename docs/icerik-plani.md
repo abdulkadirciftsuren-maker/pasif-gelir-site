@@ -37,7 +37,7 @@ Arama hacmi notu: aşağıdaki öncelikler tahminidir. Site yayına girdikten 1-
 | 15 | Cold Brew (Soğuk Demleme) Tarifi | cold brew nasıl yapılır | Tarif | 1 (yaz öncesi) | ⬜ |
 | 16 | Evde Buzlu Latte ve 5 Soğuk Kahve Tarifi | ice latte tarifi | Tarif | 2 (yaz öncesi) | ⬜ |
 | 17 | Makinesiz Süt Köpürtme: 3 Kolay Yöntem | süt nasıl köpürtülür | Tarif | 2 | ⬜ |
-| 18 | AeroPress Kullanımı ve En İyi 3 Tarif | aeropress tarifi | Tarif | 3 | ⬜ |
+| 18 | AeroPress Kullanımı ve En İyi 3 Tarif | aeropress tarifi | Tarif | 3 | ✅ (TR/DE/EN) |
 | 19 | Chemex ile Kahve Demleme | chemex nasıl kullanılır | Tarif | 3 | ⬜ |
 | 20 | Filtre Kahve Makinesinden Daha İyi Kahve Almanın 7 Yolu | filtre kahve makinesi kullanımı | Tarif | 2 | ⬜ |
 

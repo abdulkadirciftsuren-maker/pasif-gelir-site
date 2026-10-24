@@ -104,6 +104,8 @@ Satış fiyatı 3,50–4,50 € ise ham maliyet oranı yaklaşık **%20–25** o
 
 **Formül:** Ham maliyet ÷ satış fiyatı × 100 = maliyet oranı (%).
 
+Kendi rakamlarınla hesaplamak için ücretsiz [kafe maliyet hesaplayıcımızı](/kafe-maliyet-hesaplayici/) kullan.
+
 ## 6. Modern kafe tasarımı için ipuçları
 
 - **Bar akışı:** Sipariş → kasa → hazırlık → teslim, tek yönde akmalı. Müşteriler ve barista birbirinin yolunu kesmemeli.

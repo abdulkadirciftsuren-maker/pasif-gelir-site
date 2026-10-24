@@ -1,0 +1,144 @@
+---
+// Kafe maliyet hesaplayıcı: fincan başı malzeme maliyeti, kâr ve önerilen fiyat. Küçük, satır içi script.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { staticPages, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+// [id, ad, kahve (g), süt (ml)]
+const texts = {
+  tr: {
+    title: 'Kafe Maliyet Hesaplayıcı',
+    desc: 'Bir fincan kahve kaça mal olur? Kahve, süt ve bardak fiyatlarını gir; fincan başı maliyeti, kârı, maliyet oranını ve önerilen satış fiyatını anında hesapla.',
+    drink: 'İçecek', currency: 'Para birimi', coffeeKg: 'Kahve fiyatı (1 kg)', coffeeG: 'Kahve (g)', milkL: 'Süt fiyatı (1 litre)', milkMl: 'Süt (ml)',
+    extras: 'Bardak, kapak, şeker vb.', price: 'Satış fiyatı (KDV dahil)', vat: 'KDV (%)', perDay: 'Günde satılan adet', target: 'Hedef maliyet oranı (%)',
+    cost: 'Fincan başı maliyet', margin: 'Fincan başı kâr', ratio: 'Maliyet oranı', suggest: 'Önerilen fiyat', month: 'Aylık brüt kâr',
+    good: 'İyi', watch: 'Dikkat', high: 'Yüksek',
+    note: 'Örnek değerler Almanya fiyatlarıdır; kendi fiyatlarını yaz. "Brüt kâr" yalnızca malzeme maliyetini düşer; kira, maaş, enerji ve vergiler buna dahil değildir. Aylık hesap 30 gün üzerinden yapılır.',
+    vatDefault: 10,
+    drinks: [['espresso', 'Espresso (tek)', 9, 0], ['doppio', 'Çift espresso', 18, 0], ['cappuccino', 'Cappuccino', 18, 120], ['latte', 'Latte', 18, 200], ['flatwhite', 'Flat white', 18, 110], ['iced', 'Buzlu latte', 18, 150], ['filter', 'Filtre kahve (250 ml)', 15, 0], ['turkish', 'Türk kahvesi', 7, 0]],
+  },
+  de: {
+    title: 'Café-Kalkulator: Kosten pro Tasse',
+    desc: 'Was kostet eine Tasse Kaffee im Café? Preise für Kaffee, Milch und Becher eingeben und Wareneinsatz, Marge, Kostenquote und empfohlenen Verkaufspreis berechnen.',
+    drink: 'Getränk', currency: 'Währung', coffeeKg: 'Kaffeepreis (1 kg)', coffeeG: 'Kaffee (g)', milkL: 'Milchpreis (1 Liter)', milkMl: 'Milch (ml)',
+    extras: 'Becher, Deckel, Zucker usw.', price: 'Verkaufspreis (brutto)', vat: 'MwSt. (%)', perDay: 'Verkaufte Tassen pro Tag', target: 'Ziel-Wareneinsatzquote (%)',
+    cost: 'Wareneinsatz pro Tasse', margin: 'Rohertrag pro Tasse', ratio: 'Wareneinsatzquote', suggest: 'Empfohlener Preis', month: 'Rohertrag pro Monat',
+    good: 'Gut', watch: 'Achtung', high: 'Hoch',
+    note: 'Die Beispielwerte sind typische Preise in Deutschland – trage deine eigenen ein. Der Rohertrag zieht nur den Wareneinsatz ab; Miete, Löhne, Energie und Steuern sind nicht enthalten. Monat = 30 Tage. Welcher MwSt.-Satz gilt (7 % oder 19 %), klärst du am besten mit deinem Steuerberater.',
+    vatDefault: 19,
+    drinks: [['espresso', 'Espresso', 9, 0], ['doppio', 'Doppio', 18, 0], ['cappuccino', 'Cappuccino', 18, 120], ['latte', 'Latte macchiato / Caffè Latte', 18, 200], ['flatwhite', 'Flat White', 18, 110], ['iced', 'Iced Latte', 18, 150], ['filter', 'Filterkaffee (250 ml)', 15, 0], ['turkish', 'Türkischer Kaffee', 7, 0]],
+  },
+  en: {
+    title: 'Coffee Shop Cost Calculator',
+    desc: 'What does a cup of coffee cost your café? Enter coffee, milk and cup prices to get cost per cup, margin, cost percentage and a suggested selling price instantly.',
+    drink: 'Drink', currency: 'Currency', coffeeKg: 'Coffee price (1 kg)', coffeeG: 'Coffee (g)', milkL: 'Milk price (1 liter)', milkMl: 'Milk (ml)',
+    extras: 'Cup, lid, sugar etc.', price: 'Selling price (incl. tax)', vat: 'VAT / sales tax (%)', perDay: 'Cups sold per day', target: 'Target cost percentage (%)',
+    cost: 'Cost per cup', margin: 'Margin per cup', ratio: 'Cost percentage', suggest: 'Suggested price', month: 'Monthly gross margin',
+    good: 'Good', watch: 'Watch', high: 'High',
+    note: 'The example values are typical German prices; enter your own. Gross margin only subtracts ingredient costs; rent, wages, energy and taxes are not included. A month is 30 days.',
+    vatDefault: 20,
+    drinks: [['espresso', 'Espresso (single)', 9, 0], ['doppio', 'Double espresso', 18, 0], ['cappuccino', 'Cappuccino', 18, 120], ['latte', 'Latte', 18, 200], ['flatwhite', 'Flat white', 18, 110], ['iced', 'Iced latte', 18, 150], ['filter', 'Filter coffee (250 ml)', 15, 0], ['turkish', 'Turkish coffee', 7, 0]],
+  },
+} as const;
+const L = texts[lang];
+const pageAlternates = staticPages.cafeCalculator;
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: L.title, applicationCategory: 'BusinessApplication', operatingSystem: 'Any', inLanguage: lang, offers: { '@type': 'Offer', price: '0' } }];
+---
+
+<BaseLayout lang={lang} title={L.title} description={L.desc} alternates={pageAlternates} jsonLd={jsonLd}>
+  <div class="container read wrap">
+    <h1>{L.title}</h1>
+    <p class="muted lead">{L.desc}</p>
+
+    <form class="calc" id="cafe-calc" onsubmit="return false">
+      <label class="wide">{L.drink}
+        <select name="drink">
+          {L.drinks.map(([id, name, g, ml]) => <option value={id} data-g={g} data-ml={ml} selected={id === 'latte'}>{name}</option>)}
+        </select>
+      </label>
+      <label>{L.currency}
+        <select name="cur"><option value="€">€</option><option value="₺">₺</option><option value="$">$</option><option value="£">£</option></select>
+      </label>
+      <label>{L.coffeeKg}<input name="kg" type="number" min="0" step="0.5" value="25" inputmode="decimal" /></label>
+      <label>{L.coffeeG}<input name="g" type="number" min="0" max="40" step="0.5" value="18" inputmode="decimal" /></label>
+      <label>{L.milkL}<input name="milkL" type="number" min="0" step="0.05" value="1.2" inputmode="decimal" /></label>
+      <label>{L.milkMl}<input name="ml" type="number" min="0" max="500" step="10" value="200" inputmode="numeric" /></label>
+      <label>{L.extras}<input name="extras" type="number" min="0" step="0.01" value="0.15" inputmode="decimal" /></label>
+      <label>{L.price}<input name="price" type="number" min="0" step="0.1" value="3.8" inputmode="decimal" /></label>
+      <label>{L.vat}<input name="vat" type="number" min="0" max="30" step="1" value={L.vatDefault} inputmode="numeric" /></label>
+      <label>{L.perDay}<input name="perDay" type="number" min="0" step="10" value="100" inputmode="numeric" /></label>
+      <label>{L.target}<input name="target" type="number" min="5" max="60" step="1" value="25" inputmode="numeric" /></label>
+
+      <output class="result" aria-live="polite">
+        <div><span>{L.cost}</span><strong id="c-cost">–</strong></div>
+        <div><span>{L.margin}</span><strong id="c-margin">–</strong></div>
+        <div id="c-ratio-box"><span>{L.ratio}</span><strong id="c-ratio">–</strong><em id="c-badge"></em></div>
+        <div><span>{L.suggest}</span><strong id="c-suggest">–</strong></div>
+        <div class="wide-out"><span>{L.month}</span><strong id="c-month">–</strong></div>
+      </output>
+    </form>
+    <p class="muted small">{L.note}</p>
+    <slot />
+  </div>
+</BaseLayout>
+
+<script define:vars={{ labels: { good: L.good, watch: L.watch, high: L.high } }}>
+  const f = document.getElementById('cafe-calc');
+  const $ = (id) => document.getElementById(id);
+  const num = (el) => Math.max(0, parseFloat(String(el.value).replace(',', '.')) || 0);
+  const lang = document.documentElement.lang;
+  const money = (v) => v.toLocaleString(lang, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ' + f.cur.value;
+
+  function calc() {
+    const cost = (num(f.kg) * num(f.g)) / 1000 + (num(f.milkL) * num(f.ml)) / 1000 + num(f.extras);
+    const net = num(f.price) / (1 + num(f.vat) / 100);
+    const margin = net - cost;
+    const ratio = net > 0 ? (cost / net) * 100 : 0;
+    const target = Math.max(5, num(f.target)) / 100;
+    $('c-cost').textContent = money(cost);
+    $('c-margin').textContent = money(margin);
+    $('c-ratio').textContent = net > 0 ? ratio.toLocaleString(lang, { maximumFractionDigits: 1 }) + ' %' : '–';
+    $('c-suggest').textContent = money((cost / target) * (1 + num(f.vat) / 100));
+    $('c-month').textContent = money(margin * num(f.perDay) * 30);
+    const box = $('c-ratio-box');
+    const level = ratio <= 30 ? 'good' : ratio <= 38 ? 'watch' : 'high';
+    box.dataset.level = net > 0 ? level : '';
+    $('c-badge').textContent = net > 0 ? labels[level] : '';
+  }
+
+  f.drink.addEventListener('change', () => {
+    const o = f.drink.selectedOptions[0];
+    f.g.value = o.dataset.g;
+    f.ml.value = o.dataset.ml;
+    calc();
+  });
+  f.addEventListener('input', calc);
+  calc();
+</script>
+
+<style>
+  .wrap { padding-top: 3rem; }
+  .lead { font-size: 1.15rem; }
+  .small { font-size: .9rem; }
+  .calc { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin: 1.5rem 0 1rem; }
+  .wide { grid-column: span 2; }
+  label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 600; align-content: start; }
+  input, select { font: inherit; font-weight: 400; padding: .6rem .7rem; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--text); width: 100%; box-sizing: border-box; }
+  .result { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin-top: .25rem; }
+  .result div { background: var(--accent-soft); border-radius: 12px; padding: .9rem .6rem; text-align: center; display: grid; gap: .2rem; align-content: center; }
+  .result span { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .result strong { font: 700 1.35rem var(--serif); color: var(--accent); }
+  .result em { font-style: normal; font-size: .8rem; font-weight: 700; }
+  .result .wide-out { grid-column: 1 / -1; }
+  .result .wide-out strong { font-size: 1.7rem; }
+  [data-level='good'] { background: color-mix(in srgb, var(--good) 16%, var(--surface)) !important; }
+  [data-level='good'] strong, [data-level='good'] em { color: var(--good); }
+  [data-level='watch'] { background: color-mix(in srgb, #d99a1e 18%, var(--surface)) !important; }
+  [data-level='watch'] strong, [data-level='watch'] em { color: #a8700f; }
+  [data-level='high'] { background: color-mix(in srgb, var(--bad) 16%, var(--surface)) !important; }
+  [data-level='high'] strong, [data-level='high'] em { color: var(--bad); }
+  @media (max-width: 640px) { .calc { grid-template-columns: 1fr 1fr; } .result { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 380px) { .result strong { font-size: 1.1rem; } }
+</style>

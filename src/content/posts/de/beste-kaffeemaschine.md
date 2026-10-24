@@ -97,6 +97,8 @@ Eine elektrische Maschine ist kein Muss. Mit [French Press](/de/french-press-anl
 - **Oft Gäste, türkischer Kaffee ist Pflicht:** türkische Kaffeemaschine.
 - **Student, kleines Budget:** French Press oder AeroPress.
 
+**Für das Büro gesucht?** Empfehlungen nach Teamgröße: [Kaffeemaschine fürs Büro](/de/kaffeemaschine-buero/).
+
 ## Beispiel: Kosten pro Jahr
 
 Für jemanden mit **2 Tassen am Tag**, grob gerechnet:

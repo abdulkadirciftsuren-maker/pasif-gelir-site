@@ -191,3 +191,15 @@ Notlar:
 - Fotoğraflar elle seçilir ve küçültülerek (webp) siteye eklenir: "Okur Fotoğrafları" sayfası (3 dil).
 - Her ay bir "Ayın fotoğrafı" seçilir, ilgili yazının kapağına konur ve altına "Fotoğraf: İsim" yazılır.
 - Yorum/fikir paylaşımı: ilk aşamada e-posta; trafik artınca moderasyonlu bir yorum sistemi değerlendirilecek.
+
+## Kafe açacaklar için bölüm (Ekim 2026)
+
+A aşaması (rehberler ve hesaplayıcı, ek izin gerekmez):
+- ✅ Ana rehber: Kafe açmak – ekipman listesi, maliyet, plan (TR/DE/EN)
+- Kafe maliyet hesaplayıcı (fincan başı maliyet ve kâr)
+- Profesyonel espresso makinesi ve öğütücü seçimi
+- Modern kafe tasarımı fikirleri
+- Kahve tedariki: kavurucu seçimi ve fiyatlar
+- Menü ve fiyatlandırma
+
+B aşaması (Gewerbe kaydından sonra): kafe kurulum teklif formu (tedarikçilere yönlendirme, aracılık payı), ücretli kafe rehberi, indirilebilir kontrol listesi.

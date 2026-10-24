@@ -69,6 +69,10 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Grup (demleme grubu)', m: ['demleme grub', 'grup başı'], d: 'Espresso makinesinde portafiltrenin takıldığı ve suyun kahveye verildiği bölüm. "2 gruplu" makinede iki tane vardır.' },
     { t: 'Isı eşanjörü (HX)', m: ['ısı eşanjör'], d: 'Tek buhar kazanının içinden geçen bir boruyla kahve suyunu ısıtan sistem; çoklu kazandan ucuzdur ama sıcaklığı daha az sabittir.' },
     { t: 'Volümetrik', m: ['volümetrik'], d: 'Espresso makinesinin her shot için ayarlı su miktarını kendisi ölçüp durdurması.' },
+    { t: 'Maliyet oranı', m: ['maliyet oran'], d: 'Bir içeceğin malzeme maliyetinin KDV’siz satış fiyatına oranı (%). Kafelerde genelde %20–30 hedeflenir.' },
+    { t: 'Brüt kâr', m: ['brüt kâr'], d: 'KDV’siz satış fiyatından malzeme maliyeti düşüldükten sonra kalan para; kira, maaş ve vergiler bundan ödenir.' },
+    { t: 'Upselling (ek satış)', m: ['upsell', 'ek satış'], d: 'Müşteriye siparişine ek bir ürün ya da daha büyük boy önermek.' },
+    { t: 'Menü mühendisliği', m: ['menü mühendis'], d: 'Her ürünü ne kadar sattığına ve ne kadar kâr bıraktığına göre değerlendirip menüyü buna göre düzenlemek.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -137,6 +141,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Zweikreiser (Wärmetauscher)', m: ['zweikreis', 'wärmetauscher'], d: 'Ein Dampfkessel erhitzt über ein Rohr auch das Brühwasser; günstiger als Mehrkessel, aber die Temperatur ist weniger stabil.' },
     { t: 'Volumetrisch', m: ['volumetrisch'], d: 'Die Maschine misst die Wassermenge pro Shot selbst und stoppt automatisch.' },
     { t: 'Drehstrom (Starkstrom)', m: ['drehstrom', 'starkstrom'], d: '400-Volt-Anschluss mit drei Phasen; größere Gastro-Maschinen brauchen ihn.' },
+    { t: 'Upselling', m: ['upsell'], d: 'Dem Gast zur Bestellung etwas dazu oder eine größere Größe anbieten.' },
+    { t: 'Menü-Engineering', m: ['menü-engineering', 'menu engineering'], d: 'Jedes Produkt nach Beliebtheit und Gewinn bewerten und die Karte danach gestalten.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -199,6 +205,10 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Heat exchanger (HX)', m: ['heat exchanger'], d: 'A tube running through the steam boiler heats the brew water; cheaper than multi-boiler but less temperature-stable.' },
     { t: 'Volumetric', m: ['volumetric'], d: 'The machine measures the water for each shot itself and stops automatically.' },
     { t: 'Three-phase power', m: ['three-phase'], d: 'A higher-power electrical connection (400 V in Europe) that larger commercial machines need.' },
+    { t: 'Cost percentage', m: ['cost percentage'], d: 'Ingredient cost of a drink divided by its price before tax (%). Cafés usually aim for 20–30%.' },
+    { t: 'Gross profit', m: ['gross profit'], d: 'Price before tax minus ingredient cost; rent, wages and taxes are paid from this.' },
+    { t: 'Upselling', m: ['upsell'], d: 'Suggesting an add-on or a bigger size to a customer’s order.' },
+    { t: 'Menu engineering', m: ['menu engineering'], d: 'Rating each item by how well it sells and how much profit it makes, then designing the menu around that.' },
   ],
 };
 

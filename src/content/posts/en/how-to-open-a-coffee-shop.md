@@ -106,7 +106,7 @@ At a selling price of €3.50–4.50, ingredient cost is about **20–25%**. The
 
 **Formula:** ingredient cost ÷ net selling price × 100 = cost percentage.
 
-Run your own numbers with our free [coffee shop cost calculator](/en/coffee-shop-cost-calculator/).
+Run your own numbers with our free [coffee shop cost calculator](/en/coffee-shop-cost-calculator/). How to turn that into menu prices is covered in our [coffee shop menu pricing](/en/coffee-shop-menu-pricing/) guide.
 
 ## 6. Modern café design tips
 

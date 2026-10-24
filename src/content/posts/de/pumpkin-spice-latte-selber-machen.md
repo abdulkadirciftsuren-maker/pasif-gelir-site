@@ -127,6 +127,8 @@ Kardamom gibt einen frischen, leicht zitronigen Duft. Ähnlich besonders: [Menen
 - **Weniger Zucker:** Bis zu 30 % weniger Zucker geht – der Sirup hält dann aber kürzer.
 - **Geschenkidee:** Ein Fläschchen selbst gemachter Kürbis-Sirup und eine Packung Kaffee – fertig ist das Wichtelgeschenk. Mehr Ideen: [Kaffee-Geschenkideen](/de/kaffee-geschenkideen/).
 
+**Lust auf ein Wintergetränk ohne Kaffee?** Probier unseren würzigen [Chai Latte](/de/chai-latte-selber-machen/) – mit Espresso wird daraus ein Dirty Chai.
+
 ## Häufige Fragen
 
 **Ist im Pumpkin Spice Latte wirklich Kürbis?** In vielen Cafés nur das Gewürzaroma. In unserem Rezept steckt echtes Kürbispüree – dadurch schmeckt er natürlicher.

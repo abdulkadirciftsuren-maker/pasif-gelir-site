@@ -127,6 +127,8 @@ Cardamom gives a fresh, slightly lemony aroma. Another special one: [menengiç c
 - **Less sugar:** you can cut the sugar by up to 30%, but the syrup will keep for less time.
 - **Gift idea:** a small bottle of homemade pumpkin syrup and a bag of coffee make a lovely winter gift. More ideas: [coffee gift ideas](/en/coffee-gift-ideas/).
 
+**Want a winter drink without coffee?** Try our spiced [chai latte recipe](/en/chai-latte-recipe/); add espresso for a dirty chai.
+
 ## FAQ
 
 **Is there real pumpkin in a pumpkin spice latte?** In many cafés, only the spice flavor. Our homemade version uses real pumpkin purée, so it tastes more natural.

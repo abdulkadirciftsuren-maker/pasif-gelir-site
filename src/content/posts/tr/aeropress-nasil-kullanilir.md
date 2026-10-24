@@ -96,6 +96,8 @@ Daha fazlası [kahve neden acı ya da ekşi olur](/kahve-neden-aci-olur/) yazım
 | **Clear** | Şeffaf gövde | Demlemeyi görmek isteyenler |
 | **XL** | Daha büyük hazne | Birkaç fincan birden |
 
+**Kampa ya da seyahate mi gidiyorsun?** AeroPress Go ile doğada kahve için: [kampta ve seyahatte kahve](/kampta-kahve/).
+
 ## Temizlik
 
 Filtre kapağını çıkar, pistonu sonuna kadar bastırıp kahve keki ile filtreyi çöpe "fırlat". Pistonun lastiğini durula, bitti. Hazneyi pistonu içinde sıkışık bırakarak saklama, lastik zamanla şeklini kaybedebilir.

@@ -87,6 +87,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Affogato', m: ['affogato'], d: 'Bir top vanilyalı dondurmanın üzerine dökülen sıcak espresso.' },
     { t: 'Chai (masala chai)', m: ['chai', 'masala'], d: 'Hindistan’da siyah çayın süt, şeker ve baharatlarla (kakule, tarçın, zencefil, karanfil) pişirilmesiyle yapılan içecek.' },
     { t: 'Dirty chai', m: ['dirty chai'], d: 'Chai latte’ye bir shot espresso eklenmiş hâli.' },
+    { t: 'Drip bag (asma filtre kahve)', m: ['drip bag', 'asma filtre'], d: 'Fincanın kenarına asılan, içinde öğütülmüş kahve olan tek kullanımlık kağıt filtre; üstüne sıcak su dökülür.' },
+    { t: 'Cowboy kahvesi', m: ['cowboy'], d: 'Kahvenin doğrudan tencerede suyla kaynatılıp telvenin dibe çöktürülmesiyle yapılan kamp kahvesi.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -173,6 +175,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Affogato', m: ['affogato'], d: 'Heißer Espresso über einer Kugel Vanilleeis.' },
     { t: 'Chai (Masala Chai)', m: ['chai', 'masala'], d: 'Indischer Schwarztee, mit Milch, Zucker und Gewürzen (Kardamom, Zimt, Ingwer, Nelken) gekocht.' },
     { t: 'Dirty Chai', m: ['dirty chai'], d: 'Chai Latte mit einem zusätzlichen Shot Espresso.' },
+    { t: 'Drip Bag', m: ['drip bag'], d: 'Einzelner Papierfilter mit gemahlenem Kaffee, der an den Tassenrand gehängt und mit heißem Wasser übergossen wird.' },
+    { t: 'Cowboy-Kaffee', m: ['cowboy'], d: 'Kaffee, der direkt im Topf mit Wasser aufgekocht wird; der Satz setzt sich am Boden ab.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -253,6 +257,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Affogato', m: ['affogato'], d: 'Hot espresso poured over a scoop of vanilla ice cream.' },
     { t: 'Chai (masala chai)', m: ['chai', 'masala'], d: 'Indian black tea simmered with milk, sugar and spices such as cardamom, cinnamon, ginger and cloves.' },
     { t: 'Dirty chai', m: ['dirty chai'], d: 'A chai latte with an added shot of espresso.' },
+    { t: 'Drip bag', m: ['drip bag'], d: 'A single-serve paper filter filled with ground coffee that hangs on the rim of your cup; you pour hot water over it.' },
+    { t: 'Cowboy coffee', m: ['cowboy'], d: 'Coffee boiled straight in a pot with water, letting the grounds settle to the bottom.' },
   ],
 };
 

@@ -96,6 +96,8 @@ Mehr in [Kaffee bitter oder sauer?](/de/kaffee-bitter-sauer/). Die passende Müh
 | **Clear** | Transparente Kammer | Wer beim Brühen zusehen will |
 | **XL** | Größere Kammer | Mehrere Tassen auf einmal |
 
+**Camping oder Reise geplant?** Kaffee unterwegs mit der AeroPress Go: [Kaffee beim Camping](/de/kaffee-beim-camping/).
+
 ## Reinigung
 
 Kappe abschrauben, den Kolben ganz durchdrücken und Kaffeepuck samt Filter in den Müll „schießen“. Gummidichtung kurz abspülen, fertig. Den Kolben nicht eingeschoben lagern – die Dichtung kann sonst ihre Form verlieren.

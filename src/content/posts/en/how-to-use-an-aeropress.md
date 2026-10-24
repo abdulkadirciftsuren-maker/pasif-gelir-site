@@ -96,6 +96,8 @@ More in [why is my coffee bitter or sour?](/en/why-is-my-coffee-bitter/). For th
 | **Clear** | Transparent chamber | Watching the brew |
 | **XL** | Larger chamber | Several cups at once |
 
+**Heading out camping or traveling?** Coffee on the go with the AeroPress Go: [camping and travel coffee](/en/camping-coffee/).
+
 ## Cleaning
 
 Unscrew the cap, push the plunger all the way and pop the coffee puck and filter into the trash. Rinse the rubber seal and you're done. Don't store it with the plunger pushed in – the seal can lose its shape over time.

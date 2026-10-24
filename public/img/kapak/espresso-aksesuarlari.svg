@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Tezgahta espresso aksesuarları: dijital terazi üstünde portafiltre, tamper, paslanmaz süt potu, knock box ve ince iğneli WDT aleti">
+<rect width="640" height="360" fill="#f1ecd6"/>
+<circle cx="120" cy="60" r="110" fill="#e8e0c2"/>
+<rect y="290" width="640" height="70" fill="#cbbf9c"/>
+<g transform="translate(-14 -29) scale(1.1)">
+<!-- terazi ve portafiltre -->
+<g transform="translate(40 250)">
+<rect x="0" y="16" width="150" height="24" rx="6" fill="#2f3a40"/>
+<rect x="10" y="10" width="130" height="10" rx="3" fill="#4a565d"/>
+<rect x="56" y="24" width="38" height="10" rx="2" fill="#6cc7b6"/>
+<path d="M30 -6 h70 v10 q0 12 -12 12 h-46 q-12 0 -12 -12 z" fill="#9aa3a8"/>
+<ellipse cx="65" cy="-6" rx="35" ry="7" fill="#6b3f26"/>
+<path d="M100 -2 L170 -18" stroke="#2f3a40" stroke-width="12" stroke-linecap="round"/>
+</g>
+<!-- tamper -->
+<g transform="translate(242 200)">
+<path d="M14 0 q-14 0 -14 22 q0 26 12 40 h20 q12 -14 12 -40 q0 -22 -14 -22 z" fill="#8a5a3c"/>
+<rect x="16" y="62" width="12" height="16" fill="#9aa3a8"/>
+<rect x="-4" y="78" width="52" height="14" rx="3" fill="#c9ccd1"/>
+</g>
+<!-- süt potu -->
+<g transform="translate(330 190)">
+<path d="M6 0 h66 l10 96 q0 6 -6 6 h-74 q-6 0 -6 -6 z" fill="#d6dadd"/>
+<path d="M6 0 h66 l10 96 q0 6 -6 6 h-74 q-6 0 -6 -6 z" fill="none" stroke="#aab1b6" stroke-width="2"/>
+<path d="M6 0 l-14 -10 l18 2 z" fill="#d6dadd" stroke="#aab1b6" stroke-width="2"/>
+<path d="M78 20 q24 4 22 30 q-2 20 -18 24" fill="none" stroke="#aab1b6" stroke-width="7"/>
+<path d="M14 30 h56" stroke="#fbf8f4" stroke-width="4" opacity=".7"/>
+</g>
+<!-- knock box -->
+<g transform="translate(460 228)">
+<rect x="0" y="0" width="90" height="64" rx="8" fill="#2f4a44"/>
+<rect x="-4" y="-6" width="98" height="12" rx="6" fill="#263c37"/>
+<rect x="6" y="-14" width="78" height="8" rx="4" fill="#9aa3a8"/>
+<ellipse cx="45" cy="-2" rx="34" ry="4" fill="#6b3f26"/>
+</g>
+</g>
+<!-- WDT aleti, tezgahta yatay -->
+<g transform="translate(250 322) rotate(-90)">
+<rect x="-8" y="0" width="16" height="50" rx="6" fill="#c4562f"/>
+<g stroke="#5b6b75" stroke-width="1.6"><path d="M-5 50 v46"/><path d="M-2 50 v46"/><path d="M1 50 v46"/><path d="M4 50 v46"/></g>
+</g>
+</svg>

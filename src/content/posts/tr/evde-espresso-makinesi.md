@@ -82,6 +82,8 @@ Giriş seviyesi portafiltreli makinelerin çoğu **basınçlı (çift cidarlı) 
 
 Espresso makinesi alanların çoğu aslında latte ya da cappuccino içmek istiyor. Buhar çubuğu kullanmak biraz pratik ister. İlk haftalarda zorlanırsan ayrı bir süt köpürtücüsü işini kolaylaştırır, bkz. [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/). Farkları [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/) anlattık.
 
+**Aksesuarlar:** Terazi, tamper, süt potu ve diğer aletler için [espresso aksesuarları](/espresso-aksesuarlari/) rehberimize bak.
+
 ## Sık sorulan sorular
 
 **Espresso makinesinde Türk kahvesi yapılır mı?** Hayır. Türk kahvesi un inceliğindedir ve cezvede pişirilir. Espresso makinesinde sepeti tıkar. Türk kahvesi için [cezve ya da Türk kahvesi makinesi](/turk-kahvesi-makinesi-secimi/) gerekir.

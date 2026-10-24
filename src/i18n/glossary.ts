@@ -76,6 +76,11 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Cupping (kahve tadımı)', m: ['cupping'], d: 'Kahvelerin kâselerde aynı yöntemle demlenip kaşıkla tadılarak karşılaştırıldığı profesyonel tadım.' },
     { t: 'Private label (kendi markan)', m: ['private label', 'white label'], d: 'Kavurucunun kavurduğu kahvenin senin kafenin adı ve ambalajıyla satılması.' },
     { t: 'Demleme ünitesi', m: ['demleme ünite'], d: 'Tam otomatik makinede kahveyi sıkıştırıp demleyen parça. Çıkarılabiliyorsa haftada bir suyun altında yıkanır.' },
+    { t: 'WDT aleti', m: ['wdt'], d: 'İnce iğneli küçük alet; portafiltredeki kahve topaklarını dağıtıp eşit yayar (Weiss Distribution Technique).' },
+    { t: 'Dipsiz portafiltre', m: ['dipsiz portafiltre', 'bottomless'], d: 'Altı açık portafiltre; espressonun akışını görerek hataları anlamaya yarar.' },
+    { t: 'Dozaj halkası', m: ['dozaj halka'], d: 'Portafiltrenin üstüne oturan halka; öğütürken ve karıştırırken kahvenin dökülmesini önler.' },
+    { t: 'Kanallanma (channeling)', m: ['kanallanma', 'channeling'], d: 'Suyun kahvenin içinden eşit geçmeyip zayıf noktalardan kaçması; espresso hem ekşi hem acı olur.' },
+    { t: 'Kör filtre', m: ['kör filtre'], d: 'Deliksiz portafiltre sepeti; makinenin grubunu geri yıkamak (backflush) için kullanılır.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -150,6 +155,11 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Private Label', m: ['private label', 'white label'], d: 'Die Rösterei röstet, verkauft wird der Kaffee unter dem Namen und in der Verpackung deines Cafés.' },
     { t: 'Kaffeesteuer', m: ['kaffeesteuer'], d: 'Verbrauchsteuer in Deutschland: 2,19 € pro kg Röstkaffee, im Preis der Rösterei enthalten.' },
     { t: 'Brüheinheit', m: ['brüheinheit'], d: 'Teil im Kaffeevollautomaten, der das Pulver presst und brüht. Ist sie herausnehmbar, wird sie wöchentlich unter Wasser gespült.' },
+    { t: 'WDT-Tool', m: ['wdt'], d: 'Kleines Werkzeug mit feinen Nadeln, das Klümpchen im Siebträger auflöst und das Pulver gleichmäßig verteilt.' },
+    { t: 'Bodenloser Siebträger', m: ['bodenlos', 'naked'], d: 'Siebträger ohne Auslauf unten; man sieht den Espresso direkt fließen und erkennt Fehler.' },
+    { t: 'Dosierring', m: ['dosierring'], d: 'Ring, der auf den Siebträger gesetzt wird, damit beim Mahlen und Verteilen nichts danebengeht.' },
+    { t: 'Channeling', m: ['channeling'], d: 'Das Wasser fließt nicht gleichmäßig durch den Kaffee, sondern durch Schwachstellen; der Espresso schmeckt sauer und bitter zugleich.' },
+    { t: 'Blindsieb', m: ['blindsieb'], d: 'Sieb ohne Löcher, mit dem die Brühgruppe rückgespült wird.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -219,6 +229,11 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Cupping', m: ['cupping'], d: 'Professional tasting: coffees are brewed the same way in bowls and compared with a spoon.' },
     { t: 'Private label', m: ['private label', 'white label'], d: 'Your roaster roasts the coffee, and it’s sold under your café’s name and packaging.' },
     { t: 'Brew unit', m: ['brew unit', 'brewing unit'], d: 'The part of a super-automatic that tamps and brews the coffee. If removable, you rinse it under the tap once a week.' },
+    { t: 'WDT tool', m: ['wdt'], d: 'A small tool with fine needles that breaks up clumps in the portafilter and spreads the coffee evenly.' },
+    { t: 'Bottomless portafilter', m: ['bottomless', 'naked portafilter'], d: 'A portafilter with an open bottom, so you can watch the espresso flow and spot problems.' },
+    { t: 'Dosing funnel', m: ['dosing funnel', 'dosing ring'], d: 'A ring that sits on the portafilter so no coffee spills while grinding and stirring.' },
+    { t: 'Channeling', m: ['channeling'], d: 'Water finds weak spots in the coffee puck instead of flowing evenly; the espresso tastes sour and bitter at once.' },
+    { t: 'Blind basket', m: ['blind basket'], d: 'A basket with no holes, used to backflush the group head.' },
   ],
 };
 

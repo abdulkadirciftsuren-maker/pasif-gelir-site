@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yan yana dört kahve makinesi: filtre kahve makinesi, kapsül makinesi, tam otomatik makine ve Türk kahvesi makinesi; üstte yıldızlı bir rozet">
+<rect width="640" height="360" fill="#eae6dc"/>
+<circle cx="320" cy="40" r="140" fill="#e0d9c8"/>
+<rect y="292" width="640" height="68" fill="#d6ccb6"/>
+<!-- rozet -->
+<g transform="translate(320 62)">
+<circle r="34" fill="#c4562f"/><circle r="26" fill="none" stroke="#f6ead9" stroke-width="2"/>
+<path d="M0 -15 l4.4 9 l10 1.4 l-7.2 7 l1.7 10 l-8.9 -4.7 l-8.9 4.7 l1.7 -10 l-7.2 -7 l10 -1.4 z" fill="#f2c46b"/>
+<path d="M-18 28 l-8 26 l12 -6 l6 10 l6 -24 z M18 28 l8 26 l-12 -6 l-6 10 l-6 -24 z" fill="#a8461f"/>
+</g>
+<!-- filtre kahve makinesi -->
+<g transform="translate(60 150)">
+<rect x="70" y="0" width="34" height="142" rx="4" fill="#2f4a44"/>
+<rect x="0" y="0" width="104" height="22" rx="5" fill="#2f4a44"/>
+<path d="M10 22 h62 l-10 30 h-42 z" fill="#3a2a22"/>
+<path d="M14 64 h52 l4 72 q0 6 -6 6 h-48 q-6 0 -6 -6 z" fill="#cfe3e3" opacity=".8"/><path d="M14 100 h56 v36 q0 6 -6 6 h-44 q-6 0 -6 -6 z" fill="#6b3f26"/>
+<path d="M68 80 q16 4 14 24 q-2 16 -14 18" fill="none" stroke="#3a2a22" stroke-width="5"/>
+<rect x="-4" y="140" width="112" height="6" rx="3" fill="#263c37"/>
+</g>
+<!-- kapsül makinesi -->
+<g transform="translate(200 176)">
+<path d="M10 0 h70 q10 0 10 10 v106 h-90 v-106 q0 -10 10 -10 z" fill="#c4562f"/>
+<rect x="18" y="16" width="54" height="10" rx="5" fill="#a8461f"/>
+<rect x="34" y="40" width="22" height="14" rx="3" fill="#3a2a22"/>
+<rect x="8" y="92" width="74" height="8" rx="4" fill="#3a2a22"/>
+<path d="M34 72 h22 v16 q0 4 -4 4 h-14 q-4 0 -4 -4 z" fill="#fbf8f4"/>
+<rect x="-4" y="112" width="98" height="6" rx="3" fill="#8a3a1a"/>
+</g>
+<!-- tam otomatik -->
+<g transform="translate(320 150)">
+<rect x="0" y="0" width="120" height="142" rx="10" fill="#3a3a3a"/>
+<rect x="12" y="12" width="96" height="30" rx="5" fill="#1f1f1f"/>
+<rect x="20" y="20" width="44" height="14" rx="3" fill="#6cc7b6" opacity=".8"/>
+<g fill="#bdbdbd"><circle cx="80" cy="27" r="5"/><circle cx="96" cy="27" r="5"/></g>
+<rect x="44" y="54" width="32" height="16" rx="4" fill="#5b5b5b"/>
+<path d="M44 92 h32 v24 q0 5 -5 5 h-22 q-5 0 -5 -5 z" fill="#fbf8f4"/>
+<rect x="18" y="122" width="84" height="8" rx="4" fill="#5b5b5b"/>
+</g>
+<!-- Türk kahvesi makinesi -->
+<g transform="translate(470 182)">
+<rect x="0" y="40" width="100" height="70" rx="12" fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2"/>
+<path d="M30 6 h34 l-4 34 h-26 z" fill="#b87333"/>
+<path d="M64 14 h26" stroke="#b87333" stroke-width="6" stroke-linecap="round"/>
+<circle cx="22" cy="74" r="7" fill="#c4562f"/>
+<rect x="44" y="70" width="40" height="8" rx="4" fill="#d8c6b6"/>
+<rect x="-6" y="106" width="112" height="6" rx="3" fill="#c9b8a6"/>
+</g>
+</svg>

@@ -76,6 +76,8 @@ Split your budget into:
 | **POS system** | Orders, payments, stock | Tablet + monthly subscription |
 | **Cups, glasses, to-go cups** | Presentation that reflects your brand | €300–1,500 |
 
+We explain how to choose the espresso machine and grinder in detail in our [commercial espresso machine guide](/en/commercial-espresso-machine-guide/).
+
 **Where to save, and where not to:**
 
 - **Don't save:** on the grinder and the water filter. An expensive machine with a cheap grinder makes average coffee. Without a filter the machine scales up and repairs cost far more than the filter. See [the best water for coffee](/en/best-water-for-coffee/).

@@ -76,6 +76,8 @@ Teile dein Budget in diese Posten:
 | **Kassensystem** | Bestellung, Zahlung, Bestand; TSE-Pflicht beachten | Tablet + Monatsabo |
 | **Tassen, Gläser, To-go-Becher** | Präsentation mit Wiedererkennung | 300–1.500 € |
 
+Wie du Siebträger und Mühle auswählst, erklären wir ausführlich in [Gastro-Siebträger und Mühle kaufen](/de/gastro-siebtraeger-kaufen/).
+
 **Wo sparen – und wo nicht?**
 
 - **Nicht sparen:** an Mühle und Wasserfilter. Teure Maschine plus billige Mühle ergibt mittelmäßigen Kaffee. Ohne Filter verkalkt die Maschine, und die Reparatur kostet ein Vielfaches. Siehe [Wasser für Kaffee](/de/wasser-fuer-kaffee/).

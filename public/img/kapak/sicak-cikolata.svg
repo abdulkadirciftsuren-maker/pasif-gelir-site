@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Üstünde marshmallow'lar olan dolu bir sıcak çikolata kupası, yanında çikolata kalıbı parçaları ve küçük bir çırpma teli">
+<rect width="640" height="360" fill="#fbe3ea"/>
+<circle cx="530" cy="90" r="120" fill="#f6cfdb"/>
+<rect y="298" width="640" height="62" fill="#efc3cf"/>
+<!-- buhar -->
+<g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".85"><path d="M290 96 q-12 -16 0 -32 q12 -16 0 -32"/><path d="M330 92 q-12 -16 0 -32 q12 -16 0 -32"/><path d="M370 98 q-12 -16 0 -32 q12 -16 0 -32"/></g>
+<!-- kupa -->
+<path d="M246 130 H414 L402 284 Q398 298 384 298 H276 Q262 298 258 284 Z" fill="#5f8fb8"/>
+<path d="M252 214 H408 L405 238 H255 Z" fill="#4a77a0"/>
+<path d="M412 168 q50 2 46 46 q-4 40 -54 40" fill="none" stroke="#5f8fb8" stroke-width="18" stroke-linecap="round"/>
+<!-- çikolata yüzeyi -->
+<ellipse cx="330" cy="132" rx="84" ry="16" fill="#5a2e1c"/>
+<path d="M260 134 q12 22 0 46" fill="none" stroke="#5a2e1c" stroke-width="10" stroke-linecap="round"/>
+<!-- marshmallow -->
+<g fill="#fff7f2" stroke="#f0d9d0" stroke-width="2">
+<rect x="282" y="110" width="30" height="24" rx="7" transform="rotate(-10 297 122)"/>
+<rect x="318" y="104" width="30" height="24" rx="7" transform="rotate(8 333 116)"/>
+<rect x="352" y="114" width="28" height="22" rx="7" transform="rotate(-4 366 125)"/>
+<rect x="300" y="122" width="26" height="20" rx="6" fill="#ffd9e4" transform="rotate(14 313 132)"/>
+</g>
+<!-- çikolata kalıbı parçaları -->
+<g transform="rotate(-14 130 284)"><rect x="80" y="252" width="104" height="56" rx="6" fill="#6b3a24"/>
+<g fill="#7d4a30"><rect x="88" y="260" width="26" height="18" rx="3"/><rect x="120" y="260" width="26" height="18" rx="3"/><rect x="152" y="260" width="24" height="18" rx="3"/><rect x="88" y="284" width="26" height="18" rx="3"/><rect x="120" y="284" width="26" height="18" rx="3"/><rect x="152" y="284" width="24" height="18" rx="3"/></g></g>
+<g transform="rotate(20 196 320)"><rect x="178" y="304" width="34" height="24" rx="4" fill="#6b3a24"/><rect x="184" y="309" width="22" height="14" rx="3" fill="#7d4a30"/></g>
+<!-- çırpma teli -->
+<g transform="rotate(32 520 250)">
+<rect x="512" y="250" width="14" height="74" rx="7" fill="#c4562f"/>
+<g fill="none" stroke="#b9c3cc" stroke-width="4"><path d="M519 252 q-26 -40 0 -84 q26 44 0 84"/><path d="M519 252 q-12 -40 0 -84 q12 44 0 84"/><path d="M519 252 q-40 -36 0 -84"/><path d="M519 252 q40 -36 0 -84"/></g>
+</g>
+</svg>

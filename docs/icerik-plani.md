@@ -163,7 +163,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | # | Konu | Neden? | Dil önceliği | Zaman |
 | --- | --- | --- | --- | --- |
 | 31 | ✅ Kış kahveleri: tarçınlı, balkabaklı (pumpkin spice), zencefilli latte | Mevsim şimdi; DE'de "Kürbis Latte" çok aranır | DE + TR + EN | Hemen (Kasım) |
-| 32 | Sıcak çikolata tarifi (+ süt köpürtücü ile) | Kış trafiği, süt köpürtücüye link | TR + DE + EN | Hemen |
+| 32 | ✅ Sıcak çikolata tarifi (+ süt köpürtücü ile) | Kış trafiği, süt köpürtücüye link | TR + DE + EN | Hemen |
 | 33 | Türk kahvesi falı nasıl bakılır? (eğlence amaçlı, semboller) | TR'de çok yüksek arama hacmi | TR (+ DE Türk topluluğu) | Kasım |
 | 34 | En iyi kahve makinesi 2026: türlerine göre seçim | Para kazandıran "en iyi" araması | DE + TR + EN | Kasım (yılbaşı öncesi) |
 | 35 | De'Longhi mi, Philips mi, Siemens mi? Tam otomatik karşılaştırma | DE'de yüksek fiyatlı ürün, yüksek komisyon | DE önce | Kasım |

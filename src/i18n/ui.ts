@@ -23,6 +23,7 @@ export const ui = {
       'Evde kahve demleme rehberleri, tarifler ve bağımsız ekipman karşılaştırmaları. Reklam kokan listeler değil, denenmiş yöntemler.',
     'nav.guides': 'Rehberler',
     'nav.tools': 'Oran Hesaplayıcı',
+    'nav.cafeCalc': 'Kafe Maliyet Hesaplayıcı',
     'nav.about': 'Hakkımızda',
     'nav.menu': 'Menü',
     'nav.close': 'Menüyü kapat',
@@ -85,6 +86,7 @@ export const ui = {
       'Anleitungen zur Kaffeezubereitung zu Hause, Rezepte und unabhängige Vergleiche von Kaffeezubehör. Erprobte Methoden statt Werbelisten.',
     'nav.guides': 'Ratgeber',
     'nav.tools': 'Kaffee-Rechner',
+    'nav.cafeCalc': 'Café-Kalkulator',
     'nav.about': 'Über uns',
     'nav.menu': 'Menü',
     'nav.close': 'Menü schließen',
@@ -145,6 +147,7 @@ export const ui = {
       'Home coffee brewing guides, recipes and independent gear comparisons. Tested methods, not ad-stuffed lists.',
     'nav.guides': 'Guides',
     'nav.tools': 'Ratio Calculator',
+    'nav.cafeCalc': 'Coffee Shop Cost Calculator',
     'nav.about': 'About',
     'nav.menu': 'Menu',
     'nav.close': 'Close menu',
@@ -206,6 +209,7 @@ export const staticPages = {
   privacy: { tr: '/gizlilik/', en: '/en/privacy/', de: '/de/datenschutz/' },
   disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/', de: '/de/affiliate-hinweis/' },
   calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/', de: '/de/kaffee-rechner/' },
+  cafeCalculator: { tr: '/kafe-maliyet-hesaplayici/', en: '/en/coffee-shop-cost-calculator/', de: '/de/cafe-kalkulator/' },
   imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/' },
 } as const;
 

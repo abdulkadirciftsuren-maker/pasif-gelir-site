@@ -196,7 +196,7 @@ Notlar:
 
 A aşaması (rehberler ve hesaplayıcı, ek izin gerekmez):
 - ✅ Ana rehber: Kafe açmak – ekipman listesi, maliyet, plan (TR/DE/EN)
-- Kafe maliyet hesaplayıcı (fincan başı maliyet ve kâr)
+- ✅ Kafe maliyet hesaplayıcı (fincan başı maliyet ve kâr)
 - Profesyonel espresso makinesi ve öğütücü seçimi
 - Modern kafe tasarımı fikirleri
 - Kahve tedariki: kavurucu seçimi ve fiyatlar

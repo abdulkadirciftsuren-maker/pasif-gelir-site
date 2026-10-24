@@ -1,0 +1,23 @@
+---
+import CafeCalculator from '../components/CafeCalculator.astro';
+---
+
+<CafeCalculator lang="tr">
+  <div class="prose">
+    <h2>Nasıl hesaplanıyor?</h2>
+    <ul>
+      <li><strong>Fincan başı maliyet</strong> = kahve (kilo fiyatı × gram) + süt (litre fiyatı × ml) + bardak, kapak, şeker gibi ek masraflar.</li>
+      <li><strong>Fincan başı kâr</strong> = KDV'siz satış fiyatı − fincan başı maliyet.</li>
+      <li><strong>Maliyet oranı</strong> = maliyet ÷ KDV'siz satış fiyatı × 100. İçeceklerde hedef genelde <strong>%20–30</strong> arasıdır.</li>
+      <li><strong>Önerilen fiyat:</strong> seçtiğin hedef maliyet oranına göre KDV dahil satış fiyatı.</li>
+    </ul>
+    <h2>Maliyeti düşürmek için</h2>
+    <ul>
+      <li><strong>Terazi kullan:</strong> Her shot'ı tartmak, gram gram kaçan kahveyi ve tat farkını önler.</li>
+      <li><strong>Süt israfını azalt:</strong> Doğru boy süt potu kullan, artan sütü hep yeniden ısıtma.</li>
+      <li><strong>Kavurucuyla pazarlık:</strong> Düzenli sipariş için kilo fiyatında indirim iste.</li>
+      <li><strong>Menüyü kısa tut:</strong> Az çeşit, daha az bozulan stok demek.</li>
+    </ul>
+    <p>Kafe açma sürecinin tamamı için rehberimize bak: <a href="/kafe-acmak/">Kafe açmak: ekipman listesi, maliyet ve plan</a>.</p>
+  </div>
+</CafeCalculator>

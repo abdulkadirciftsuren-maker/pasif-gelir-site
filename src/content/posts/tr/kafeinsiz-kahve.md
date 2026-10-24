@@ -78,6 +78,8 @@ Normal kahve gibi! Her yöntem uygundur:
 - **Kenger kahvesi:** Kenger bitkisinin tohumundan yapılır, kafeinsizdir. Bkz. [kahve çeşitleri](/kahve-cesitleri/).
 - **Yarı kafeinli (half-caf):** Normal ve kafeinsiz kahveyi yarı yarıya karıştırmak da güzel bir ara çözüm.
 
+**Hangi içecekte ne kadar kafein var?** Espressodan Türk kahvesine, çaydan kolaya tablo: [kahvede ne kadar kafein var](/kahvede-ne-kadar-kafein-var/).
+
 ## Sık sorulan sorular
 
 **Kafeinsiz kahve sağlıksız mı?** İzin verilen yöntemlerle yapılan kafeinsiz kahve için kalıntılar yasal sınırlarla düzenlenir. Kimyasal istemiyorsan paketinde "su yöntemi" ya da "CO₂" yazan ürünleri seç.

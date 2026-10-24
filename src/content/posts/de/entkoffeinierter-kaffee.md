@@ -78,6 +78,8 @@ Genau wie normalen Kaffee:
 - **Kenger-Kaffee:** Aus den Samen der Kenger-Distel, koffeinfrei – siehe [Kaffeesorten](/de/kaffeesorten/).
 - **Halb-halb (Half-Caf):** Normalen und entkoffeinierten Kaffee mischen – ein guter Mittelweg.
 
+**Wie viel Koffein steckt worin?** Von Espresso über türkischen Kaffee bis Tee und Cola: [Koffeingehalt von Kaffee](/de/koffeingehalt-kaffee/).
+
 ## Häufige Fragen
 
 **Ist entkoffeinierter Kaffee ungesund?** Bei zugelassenen Verfahren sind Rückstände gesetzlich begrenzt. Wer keine Lösungsmittel möchte, wählt „Wasserverfahren“ oder „CO₂“.

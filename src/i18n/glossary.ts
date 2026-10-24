@@ -89,6 +89,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Dirty chai', m: ['dirty chai'], d: 'Chai latte’ye bir shot espresso eklenmiş hâli.' },
     { t: 'Drip bag (asma filtre kahve)', m: ['drip bag', 'asma filtre'], d: 'Fincanın kenarına asılan, içinde öğütülmüş kahve olan tek kullanımlık kağıt filtre; üstüne sıcak su dökülür.' },
     { t: 'Cowboy kahvesi', m: ['cowboy'], d: 'Kahvenin doğrudan tencerede suyla kaynatılıp telvenin dibe çöktürülmesiyle yapılan kamp kahvesi.' },
+    { t: 'Yarılanma ömrü (kafein)', m: ['yarılanma ömr'], d: 'Vücuttaki kafeinin yarısının atılması için geçen süre; yetişkinlerde ortalama 3–6 saat.' },
+    { t: 'EFSA', m: ['efsa'], d: 'Avrupa Gıda Güvenliği Otoritesi; gıda güvenliği konusunda AB’ye bilimsel görüş veren kurum.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -179,6 +181,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Cowboy-Kaffee', m: ['cowboy'], d: 'Kaffee, der direkt im Topf mit Wasser aufgekocht wird; der Satz setzt sich am Boden ab.' },
     { t: 'Meddah', m: ['meddah'], d: 'Osmanischer Geschichtenerzähler, der in Kaffeehäusern auftrat und viele Figuren allein spielte.' },
     { t: 'Karagöz', m: ['karagöz'], d: 'Traditionelles türkisches Schattentheater mit den Figuren Karagöz und Hacivat.' },
+    { t: 'Halbwertszeit (Koffein)', m: ['halbwertszeit'], d: 'Zeit, bis die Hälfte des Koffeins im Körper abgebaut ist; bei Erwachsenen im Schnitt 3–6 Stunden.' },
+    { t: 'EFSA', m: ['efsa'], d: 'Europäische Behörde für Lebensmittelsicherheit; berät die EU wissenschaftlich zu Lebensmittelsicherheit.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -263,6 +267,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Cowboy coffee', m: ['cowboy'], d: 'Coffee boiled straight in a pot with water, letting the grounds settle to the bottom.' },
     { t: 'Meddah', m: ['meddah'], d: 'An Ottoman storyteller who performed in coffeehouses, playing many characters alone.' },
     { t: 'Karagöz', m: ['karagöz', 'karagoz'], d: 'Traditional Turkish shadow puppet theater featuring the characters Karagöz and Hacivat.' },
+    { t: 'Half-life (caffeine)', m: ['half-life'], d: 'The time it takes your body to clear half of the caffeine; on average 3–6 hours in adults.' },
+    { t: 'EFSA', m: ['efsa'], d: 'The European Food Safety Authority, which gives the EU scientific advice on food safety.' },
   ],
 };
 

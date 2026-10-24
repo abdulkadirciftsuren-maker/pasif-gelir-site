@@ -94,6 +94,8 @@ The tamper has to **fit the basket exactly**. A gap at the edge means the coffee
 
 More on milk and drinks: [milk frother guide](/en/milk-frother-guide/) and [latte vs cappuccino vs flat white](/en/latte-vs-cappuccino-vs-flat-white/).
 
+To learn to pour patterns with your pitcher, see [how to do latte art](/en/how-to-do-latte-art/).
+
 ## 4. Knock box
 
 Knock the used puck out of the portafilter in **one tap**. The **rubber-covered bar** protects your portafilter. Drawer-style models save counter space. Empty it daily; the grounds make good plant fertilizer.

@@ -91,6 +91,8 @@ Auch ohne Espressomaschine kannst du alle drei Getränke zu Hause nachmachen.
 
 > **Tipp für Pflanzendrinks:** Den besten Schaum liefern meist Haferdrinks mit der Aufschrift **„Barista“**. Normaler Mandeldrink schäumt leicht auf, der Schaum fällt aber schnell zusammen.
 
+**Lust auf ein Muster obendrauf?** In [Latte Art lernen](/de/latte-art-lernen/) zeigen wir Herz und Tulpe Schritt für Schritt.
+
 ## Häufige Fragen
 
 **Welcher ist am stärksten?** Der Flat White. Weniger Milch und meist doppelter Espresso – der Kaffeegeschmack ist am intensivsten.

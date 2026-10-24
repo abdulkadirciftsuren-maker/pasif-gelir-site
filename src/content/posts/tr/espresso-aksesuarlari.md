@@ -94,6 +94,8 @@ Tamper portafiltre sepetine **tam oturmalı**: kenarda boşluk kalırsa kahve e�
 
 Süt köpürtme ve içecek farkları için: [süt köpürtücü seçimi](/sut-kopurtucu-secimi/) ve [latte, cappuccino ve flat white farkı](/latte-cappuccino-flat-white-farki/).
 
+Süt potuyla desen çizmeyi öğrenmek için: [latte art nasıl yapılır](/latte-art-nasil-yapilir/).
+
 ## 4. Knock box
 
 Kullanılmış kahve tabletini portafiltreden **tek vuruşla** boşaltırsın. Ortadaki **lastik kaplı çubuk** portafiltreyi korur. Çekmece tipi modeller tezgahta daha az yer kaplar. Telveyi her gün boşalt; bitkiler için gübre olarak da kullanılabilir.

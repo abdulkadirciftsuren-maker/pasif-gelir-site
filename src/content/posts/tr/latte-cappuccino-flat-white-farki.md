@@ -89,6 +89,8 @@ Espresso makinen olmasa da bu üç kahvenin ev usulü versiyonlarını yapabilir
 
 > **Bitkisel süt ipucu:** En iyi köpüğü genellikle **"barista"** yazan yulaf sütleri verir. Normal badem sütü kolay köpürür ama köpüğü çabuk söner.
 
+**Üstüne desen çizmek ister misin?** [Latte art nasıl yapılır](/latte-art-nasil-yapilir/) rehberimizde kalp ve lale adım adım anlatılıyor.
+
 ## Sık sorulan sorular
 
 **Hangisi daha sert?** Flat white. Daha az süt ve genelde çift espresso içerdiği için kahve tadı en baskın olanıdır.

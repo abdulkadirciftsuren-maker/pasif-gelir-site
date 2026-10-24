@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yan yana üç farklı tam otomatik kahve makinesi, aralarında terazi simgesi ve önlerinde birer fincan kahve">
+<rect width="640" height="360" fill="#e6e4ef"/>
+<circle cx="320" cy="60" r="130" fill="#dad7e8"/>
+<rect y="292" width="640" height="68" fill="#c9c3d9"/>
+<!-- terazi -->
+<g transform="translate(320 46)" stroke="#5b5670" stroke-width="5" stroke-linecap="round" fill="none">
+<path d="M0 0 v40"/><path d="M-60 8 h120"/><path d="M-60 8 l-14 26 h28 z" fill="#f2c46b"/><path d="M60 8 l-14 26 h28 z" fill="#f2c46b"/>
+<circle cx="0" cy="0" r="5" fill="#5b5670"/>
+</g>
+<!-- makine 1: gümüş-siyah -->
+<g transform="translate(46 140)">
+<rect x="0" y="0" width="140" height="152" rx="12" fill="#c9ccd1"/>
+<rect x="0" y="0" width="140" height="40" rx="12" fill="#3a3a3a"/>
+<g fill="#bdbdbd"><circle cx="24" cy="20" r="7"/><circle cx="116" cy="20" r="7"/></g>
+<rect x="50" y="12" width="40" height="16" rx="3" fill="#1f1f1f"/>
+<rect x="52" y="52" width="36" height="16" rx="4" fill="#5b5b5b"/>
+<path d="M54 96 h32 v26 q0 6 -6 6 h-20 q-6 0 -6 -6 z" fill="#fbf8f4"/>
+<rect x="16" y="132" width="108" height="8" rx="4" fill="#8a8d92"/>
+<path d="M116 50 v52 l-6 8" stroke="#8a8d92" stroke-width="5" fill="none" stroke-linecap="round"/>
+</g>
+<!-- makine 2: beyaz-siyah, süt kabı -->
+<g transform="translate(250 130)">
+<rect x="0" y="0" width="140" height="162" rx="14" fill="#2f2f33"/>
+<rect x="10" y="10" width="120" height="44" rx="8" fill="#fbf8f4"/>
+<g fill="#6cc7b6"><circle cx="34" cy="32" r="6"/><circle cx="56" cy="32" r="6"/><circle cx="78" cy="32" r="6"/><circle cx="100" cy="32" r="6"/></g>
+<rect x="56" y="64" width="28" height="14" rx="4" fill="#5b5b5b"/>
+<path d="M54 104 h32 v28 q0 6 -6 6 h-20 q-6 0 -6 -6 z" fill="#fbf8f4"/>
+<path d="M58 104 h24 v8 h-24 z" fill="#c69c6d"/>
+<rect x="16" y="142" width="108" height="8" rx="4" fill="#5b5b5b"/>
+<g transform="translate(150 70)">
+<path d="M0 0 h30 l6 72 h-42 z" fill="#fbf8f4" stroke="#bdbdbd" stroke-width="2"/>
+<rect x="-2" y="-8" width="34" height="10" rx="3" fill="#5b5b5b"/>
+</g>
+</g>
+<!-- makine 3: paslanmaz, ekranlı -->
+<g transform="translate(450 136)">
+<rect x="0" y="0" width="144" height="156" rx="8" fill="#9aa3a8"/>
+<rect x="0" y="0" width="144" height="156" rx="8" fill="none" stroke="#7d868b" stroke-width="2"/>
+<rect x="14" y="12" width="116" height="36" rx="5" fill="#1f2a30"/>
+<rect x="22" y="20" width="60" height="20" rx="3" fill="#5aa7d6" opacity=".85"/>
+<g fill="#cfd8dc"><circle cx="98" cy="30" r="5"/><circle cx="116" cy="30" r="5"/></g>
+<rect x="56" y="60" width="32" height="14" rx="4" fill="#5b6b75"/>
+<path d="M56 98 h32 v28 q0 6 -6 6 h-20 q-6 0 -6 -6 z" fill="#fbf8f4"/>
+<rect x="16" y="136" width="112" height="8" rx="4" fill="#5b6b75"/>
+</g>
+</svg>

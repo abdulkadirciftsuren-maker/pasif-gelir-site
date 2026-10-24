@@ -166,7 +166,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 32 | ✅ Sıcak çikolata tarifi (+ süt köpürtücü ile) | Kış trafiği, süt köpürtücüye link | TR + DE + EN | Hemen |
 | 33 | ✅ Türk kahvesi falı nasıl bakılır? (eğlence amaçlı, semboller) | TR'de çok yüksek arama hacmi | TR (+ DE Türk topluluğu) | Kasım |
 | 34 | ✅ En iyi kahve makinesi 2026: türlerine göre seçim | Para kazandıran "en iyi" araması | DE + TR + EN | Kasım (yılbaşı öncesi) |
-| 35 | De'Longhi mi, Philips mi, Siemens mi? Tam otomatik karşılaştırma | DE'de yüksek fiyatlı ürün, yüksek komisyon | DE önce | Kasım |
+| 35 | ✅ De'Longhi mi, Philips mi, Siemens mi? Tam otomatik karşılaştırma | DE'de yüksek fiyatlı ürün, yüksek komisyon | DE önce | Kasım |
 | 36 | Espresso aksesuarları: tamper, süt potu, knock box, dağıtıcı | Siebträger alanların ek alışverişi | DE + EN + TR | Aralık |
 | 37 | Latte art nasıl yapılır? (kalp, tulip) | Çok aranır, süt potu ve makineye link | TR + DE + EN | Aralık |
 | 38 | Termos kupa ve to-go kupa rehberi | Hediye ve günlük ürün | DE + TR + EN | Aralık |

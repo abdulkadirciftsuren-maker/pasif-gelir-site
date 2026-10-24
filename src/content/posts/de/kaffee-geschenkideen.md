@@ -62,6 +62,8 @@ Kaffee geht immer – aber welches Geschenk freut einen Kaffeeliebhaber wirklich
 8. **French Press:** Unkompliziert, robust und für mehrere Tassen – siehe [French-Press-Anleitung](/de/french-press-anleitung/).
 9. **Türkischer Kaffee im Set:** Cezve, zwei Mokkatassen und frisch gemahlener türkischer Kaffee – siehe [Türkischen Kaffee kaufen](/de/tuerkischen-kaffee-kaufen/).
 
+**Nimmt die Person ihren Kaffee täglich mit?** Ein guter Thermobecher kommt immer an: [Thermobecher kaufen](/de/thermobecher-kaufen/).
+
 ## 50–100 €
 
 10. **Handkaffeemühle:** Der größte Geschmackssprung für alle, die bisher vorgemahlen kaufen. Mehr in [Kaffeemühle kaufen](/de/kaffeemuehle-kaufen/).

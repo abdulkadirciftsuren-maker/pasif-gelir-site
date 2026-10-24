@@ -62,6 +62,8 @@ Coffee is always a safe bet – but what gift will really delight a coffee lover
 8. **French press:** Uncomplicated, sturdy and good for several cups – see [How to use a French press](/en/how-to-use-a-french-press/).
 9. **Turkish coffee set:** A cezve, two small cups and freshly ground Turkish coffee – see [How to buy Turkish coffee](/en/how-to-buy-turkish-coffee/).
 
+**Do they take coffee with them every day?** A good travel mug always goes down well: [best travel mug for coffee](/en/travel-mug-guide/).
+
 ## $50–100
 
 10. **Hand grinder:** The biggest jump in flavor for anyone who buys pre-ground. More in [Best coffee grinder](/en/best-coffee-grinder/).

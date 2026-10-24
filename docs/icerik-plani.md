@@ -174,7 +174,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 40 | ✅ Chai latte tarifi | Kış ve kafe içeceği | 3 dil | Ocak |
 | 41 | ✅ Kampta ve seyahatte kahve (AeroPress Go, el öğütücü, kamp ocağı) | Bahar/yaz öncesi, ürün linkli | DE + EN + TR | Şubat |
 | 42 | ✅ Ofis için kahve makinesi seçimi | Yüksek tutarlı satış | DE + TR | Şubat |
-| 43 | Kahvenin tarihi: Osmanlı kahvehaneleri ve kahvenin Avrupa'ya yolculuğu | Kültür, TR ve DE için ilgi çekici, link alma şansı | TR + DE + EN | Şubat |
+| 43 | ✅ Kahvenin tarihi: Osmanlı kahvehaneleri ve kahvenin Avrupa'ya yolculuğu | Kültür, TR ve DE için ilgi çekici, link alma şansı | TR + DE + EN | Şubat |
 | 44 | Ramazan'da kahve: iftar ve sahurda kahve (kafein ve uyku) | Mevsimsel TR + DE Türk topluluğu | TR + DE | Ramazan'dan 4 hafta önce |
 | 45 | Kahve makinesi günlük temizliği (kireç dışında) | Bakım ürünlerine link | 3 dil | Mart |
 | 46 | Kahvede ne kadar kafein var? (yöntemlere göre tablo, sağlık tavsiyesi vermeden) | Çok aranan bilgi | 3 dil | Mart |

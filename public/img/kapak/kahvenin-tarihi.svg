@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Osmanlı kahvehanesini anımsatan kemerler ve kubbe; önde bakır tepside cezve ve fincanlar, arka planda Avrupa'ya giden bir yelkenli gemi">
+<rect width="640" height="360" fill="#f1e6cf"/>
+<!-- deniz ve gemi -->
+<rect y="190" width="640" height="40" fill="#cfdde3"/>
+<g transform="translate(520 130)">
+<path d="M0 60 h70 l-10 14 h-50 z" fill="#8a5a3c"/>
+<path d="M34 60 V0" stroke="#5a3a26" stroke-width="3"/>
+<path d="M36 4 L66 54 H36 Z" fill="#fbf8f4"/>
+<path d="M32 10 L8 54 H32 Z" fill="#f6ead9"/>
+<path d="M34 0 l10 4 l-10 4 z" fill="#c4562f"/>
+</g>
+<!-- kubbe ve kemerler -->
+<g transform="translate(40 40)">
+<path d="M150 70 q60 -80 120 0 z" fill="#c9a77a"/>
+<rect x="206" y="0" width="8" height="18" fill="#b08e6f"/>
+<path d="M210 -8 a6 6 0 1 0 0.1 0" fill="#f2c46b"/>
+<rect x="0" y="70" width="420" height="170" fill="#e2cfa8"/>
+<g fill="#cfdde3">
+<path d="M30 240 V130 q40 -50 80 0 V240 z"/>
+<path d="M170 240 V130 q40 -50 80 0 V240 z"/>
+<path d="M310 240 V130 q40 -50 80 0 V240 z"/>
+</g>
+<g fill="none" stroke="#b08e6f" stroke-width="6">
+<path d="M30 240 V130 q40 -50 80 0 V240"/>
+<path d="M170 240 V130 q40 -50 80 0 V240"/>
+<path d="M310 240 V130 q40 -50 80 0 V240"/>
+</g>
+<rect x="0" y="70" width="420" height="12" fill="#c9a77a"/>
+</g>
+<!-- zemin -->
+<rect y="280" width="640" height="80" fill="#a8461f"/>
+<g stroke="#8a3a1a" stroke-width="2" opacity=".6"><path d="M0 300 H640 M0 330 H640"/></g>
+<!-- tepsi, cezve, fincanlar -->
+<g transform="translate(200 250)">
+<ellipse cx="120" cy="40" rx="150" ry="22" fill="#b87333"/>
+<ellipse cx="120" cy="36" rx="138" ry="16" fill="#d08a4a"/>
+<!-- cezve -->
+<g transform="translate(40 -40)">
+<path d="M0 0 h44 l-4 44 q0 6 -6 6 h-24 q-6 0 -6 -6 z" fill="#b87333"/>
+<path d="M44 8 h40" stroke="#5a3a26" stroke-width="7" stroke-linecap="round"/>
+<path d="M4 0 l-8 -6" stroke="#b87333" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#fbf8f4" stroke-width="3" fill="none" stroke-linecap="round" opacity=".85"><path d="M14 -6 q6 -10 0 -20"/><path d="M28 -6 q6 -10 0 -20"/></g>
+</g>
+<!-- fincanlar -->
+<g transform="translate(140 -10)">
+<path d="M0 0 h30 v14 q0 12 -15 12 q-15 0 -15 -12 z" fill="#fbf8f4"/>
+<path d="M2 6 h26" stroke="#2f5d8a" stroke-width="4"/>
+<ellipse cx="15" cy="30" rx="22" ry="5" fill="#fbf8f4"/>
+</g>
+<g transform="translate(196 -10)">
+<path d="M0 0 h30 v14 q0 12 -15 12 q-15 0 -15 -12 z" fill="#fbf8f4"/>
+<path d="M2 6 h26" stroke="#c4562f" stroke-width="4"/>
+<ellipse cx="15" cy="30" rx="22" ry="5" fill="#fbf8f4"/>
+</g>
+<!-- lokum -->
+<g transform="translate(110 20)"><rect x="0" y="0" width="14" height="12" rx="2" fill="#f4a7b9"/><rect x="16" y="2" width="14" height="12" rx="2" fill="#fbf8f4"/></g>
+</g>
+</svg>

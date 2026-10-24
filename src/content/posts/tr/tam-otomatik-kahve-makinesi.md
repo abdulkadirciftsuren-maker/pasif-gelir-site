@@ -54,6 +54,8 @@ Tam otomatik kahve makinesi, evde kahve için en rahat yollardan biri: Çekirde�
 
 Fiyatlar çok değişkendir ve birçok model kampanyalarda belirgin şekilde ucuzlar. Almadan önce fiyatı birkaç hafta takip et.
 
+**Marka seçemiyor musun?** De'Longhi, Philips ve Siemens'i yan yana koyduğumuz [karşılaştırma yazımıza](/delonghi-philips-siemens-karsilastirma/) bak.
+
 ## Fincan başı maliyet
 
 Tam otomatik makine fincan başına **kapsülden belirgin şekilde ucuzdur**, çünkü çekirdek kahve kullanır. Espresso başına yaklaşık 8–10 g çekirdek hesapla. Buna su filtresi, kireç çözücü ve temizlik tabletleri eklenir. Kapsül ile karşılaştırma için [kapsül kahve makinesi rehberimize](/kapsul-kahve-makinesi/) bak.

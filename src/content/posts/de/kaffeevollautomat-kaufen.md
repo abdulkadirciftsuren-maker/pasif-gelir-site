@@ -54,6 +54,8 @@ Der Kaffeevollautomat ist in Deutschland die beliebteste Kaffeemaschine für zu 
 
 Die Preise schwanken stark – viele Modelle sind im Angebot deutlich günstiger. Beobachte den Preis ein paar Wochen, bevor du kaufst.
 
+**Unsicher bei der Marke?** Im [Vergleich De'Longhi, Philips und Siemens](/de/delonghi-philips-siemens-vergleich/) stellen wir die drei nebeneinander.
+
 ## Folgekosten: Was kostet eine Tasse?
 
 Ein Vollautomat ist pro Tasse deutlich günstiger als Kapseln (siehe [Kapselmaschine kaufen](/de/kapselmaschine-kaufen/)). Rechne mit etwa 8–10 g Bohnen pro Espresso. Bei Bohnen für 15 € pro Kilo kostet ein Espresso also rund 15 Cent. Dazu kommen Wasserfilter, Entkalker und Reinigungstabletten – grob 30–60 € im Jahr, je nach Modell und Wasserhärte.

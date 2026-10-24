@@ -54,6 +54,8 @@ A super-automatic espresso machine (also called a bean-to-cup machine) does it a
 
 Prices vary a lot – many models are much cheaper on sale. Watch the price for a few weeks before you buy.
 
+**Can't decide on a brand?** See our [De'Longhi vs Philips vs Siemens comparison](/en/delonghi-vs-philips-vs-siemens/).
+
 ## Running costs: what does a cup cost?
 
 Per cup, a super-automatic is much cheaper than capsules (see the [capsule coffee machine guide](/en/capsule-coffee-machine-guide/)). Count on about 8–10 g of beans per espresso, so the cost per shot is only a small fraction of the price of a capsule. On top of that come water filters, descaler and cleaning tablets – a modest yearly amount, depending on the model and your water hardness.

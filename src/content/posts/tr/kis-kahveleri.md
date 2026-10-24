@@ -127,6 +127,8 @@ Kakule kahveye ferah, hafif limonsu bir koku verir. Benzer bir lezzet için [men
 - **Daha az şeker:** Ev yapımı şuruplarda şekeri %30'a kadar azaltabilirsin, ama şurup daha kısa sürede bozulur.
 - **Hediye fikri:** Küçük bir şişe ev yapımı balkabaklı şurup ve bir paket kahve güzel bir kış hediyesi olur. Bkz. [kahve hediyesi fikirleri](/kahve-hediyesi-fikirleri/).
 
+**Kahvesiz bir kış içeceği mi istiyorsun?** Baharatlı [chai latte tarifimize](/chai-latte-tarifi/) bak; espresso eklersen dirty chai olur.
+
 ## Sık sorulan sorular
 
 **Pumpkin spice latte'de gerçekten balkabağı var mı?** Kafelerin çoğunda sadece baharat aroması kullanılır. Ev yapımı tarifimizde gerçek balkabağı püresi var, bu yüzden tadı daha doğal.

@@ -85,6 +85,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Long black', m: ['long black'], d: 'Önce sıcak su, üstüne espresso dökülerek yapılan uzun kahve; kreması korunur.' },
     { t: 'Piccolo', m: ['piccolo'], d: 'Ristrettonun küçük bir bardakta az miktarda ipeksi sütle karıştırılmasıyla yapılan minik sütlü kahve.' },
     { t: 'Affogato', m: ['affogato'], d: 'Bir top vanilyalı dondurmanın üzerine dökülen sıcak espresso.' },
+    { t: 'Chai (masala chai)', m: ['chai', 'masala'], d: 'Hindistan’da siyah çayın süt, şeker ve baharatlarla (kakule, tarçın, zencefil, karanfil) pişirilmesiyle yapılan içecek.' },
+    { t: 'Dirty chai', m: ['dirty chai'], d: 'Chai latte’ye bir shot espresso eklenmiş hâli.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -169,6 +171,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Long Black', m: ['long black'], d: 'Erst heißes Wasser, dann Espresso darauf – die Crema bleibt erhalten.' },
     { t: 'Piccolo', m: ['piccolo'], d: 'Ristretto mit wenig seidiger Milch in einem kleinen Glas.' },
     { t: 'Affogato', m: ['affogato'], d: 'Heißer Espresso über einer Kugel Vanilleeis.' },
+    { t: 'Chai (Masala Chai)', m: ['chai', 'masala'], d: 'Indischer Schwarztee, mit Milch, Zucker und Gewürzen (Kardamom, Zimt, Ingwer, Nelken) gekocht.' },
+    { t: 'Dirty Chai', m: ['dirty chai'], d: 'Chai Latte mit einem zusätzlichen Shot Espresso.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -247,6 +251,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Long black', m: ['long black'], d: 'Hot water first, then espresso on top, so the crema survives.' },
     { t: 'Piccolo', m: ['piccolo'], d: 'A ristretto topped with a little silky milk in a small glass.' },
     { t: 'Affogato', m: ['affogato'], d: 'Hot espresso poured over a scoop of vanilla ice cream.' },
+    { t: 'Chai (masala chai)', m: ['chai', 'masala'], d: 'Indian black tea simmered with milk, sugar and spices such as cardamom, cinnamon, ginger and cloves.' },
+    { t: 'Dirty chai', m: ['dirty chai'], d: 'A chai latte with an added shot of espresso.' },
   ],
 };
 

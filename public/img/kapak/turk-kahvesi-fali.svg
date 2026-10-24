@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Tabağın üstüne ters kapatılmış bir Türk kahvesi fincanı, yanında içinde telve desenleri görünen açık bir fincan, lokumlar ve küçük yıldızlar">
+<rect width="640" height="360" fill="#e8d9ef"/>
+<circle cx="520" cy="80" r="110" fill="#dcc8e6"/>
+<rect y="296" width="640" height="64" fill="#cdb3dc"/>
+<!-- yıldızlar -->
+<g fill="#f2c46b"><path d="M90 60 l5 12 l13 1 l-10 8 l3 13 l-11 -7 l-11 7 l3 -13 l-10 -8 l13 -1 z"/><path d="M200 34 l3 7 l8 1 l-6 5 l2 8 l-7 -4 l-7 4 l2 -8 l-6 -5 l8 -1 z"/><path d="M590 190 l3 7 l8 1 l-6 5 l2 8 l-7 -4 l-7 4 l2 -8 l-6 -5 l8 -1 z"/></g>
+<!-- ters kapatılmış fincan -->
+<ellipse cx="200" cy="290" rx="92" ry="16" fill="#fbf8f4" stroke="#c9b3a3" stroke-width="2"/>
+<ellipse cx="200" cy="286" rx="60" ry="9" fill="#efe6dc"/>
+<path d="M156 286 L164 214 Q200 200 236 214 L244 286 Z" fill="#fbf8f4" stroke="#c9b3a3" stroke-width="2"/>
+<path d="M162 250 H238" stroke="#2f5d8a" stroke-width="7"/>
+<g fill="#c4562f"><circle cx="176" cy="250" r="4"/><circle cx="200" cy="250" r="4"/><circle cx="224" cy="250" r="4"/></g>
+<path d="M240 232 q26 2 22 26 q-4 18 -20 18" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M240 232 q26 2 22 26 q-4 18 -20 18" fill="none" stroke="#c9b3a3" stroke-width="2"/>
+<!-- açık fincan, içi telve desenli -->
+<ellipse cx="420" cy="292" rx="80" ry="14" fill="#fbf8f4" stroke="#c9b3a3" stroke-width="2"/>
+<path d="M366 190 Q420 178 474 190 L466 270 Q420 290 374 270 Z" fill="#fbf8f4" stroke="#c9b3a3" stroke-width="2"/>
+<ellipse cx="420" cy="190" rx="54" ry="12" fill="#f3ece4" stroke="#c9b3a3" stroke-width="2"/>
+<path d="M372 222 H468" stroke="#2f5d8a" stroke-width="6"/>
+<path d="M472 204 q28 2 24 28 q-4 20 -22 20" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M472 204 q28 2 24 28 q-4 20 -22 20" fill="none" stroke="#c9b3a3" stroke-width="2"/>
+<!-- telve desenleri: kuş ve kalp -->
+<g fill="#5a3a26" opacity=".85">
+<path d="M386 186 q8 -6 14 0 q6 -6 14 0 q-8 2 -14 6 q-6 -4 -14 -6 z"/>
+<path d="M436 192 c-6 -8 -16 -2 -10 6 l10 8 l10 -8 c6 -8 -4 -14 -10 -6 z"/>
+<circle cx="452" cy="186" r="2"/><circle cx="410" cy="196" r="1.6"/><circle cx="396" cy="194" r="1.4"/>
+</g>
+<!-- lokumlar -->
+<g transform="translate(532 268)">
+<rect x="-34" y="0" width="26" height="22" rx="4" fill="#f4a7b9"/><rect x="-4" y="-4" width="26" height="22" rx="4" fill="#fbf8f4" stroke="#e8dccf"/><rect x="26" y="2" width="26" height="22" rx="4" fill="#f4a7b9"/>
+<g fill="#ffffff" opacity=".8"><circle cx="-26" cy="6" r="1.5"/><circle cx="-14" cy="12" r="1.5"/><circle cx="34" cy="10" r="1.5"/><circle cx="44" cy="16" r="1.5"/></g>
+</g>
+</svg>

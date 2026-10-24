@@ -82,6 +82,9 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Kanallanma (channeling)', m: ['kanallanma', 'channeling'], d: 'Suyun kahvenin içinden eşit geçmeyip zayıf noktalardan kaçması; espresso hem ekşi hem acı olur.' },
     { t: 'Kör filtre', m: ['kör filtre'], d: 'Deliksiz portafiltre sepeti; makinenin grubunu geri yıkamak (backflush) için kullanılır.' },
     { t: 'Vakum yalıtımı', m: ['vakum yalıtım', 'çift duvar'], d: 'İki çelik duvar arasındaki havanın alınmasıyla ısının dışarı kaçmasının engellenmesi; termos ve termos kupaların sıcak tutma sırrı.' },
+    { t: 'Long black', m: ['long black'], d: 'Önce sıcak su, üstüne espresso dökülerek yapılan uzun kahve; kreması korunur.' },
+    { t: 'Piccolo', m: ['piccolo'], d: 'Ristrettonun küçük bir bardakta az miktarda ipeksi sütle karıştırılmasıyla yapılan minik sütlü kahve.' },
+    { t: 'Affogato', m: ['affogato'], d: 'Bir top vanilyalı dondurmanın üzerine dökülen sıcak espresso.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -163,6 +166,9 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Blindsieb', m: ['blindsieb'], d: 'Sieb ohne Löcher, mit dem die Brühgruppe rückgespült wird.' },
     { t: 'Vakuumisolierung', m: ['vakuumisol', 'doppelwandig'], d: 'Zwischen zwei Edelstahlwänden ist ein Vakuum, das kaum Wärme durchlässt – das Geheimnis guter Thermobecher.' },
     { t: 'Mehrwegangebotspflicht', m: ['mehrwegangebot'], d: 'Seit 2023 müssen viele Betriebe, die To-go-Getränke verkaufen, auch eine Mehrweg-Alternative anbieten.' },
+    { t: 'Long Black', m: ['long black'], d: 'Erst heißes Wasser, dann Espresso darauf – die Crema bleibt erhalten.' },
+    { t: 'Piccolo', m: ['piccolo'], d: 'Ristretto mit wenig seidiger Milch in einem kleinen Glas.' },
+    { t: 'Affogato', m: ['affogato'], d: 'Heißer Espresso über einer Kugel Vanilleeis.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -238,6 +244,9 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Channeling', m: ['channeling'], d: 'Water finds weak spots in the coffee puck instead of flowing evenly; the espresso tastes sour and bitter at once.' },
     { t: 'Blind basket', m: ['blind basket'], d: 'A basket with no holes, used to backflush the group head.' },
     { t: 'Vacuum insulation', m: ['vacuum insulat', 'double-wall'], d: 'A vacuum between two steel walls that lets almost no heat escape: the secret of a good travel mug.' },
+    { t: 'Long black', m: ['long black'], d: 'Hot water first, then espresso on top, so the crema survives.' },
+    { t: 'Piccolo', m: ['piccolo'], d: 'A ristretto topped with a little silky milk in a small glass.' },
+    { t: 'Affogato', m: ['affogato'], d: 'Hot espresso poured over a scoop of vanilla ice cream.' },
   ],
 };
 

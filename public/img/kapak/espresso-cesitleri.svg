@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yan yana beş cam bardak ve fincan: ristretto, espresso, macchiato, cortado ve americano; her birinde kahve, süt ve köpük katmanları görünüyor">
+<rect width="640" height="360" fill="#dcefe6"/>
+<circle cx="90" cy="70" r="110" fill="#cde6da"/>
+<rect y="290" width="640" height="70" fill="#b8d3c6"/>
+<!-- ristretto: küçük fincan -->
+<g transform="translate(40 230)">
+<path d="M0 0 h56 v34 q0 26 -28 26 q-28 0 -28 -26 z" fill="#fbf8f4"/>
+<path d="M56 10 q14 0 12 14 q-2 10 -12 10" fill="none" stroke="#fbf8f4" stroke-width="6"/>
+<path d="M6 8 h44 v14 q0 8 -6 8 h-32 q-6 0 -6 -8 z" fill="#3a2a22"/>
+<rect x="6" y="6" width="44" height="5" fill="#b9825a"/>
+<ellipse cx="28" cy="62" rx="40" ry="5" fill="#fbf8f4"/>
+</g>
+<!-- espresso: cam -->
+<g transform="translate(150 200)">
+<path d="M0 0 h60 l-6 88 h-48 z" fill="#ffffff" opacity=".55" stroke="#fbf8f4" stroke-width="3"/>
+<path d="M4 46 h52 l-3 40 h-46 z" fill="#3a2a22"/>
+<rect x="4" y="38" width="52" height="10" fill="#b9825a"/>
+</g>
+<!-- macchiato -->
+<g transform="translate(260 196)">
+<path d="M0 0 h64 l-6 92 h-52 z" fill="#ffffff" opacity=".55" stroke="#fbf8f4" stroke-width="3"/>
+<path d="M4 44 h56 l-3 46 h-50 z" fill="#3a2a22"/>
+<rect x="4" y="36" width="56" height="10" fill="#b9825a"/>
+<path d="M4 18 h56 v18 h-56 z" fill="#fbf8f4"/>
+</g>
+<!-- cortado -->
+<g transform="translate(374 180)">
+<path d="M0 0 h72 l-7 108 h-58 z" fill="#ffffff" opacity=".55" stroke="#fbf8f4" stroke-width="3"/>
+<path d="M4 58 h64 l-4 48 h-56 z" fill="#3a2a22"/>
+<path d="M4 22 h64 v38 h-64 z" fill="#c69c6d"/>
+<path d="M4 12 h64 v12 h-64 z" fill="#fbf8f4"/>
+</g>
+<!-- americano -->
+<g transform="translate(494 150)">
+<path d="M0 0 h96 v100 q0 40 -48 40 q-48 0 -48 -40 z" fill="#fbf8f4"/>
+<path d="M96 30 q24 0 22 26 q-2 20 -22 20" fill="none" stroke="#fbf8f4" stroke-width="8"/>
+<path d="M8 14 h80 v84 q0 32 -40 32 q-40 0 -40 -32 z" fill="#5a3a26"/>
+<rect x="8" y="14" width="80" height="8" fill="#8a5a3c"/>
+</g>
+<!-- buhar -->
+<g stroke="#fbf8f4" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8">
+<path d="M60 220 q6 -10 0 -20 q-6 -10 0 -20"/>
+<path d="M530 136 q6 -10 0 -20 q-6 -10 0 -20"/><path d="M552 136 q6 -10 0 -20 q-6 -10 0 -20"/>
+</g>
+</svg>

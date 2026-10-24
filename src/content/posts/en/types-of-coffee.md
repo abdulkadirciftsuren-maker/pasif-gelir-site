@@ -51,6 +51,8 @@ Espresso is a concentrated shot pulled from finely ground coffee under high pres
 
 The difference between the three most confused drinks is explained, with a graphic, in [Latte vs Cappuccino vs Flat White](/en/latte-vs-cappuccino-vs-flat-white/).
 
+For ratios, cup sizes and the difference between a macchiato and a latte macchiato, see [espresso drinks explained](/en/espresso-drinks-explained/).
+
 ## Brewed coffee
 
 No pressure here: hot water flows through the coffee or steeps with it. The result is lighter than espresso, with clearer flavours.

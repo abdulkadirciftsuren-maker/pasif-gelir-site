@@ -1,0 +1,108 @@
+---
+// Sözlük ipuçları: verilen alandaki (ör. .prose) terimlerin ilk geçtiği yeri altı noktalı yapar;
+// dokununca/tıklayınca kısa açıklama çıkar. Ayrıca istenirse "Bu yazıdaki terimler" kutusunu gösterir.
+import { type Lang } from '../i18n/ui';
+import { glossaryPages, termPattern, type GlossaryEntry } from '../i18n/glossary';
+
+interface Props { lang: Lang; entries: GlossaryEntry[]; root?: string; showList?: boolean }
+const { lang, entries, root = '.prose', showList = false } = Astro.props;
+const texts = {
+  tr: { list: 'Bu yazıdaki terimler', all: 'Bütün sözlük', close: 'Kapat' },
+  de: { list: 'Begriffe in diesem Artikel', all: 'Zum Glossar', close: 'Schließen' },
+  en: { list: 'Terms in this guide', all: 'Full glossary', close: 'Close' },
+}[lang];
+const forms = entries.flatMap((e, i) => e.m.map((f) => ({ re: termPattern(f), i, len: f.length }))).sort((a, b) => b.len - a.len);
+const data = { lang, root, forms, entries: entries.map((e) => ({ t: e.t, d: e.d })), glossaryUrl: glossaryPages[lang], all: texts.all, close: texts.close };
+---
+
+{showList && entries.length > 0 && (
+  <details class="glossary-box">
+    <summary>📖 {texts.list} ({entries.length})</summary>
+    <dl>
+      {entries.map((e) => (<div><dt>{e.t}</dt><dd>{e.d}</dd></div>))}
+    </dl>
+    <a href={glossaryPages[lang]}>{texts.all} →</a>
+  </details>
+)}
+
+<script define:vars={{ data }}>
+  (() => {
+    const area = document.querySelector(data.root);
+    if (!area || !data.forms.length) return;
+    const SKIP = 'h1,h2,h3,h4,a,code,pre,button,summary,label,select,option,input,output,script,style,.term,.glossary-box,.product,.quick';
+    const done = new Set();
+    for (const f of data.forms) {
+      if (done.has(f.i)) continue;
+      const re = new RegExp(f.re, 'u');
+      const walker = document.createTreeWalker(area, NodeFilter.SHOW_TEXT, {
+        acceptNode: (n) => (n.parentElement && !n.parentElement.closest(SKIP) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT),
+      });
+      let node;
+      while ((node = walker.nextNode())) {
+        const m = re.exec(node.nodeValue.toLocaleLowerCase(data.lang));
+        if (!m) continue;
+        // Türkçe ekleri de içine al: "espressoyu", "latte'si"
+        let end = m.index + m[0].length;
+        while (end < node.nodeValue.length && /[\p{L}'’]/u.test(node.nodeValue[end])) end++;
+        const target = node.splitText(m.index);
+        target.splitText(end - m.index);
+        const span = document.createElement('span');
+        span.className = 'term';
+        span.tabIndex = 0;
+        span.setAttribute('role', 'button');
+        span.dataset.i = f.i;
+        target.replaceWith(span);
+        span.append(target);
+        done.add(f.i);
+        break;
+      }
+    }
+
+    const pop = document.createElement('div');
+    pop.className = 'term-pop';
+    pop.hidden = true;
+    pop.setAttribute('role', 'dialog');
+    document.body.append(pop);
+    let current = null;
+
+    function open(el) {
+      const e = data.entries[+el.dataset.i];
+      pop.replaceChildren();
+      const b = document.createElement('strong'); b.textContent = e.t;
+      const p = document.createElement('p'); p.textContent = e.d;
+      const a = document.createElement('a'); a.href = data.glossaryUrl; a.textContent = data.all + ' →';
+      pop.append(b, p, a);
+      pop.hidden = false;
+      const r = el.getBoundingClientRect();
+      const w = Math.min(320, window.innerWidth - 24);
+      pop.style.width = w + 'px';
+      pop.style.left = Math.max(12, Math.min(r.left, window.innerWidth - w - 12)) + window.scrollX + 'px';
+      pop.style.top = r.bottom + window.scrollY + 8 + 'px';
+      current = el;
+    }
+    function close() { pop.hidden = true; current = null; }
+
+    area.addEventListener('click', (ev) => {
+      const el = ev.target.closest('.term');
+      if (!el) return;
+      ev.stopPropagation();
+      el === current ? close() : open(el);
+    });
+    area.addEventListener('keydown', (ev) => {
+      const el = ev.target.closest && ev.target.closest('.term');
+      if (el && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); el === current ? close() : open(el); }
+    });
+    document.addEventListener('click', (ev) => { if (!pop.hidden && !pop.contains(ev.target)) close(); });
+    document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') close(); });
+    window.addEventListener('resize', close);
+  })();
+</script>
+
+<style>
+  .glossary-box { margin: 2rem 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: .9rem 1.2rem; }
+  .glossary-box summary { cursor: pointer; font-weight: 700; }
+  .glossary-box dl { margin: .9rem 0; display: grid; gap: .7rem; }
+  .glossary-box dt { font-weight: 700; }
+  .glossary-box dd { margin: .1rem 0 0; color: var(--muted); font-size: .95rem; line-height: 1.5; }
+  .glossary-box a { font-weight: 600; font-size: .95rem; }
+</style>

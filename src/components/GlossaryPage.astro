@@ -1,0 +1,56 @@
+---
+// Sözlük sayfası: bütün terimler A–Z, harf başlıklarıyla.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { type Lang } from '../i18n/ui';
+import { glossary, glossaryPages } from '../i18n/glossary';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = {
+  tr: { title: 'Kahve Sözlüğü', desc: 'Espresso, crema, barista, ristretto, pour-over… Kahve dünyasındaki yabancı kelimeler ve kısaltmalar, kısa ve sade açıklamalarla bir arada.' },
+  de: { title: 'Kaffee-Glossar', desc: 'Espresso, Crema, Siebträger, Ristretto, Pour Over … Fachbegriffe und Abkürzungen aus der Kaffeewelt – kurz und verständlich erklärt.' },
+  en: { title: 'Coffee Glossary', desc: 'Espresso, crema, portafilter, ristretto, pour-over… Coffee terms and abbreviations explained in short, plain language, all in one place.' },
+}[lang];
+const entries = [...glossary[lang]].sort((a, b) => a.t.localeCompare(b.t, lang));
+const groups = new Map<string, typeof entries>();
+for (const e of entries) {
+  const k = e.t[0].toLocaleUpperCase(lang);
+  if (!groups.has(k)) groups.set(k, []);
+  groups.get(k)!.push(e);
+}
+const slug = (t: string) => t.toLocaleLowerCase(lang).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: L.title, inLanguage: lang, hasDefinedTerm: entries.map((e) => ({ '@type': 'DefinedTerm', name: e.t, description: e.d })) }];
+---
+
+<BaseLayout lang={lang} title={L.title} description={L.desc} alternates={glossaryPages} jsonLd={jsonLd}>
+  <div class="container read wrap">
+    <h1>📖 {L.title}</h1>
+    <p class="muted lead">{L.desc}</p>
+    <nav class="letters" aria-label="A–Z">
+      {[...groups.keys()].map((k) => <a href={`#harf-${slug(k) || k}`}>{k}</a>)}
+    </nav>
+    {[...groups.entries()].map(([k, list]) => (
+      <section aria-labelledby={`harf-${slug(k) || k}`}>
+        <h2 id={`harf-${slug(k) || k}`}>{k}</h2>
+        <dl>
+          {list.map((e) => (
+            <div id={slug(e.t)}><dt>{e.t}</dt><dd>{e.d}</dd></div>
+          ))}
+        </dl>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .wrap { padding-top: 3rem; }
+  .lead { font-size: 1.15rem; }
+  .letters { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1.25rem 0 1rem; }
+  .letters a { display: grid; place-items: center; min-width: 2.2rem; height: 2.2rem; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-weight: 700; text-decoration: none; }
+  .letters a:hover { background: var(--accent); color: var(--accent-ink); }
+  h2 { font-size: 1.4rem; border-bottom: 2px solid var(--border); padding-bottom: .3rem; margin-top: 2rem; }
+  dl { margin: 0; display: grid; gap: .9rem; }
+  dt { font-weight: 700; font-size: 1.05rem; }
+  dd { margin: .15rem 0 0; color: var(--muted); line-height: 1.6; }
+  dl div:target { background: var(--accent-soft); border-radius: 10px; padding: .4rem .6rem; }
+</style>

@@ -3,6 +3,7 @@ import { SITE } from '../config';
 import Logo from './Logo.astro';
 import { languages, localePath, staticPages, t, type Lang } from '../i18n/ui';
 import { communityPages } from '../i18n/community';
+import { glossaryPages } from '../i18n/glossary';
 
 interface Props {
   lang: Lang;
@@ -43,6 +44,12 @@ const cats = ['yontem', 'ekipman', 'temel'] as const;
         <a href={home + '#rehberler'}>{t(lang, 'nav.guides')}</a>
         {cats.map((c) => <a class={`cat-${c} cat`} href={`${home}#topic-${c}`}>{t(lang, `cat.${c}`)}</a>)}
       </div>
+      <div class="cafe-col">
+        <p class="menu-title">☕ {t(lang, 'nav.cafeSection')}</p>
+        <a href={staticPages.cafeGuide[lang]}>{t(lang, 'nav.cafeGuide')}</a>
+        <a href={staticPages.cafeDesign[lang]}>{t(lang, 'nav.cafeDesign')}</a>
+        <a href={staticPages.cafeCalculator[lang]}>{t(lang, 'nav.cafeCalc')}</a>
+      </div>
       <div>
         <p class="menu-title">{t(lang, 'nav.community')}</p>
         <a href={communityPages.gallery[lang]}>{t(lang, 'nav.community')}</a>
@@ -52,7 +59,7 @@ const cats = ['yontem', 'ekipman', 'temel'] as const;
         <p class="menu-title">Fincanla</p>
         <a href={home}>{t(lang, 'nav.home')}</a>
         <a href={staticPages.calculator[lang]}>{t(lang, 'nav.tools')}</a>
-        <a href={staticPages.cafeCalculator[lang]}>☕ {t(lang, 'nav.cafeCalc')}</a>
+        <a href={glossaryPages[lang]}>📖 {t(lang, 'nav.glossary')}</a>
         <a href={staticPages.about[lang]}>{t(lang, 'nav.about')}</a>
       </div>
     </div>
@@ -95,13 +102,15 @@ const cats = ['yontem', 'ekipman', 'temel'] as const;
   .menu-btn.open .bars::before { transform: translateY(5px) rotate(45deg); }
   .menu-btn.open .bars::after { transform: translateY(-5px) rotate(-45deg); }
   .menu { position: absolute; left: 0; right: 0; top: 100%; background: var(--espresso-2); border-top: 1px solid rgba(246, 234, 217, .15); box-shadow: 0 18px 40px -18px rgba(0, 0, 0, .6); }
-  .menu-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; padding: 1.5rem 1rem 1.75rem; }
+  .menu-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; padding: 1.5rem 1rem 1.75rem; }
   .menu-grid div { display: grid; gap: .15rem; align-content: start; }
   .menu-title { margin: 0 0 .35rem; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .6; }
   .menu a { color: var(--cream); text-decoration: none; padding: .45rem 0; font-size: 1.05rem; border-bottom: 1px solid rgba(246, 234, 217, .08); }
   .menu a:hover { color: var(--warm); }
   .menu a.cat::before { content: ''; display: inline-block; width: .55rem; height: .55rem; margin-right: .55rem; border-radius: 50%; background: var(--cat); }
   @media (max-width: 900px) { .wide { display: none; } }
-  @media (max-width: 700px) { .menu-grid { grid-template-columns: 1fr; gap: 1rem; } }
+  @media (max-width: 960px) { .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 600px) { .menu-grid { grid-template-columns: 1fr; gap: 1rem; } }
+  .cafe-col .menu-title { color: var(--warm); opacity: 1; }
   @media (max-width: 560px) { nav { gap: .5rem; font-size: .85rem; } .lang { padding: .1rem .45rem; } .menu-btn { padding: .4rem .75rem; } }
 </style>

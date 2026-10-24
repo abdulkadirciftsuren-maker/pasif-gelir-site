@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Modern bir kafenin içi: sarkıt lambalar, ahşap tezgah, fincanların dizildiği duvar rafı, büyük bir bitki ve yuvarlak masa ile sandalye">
+<rect width="640" height="360" fill="#efe1cf"/>
+<rect x="0" y="0" width="640" height="200" fill="#e9d6bf"/>
+<rect y="290" width="640" height="70" fill="#c9a882"/>
+<g stroke="#b8946c" stroke-width="2" opacity=".5"><line x1="0" y1="310" x2="640" y2="310"/><line x1="0" y1="334" x2="640" y2="334"/></g>
+<!-- duvar rafı ve fincanlar -->
+<rect x="70" y="92" width="200" height="8" rx="2" fill="#8a5a3c"/>
+<rect x="70" y="146" width="200" height="8" rx="2" fill="#8a5a3c"/>
+<g fill="#fbf8f4" stroke="#d8c6b6" stroke-width="2">
+<path d="M84 70 h24 v18 q0 4 -4 4 h-16 q-4 0 -4 -4 z"/><path d="M120 66 h20 v22 q0 4 -4 4 h-12 q-4 0 -4 -4 z"/><path d="M154 72 h26 v16 q0 4 -4 4 h-18 q-4 0 -4 -4 z"/>
+<path d="M194 64 l18 0 l4 28 h-26 z" fill="#c4562f" stroke="#a8461f"/><path d="M228 70 h24 v18 q0 4 -4 4 h-16 q-4 0 -4 -4 z"/>
+<path d="M90 124 h22 v18 q0 4 -4 4 h-14 q-4 0 -4 -4 z"/><path d="M128 118 h30 v24 q0 4 -4 4 h-22 q-4 0 -4 -4 z" fill="#2f4a44" stroke="#263c37"/><path d="M176 126 h22 v16 q0 4 -4 4 h-14 q-4 0 -4 -4 z"/><path d="M214 116 q14 -6 28 0 v26 q0 4 -4 4 h-20 q-4 0 -4 -4 z" fill="#f2c46b" stroke="#d7a948"/>
+</g>
+<!-- sarkıt lambalar -->
+<g stroke="#3a2a22" stroke-width="2"><line x1="360" y1="0" x2="360" y2="70"/><line x1="440" y1="0" x2="440" y2="96"/><line x1="520" y1="0" x2="520" y2="60"/></g>
+<g fill="#3a2a22"><path d="M340 70 h40 l-8 22 h-24 z"/><path d="M420 96 h40 l-8 22 h-24 z"/><path d="M500 60 h40 l-8 22 h-24 z"/></g>
+<g fill="#f7d98b" opacity=".9"><ellipse cx="360" cy="95" rx="12" ry="5"/><ellipse cx="440" cy="121" rx="12" ry="5"/><ellipse cx="520" cy="85" rx="12" ry="5"/></g>
+<g fill="#f7d98b" opacity=".18"><path d="M348 95 L320 200 H400 L372 95 Z"/><path d="M428 121 L400 210 H480 L452 121 Z"/><path d="M508 85 L480 200 H560 L532 85 Z"/></g>
+<!-- tezgah -->
+<rect x="320" y="200" width="270" height="92" fill="#8a5a3c"/>
+<rect x="312" y="190" width="286" height="14" rx="3" fill="#f2ece4"/>
+<g stroke="#a8734f" stroke-width="3" opacity=".7"><line x1="350" y1="210" x2="350" y2="292"/><line x1="380" y1="210" x2="380" y2="292"/><line x1="410" y1="210" x2="410" y2="292"/><line x1="440" y1="210" x2="440" y2="292"/><line x1="470" y1="210" x2="470" y2="292"/><line x1="500" y1="210" x2="500" y2="292"/><line x1="530" y1="210" x2="530" y2="292"/><line x1="560" y1="210" x2="560" y2="292"/></g>
+<rect x="430" y="150" width="84" height="40" rx="5" fill="#d9d9d9"/><rect x="430" y="150" width="84" height="10" rx="5" fill="#bdbdbd"/>
+<rect x="448" y="170" width="16" height="8" rx="2" fill="#4d4d4d"/><rect x="480" y="170" width="16" height="8" rx="2" fill="#4d4d4d"/>
+<!-- bitki -->
+<g transform="translate(250 196)"><path d="M0 60 h50 l-8 40 h-34 z" fill="#c4562f"/>
+<g fill="#5e8a52"><ellipse cx="25" cy="22" rx="12" ry="40"/><ellipse cx="6" cy="34" rx="10" ry="30" transform="rotate(-30 6 34)"/><ellipse cx="44" cy="34" rx="10" ry="30" transform="rotate(30 44 34)"/><ellipse cx="-6" cy="50" rx="8" ry="22" transform="rotate(-60 -6 50)"/><ellipse cx="56" cy="50" rx="8" ry="22" transform="rotate(60 56 50)"/></g></g>
+<!-- masa ve sandalye -->
+<ellipse cx="140" cy="244" rx="60" ry="12" fill="#f2ece4"/>
+<rect x="136" y="248" width="8" height="52" fill="#3a2a22"/><rect x="112" y="296" width="56" height="6" rx="3" fill="#3a2a22"/>
+<path d="M124 232 h18 v8 h-18 z" fill="#fbf8f4"/>
+<g fill="none" stroke="#3a2a22" stroke-width="5" stroke-linecap="round"><path d="M44 300 L50 240 H88 L94 300"/><path d="M50 240 L46 196"/></g>
+<rect x="44" y="232" width="50" height="10" rx="4" fill="#2f4a44"/>
+</svg>

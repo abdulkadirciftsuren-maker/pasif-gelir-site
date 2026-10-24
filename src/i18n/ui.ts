@@ -24,6 +24,8 @@ export const ui = {
     'nav.guides': 'Rehberler',
     'nav.tools': 'Oran Hesaplayıcı',
     'nav.about': 'Hakkımızda',
+    'nav.menu': 'Menü',
+    'nav.close': 'Menüyü kapat',
     'home.hero': 'Evde kahveyi bir üst seviyeye taşı.',
     'home.lead':
       'Demleme yöntemleri, adım adım tarifler ve gerçekten işe yarayan ekipman önerileri. Kısa, net, abartısız.',
@@ -84,6 +86,8 @@ export const ui = {
     'nav.guides': 'Ratgeber',
     'nav.tools': 'Kaffee-Rechner',
     'nav.about': 'Über uns',
+    'nav.menu': 'Menü',
+    'nav.close': 'Menü schließen',
     'home.hero': 'Besserer Kaffee zu Hause – Schritt für Schritt.',
     'home.lead':
       'Zubereitungsmethoden, einfache Rezepte und Empfehlungen für Zubehör, das wirklich hält, was es verspricht. Kurz, klar, ohne Hype.',
@@ -142,6 +146,8 @@ export const ui = {
     'nav.guides': 'Guides',
     'nav.tools': 'Ratio Calculator',
     'nav.about': 'About',
+    'nav.menu': 'Menu',
+    'nav.close': 'Close menu',
     'home.hero': 'Take your home coffee up a level.',
     'home.lead':
       'Brew methods, step-by-step recipes and gear recommendations that actually hold up. Short, clear, no hype.',

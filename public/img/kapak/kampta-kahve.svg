@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Dağ manzarası önünde bir çadır; kamp ocağının üstünde cezve, yanında AeroPress, el öğütücü ve emaye bir kupa">
+<rect width="640" height="360" fill="#e4ecdf"/>
+<circle cx="520" cy="70" r="40" fill="#f2c46b" opacity=".85"/>
+<!-- dağlar -->
+<path d="M0 220 L120 110 L210 190 L330 80 L450 200 L540 130 L640 210 V260 H0 Z" fill="#a9bfae"/>
+<path d="M330 80 L300 108 L318 104 L330 118 L344 104 L360 108 Z" fill="#fbf8f4"/>
+<path d="M120 110 L98 130 L112 128 L122 138 L134 128 L144 130 Z" fill="#fbf8f4"/>
+<path d="M0 250 L90 190 L200 240 L310 180 L430 240 L560 190 L640 230 V280 H0 Z" fill="#8aa794"/>
+<rect y="270" width="640" height="90" fill="#b6a07c"/>
+<!-- çadır -->
+<g transform="translate(40 168)">
+<path d="M0 102 L80 0 L160 102 Z" fill="#c4562f"/>
+<path d="M80 0 L60 102 H100 Z" fill="#8a3a1a"/>
+<path d="M80 0 L160 102" stroke="#a8461f" stroke-width="3"/>
+</g>
+<!-- kamp ocağı + cezve -->
+<g transform="translate(300 214)">
+<rect x="20" y="56" width="50" height="30" rx="8" fill="#2f4a44"/>
+<rect x="32" y="40" width="26" height="16" fill="#5b6b75"/>
+<g stroke="#5b6b75" stroke-width="4" stroke-linecap="round"><path d="M10 40 h70"/><path d="M14 40 l-8 -6 M76 40 l8 -6"/></g>
+<path d="M36 40 q9 -10 18 0" fill="#f2c46b"/>
+<path d="M24 0 h42 l-4 34 q0 6 -6 6 h-22 q-6 0 -6 -6 z" fill="#b87333"/>
+<path d="M66 6 h34" stroke="#b87333" stroke-width="6" stroke-linecap="round"/>
+<g stroke="#fbf8f4" stroke-width="3" fill="none" stroke-linecap="round" opacity=".85"><path d="M38 -6 q6 -10 0 -20"/><path d="M52 -6 q6 -10 0 -20"/></g>
+</g>
+<!-- AeroPress -->
+<g transform="translate(440 222)">
+<rect x="6" y="0" width="34" height="62" rx="4" fill="#ffffff" opacity=".7" stroke="#5b6b75" stroke-width="2"/>
+<rect x="10" y="30" width="26" height="30" fill="#5a3a26"/>
+<rect x="0" y="62" width="46" height="8" rx="3" fill="#2f3a40"/>
+</g>
+<!-- el öğütücü -->
+<g transform="translate(508 214)">
+<rect x="0" y="12" width="30" height="66" rx="8" fill="#5b6b75"/>
+<rect x="0" y="40" width="30" height="6" fill="#2f3a40"/>
+<path d="M15 12 V0 H46" stroke="#2f3a40" stroke-width="4" fill="none"/>
+<circle cx="48" cy="0" r="6" fill="#8a5a3c"/>
+</g>
+<!-- emaye kupa -->
+<g transform="translate(570 246)">
+<path d="M0 0 h44 v34 q0 8 -8 8 h-28 q-8 0 -8 -8 z" fill="#2f5d8a"/>
+<rect x="0" y="0" width="44" height="5" fill="#fbf8f4"/>
+<path d="M44 8 q14 0 12 14 q-2 10 -12 10" fill="none" stroke="#2f5d8a" stroke-width="5"/>
+</g>
+</svg>

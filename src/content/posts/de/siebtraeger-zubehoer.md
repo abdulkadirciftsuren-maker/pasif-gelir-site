@@ -94,6 +94,8 @@ Der Tamper muss **genau ins Sieb passen**. Bleibt am Rand Luft, wird der Kaffee 
 
 Mehr zu Milchschaum und Getränken: [Milchaufschäumer kaufen](/de/milchaufschaeumer-kaufen/) und [Latte, Cappuccino, Flat White](/de/latte-cappuccino-flat-white-unterschied/).
 
+Muster mit dem Milchkännchen gießen lernen: [Latte Art lernen](/de/latte-art-lernen/).
+
 ## 4. Abschlagbehälter
 
 Den Kaffeepuck mit **einem Schlag** aus dem Siebträger klopfen. Die **gummierte Stange** schont den Siebträger. Schubladenmodelle sparen Platz auf der Theke. Täglich leeren; der Kaffeesatz eignet sich auch als Pflanzendünger.

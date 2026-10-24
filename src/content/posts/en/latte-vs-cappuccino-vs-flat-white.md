@@ -78,6 +78,8 @@ Generally said to have emerged in the 1980s in the coffee cultures of Australia 
 
 > **Plant milk tip:** "Barista" oat milks usually give the best foam. Regular almond milk foams easily but collapses quickly.
 
+**Want to pour a pattern on top?** Our [how to do latte art](/en/how-to-do-latte-art/) guide shows the heart and tulip step by step.
+
 ## FAQ
 
 **Which is strongest?** The flat white – less milk and usually a double shot.

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Üstten görünen iki fincan: birinde süt köpüğüyle çizilmiş kalp, diğerinde lale deseni; yanda fincana süt döken paslanmaz bir süt potu">
+<rect width="640" height="360" fill="#f3e0df"/>
+<circle cx="560" cy="300" r="140" fill="#ebd1d0"/>
+<!-- fincan 1: kalp -->
+<g transform="translate(190 190)">
+<ellipse cx="0" cy="8" rx="128" ry="128" fill="#e3c3c1" opacity=".6"/>
+<circle r="120" fill="#fbf8f4"/>
+<circle r="104" fill="#f1e8de"/>
+<path d="M104 -10 q40 0 40 30 q0 30 -40 30" fill="none" stroke="#fbf8f4" stroke-width="18" stroke-linecap="round"/>
+<circle r="88" fill="#b9825a"/>
+<circle r="88" fill="none" stroke="#8a5a3c" stroke-width="5" opacity=".5"/>
+<path d="M0 50 C-70 0 -60 -56 -20 -52 C-6 -50 0 -38 0 -30 C0 -38 6 -50 20 -52 C60 -56 70 0 0 50 Z" fill="#fbf8f4"/>
+<path d="M0 -30 L0 58" stroke="#b9825a" stroke-width="3"/>
+</g>
+<!-- fincan 2: lale -->
+<g transform="translate(440 220)">
+<circle r="74" fill="#fbf8f4"/>
+<circle r="64" fill="#f1e8de"/>
+<circle r="54" fill="#b9825a"/>
+<g fill="#fbf8f4">
+<path d="M0 -38 c-22 0 -26 18 0 22 c26 -4 22 -22 0 -22 z"/>
+<path d="M0 -12 c-28 0 -32 22 0 26 c32 -4 28 -26 0 -26 z"/>
+<path d="M0 16 c-32 0 -36 26 0 30 c36 -4 32 -30 0 -30 z"/>
+</g>
+<path d="M0 -40 L0 46" stroke="#b9825a" stroke-width="2.5"/>
+</g>
+<!-- süt potu -->
+<g transform="translate(520 90) rotate(-55)">
+<path d="M0 0 h56 l8 82 q0 6 -6 6 h-60 q-6 0 -6 -6 z" fill="#d6dadd" stroke="#aab1b6" stroke-width="2"/>
+<path d="M0 0 l-12 -10 l16 2 z" fill="#d6dadd" stroke="#aab1b6" stroke-width="2"/>
+<path d="M62 18 q22 4 20 28 q-2 18 -16 22" fill="none" stroke="#aab1b6" stroke-width="7"/>
+</g>
+<path d="M505 96 q-28 40 -60 82" fill="none" stroke="#fbf8f4" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -106,7 +106,7 @@ Bei einem Verkaufspreis von 3,50–4,50 € liegt der Wareneinsatz bei etwa **20
 
 **Formel:** Wareneinsatz ÷ Nettoverkaufspreis × 100 = Wareneinsatzquote (%).
 
-Mit deinen eigenen Zahlen rechnen: unser kostenloser [Café-Kalkulator](/de/cafe-kalkulator/).
+Mit deinen eigenen Zahlen rechnen: unser kostenloser [Café-Kalkulator](/de/cafe-kalkulator/). Wie du daraus deine Preise machst, steht in [Café-Preise kalkulieren](/de/cafe-preise-kalkulieren/).
 
 ## 6. Tipps für modernes Café-Design
 

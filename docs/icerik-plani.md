@@ -200,6 +200,6 @@ A aşaması (rehberler ve hesaplayıcı, ek izin gerekmez):
 - ✅ Profesyonel espresso makinesi ve öğütücü seçimi (TR/DE/EN)
 - ✅ Modern kafe tasarımı fikirleri
 - Kahve tedariki: kavurucu seçimi ve fiyatlar
-- Menü ve fiyatlandırma
+- ✅ Menü ve fiyatlandırma (TR/DE/EN)
 
 B aşaması (Gewerbe kaydından sonra): kafe kurulum teklif formu (tedarikçilere yönlendirme, aracılık payı), ücretli kafe rehberi, indirilebilir kontrol listesi.

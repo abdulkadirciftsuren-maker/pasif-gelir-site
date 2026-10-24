@@ -97,6 +97,8 @@ You don't need an electric machine. With a [French press](/en/how-to-use-a-frenc
 - **We often have guests and Turkish coffee is a must:** Turkish coffee machine.
 - **I'm a student on a budget:** French press or AeroPress.
 
+**Shopping for an office?** Recommendations by team size: [best office coffee machine](/en/office-coffee-machine/).
+
 ## Example: cost per year
 
 For someone who drinks **2 cups a day**, roughly:

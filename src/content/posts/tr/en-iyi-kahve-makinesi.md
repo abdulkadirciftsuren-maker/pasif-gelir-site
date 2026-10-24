@@ -97,6 +97,8 @@ Elektrikli bir makine şart değil. [French press](/french-press-nasil-kullanili
 - **Evde misafir eksik olmaz, Türk kahvesi şart:** Türk kahvesi makinesi.
 - **Öğrenciyim, bütçem az:** French press ya da AeroPress.
 
+**Ofis için mi arıyorsun?** Kişi sayısına göre öneriler: [ofis için kahve makinesi](/ofis-kahve-makinesi/).
+
 ## Yıllık maliyet örneği
 
 Günde **2 fincan** içen biri için kabaca:

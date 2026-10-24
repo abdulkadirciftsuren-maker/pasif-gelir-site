@@ -3,6 +3,8 @@ import BaseLayout from './BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import PostCard from '../components/PostCard.astro';
+import GlossaryTips from '../components/GlossaryTips.astro';
+import { findTerms } from '../i18n/glossary';
 import { SITE, STORES, affiliateUrl, amazonDeSearchUrl } from '../config';
 import { staticPages, t } from '../i18n/ui';
 import { communityPages } from '../i18n/community';
@@ -21,6 +23,8 @@ const sameTopic = others.filter((p) => p.data.category === category).slice(0, 4)
 const related = [...others.filter((p) => p.data.category !== category), ...sameTopic].slice(0, 3);
 const url = new URL(postUrl(post), Astro.site).href;
 const toc = headings.filter((h) => h.depth === 2);
+// Yazıda geçen sözlük terimleri (metinde işaretlenir, sonda listelenir)
+const terms = findTerms(lang, post.body ?? '');
 
 const jsonLd = [
   {
@@ -111,6 +115,8 @@ const jsonLd = [
         <div class="prose">
           <slot />
         </div>
+
+        <GlossaryTips lang={lang} entries={terms} showList />
 
         {products.length > 0 && (
           <section aria-labelledby="picks">

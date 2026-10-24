@@ -40,6 +40,8 @@ Bu üçü en çok karıştırılan kahvelerdir. Fark, **süt miktarında ve köp
 
 Evde espresso makinen yoksa bir **moka pot** espressoya oldukça yakın, yoğun bir kahve verir; köpürtülmüş sütle birleştirerek ev usulü latte yapabilirsin.
 
+Oranlar, fincan boyları ve macchiato ile latte macchiato farkı gibi ayrıntılar için: [espresso çeşitleri](/espresso-cesitleri/).
+
 ## Demleme (filtre) kahveler
 
 Bu yöntemlerde basınç yoktur; sıcak su kahvenin içinden geçer ya da kahveyle bir süre bekler. Sonuç espressodan daha hafif, daha uzun ve aromaları daha net bir fincandır.

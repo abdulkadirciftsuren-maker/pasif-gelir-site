@@ -170,7 +170,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 36 | ✅ Espresso aksesuarları: tamper, süt potu, knock box, dağıtıcı | Siebträger alanların ek alışverişi | DE + EN + TR | Aralık |
 | 37 | ✅ Latte art nasıl yapılır? (kalp, tulip) | Çok aranır, süt potu ve makineye link | TR + DE + EN | Aralık |
 | 38 | ✅ Termos kupa ve to-go kupa rehberi | Hediye ve günlük ürün | DE + TR + EN | Aralık |
-| 39 | Espresso çeşitleri: macchiato, cortado, americano, lungo, ristretto | Bilgi trafiği, kahve çeşitleri yazısını tamamlar | 3 dil | Ocak |
+| 39 | ✅ Espresso çeşitleri: macchiato, cortado, americano, lungo, ristretto | Bilgi trafiği, kahve çeşitleri yazısını tamamlar | 3 dil | Ocak |
 | 40 | Chai latte tarifi | Kış ve kafe içeceği | 3 dil | Ocak |
 | 41 | Kampta ve seyahatte kahve (AeroPress Go, el öğütücü, kamp ocağı) | Bahar/yaz öncesi, ürün linkli | DE + EN + TR | Şubat |
 | 42 | Ofis için kahve makinesi seçimi | Yüksek tutarlı satış | DE + TR | Şubat |

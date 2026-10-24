@@ -59,6 +59,8 @@ Diese drei werden am häufigsten verwechselt. Der Unterschied liegt in **Milchme
 
 Ohne Espressomaschine liefert ein **Espressokocher** einen kräftigen, espressoähnlichen Kaffee. Mit aufgeschäumter Milch wird daraus ein Latte nach Hausmacherart. Wie das gelingt, steht in unserer [Anleitung für den Espressokocher](/de/espressokocher-anleitung/).
 
+Verhältnisse, Tassengrößen und den Unterschied zwischen Macchiato und Latte Macchiato erklären wir in [Espresso-Arten](/de/espresso-arten/).
+
 ## Filterkaffee und andere Brühmethoden
 
 Hier gibt es keinen Druck: Heißes Wasser fließt durch den Kaffee oder zieht eine Weile mit ihm. Das Ergebnis ist leichter als Espresso, aber die Aromen sind klarer.

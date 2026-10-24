@@ -91,6 +91,8 @@ We explain how to choose the espresso machine and grinder in detail in our [comm
 - **Freshness:** use coffee 1–4 weeks after roasting; order small and often. See [how to tell if coffee is fresh](/en/how-to-tell-if-coffee-is-fresh/).
 - **Turkish coffee:** a good brand or your own freshly ground blend can really set you apart.
 
+Choosing a roaster, prices per kilo and contracts in detail: [coffee supplier for your café](/en/coffee-supplier-for-cafe/).
+
 ## 5. What does a cup of coffee cost you?
 
 Before setting prices, work out the **cost per cup**. Example (rounded):

@@ -73,6 +73,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Brüt kâr', m: ['brüt kâr'], d: 'KDV’siz satış fiyatından malzeme maliyeti düşüldükten sonra kalan para; kira, maaş ve vergiler bundan ödenir.' },
     { t: 'Upselling (ek satış)', m: ['upsell', 'ek satış'], d: 'Müşteriye siparişine ek bir ürün ya da daha büyük boy önermek.' },
     { t: 'Menü mühendisliği', m: ['menü mühendis'], d: 'Her ürünü ne kadar sattığına ve ne kadar kâr bıraktığına göre değerlendirip menüyü buna göre düzenlemek.' },
+    { t: 'Cupping (kahve tadımı)', m: ['cupping'], d: 'Kahvelerin kâselerde aynı yöntemle demlenip kaşıkla tadılarak karşılaştırıldığı profesyonel tadım.' },
+    { t: 'Private label (kendi markan)', m: ['private label', 'white label'], d: 'Kavurucunun kavurduğu kahvenin senin kafenin adı ve ambalajıyla satılması.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -143,6 +145,9 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Drehstrom (Starkstrom)', m: ['drehstrom', 'starkstrom'], d: '400-Volt-Anschluss mit drei Phasen; größere Gastro-Maschinen brauchen ihn.' },
     { t: 'Upselling', m: ['upsell'], d: 'Dem Gast zur Bestellung etwas dazu oder eine größere Größe anbieten.' },
     { t: 'Menü-Engineering', m: ['menü-engineering', 'menu engineering'], d: 'Jedes Produkt nach Beliebtheit und Gewinn bewerten und die Karte danach gestalten.' },
+    { t: 'Cupping', m: ['cupping'], d: 'Professionelle Verkostung: Kaffees werden in Schalen gleich aufgebrüht und mit dem Löffel verglichen.' },
+    { t: 'Private Label', m: ['private label', 'white label'], d: 'Die Rösterei röstet, verkauft wird der Kaffee unter dem Namen und in der Verpackung deines Cafés.' },
+    { t: 'Kaffeesteuer', m: ['kaffeesteuer'], d: 'Verbrauchsteuer in Deutschland: 2,19 € pro kg Röstkaffee, im Preis der Rösterei enthalten.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -209,6 +214,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Gross profit', m: ['gross profit'], d: 'Price before tax minus ingredient cost; rent, wages and taxes are paid from this.' },
     { t: 'Upselling', m: ['upsell'], d: 'Suggesting an add-on or a bigger size to a customer’s order.' },
     { t: 'Menu engineering', m: ['menu engineering'], d: 'Rating each item by how well it sells and how much profit it makes, then designing the menu around that.' },
+    { t: 'Cupping', m: ['cupping'], d: 'Professional tasting: coffees are brewed the same way in bowls and compared with a spoon.' },
+    { t: 'Private label', m: ['private label', 'white label'], d: 'Your roaster roasts the coffee, and it’s sold under your café’s name and packaging.' },
   ],
 };
 

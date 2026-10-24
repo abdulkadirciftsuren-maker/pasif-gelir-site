@@ -91,6 +91,8 @@ Wie du Siebträger und Mühle auswählst, erklären wir ausführlich in [Gastro-
 - **Frische:** Kaffee 1–4 Wochen nach der Röstung verbrauchen; lieber klein und häufig bestellen. Siehe [frischer Kaffee & Röstdatum](/de/frischer-kaffee-roestdatum/).
 - **Türkischer Kaffee:** eine gute Marke oder eine eigene, frisch gemahlene Mischung – damit hebst du dich ab.
 
+Rösterei-Auswahl, Kilopreise und Verträge im Detail: [Kaffee fürs Café](/de/kaffee-fuer-cafe-roesterei/).
+
 ## 5. Was kostet eine Tasse Kaffee?
 
 Vor der Preisgestaltung den **Wareneinsatz pro Tasse** berechnen. Beispiel (gerundet):

@@ -87,6 +87,8 @@ Many entry-level machines come with **pressurized (double-wall) baskets**. They 
 3. **Change only the grind size:** Runs too fast and tastes sour → grind finer. Runs too slow and tastes bitter → grind coarser.
 4. **Use a scale:** A simple coffee scale with a timer makes dialing in much easier – see the [coffee scale guide](/en/coffee-scale-guide/).
 
+**Accessories:** For a scale, tamper, milk pitcher and more, see our [espresso accessories](/en/espresso-accessories/) guide.
+
 ## FAQ
 
 **Can I make Turkish coffee with an espresso machine?** No. Turkish coffee is ground as fine as powder and brewed in a cezve – in an espresso machine it clogs the basket. More in [How to make Turkish coffee](/en/how-to-make-turkish-coffee/).

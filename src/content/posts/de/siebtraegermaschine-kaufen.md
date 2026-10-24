@@ -87,6 +87,8 @@ Viele Einsteigermaschinen kommen mit **druckunterstützten (doppelwandigen) Sieb
 3. **Nur den Mahlgrad ändern:** Läuft er zu schnell und schmeckt sauer → feiner mahlen. Läuft er zu langsam und schmeckt bitter → gröber mahlen.
 4. **Waage benutzen:** Eine einfache Kaffeewaage mit Timer macht das Einstellen viel leichter – siehe [Kaffeewaage kaufen](/de/kaffeewaage-kaufen/).
 
+**Zubehör:** Waage, Tamper, Milchkännchen und mehr findest du in unserem Ratgeber [Siebträger-Zubehör](/de/siebtraeger-zubehoer/).
+
 ## Häufige Fragen
 
 **Kann ich türkischen Kaffee mit der Siebträgermaschine machen?** Nein. Türkischer Kaffee ist puderfein gemahlen und wird in der Cezve gekocht – im Siebträger verstopft er das Sieb. Mehr in [Türkischen Kaffee zubereiten](/de/tuerkischen-kaffee-zubereiten/).

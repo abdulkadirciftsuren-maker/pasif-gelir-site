@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Küçükten büyüğe dizilmiş espresso fincanı, Türk kahvesi fincanı, çay bardağı ve büyük filtre kahve kupası; üstlerinde yükselen çubuklar ve bir kafein molekülü çizimi">
+<rect width="640" height="360" fill="#e3e7f3"/>
+<rect y="292" width="640" height="68" fill="#c5cbe0"/>
+<!-- molekül -->
+<g transform="translate(110 96)" stroke="#5b5670" stroke-width="4" fill="none" stroke-linejoin="round">
+<path d="M0 -40 L35 -20 L35 20 L0 40 L-35 20 L-35 -20 Z"/>
+<path d="M35 -20 L70 -32 L88 0 L70 32 L35 20"/>
+<path d="M0 -40 V-64 M-35 20 L-56 32 M70 32 L80 56"/>
+<g fill="#5b5670" stroke="none"><circle cx="0" cy="-64" r="6"/><circle cx="-56" cy="32" r="6"/><circle cx="80" cy="56" r="6"/></g>
+<g fill="#c4562f" stroke="none"><circle cx="0" cy="40" r="6"/><circle cx="-35" cy="-20" r="6"/></g>
+</g>
+<!-- çubuklar -->
+<path d="M262 206 H600" stroke="#9aa0bd" stroke-width="3"/>
+<g fill="#f2c46b">
+<rect x="282" y="172" width="30" height="34" rx="4"/>
+<rect x="362" y="156" width="30" height="50" rx="4"/>
+<rect x="442" y="182" width="30" height="24" rx="4"/>
+<rect x="532" y="100" width="30" height="106" rx="4"/>
+</g>
+<!-- espresso -->
+<g transform="translate(272 254)">
+<path d="M0 0 h50 v20 q0 18 -25 18 q-25 0 -25 -18 z" fill="#fbf8f4"/>
+<path d="M50 6 q12 0 10 12 q-2 8 -10 8" fill="none" stroke="#fbf8f4" stroke-width="5"/>
+<ellipse cx="25" cy="3" rx="22" ry="4" fill="#b9825a"/>
+</g>
+<!-- Türk kahvesi -->
+<g transform="translate(352 244)">
+<path d="M0 0 h50 v26 q0 22 -25 22 q-25 0 -25 -22 z" fill="#fbf8f4"/>
+<path d="M2 10 h46" stroke="#2f5d8a" stroke-width="5"/>
+<ellipse cx="25" cy="3" rx="22" ry="4" fill="#5a3a26"/>
+<ellipse cx="25" cy="50" rx="34" ry="5" fill="#fbf8f4"/>
+</g>
+<!-- çay bardağı -->
+<g transform="translate(436 230)">
+<path d="M4 0 h34 q-10 20 0 30 q8 14 -4 30 h-26 q-12 -16 -4 -30 q10 -10 0 -30 z" fill="#c4562f" opacity=".85"/>
+<path d="M4 0 h34 q-10 20 0 30 q8 14 -4 30 h-26 q-12 -16 -4 -30 q10 -10 0 -30 z" fill="none" stroke="#fbf8f4" stroke-width="3"/>
+<ellipse cx="21" cy="62" rx="26" ry="4" fill="#b87333"/>
+</g>
+<!-- büyük kupa -->
+<g transform="translate(512 220)">
+<path d="M0 0 h70 v58 q0 14 -14 14 h-42 q-14 0 -14 -14 z" fill="#2f4a44"/>
+<path d="M70 12 q20 0 18 22 q-2 16 -18 16" fill="none" stroke="#2f4a44" stroke-width="8"/>
+<ellipse cx="35" cy="4" rx="32" ry="5" fill="#5a3a26"/>
+</g>
+</svg>

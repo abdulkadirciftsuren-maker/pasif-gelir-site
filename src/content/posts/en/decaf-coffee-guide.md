@@ -78,6 +78,8 @@ Just like regular coffee:
 - **Kenger coffee:** Made from the seeds of a thistle-like plant, caffeine-free – see [types of coffee](/en/types-of-coffee/).
 - **Half-caf:** Mixing regular and decaf half and half is a nice middle ground.
 
+**How much caffeine is in each drink?** From espresso and Turkish coffee to tea and cola: [how much caffeine is in coffee](/en/how-much-caffeine-in-coffee/).
+
 ## FAQ
 
 **Is decaf unhealthy?** For approved methods, residues are limited by regulation. If you'd rather avoid solvents, choose "water process" or "CO₂".

@@ -76,6 +76,8 @@ Bütçeyi şu başlıklara böl:
 | **Kasa sistemi (POS)** | Sipariş, ödeme, stok takibi | Tablet + aylık abonelik |
 | **Fincanlar, bardaklar, to-go bardaklar** | Kimliğini yansıtan sunum | 300–1.500 € |
 
+Espresso makinesi ve öğütücüyü nasıl seçeceğini ayrıntılı olarak [profesyonel espresso makinesi rehberimizde](/profesyonel-espresso-makinesi/) anlattık.
+
 **Para nerede biriktirilir, nerede biriktirilmez?**
 
 - **Biriktirme:** Öğütücü ve su filtresi. Pahalı makine + ucuz öğütücü = vasat kahve. Su filtresi olmadan makine kireçlenir ve arıza masrafı filtrenin kat kat üstüne çıkar. Bkz. [kahve için hangi su](/kahve-icin-hangi-su/).

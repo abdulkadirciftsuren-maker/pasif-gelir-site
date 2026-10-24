@@ -65,6 +65,10 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Telve', m: ['telve'], d: 'Türk kahvesi içildikten sonra fincanın dibinde kalan koyu kahve çökeltisi; falda bu okunur.' },
     { t: 'To-go', m: ['to-go'], d: 'Dışarıya götürmek için karton bardakta satılan içecek.' },
     { t: 'V60', m: ['v60'], d: 'Hario’nun koni biçimindeki, içi spiral oluklu filtre demleme aleti.' },
+    { t: 'Backflush (geri yıkama)', m: ['backflush', 'geri yıkama'], d: 'Espresso makinesinin grubunu kör filtre ve temizlik tozuyla tersine yıkama; kafelerde her akşam yapılır.' },
+    { t: 'Grup (demleme grubu)', m: ['demleme grub', 'grup başı'], d: 'Espresso makinesinde portafiltrenin takıldığı ve suyun kahveye verildiği bölüm. "2 gruplu" makinede iki tane vardır.' },
+    { t: 'Isı eşanjörü (HX)', m: ['ısı eşanjör'], d: 'Tek buhar kazanının içinden geçen bir boruyla kahve suyunu ısıtan sistem; çoklu kazandan ucuzdur ama sıcaklığı daha az sabittir.' },
+    { t: 'Volümetrik', m: ['volümetrik'], d: 'Espresso makinesinin her shot için ayarlı su miktarını kendisi ölçüp durdurması.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -128,6 +132,11 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'TSE', m: ['tse'], d: 'Technische Sicherheitseinrichtung: in Deutschland Pflicht für elektronische Kassensysteme.' },
     { t: 'V60', m: ['v60'], d: 'Kegelförmiger Handfilter von Hario mit spiralförmigen Rillen.' },
     { t: 'Wareneinsatz', m: ['wareneinsatz'], d: 'Kosten der Zutaten pro Getränk (Kaffee, Milch, Becher …).' },
+    { t: 'Rückspülen (Backflush)', m: ['rückspül', 'backflush'], d: 'Die Brühgruppe mit Blindsieb und Reinigungspulver rückwärts spülen; im Café jeden Abend.' },
+    { t: 'Brühgruppe', m: ['brühgruppe', 'gruppen'], d: 'Teil der Espressomaschine, in den der Siebträger eingesetzt wird und aus dem das Wasser kommt. Eine „2-gruppige“ Maschine hat zwei davon.' },
+    { t: 'Zweikreiser (Wärmetauscher)', m: ['zweikreis', 'wärmetauscher'], d: 'Ein Dampfkessel erhitzt über ein Rohr auch das Brühwasser; günstiger als Mehrkessel, aber die Temperatur ist weniger stabil.' },
+    { t: 'Volumetrisch', m: ['volumetrisch'], d: 'Die Maschine misst die Wassermenge pro Shot selbst und stoppt automatisch.' },
+    { t: 'Drehstrom (Starkstrom)', m: ['drehstrom', 'starkstrom'], d: '400-Volt-Anschluss mit drei Phasen; größere Gastro-Maschinen brauchen ihn.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -185,6 +194,11 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'To-go', m: ['to-go'], d: 'A drink sold in a takeaway cup.' },
     { t: 'V60', m: ['v60'], d: 'Hario’s cone-shaped pour-over dripper with spiral ribs.' },
     { t: 'VAT', m: ['vat'], d: 'Value added tax, added to the selling price.' },
+    { t: 'Backflush', m: ['backflush'], d: 'Cleaning the group head in reverse with a blind basket and detergent; done every evening in a café.' },
+    { t: 'Group head', m: ['group head', 'group machine'], d: 'The part of an espresso machine the portafilter locks into, where the water comes out. A "2-group" machine has two.' },
+    { t: 'Heat exchanger (HX)', m: ['heat exchanger'], d: 'A tube running through the steam boiler heats the brew water; cheaper than multi-boiler but less temperature-stable.' },
+    { t: 'Volumetric', m: ['volumetric'], d: 'The machine measures the water for each shot itself and stops automatically.' },
+    { t: 'Three-phase power', m: ['three-phase'], d: 'A higher-power electrical connection (400 V in Europe) that larger commercial machines need.' },
   ],
 };
 

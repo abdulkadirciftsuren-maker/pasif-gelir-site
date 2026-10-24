@@ -101,6 +101,8 @@ Kahve telvesiyle birlikte servis edildiği için son yudumları içme. Telve fin
 
 **Cezve** tam kontrol sağlar ve geleneksel tadı verir, ama ocak başında beklemeyi gerektirir. **Türk kahvesi makinesi** ise taşırma derdini ortadan kaldırır ve her seferinde aynı sonucu verir. Kalabalık sofralarda ya da sabah aceleyle kahve yapanlar için çok pratiktir. İkisi de iyi kahve yapar. Asıl farkı kahvenin tazeliği ve doğru ölçü yaratır. Makine almayı düşünüyorsan [Türk kahvesi makinesi seçim rehberimize](/turk-kahvesi-makinesi-secimi/) bak.
 
+**Türk kahvesinin hikâyesini merak ediyor musun?** İstanbul'un ilk kahvehanelerinden Avrupa'ya: [kahvenin tarihi](/kahvenin-tarihi/).
+
 ## Sık sorulan sorular
 
 **Türk kahvesi sıcak suyla mı yapılır?** Hayır. Soğuk su, kahvenin yavaşça ısınmasını ve köpüğün oluşmasını sağlar. Sıcak suyla başlarsan köpük oluşmadan kahve kaynar.

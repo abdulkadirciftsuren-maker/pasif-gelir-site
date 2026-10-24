@@ -101,6 +101,8 @@ Da der Kaffee mit dem Satz serviert wird, trinkt man die letzten Schlucke nicht:
 
 Die **Cezve** gibt dir volle Kontrolle und den traditionellen Geschmack, verlangt aber, dass du am Herd bleibst. Eine **türkische Kaffeemaschine** verhindert das Überkochen und liefert jedes Mal das gleiche Ergebnis – sehr praktisch bei vielen Gästen oder morgens in Eile. Wenn du eine Maschine kaufen möchtest, hilft dir unser [Ratgeber zur türkischen Kaffeemaschine](/de/tuerkische-kaffeemaschine/).
 
+**Neugierig auf die Geschichte?** Von den ersten Kaffeehäusern Istanbuls bis nach Europa: [Geschichte des Kaffees](/de/geschichte-des-kaffees/).
+
 ## Häufige Fragen
 
 **Ist türkischer Kaffee dasselbe wie Mokka?** Im deutschen Sprachgebrauch wird türkischer Kaffee oft „türkischer Mokka“ genannt. Gemeint ist dasselbe: pulverfein gemahlener Kaffee, der in der Cezve aufgekocht und mit dem Satz serviert wird. Mit dem Espressokocher („Moka“) hat er nichts zu tun.

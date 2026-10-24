@@ -177,6 +177,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Dirty Chai', m: ['dirty chai'], d: 'Chai Latte mit einem zusätzlichen Shot Espresso.' },
     { t: 'Drip Bag', m: ['drip bag'], d: 'Einzelner Papierfilter mit gemahlenem Kaffee, der an den Tassenrand gehängt und mit heißem Wasser übergossen wird.' },
     { t: 'Cowboy-Kaffee', m: ['cowboy'], d: 'Kaffee, der direkt im Topf mit Wasser aufgekocht wird; der Satz setzt sich am Boden ab.' },
+    { t: 'Meddah', m: ['meddah'], d: 'Osmanischer Geschichtenerzähler, der in Kaffeehäusern auftrat und viele Figuren allein spielte.' },
+    { t: 'Karagöz', m: ['karagöz'], d: 'Traditionelles türkisches Schattentheater mit den Figuren Karagöz und Hacivat.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -259,6 +261,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Dirty chai', m: ['dirty chai'], d: 'A chai latte with an added shot of espresso.' },
     { t: 'Drip bag', m: ['drip bag'], d: 'A single-serve paper filter filled with ground coffee that hangs on the rim of your cup; you pour hot water over it.' },
     { t: 'Cowboy coffee', m: ['cowboy'], d: 'Coffee boiled straight in a pot with water, letting the grounds settle to the bottom.' },
+    { t: 'Meddah', m: ['meddah'], d: 'An Ottoman storyteller who performed in coffeehouses, playing many characters alone.' },
+    { t: 'Karagöz', m: ['karagöz', 'karagoz'], d: 'Traditional Turkish shadow puppet theater featuring the characters Karagöz and Hacivat.' },
   ],
 };
 

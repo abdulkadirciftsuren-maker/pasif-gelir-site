@@ -99,6 +99,8 @@ Turkish coffee is traditionally served with **a glass of water**, drunk before t
 
 A **cezve** gives you full control and the traditional taste, but you have to stay by the stove. A **Turkish coffee machine** stops it from boiling over and gives the same result every time – handy for guests or busy mornings. See our [Turkish coffee machine guide](/en/turkish-coffee-machine-guide/).
 
+**Curious about the history?** From Istanbul's first coffeehouses to Europe: [history of coffee](/en/history-of-coffee/).
+
 ## FAQ
 
 **Can I use regular ground coffee?** Only if it is ground as fine as powder. Normal filter grind is too coarse: it won't foam and won't settle.

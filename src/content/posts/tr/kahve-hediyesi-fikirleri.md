@@ -55,6 +55,8 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 4. **Dibek kahvesi ya da menengiç:** Farklı bir tat arayanlara. Ayrıntılar [dibek kahvesi](/dibek-kahvesi-nedir/) ve [menengiç kahvesi](/menengic-kahvesi-nedir/) yazılarımızda.
 5. **El tipi süt köpürtücü:** Evde latte ve cappuccino için en ucuz yol. Seçim için [süt köpürtücü rehberimiz](/sut-kopurtucu-secimi/). Farklar [latte, cappuccino ve flat white rehberimizde](/latte-cappuccino-flat-white-farki/).
 
+**Her gün yanında kahve taşıyan biri mi?** İyi bir termos kupa çok sevilen bir hediye: [termos kupa seçimi](/termos-kupa-secimi/).
+
 ## Orta bütçe
 
 6. **Moka pot:** İtalyan klasiği. Kullanımı [moka pot rehberimizde](/moka-pot-ile-kahve/).

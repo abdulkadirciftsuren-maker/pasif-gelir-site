@@ -6,6 +6,7 @@ import { staticPages, t, type Lang } from '../i18n/ui';
 import { getPosts, postUrl } from '../lib';
 import { communityPages, ct } from '../i18n/community';
 import PhotoViewer from './community/PhotoViewer.astro';
+import Greeting from './Greeting.astro';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -37,6 +38,7 @@ const jsonLd = [
   <section class="hero">
     <div class="container hero-grid">
       <div>
+        <Greeting lang={lang} />
         <h1>{t(lang, 'home.hero')}</h1>
         <p>{t(lang, 'home.lead')}</p>
         <form class="search" role="search" action="#" onsubmit="return false">

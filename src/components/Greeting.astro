@@ -1,0 +1,80 @@
+---
+// Ana sayfada saate göre selam. Okur isterse adını yazar; ad yalnızca kendi tarayıcısında
+// (localStorage) saklanır, sunucuya gönderilmez.
+import { type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const texts = {
+  tr: {
+    morning: 'Günaydın', day: 'İyi günler', evening: 'İyi akşamlar', night: 'İyi geceler',
+    welcome: "Fincanla'ya hoş geldin", lines: ['Bugün hangi kahveyi deniyoruz?', 'Fincanın hazır mı?', 'Kahve keyfine hoş geldin.'],
+    ask: 'Adını yaz', placeholder: 'Adın', save: 'Kaydet', change: 'değiştir', note: 'Adın sadece bu cihazda kalır.',
+  },
+  de: {
+    morning: 'Guten Morgen', day: 'Guten Tag', evening: 'Guten Abend', night: 'Gute Nacht',
+    welcome: 'Willkommen bei Fincanla', lines: ['Welchen Kaffee probieren wir heute?', 'Ist deine Tasse schon bereit?', 'Schön, dass du da bist.'],
+    ask: 'Wie heißt du?', placeholder: 'Dein Name', save: 'Speichern', change: 'ändern', note: 'Dein Name bleibt nur auf diesem Gerät.',
+  },
+  en: {
+    morning: 'Good morning', day: 'Good afternoon', evening: 'Good evening', night: 'Good night',
+    welcome: 'Welcome to Fincanla', lines: ['Which coffee are we trying today?', 'Is your cup ready?', 'Great to see you.'],
+    ask: 'Tell us your name', placeholder: 'Your name', save: 'Save', change: 'change', note: 'Your name stays on this device only.',
+  },
+}[lang];
+---
+
+<div class="greet" id="greet">
+  <p class="hello"><span id="greet-text">☕ {texts.welcome}!</span> <button id="greet-edit" class="link" type="button">{texts.ask}</button></p>
+  <form id="greet-form" class="form" hidden>
+    <label class="sr-only" for="greet-name">{texts.placeholder}</label>
+    <input id="greet-name" maxlength="20" autocomplete="given-name" placeholder={texts.placeholder} />
+    <button class="save" type="submit">{texts.save}</button>
+    <small>{texts.note}</small>
+  </form>
+</div>
+
+<script define:vars={{ texts }}>
+  const KEY = 'fincanla-ad';
+  const textEl = document.getElementById('greet-text');
+  const editBtn = document.getElementById('greet-edit');
+  const form = document.getElementById('greet-form');
+  const input = document.getElementById('greet-name');
+
+  function readName() {
+    try { return (localStorage.getItem(KEY) || '').trim(); } catch { return ''; }
+  }
+  function render() {
+    const h = new Date().getHours();
+    const [icon, hi] = h >= 5 && h < 11 ? ['☀️', texts.morning] : h < 17 && h >= 11 ? ['☕', texts.day] : h >= 17 && h < 22 ? ['🌆', texts.evening] : ['🌙', texts.night];
+    const name = readName();
+    const line = texts.lines[new Date().getDate() % texts.lines.length];
+    // textContent: okurun yazdığı ad asla HTML olarak işlenmez
+    textEl.textContent = name ? `${icon} ${hi} ${name}! ${line}` : `${icon} ${hi}! ${texts.welcome}.`;
+    editBtn.textContent = name ? texts.change : texts.ask;
+  }
+  editBtn.addEventListener('click', () => {
+    form.hidden = !form.hidden;
+    if (!form.hidden) { input.value = readName(); input.focus(); }
+  });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = input.value.replace(/[<>{}]/g, '').replace(/\s+/g, ' ').trim().slice(0, 20);
+    try { name ? localStorage.setItem(KEY, name) : localStorage.removeItem(KEY); } catch {}
+    form.hidden = true;
+    render();
+  });
+  render();
+</script>
+
+<style>
+  .greet { margin: 0 0 1rem; }
+  .hello { margin: 0; display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .6rem; padding: .45rem 1rem; border-radius: 18px; background: rgba(246, 234, 217, .12); color: var(--cream); font-size: 1rem; opacity: 1; }
+  .link { background: none; border: 0; padding: 0; font: inherit; font-size: .9rem; color: var(--warm); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .form { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-top: .6rem; }
+  .form input { width: 11rem; padding: .5rem .9rem; border-radius: 999px; border: 2px solid transparent; font: inherit; background: #fff; color: #2b1a12; }
+  .form input:focus { outline: none; border-color: var(--warm); }
+  .save { border: 0; border-radius: 999px; padding: .5rem 1rem; font: inherit; font-weight: 700; background: var(--warm); color: var(--espresso); cursor: pointer; }
+  .form small { flex-basis: 100%; color: var(--cream); opacity: .7; font-size: .8rem; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>

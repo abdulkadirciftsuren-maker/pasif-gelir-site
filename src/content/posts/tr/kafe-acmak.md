@@ -91,6 +91,8 @@ Espresso makinesi ve öğütücüyü nasıl seçeceğini ayrıntılı olarak [pr
 - **Tazelik:** Kahveyi kavrulduktan sonra 1–4 hafta içinde kullan; küçük ve sık sipariş ver. Bkz. [taze kahve nasıl anlaşılır](/taze-kahve-nasil-anlasilir/).
 - **Türk kahvesi:** İyi bir Türk kahvesi markası ya da taze çekilmiş kendi harmanın; Avrupa'da büyük fark yaratır.
 
+Kavurucu seçimi, kilo fiyatları ve sözleşmeler için ayrıntılı rehber: [kafe için kahve tedariki](/kafe-kahve-tedariki/).
+
 ## 5. Bir fincan kahve kaça mal olur?
 
 Fiyatı belirlemeden önce **fincan başı maliyeti** hesapla. Örnek (Almanya fiyatlarıyla, yuvarlanmış):

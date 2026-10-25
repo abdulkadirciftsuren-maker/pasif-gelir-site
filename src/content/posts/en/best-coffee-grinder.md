@@ -2,6 +2,7 @@
 title: "How to Choose a Coffee Grinder: Which One Is Right for You? (2026)"
 description: "Blade or burr? Manual or electric? A clear, independent guide to picking the right coffee grinder for your budget and brew method."
 pubDate: 2026-10-08
+updatedDate: 2026-10-25
 category: ekipman
 translationKey: grinder-guide
 cover: "/img/kapak/ogutucu.svg"
@@ -53,12 +54,19 @@ For one or two cups of filter coffee a day, a manual grinder is unbeatable value
 
 ## Which grind for which method?
 
-- **Turkish coffee:** Powder fine. Not every grinder can go this fine — check the specs.
-- **Espresso:** Fine, with very precise adjustment.
-- **V60 / pour-over:** Medium-fine, like sand.
-- **French press / cold brew:** Coarse, like sea salt.
+| Method | Grind | Feels like | Brew time |
+| --- | --- | --- | --- |
+| **Turkish coffee** | Extra fine | Flour, powdered sugar | 3–4 min (on the stove) |
+| **Espresso** | Fine | Between flour and table salt | 25–30 sec |
+| **Moka pot** | Fine to medium | Fine sand (a bit coarser than espresso) | 4–5 min |
+| **AeroPress** | Fine to medium | Fine sand | 1–2 min |
+| **V60 / pour-over** | Medium | Sand, granulated sugar | 2.5–3.5 min |
+| **Drip coffee maker** | Medium | Sand | 4–6 min |
+| **Chemex** | Medium-coarse | Coarse sand | 4–5 min |
+| **French press** | Coarse | Sea salt | 4 min |
+| **Cold brew** | Extra coarse | Coarse salt, cracked pepper | 12–24 hours |
 
-For a detailed recipe, see our [V60 guide](/en/v60-pour-over-guide/).
+**Is your grind right?** If the coffee tastes **sour and thin**, grind **finer**; if it's **bitter and dry**, grind **coarser**. Recipes: [espresso](/en/how-to-make-espresso/), [V60](/en/v60-pour-over-guide/), [French press](/en/how-to-use-a-french-press/), [moka pot](/en/how-to-use-a-moka-pot/).
 
 **Looking for a Turkish coffee grinder?** Brass mills and hand grinders with a Turkish setting: [Turkish coffee grinder](/en/turkish-coffee-grinder/).
 

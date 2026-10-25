@@ -2,6 +2,7 @@
 title: "Kahve Öğütücü Seçimi: Hangi Öğütücü Sana Uygun? (2026)"
 description: "Bıçaklı mı, çarklı mı? Manuel mi, elektrikli mi? Bütçene ve demleme yöntemine göre doğru kahve öğütücüyü seçmen için sade, bağımsız bir rehber."
 pubDate: 2026-10-08
+updatedDate: 2026-10-25
 category: ekipman
 translationKey: grinder-guide
 cover: "/img/kapak/ogutucu.svg"
@@ -53,12 +54,19 @@ Günde bir-iki fincan filtre kahve içiyorsan manuel öğütücü fiyat/performa
 
 ## Hangi yöntem, hangi öğütme?
 
-- **Türk kahvesi:** Un gibi, çok ince. Her öğütücü bu inceliğe inemez; ürün açıklamasında özellikle belirtilmesine dikkat et.
-- **Espresso:** İnce ve çok hassas ayar gerektirir.
-- **V60 / filtre:** Orta-ince, kum kıvamı.
-- **French press / soğuk demleme:** Kalın, deniz tuzu iriliğinde.
+| Yöntem | Öğütme | Neye benzer? | Demleme süresi |
+| --- | --- | --- | --- |
+| **Türk kahvesi** | Çok çok ince | Un, pudra şekeri | 3–4 dk (ocakta) |
+| **Espresso** | İnce | Un ile şeker arası | 25–30 sn |
+| **Moka pot** | İnce–orta | İnce kum (espressodan biraz iri) | 4–5 dk |
+| **AeroPress** | İnce–orta | İnce kum | 1–2 dk |
+| **V60 / filtre** | Orta | Kum, toz şeker | 2,5–3,5 dk |
+| **Filtre kahve makinesi** | Orta | Kum | 4–6 dk |
+| **Chemex** | Orta–iri | İri kum | 4–5 dk |
+| **French press** | İri | Deniz tuzu | 4 dk |
+| **Cold brew** | Çok iri | Kaba tuz, kırık biber | 12–24 saat |
 
-Seçtiğin yöntemle ilgili ayrıntılı tarif için [V60 rehberimize](/v60-ile-kahve-demleme/) göz atabilirsin.
+**Öğütme doğru mu?** Kahve **ekşi ve sulu** ise daha **ince** öğüt; **acı ve kuru** ise daha **iri** öğüt. Yöntemlerin tarifleri: [espresso](/espresso-nasil-yapilir/), [V60](/v60-ile-kahve-demleme/), [French press](/french-press-nasil-kullanilir/), [moka pot](/moka-pot-ile-kahve/).
 
 **Türk kahvesi için öğütücü mü arıyorsun?** Pirinç değirmen ve Türk kahvesi ayarlı el öğütücüleri: [Türk kahvesi öğütücü](/turk-kahvesi-ogutucu/).
 

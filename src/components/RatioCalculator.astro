@@ -27,6 +27,13 @@ const texts = {
     coffee: 'Coffee', water: 'Water', grind: 'Grind', note: 'Adjust to taste: lower the number for a stronger cup, raise it for a lighter one.',
     methods: [['v60', 'V60 / Pour-over', 16, 'Medium-fine'], ['french', 'French press', 15, 'Coarse'], ['aeropress', 'AeroPress', 14, 'Fine-medium'], ['cold', 'Cold brew (concentrate)', 8, 'Extra coarse'], ['moka', 'Moka pot', 10, 'Fine']],
   },
+  ru: {
+    title: 'Калькулятор пропорций кофе',
+    desc: 'Сколько граммов кофе на сколько воды? Выберите способ заваривания и число чашек — и сразу получите точное количество кофе и воды для V60, френч-пресса и не только.',
+    method: 'Способ', cups: 'Чашки', cupSize: 'Объём чашки (мл)', ratio: 'Пропорция (1:x)',
+    coffee: 'Кофе', water: 'Вода', grind: 'Помол', note: 'Подстройте под свой вкус: меньшее число — крепче, большее — мягче.',
+    methods: [['v60', 'V60 / пуровер', 16, 'Средне-мелкий'], ['french', 'Френч-пресс', 15, 'Крупный'], ['aeropress', 'AeroPress', 14, 'Мелкий-средний'], ['cold', 'Колд брю (концентрат)', 8, 'Очень крупный'], ['moka', 'Гейзерная кофеварка', 10, 'Мелкий']],
+  },
 } as const;
 const L = texts[lang];
 const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: L.title, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', inLanguage: lang, offers: { '@type': 'Offer', price: '0' } }];

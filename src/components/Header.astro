@@ -51,23 +51,26 @@ const tools: Item[] = [
   { href: communityPages.share[lang], label: t(lang, 'community.homeCta'), icon: 'share', tone: 'blue' },
 ];
 const cafe: Item[] = [
-  { href: staticPages.cafeGuide[lang], label: t(lang, 'nav.cafeGuide'), icon: 'store', tone: 'peach' },
-  { href: staticPages.cafeEspresso[lang], label: t(lang, 'nav.cafeEspresso'), icon: 'espresso', tone: 'gold' },
-  { href: staticPages.cafeDesign[lang], label: t(lang, 'nav.cafeDesign'), icon: 'design', tone: 'lilac' },
-  { href: staticPages.cafeSupply[lang], label: t(lang, 'nav.cafeSupply'), icon: 'supply', tone: 'green' },
-  { href: staticPages.cafeMenu[lang], label: t(lang, 'nav.cafeMenu'), icon: 'menu', tone: 'pink' },
-  { href: staticPages.cafeCalculator[lang], label: t(lang, 'nav.cafeCalc'), icon: 'calc', tone: 'blue' },
+  { href: (staticPages.cafeGuide as Record<string, string>)[lang], label: t(lang, 'nav.cafeGuide'), icon: 'store', tone: 'peach' },
+  { href: (staticPages.cafeEspresso as Record<string, string>)[lang], label: t(lang, 'nav.cafeEspresso'), icon: 'espresso', tone: 'gold' },
+  { href: (staticPages.cafeDesign as Record<string, string>)[lang], label: t(lang, 'nav.cafeDesign'), icon: 'design', tone: 'lilac' },
+  { href: (staticPages.cafeSupply as Record<string, string>)[lang], label: t(lang, 'nav.cafeSupply'), icon: 'supply', tone: 'green' },
+  { href: (staticPages.cafeMenu as Record<string, string>)[lang], label: t(lang, 'nav.cafeMenu'), icon: 'menu', tone: 'pink' },
+  { href: (staticPages.cafeCalculator as Record<string, string>)[lang], label: t(lang, 'nav.cafeCalc'), icon: 'calc', tone: 'blue' },
 ];
 const site: Item[] = [
   { href: home, label: t(lang, 'nav.home'), icon: 'home', tone: 'peach' },
   { href: staticPages.about[lang], label: t(lang, 'nav.about'), icon: 'about', tone: 'lilac' },
 ];
+// Bir dilde karşılığı olmayan sayfalar (ör. kafe bölümü henüz Rusça değil) menüde gösterilmez.
 const groups = [
   { title: t(lang, 'home.topics'), items: topics },
   { title: t(lang, 'menu.tools'), items: tools },
   { title: '☕ ' + t(lang, 'nav.cafeSection'), items: cafe, cafe: true },
   { title: 'Fincanla', items: site },
-];
+]
+  .map((g) => ({ ...g, items: g.items.filter((it) => it.href) }))
+  .filter((g) => g.items.length);
 ---
 
 <header class="site-header">

@@ -10,6 +10,7 @@ const L = {
   tr: { title: 'Kahve Sözlüğü', desc: 'Espresso, crema, barista, ristretto, pour-over… Kahve dünyasındaki yabancı kelimeler ve kısaltmalar, kısa ve sade açıklamalarla bir arada.' },
   de: { title: 'Kaffee-Glossar', desc: 'Espresso, Crema, Siebträger, Ristretto, Pour Over … Fachbegriffe und Abkürzungen aus der Kaffeewelt – kurz und verständlich erklärt.' },
   en: { title: 'Coffee Glossary', desc: 'Espresso, crema, portafilter, ristretto, pour-over… Coffee terms and abbreviations explained in short, plain language, all in one place.' },
+  ru: { title: 'Кофейный словарь', desc: 'Эспрессо, крема, портафильтр, ристретто, пуровер… Кофейные термины и сокращения простыми словами — всё в одном месте.' },
 }[lang];
 const entries = [...glossary[lang]].sort((a, b) => a.t.localeCompare(b.t, lang));
 const groups = new Map<string, typeof entries>();

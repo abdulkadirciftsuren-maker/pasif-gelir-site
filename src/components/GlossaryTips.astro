@@ -10,6 +10,7 @@ const texts = {
   tr: { list: 'Bu yazıdaki terimler', all: 'Bütün sözlük', close: 'Kapat' },
   de: { list: 'Begriffe in diesem Artikel', all: 'Zum Glossar', close: 'Schließen' },
   en: { list: 'Terms in this guide', all: 'Full glossary', close: 'Close' },
+  ru: { list: 'Термины в этом гиде', all: 'Весь словарь', close: 'Закрыть' },
 }[lang];
 const forms = entries.flatMap((e, i) => e.m.map((f) => ({ re: termPattern(f), i, len: f.length }))).sort((a, b) => b.len - a.len);
 const data = { lang, root, forms, entries: entries.map((e) => ({ t: e.t, d: e.d })), glossaryUrl: glossaryPages[lang], all: texts.all, close: texts.close };

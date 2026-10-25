@@ -1,4 +1,4 @@
-export const languages = { tr: 'Türkçe', de: 'Deutsch', en: 'English' } as const;
+export const languages = { tr: 'Türkçe', de: 'Deutsch', en: 'English', ru: 'Русский' } as const;
 export type Lang = keyof typeof languages;
 export const defaultLang: Lang = 'tr';
 
@@ -230,6 +230,81 @@ export const ui = {
     '404.text': 'The page you are looking for has moved or never existed.',
     '404.home': 'Back to home',
   },
+  ru: {
+    'nav.community': 'Фото читателей',
+    'community.promoTitle': '📷 Поделитесь фото своего кофе',
+    'community.promoText': 'Каждый месяц лучшее фото становится «Фото месяца» и обложкой одного из гидов →',
+    'community.homeTitle': 'От наших читателей',
+    'community.homeText': 'Покажите свою чашку, момент заваривания или кофейный уголок. Каждый месяц мы выбираем «Фото месяца» и ставим его с вашим именем на обложку одного из гидов.',
+    'community.homeCta': 'Поделиться фото',
+    'community.homeGallery': 'Смотреть галерею',
+    'nav.home': 'Главная',
+    'post.quickPicks': 'Коротко',
+    'post.allPicks': 'Полное сравнение ↓',
+    'search.label': 'Поиск по сайту',
+    'search.placeholder': 'Что ищете? Например, турка, кофемолка, гейзерная кофеварка…',
+    'search.empty': 'Ничего не найдено. Попробуйте другое слово.',
+    'site.slogan': 'Радость кофе',
+    'site.tagline': 'Честные гиды для вкусного кофе дома',
+    'site.description':
+      'Гиды по приготовлению кофе дома, рецепты и независимые обзоры техники. Проверенные способы, а не списки ради рекламы.',
+    'nav.guides': 'Гиды',
+    'nav.tools': 'Калькулятор пропорций',
+    'nav.quiz': 'Какая кофеварка мне подходит?',
+    'nav.cafeCalc': 'Калькулятор затрат кофейни',
+    'nav.cafeSection': 'Открыть кофейню',
+    'nav.cafeGuide': 'Как открыть кофейню',
+    'nav.cafeDesign': 'Дизайн кофейни',
+    'nav.cafeEspresso': 'Профессиональные эспрессо-машины',
+    'nav.cafeMenu': 'Меню и цены',
+    'nav.cafeSupply': 'Поставщик кофе',
+    'nav.about': 'О нас',
+    'nav.menu': 'Меню',
+    'nav.close': 'Закрыть меню',
+    'home.hero': 'Кофе дома — на новом уровне.',
+    'home.lead':
+      'Способы заваривания, пошаговые рецепты и рекомендации техники, которые действительно работают. Коротко, понятно, без рекламной шелухи.',
+    'home.latest': 'Новые гиды',
+    'post.new': 'Новое',
+    'home.quizTitle': 'Какая кофеварка подходит именно вам?',
+    'home.quizText': 'Ответьте на 6 коротких вопросов и узнайте, какая техника лучше всего подходит под ваш напиток, бюджет и желание возиться.',
+    'home.quizCta': 'Пройти тест',
+    'home.cta': 'Открыть калькулятор пропорций',
+    'post.updated': 'Обновлено',
+    'post.readingTime': 'мин. чтения',
+    'post.toc': 'В этом гиде',
+    'post.picks': 'Что мы рекомендуем',
+    'post.related': 'Вам также может понравиться',
+    'product.best': 'Лучше всего для',
+    'product.pros': 'Плюсы',
+    'product.cons': 'Минусы',
+    'product.cta': 'Посмотреть цену на ',
+    'disclosure':
+      'Для вас без доплаты: если вы покупаете по нашим ссылкам на магазины (партнёрские ссылки), цена не меняется. Магазин платит нам небольшую комиссию, благодаря которой гиды остаются бесплатными. На наши рекомендации это не влияет. Как партнёр Amazon мы зарабатываем на соответствующих покупках.',
+    'ad.label': 'Реклама',
+    'footer.rights': 'Все права защищены.',
+    'footer.privacy': 'Конфиденциальность',
+    'footer.disclosure': 'Партнёрские ссылки',
+    'footer.about': 'О нас',
+    'footer.imprint': 'Выходные данные',
+    'footer.consent': 'Настройки cookie',
+    'nav.glossary': 'Словарь',
+    'menu.tools': 'Инструменты',
+    'menu.language': 'Язык',
+    'cat.yontem': 'Способы заваривания',
+    'cat.ekipman': 'Техника',
+    'cat.temel': 'О кофе',
+    'cat.yontem.desc': 'Пошаговые рецепты: от турки до V60.',
+    'cat.ekipman.desc': 'Честные обзоры техники под любой бюджет.',
+    'cat.temel.desc': 'Виды кофе, региональные традиции и основы.',
+    'home.topics': 'По темам',
+    'aside.calcTitle': 'Калькулятор пропорций',
+    'aside.calcText': 'Сколько кофе на сколько воды? Узнайте за секунды →',
+    'aside.more': 'Ещё по теме',
+    '404.title': 'Страница не найдена',
+    '404.text': 'Страница, которую вы ищете, перемещена или не существует.',
+    '404.home': 'На главную',
+  },
 } as const;
 
 export type UIKey = keyof (typeof ui)['tr'];
@@ -244,21 +319,21 @@ export function localePath(lang: Lang, path = ''): string {
   return lang === defaultLang ? `/${clean}` : `/${lang}/${clean}`;
 }
 
-/** Sabit sayfaların diller arası karşılıkları (hreflang için). */
+/** Sabit sayfaların diller arası karşılıkları (hreflang için). Kafe sayfalarının henüz Rusçası yok; menüde Rusça sürüm olmayan bağlantılar gizlenir. */
 export const staticPages = {
-  home: { tr: '/', en: '/en/', de: '/de/' },
-  about: { tr: '/hakkimizda/', en: '/en/about/', de: '/de/ueber-uns/' },
-  privacy: { tr: '/gizlilik/', en: '/en/privacy/', de: '/de/datenschutz/' },
-  disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/', de: '/de/affiliate-hinweis/' },
-  calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/', de: '/de/kaffee-rechner/' },
+  home: { tr: '/', en: '/en/', de: '/de/', ru: '/ru/' },
+  about: { tr: '/hakkimizda/', en: '/en/about/', de: '/de/ueber-uns/', ru: '/ru/o-nas/' },
+  privacy: { tr: '/gizlilik/', en: '/en/privacy/', de: '/de/datenschutz/', ru: '/ru/konfidentsialnost/' },
+  disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/', de: '/de/affiliate-hinweis/', ru: '/ru/partnerskie-ssylki/' },
+  calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/', de: '/de/kaffee-rechner/', ru: '/ru/kalkulyator-kofe/' },
   cafeGuide: { tr: '/kafe-acmak/', en: '/en/how-to-open-a-coffee-shop/', de: '/de/cafe-eroeffnen/' },
   cafeDesign: { tr: '/modern-kafe-tasarimi/', en: '/en/coffee-shop-design-ideas/', de: '/de/cafe-einrichtung-ideen/' },
   cafeEspresso: { tr: '/profesyonel-espresso-makinesi/', en: '/en/commercial-espresso-machine-guide/', de: '/de/gastro-siebtraeger-kaufen/' },
   cafeMenu: { tr: '/kafe-menu-fiyatlandirma/', en: '/en/coffee-shop-menu-pricing/', de: '/de/cafe-preise-kalkulieren/' },
   cafeSupply: { tr: '/kafe-kahve-tedariki/', en: '/en/coffee-supplier-for-cafe/', de: '/de/kaffee-fuer-cafe-roesterei/' },
   cafeCalculator: { tr: '/kafe-maliyet-hesaplayici/', en: '/en/coffee-shop-cost-calculator/', de: '/de/cafe-kalkulator/' },
-  machineQuiz: { tr: '/kahve-makinesi-testi/', en: '/en/coffee-maker-quiz/', de: '/de/welche-kaffeemaschine-passt-zu-mir/' },
-  imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/' },
+  machineQuiz: { tr: '/kahve-makinesi-testi/', en: '/en/coffee-maker-quiz/', de: '/de/welche-kaffeemaschine-passt-zu-mir/', ru: '/ru/kakaya-kofevarka-mne-podhodit/' },
+  imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/', ru: '/ru/vyhodnye-dannye/' },
 } as const;
 
 /** Dile göre tarih biçimi ve Open Graph yerel kodu */
@@ -266,4 +341,5 @@ export const locales: Record<Lang, { date: string; og: string }> = {
   tr: { date: 'tr-TR', og: 'tr_TR' },
   de: { date: 'de-DE', og: 'de_DE' },
   en: { date: 'en-US', og: 'en_US' },
+  ru: { date: 'ru-RU', og: 'ru_RU' },
 };

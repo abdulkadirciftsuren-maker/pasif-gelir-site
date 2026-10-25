@@ -16,6 +16,58 @@ const others = (Object.keys(languages) as Lang[])
   .map((l) => ({ lang: l, href: alternates[l] ?? staticPages.home[l] }));
 const home = localePath(lang);
 const cats = ['yontem', 'ekipman', 'temel'] as const;
+
+// Menü kartlarındaki çizgi simgeler (24×24, stroke = currentColor)
+const icons = {
+  guides: 'M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5M8 7h8M8 11h6',
+  yontem: 'M5 6h14l-5 8h-4zM10 14v3M14 14v3M7 20h10M16 3c0 1 1 1 1 2',
+  ekipman: 'M7 3h10l-1 5H8zM6 8h12v12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zM12 3V1M10 13h4',
+  temel: 'M12 3c4 0 7 4 7 9s-3 9-7 9-7-4-7-9 3-9 7-9zM12 4c-2 3-2 13 0 16',
+  calc: 'M5 3h14v18H5zM8 7h8M8 12h2M12 12h2M16 12v5M8 16h2M12 16h2',
+  quiz: 'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM15.5 8.5l-2 5-5 2 2-5z',
+  glossary: 'M4 4h6a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 4h-6a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z',
+  photo: 'M4 7h3l2-3h6l2 3h3v13H4zM12 10a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z',
+  share: 'M12 4v12M7 9l5-5 5 5M5 20h14',
+  home: 'M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10',
+  about: 'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 11v6M12 7.5v.5',
+  store: 'M3 9l2-5h14l2 5M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0zM5 13v8h14v-8M10 21v-5h4v5',
+  espresso: 'M4 8h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM16 9h2a2 2 0 0 1 0 4h-2M3 21h14M8 2v3M12 2v3',
+  design: 'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9V16h7v-2.1A6 6 0 0 0 12 3z',
+  supply: 'M6 7h12l-1 14H7zM9 7V5a3 3 0 0 1 6 0v2M10 12c1 2 3 2 4 0',
+  menu: 'M5 3h14v18H5zM8 8h8M8 12h8M8 16h5',
+};
+type Item = { href: string; label: string; icon: keyof typeof icons; tone: string };
+const topics: Item[] = [
+  { href: home + '#rehberler', label: t(lang, 'nav.guides'), icon: 'guides', tone: 'peach' },
+  { href: `${home}#topic-yontem`, label: t(lang, 'cat.yontem'), icon: 'yontem', tone: 'green' },
+  { href: `${home}#topic-ekipman`, label: t(lang, 'cat.ekipman'), icon: 'ekipman', tone: 'blue' },
+  { href: `${home}#topic-temel`, label: t(lang, 'cat.temel'), icon: 'temel', tone: 'gold' },
+];
+const tools: Item[] = [
+  { href: staticPages.calculator[lang], label: t(lang, 'nav.tools'), icon: 'calc', tone: 'peach' },
+  { href: staticPages.machineQuiz[lang], label: t(lang, 'nav.quiz'), icon: 'quiz', tone: 'lilac' },
+  { href: glossaryPages[lang], label: t(lang, 'nav.glossary'), icon: 'glossary', tone: 'green' },
+  { href: communityPages.gallery[lang], label: t(lang, 'nav.community'), icon: 'photo', tone: 'pink' },
+  { href: communityPages.share[lang], label: t(lang, 'community.homeCta'), icon: 'share', tone: 'blue' },
+];
+const cafe: Item[] = [
+  { href: staticPages.cafeGuide[lang], label: t(lang, 'nav.cafeGuide'), icon: 'store', tone: 'peach' },
+  { href: staticPages.cafeEspresso[lang], label: t(lang, 'nav.cafeEspresso'), icon: 'espresso', tone: 'gold' },
+  { href: staticPages.cafeDesign[lang], label: t(lang, 'nav.cafeDesign'), icon: 'design', tone: 'lilac' },
+  { href: staticPages.cafeSupply[lang], label: t(lang, 'nav.cafeSupply'), icon: 'supply', tone: 'green' },
+  { href: staticPages.cafeMenu[lang], label: t(lang, 'nav.cafeMenu'), icon: 'menu', tone: 'pink' },
+  { href: staticPages.cafeCalculator[lang], label: t(lang, 'nav.cafeCalc'), icon: 'calc', tone: 'blue' },
+];
+const site: Item[] = [
+  { href: home, label: t(lang, 'nav.home'), icon: 'home', tone: 'peach' },
+  { href: staticPages.about[lang], label: t(lang, 'nav.about'), icon: 'about', tone: 'lilac' },
+];
+const groups = [
+  { title: t(lang, 'home.topics'), items: topics },
+  { title: t(lang, 'menu.tools'), items: tools },
+  { title: '☕ ' + t(lang, 'nav.cafeSection'), items: cafe, cafe: true },
+  { title: 'Fincanla', items: site },
+];
 ---
 
 <header class="site-header">
@@ -36,36 +88,34 @@ const cats = ['yontem', 'ekipman', 'temel'] as const;
     </nav>
   </div>
 
-  <!-- Açılır menü: telefonda bütün bağlantılar burada; bilgisayarda konular ve topluluk kısayolları -->
+  <!-- Açılır menü: simgeli kartlar; telefonda tek sütun, bilgisayarda yan yana -->
   <div id="site-menu" class="menu" hidden>
-    <div class="container menu-grid">
-      <div>
-        <p class="menu-title">{t(lang, 'home.topics')}</p>
-        <a href={home + '#rehberler'}>{t(lang, 'nav.guides')}</a>
-        {cats.map((c) => <a class={`cat-${c} cat`} href={`${home}#topic-${c}`}>{t(lang, `cat.${c}`)}</a>)}
-      </div>
-      <div class="cafe-col">
-        <p class="menu-title">☕ {t(lang, 'nav.cafeSection')}</p>
-        <a href={staticPages.cafeGuide[lang]}>{t(lang, 'nav.cafeGuide')}</a>
-        <a href={staticPages.cafeEspresso[lang]}>{t(lang, 'nav.cafeEspresso')}</a>
-        <a href={staticPages.cafeDesign[lang]}>{t(lang, 'nav.cafeDesign')}</a>
-        <a href={staticPages.cafeSupply[lang]}>{t(lang, 'nav.cafeSupply')}</a>
-        <a href={staticPages.cafeMenu[lang]}>{t(lang, 'nav.cafeMenu')}</a>
-        <a href={staticPages.cafeCalculator[lang]}>{t(lang, 'nav.cafeCalc')}</a>
-      </div>
-      <div>
-        <p class="menu-title">{t(lang, 'nav.community')}</p>
-        <a href={communityPages.gallery[lang]}>{t(lang, 'nav.community')}</a>
-        <a href={communityPages.share[lang]}>📷 {t(lang, 'community.homeCta')}</a>
-      </div>
-      <div>
-        <p class="menu-title">Fincanla</p>
-        <a href={home}>{t(lang, 'nav.home')}</a>
-        <a href={staticPages.calculator[lang]}>{t(lang, 'nav.tools')}</a>
-        <a href={staticPages.machineQuiz[lang]}>🧭 {t(lang, 'nav.quiz')}</a>
-        <a href={glossaryPages[lang]}>📖 {t(lang, 'nav.glossary')}</a>
-        <a href={staticPages.about[lang]}>{t(lang, 'nav.about')}</a>
-      </div>
+    <div class="container menu-inner">
+      {groups.map((g) => (
+        <section class={g.cafe ? 'group cafe' : 'group'}>
+          <p class="menu-title">{g.title}</p>
+          <div class="tiles">
+            {g.items.map((it) => (
+              <a class={`tile tone-${it.tone}`} href={it.href}>
+                <span class="ic" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d={icons[it.icon]} /></svg>
+                </span>
+                <span class="tl">{it.label}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+      <section class="group">
+        <p class="menu-title">{t(lang, 'menu.language')}</p>
+        <div class="langs">
+          {(Object.keys(languages) as Lang[]).map((l) => (
+            l === lang
+              ? <span class="pill current" lang={l} aria-current="true" translate="no">{languages[l]}</span>
+              : <a class="pill" href={alternates[l] ?? staticPages.home[l]} hreflang={l} lang={l} translate="no">{languages[l]}</a>
+          ))}
+        </div>
+      </section>
     </div>
   </div>
 </header>
@@ -105,16 +155,25 @@ const cats = ['yontem', 'ekipman', 'temel'] as const;
   .menu-btn.open .bars { background: transparent; }
   .menu-btn.open .bars::before { transform: translateY(5px) rotate(45deg); }
   .menu-btn.open .bars::after { transform: translateY(-5px) rotate(-45deg); }
-  .menu { position: absolute; left: 0; right: 0; top: 100%; background: var(--espresso-2); border-top: 1px solid rgba(246, 234, 217, .15); box-shadow: 0 18px 40px -18px rgba(0, 0, 0, .6); }
-  .menu-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; padding: 1.5rem 1rem 1.75rem; }
-  .menu-grid div { display: grid; gap: .15rem; align-content: start; }
-  .menu-title { margin: 0 0 .35rem; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .6; }
-  .menu a { color: var(--cream); text-decoration: none; padding: .45rem 0; font-size: 1.05rem; border-bottom: 1px solid rgba(246, 234, 217, .08); }
-  .menu a:hover { color: var(--warm); }
-  .menu a.cat::before { content: ''; display: inline-block; width: .55rem; height: .55rem; margin-right: .55rem; border-radius: 50%; background: var(--cat); }
+  .menu { position: absolute; left: 0; right: 0; top: 100%; max-height: calc(100vh - 4.5rem); overflow-y: auto; background: var(--espresso-2); border-top: 1px solid rgba(246, 234, 217, .15); box-shadow: 0 18px 40px -18px rgba(0, 0, 0, .6); }
+  .menu-inner { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 2rem; padding: 1.25rem 1rem 1.5rem; }
+  .menu-title { margin: 0 0 .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .65; }
+  .cafe .menu-title { color: var(--warm); opacity: 1; }
+  .tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+  .tile { display: flex; align-items: center; gap: .65rem; min-height: 3.4rem; padding: .5rem .65rem; border-radius: 14px; background: rgba(246, 234, 217, .06); color: var(--cream); text-decoration: none; line-height: 1.25; font-size: .95rem; font-weight: 600; transition: background .15s, transform .15s; }
+  .tile:hover { background: rgba(246, 234, 217, .12); transform: translateY(-1px); }
+  .ic { flex: none; display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 12px; background: var(--tone-bg); color: var(--tone-fg); }
+  .tone-peach { --tone-bg: #f7d3bd; --tone-fg: #8a3d1c; }
+  .tone-green { --tone-bg: #cfe8d6; --tone-fg: #2d6142; }
+  .tone-blue { --tone-bg: #cfe2f2; --tone-fg: #2c5a80; }
+  .tone-gold { --tone-bg: #f4e2b0; --tone-fg: #7a5a12; }
+  .tone-lilac { --tone-bg: #e2d8f3; --tone-fg: #5a3f8c; }
+  .tone-pink { --tone-bg: #f5d3df; --tone-fg: #8c3556; }
+  .langs { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .pill { padding: .5rem 1rem; border-radius: 999px; background: rgba(246, 234, 217, .06); color: var(--cream); text-decoration: none; font-weight: 600; border: 2px solid transparent; }
+  a.pill:hover { background: rgba(246, 234, 217, .12); }
+  .pill.current { border-color: var(--warm); }
   @media (max-width: 900px) { .wide { display: none; } }
-  @media (max-width: 960px) { .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-  @media (max-width: 600px) { .menu-grid { grid-template-columns: 1fr; gap: 1rem; } }
-  .cafe-col .menu-title { color: var(--warm); opacity: 1; }
+  @media (max-width: 760px) { .menu-inner { grid-template-columns: 1fr; } }
   @media (max-width: 560px) { nav { gap: .5rem; font-size: .85rem; } .lang { padding: .1rem .45rem; } .menu-btn { padding: .4rem .75rem; } }
 </style>

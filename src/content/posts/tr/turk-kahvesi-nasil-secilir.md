@@ -69,6 +69,8 @@ Daha fazla yöresel kahve için [kahve çeşitleri rehberimize](/kahve-cesitleri
 - Serin, kuru ve karanlık bir yerde sakla: mutfak dolabında, ocağın yanında değil.
 - **2–3 hafta içinde** bitir. Sonrasında köpük belirgin şekilde azalır.
 
+**Evde kendin öğütmek ister misin?** Hangi değirmen ya da öğütücü Türk kahvesi inceliğine iner: [Türk kahvesi öğütücü](/turk-kahvesi-ogutucu/).
+
 ## Sık sorulan sorular
 
 **Türk kahvesini evde kendim öğütebilir miyim?** Ancak un inceliğinde öğütebilen bir öğütücüyle. Çoğu el öğütücüsü bunu yapamaz. Geleneksel pirinç Türk kahvesi değirmenleri ise yapabilir. Ayrıntılar [öğütücü rehberimizde](/en-iyi-kahve-ogutucu/).

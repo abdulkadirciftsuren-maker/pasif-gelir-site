@@ -59,6 +59,8 @@ Trinkst du ein bis zwei Tassen Filterkaffee am Tag, ist eine Handmühle preislic
 - **Espressokocher:** etwas gröber als Espresso. Mehr dazu in unserer [Espressokocher-Anleitung](/de/espressokocher-anleitung/).
 - **French Press / Cold Brew:** grob, wie Meersalz.
 
+**Mühle für türkischen Kaffee gesucht?** Messingmühle und Handmühlen mit Mokka-Stufe: [türkische Kaffeemühle](/de/tuerkische-kaffeemuehle/).
+
 ## Checkliste vor dem Kauf
 
 1. Ist das Mahlwerk aus Edelstahl oder Keramik? (Stahl ist meist schärfer und gleichmäßiger.)

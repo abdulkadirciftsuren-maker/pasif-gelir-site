@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Geleneksel pirinç Türk kahvesi değirmeni, yanında modern bir el öğütücü, un gibi ince öğütülmüş kahve dolu küçük bir kase ve cezve">
+<rect width="640" height="360" fill="#f3e6d3"/>
+<circle cx="110" cy="80" r="110" fill="#ead6bc"/>
+<rect y="292" width="640" height="68" fill="#a8461f"/>
+<g stroke="#8a3a1a" stroke-width="2" opacity=".5"><path d="M0 312 H640 M0 338 H640"/></g>
+<!-- pirinç değirmen -->
+<g transform="translate(150 74)">
+<path d="M30 0 h4 v-18 h64 v6 h-58 v12 h4" fill="none" stroke="#8a5a3c" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="98" cy="-12" rx="10" ry="8" fill="#5a3a26"/>
+<rect x="18" y="0" width="34" height="10" rx="3" fill="#c99a3a"/>
+<path d="M10 10 h50 v190 q0 10 -10 10 h-30 q-10 0 -10 -10 z" fill="#d9a441"/>
+<g fill="none" stroke="#a87a22" stroke-width="2.5">
+<path d="M10 40 h50"/><path d="M10 46 h50"/><path d="M10 150 h50"/><path d="M10 156 h50"/>
+</g>
+<g fill="#b8862c"><circle cx="35" cy="80" r="5"/><circle cx="25" cy="100" r="4"/><circle cx="45" cy="100" r="4"/><circle cx="35" cy="120" r="5"/></g>
+<path d="M18 16 v170" stroke="#f2c46b" stroke-width="4" opacity=".6" stroke-linecap="round"/>
+</g>
+<!-- modern el öğütücü -->
+<g transform="translate(270 112)">
+<path d="M22 0 V-14 H66" stroke="#2f3a40" stroke-width="5" fill="none"/>
+<circle cx="70" cy="-14" r="8" fill="#8a5a3c"/>
+<rect x="0" y="0" width="44" height="170" rx="12" fill="#5b6b75"/>
+<rect x="0" y="70" width="44" height="8" fill="#2f3a40"/>
+<rect x="0" y="120" width="44" height="50" rx="10" fill="#4a565d"/>
+<path d="M10 10 v54" stroke="#cfd8dc" stroke-width="3" opacity=".6" stroke-linecap="round"/>
+</g>
+<!-- kase ince kahve -->
+<g transform="translate(360 248)">
+<path d="M0 0 h110 q0 44 -55 44 q-55 0 -55 -44 z" fill="#fbf8f4"/>
+<path d="M4 6 h102" stroke="#2f5d8a" stroke-width="5"/>
+<ellipse cx="55" cy="0" rx="55" ry="10" fill="#e9dccb"/>
+<path d="M12 0 q43 -26 86 0 z" fill="#6b3f26"/>
+<g fill="#8a5a3c" opacity=".7"><circle cx="40" cy="-6" r="1.4"/><circle cx="56" cy="-10" r="1.4"/><circle cx="70" cy="-5" r="1.4"/></g>
+</g>
+<!-- cezve -->
+<g transform="translate(510 218)">
+<path d="M0 0 h50 l-5 64 q0 8 -8 8 h-24 q-8 0 -8 -8 z" fill="#b87333"/>
+<path d="M50 10 h50" stroke="#5a3a26" stroke-width="7" stroke-linecap="round"/>
+<path d="M4 0 l-9 -7" stroke="#b87333" stroke-width="5" stroke-linecap="round"/>
+<path d="M4 18 h42" stroke="#d08a4a" stroke-width="3"/>
+</g>
+</svg>

@@ -60,6 +60,8 @@ For one or two cups of filter coffee a day, a manual grinder is unbeatable value
 
 For a detailed recipe, see our [V60 guide](/en/v60-pour-over-guide/).
 
+**Looking for a Turkish coffee grinder?** Brass mills and hand grinders with a Turkish setting: [Turkish coffee grinder](/en/turkish-coffee-grinder/).
+
 ## Checklist before you buy
 
 1. Are the burrs stainless steel or ceramic? (Steel is usually sharper and more consistent.)

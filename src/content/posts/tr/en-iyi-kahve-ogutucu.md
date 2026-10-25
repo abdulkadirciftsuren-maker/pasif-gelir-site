@@ -60,6 +60,8 @@ Günde bir-iki fincan filtre kahve içiyorsan manuel öğütücü fiyat/performa
 
 Seçtiğin yöntemle ilgili ayrıntılı tarif için [V60 rehberimize](/v60-ile-kahve-demleme/) göz atabilirsin.
 
+**Türk kahvesi için öğütücü mü arıyorsun?** Pirinç değirmen ve Türk kahvesi ayarlı el öğütücüleri: [Türk kahvesi öğütücü](/turk-kahvesi-ogutucu/).
+
 ## Satın almadan önce kontrol listesi
 
 1. Çarklar paslanmaz çelik veya seramik mi? (Çelik genelde daha keskin ve tutarlıdır.)

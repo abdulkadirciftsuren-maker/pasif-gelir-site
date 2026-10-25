@@ -89,6 +89,8 @@ If you brew several pots a day, descale more often. On super-automatic machines 
 - **Let the machine dry after use** and leave the tank lid open.
 - **Set the water hardness correctly on super-automatic machines** so the reminder comes on time.
 
+**Cleaning beyond descaling:** A daily, weekly and monthly plan for coffee oils, milk systems and brew units: [how to clean a coffee maker](/en/how-to-clean-a-coffee-maker/).
+
 ## FAQ
 
 **Can I descale with vinegar?** It's possible, but most manufacturers don't recommend it. Vinegar can attack rubber seals and metal parts, and the smell lingers for a long time. Citric acid or a dedicated descaler is the better choice.

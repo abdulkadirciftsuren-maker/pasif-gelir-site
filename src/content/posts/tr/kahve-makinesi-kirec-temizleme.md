@@ -89,6 +89,8 @@ Günde birkaç demlik kahve yapıyorsan daha sık temizle. Tam otomatik makinele
 - **Kullandıktan sonra hazne kapağını açık bırak**, kurusun.
 - **Tam otomatik makinede su sertliğini doğru ayarla**, uyarı zamanında gelsin.
 
+**Kireç dışındaki temizlik:** Kahve yağı, süt sistemi ve demleme ünitesi için günlük, haftalık ve aylık plan: [kahve makinesi temizliği](/kahve-makinesi-temizligi/).
+
 ## Sık sorulan sorular
 
 **Sirke ile kireç temizlenir mi?** Temizlenir, ama çoğu üretici önermez. Sirke lastik contalara ve metal parçalara zarar verebilir, kokusu da uzun süre kalır. Limon tuzu ya da hazır kireç sökücü daha iyi seçimdir.

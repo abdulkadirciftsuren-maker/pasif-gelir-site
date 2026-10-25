@@ -9,13 +9,13 @@ export default defineConfig({
   site: SITE,
   trailingSlash: 'always',
   i18n: {
-    locales: ['tr', 'de', 'en'],
+    locales: ['tr', 'de', 'en', 'ru'],
     defaultLocale: 'tr',
     routing: { prefixDefaultLocale: false },
   },
   integrations: [
     // Dil karşılıkları (hreflang) her sayfanın <head> kısmında; slug'lar dile göre farklı olduğu için burada değil.
-    sitemap({ filter: (page) => !/\/(404|kunye|imprint|impressum|yonetim|durum|status)\/$/.test(page) }),
+    sitemap({ filter: (page) => !/\/(404|kunye|imprint|impressum|vyhodnye-dannye|yonetim|durum|status)\/$/.test(page) }),
   ],
   build: { inlineStylesheets: 'always' },
 });

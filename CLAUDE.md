@@ -3,7 +3,7 @@
 ## Kullanıcıyla iletişim (her zaman geçerli)
 - Kullanıcıya **sadece Türkçe** yaz. Ara notlar, ilerleme mesajları ve özetler dahil hiçbir şeyi İngilizce yazma.
 - Kullanıcı teknik değil, çoğunlukla telefondan yazıyor: kısa, sade, adım adım anlat. Tek seferde bir adım ver.
-- Kullanıcı Almanya'da (Bad Tölz) yaşıyor; Türkçe, Almanca ve İngilizce siteleri var.
+- Kullanıcı Almanya'da (Bad Tölz) yaşıyor; site Türkçe, Almanca, İngilizce ve Rusça (25.10.2026'dan beri, /ru/) yayında. Rusça sayfalarda ürün bağlantıları Amazon.de'ye gider.
 - PR'leri main'e birleştirip yayına alma izni kalıcı olarak verildi ("bundan sonra sorma"); ama her seferinde ne değiştiğini anlat.
 
 ## İçerik kuralı

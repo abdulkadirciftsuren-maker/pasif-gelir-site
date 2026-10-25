@@ -147,7 +147,8 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
   - ✅ İngilizce eksik 16 yazı tamamlandı (her konu artık TR/DE/EN üç dilde)
 - **İngilizce (/en/):** 10 yazı: V60, öğütücü, Türk kahvesi tarifi, kahve çeşitleri, cezve, Türk kahvesi makinesi, moka pot, French press, latte/cappuccino, Arabica/Robusta.
   - Not: İngilizce ürün bağlantıları Amazon.com'a gidiyor ve henüz ortaklık kimliği yok (Amazon.com Associates başvurusu yapılmadı).
-- **Rusça / Ukraynaca:** Şimdilik yok. Google 2022'den beri Rusya'da reklam göstermiyor ve Amazon orada yok; Ukrayna pazarı küçük.
+- **Rusça (/ru/):** Kullanıcı isteğiyle 25.10.2026'da eklendi (Rusya hariç pek çok ülkede okuyucu; Google Rusya'da reklam göstermiyor). Ürün düğmeleri Amazon.de'ye gider (fincanla-21). 1. aşama: altyapı + 10 yazı (Türk kahvesi kümesi, gejzer, makine rehberleri). Kafe bölümü henüz Rusça değil (menüde gizli).
+  - 2. aşama: kalan yazılar her gün birkaç tane; önce en-iyi-kahve-makinesi, filtre/French press/V60, kahve çeşitleri, latte/cappuccino.
 
 ## Yasal (Almanya)
 

@@ -82,11 +82,21 @@ const groups = [
       <a href={home + '#rehberler'} class="wide">{t(lang, 'nav.guides')}</a>
       <a href={staticPages.calculator[lang]} class="wide">{t(lang, 'nav.tools')}</a>
       <a href={communityPages.gallery[lang]} class="wide">{t(lang, 'nav.community')}</a>
-      {others.map((o) => (
-        <a href={o.href} hreflang={o.lang} lang={o.lang} class="lang" title={languages[o.lang]} translate="no">{o.lang.toUpperCase()}</a>
-      ))}
+      <!-- Tek dil düğmesi: basınca bütün diller açılır -->
+      <details class="lang-pick" id="lang-pick">
+        <summary aria-label={t(lang, 'menu.language')} translate="no">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18" /></svg>
+          {lang.toUpperCase()}
+        </summary>
+        <div class="lang-list">
+          <span class="lang-item current" lang={lang} aria-current="true" translate="no">{languages[lang]}</span>
+          {others.map((o) => (
+            <a class="lang-item" href={o.href} hreflang={o.lang} lang={o.lang} translate="no">{languages[o.lang]}</a>
+          ))}
+        </div>
+      </details>
       <button id="menu-btn" class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span class="bars" aria-hidden="true"></span>{t(lang, 'nav.menu')}
+        <span class="bars" aria-hidden="true"></span><span class="mb-label">{t(lang, 'nav.menu')}</span>
       </button>
     </nav>
   </div>
@@ -132,7 +142,10 @@ const groups = [
     btn.setAttribute('aria-label', open ? closeLabel : openLabel);
     btn.classList.toggle('open', open);
   }
-  btn.addEventListener('click', () => setOpen(menu.hidden));
+  const pick = document.getElementById('lang-pick');
+  btn.addEventListener('click', () => { pick.open = false; setOpen(menu.hidden); });
+  pick.addEventListener('toggle', () => { if (pick.open) setOpen(false); });
+  document.addEventListener('click', (e) => { if (pick.open && !pick.contains(e.target)) pick.open = false; });
   // Menüdeki bir bağlantıya basınca (ör. aynı sayfadaki bir konuya) menü kapansın
   menu.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) { setOpen(false); btn.focus(); } });
@@ -146,7 +159,17 @@ const groups = [
   nav { display: flex; align-items: center; gap: 1.1rem; font-size: .95rem; }
   nav a { color: var(--cream); text-decoration: none; white-space: nowrap; opacity: .9; }
   nav a:hover { color: var(--warm); opacity: 1; }
-  .lang { border: 1px solid rgba(246, 234, 217, .35); border-radius: 999px; padding: .15rem .6rem; font-size: .8rem; font-weight: 700; }
+  .lang-pick { position: relative; }
+  .lang-pick summary { list-style: none; display: inline-flex; align-items: center; gap: .35rem; cursor: pointer; border: 1px solid rgba(246, 234, 217, .35); border-radius: 999px; padding: .35rem .7rem; font-size: .85rem; font-weight: 700; color: var(--cream); user-select: none; }
+  .lang-pick summary::-webkit-details-marker { display: none; }
+  .lang-pick summary:hover, .lang-pick[open] summary { border-color: var(--warm); color: var(--warm); }
+  .lang-list { position: absolute; right: 0; top: calc(100% + .5rem); z-index: 30; display: grid; min-width: 10rem; padding: .4rem; border-radius: 14px; background: var(--espresso-2); box-shadow: 0 14px 30px -12px rgba(0, 0, 0, .6); border: 1px solid rgba(246, 234, 217, .15); }
+  .lang-item { padding: .6rem .8rem; border-radius: 10px; color: var(--cream); text-decoration: none; font-weight: 600; opacity: 1; }
+  a.lang-item:hover { background: rgba(246, 234, 217, .1); color: var(--warm); }
+  .lang-item.current { color: var(--warm); }
+  .lang-item.current::after { content: ' ✓'; }
+  /* Dar telefonlarda menü düğmesinde yalnız simge kalır (üst çubuk ekrana sığsın) */
+  @media (max-width: 430px) { .mb-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } .menu-btn { width: 2.6rem; height: 2.6rem; padding: 0; justify-content: center; } .lang-pick summary { padding: .35rem .6rem; } }
   .menu-btn { display: inline-flex; align-items: center; gap: .5rem; border: 0; border-radius: 999px; padding: .45rem .9rem; background: var(--warm); color: var(--espresso); font: inherit; font-weight: 700; cursor: pointer; }
   .menu-btn:hover { filter: brightness(1.08); }
   /* Üç çizgili simge; menü açılınca X olur */
@@ -178,5 +201,5 @@ const groups = [
   .pill.current { border-color: var(--warm); }
   @media (max-width: 900px) { .wide { display: none; } }
   @media (max-width: 760px) { .menu-inner { grid-template-columns: 1fr; } }
-  @media (max-width: 560px) { nav { gap: .5rem; font-size: .85rem; } .lang { padding: .1rem .45rem; } .menu-btn { padding: .4rem .75rem; } }
+  @media (max-width: 560px) { nav { gap: .5rem; font-size: .85rem; } .menu-btn { padding: .4rem .75rem; } }
 </style>

@@ -38,6 +38,10 @@ export const ui = {
     'home.lead':
       'Demleme yöntemleri, adım adım tarifler ve gerçekten işe yarayan ekipman önerileri. Kısa, net, abartısız.',
     'home.latest': 'Son rehberler',
+    'post.new': 'Yeni',
+    'home.quizTitle': 'Hangi kahve makinesi sana uygun?',
+    'home.quizText': '6 kısa soruya cevap ver; içtiğin kahveye, bütçene ve ne kadar uğraşmak istediğine göre sana en uygun makineyi bul.',
+    'home.quizCta': 'Teste başla',
     'home.cta': 'Oran hesaplayıcıyı dene',
     'post.updated': 'Güncellendi',
     'post.readingTime': 'dk okuma',
@@ -109,6 +113,10 @@ export const ui = {
     'home.lead':
       'Zubereitungsmethoden, einfache Rezepte und Empfehlungen für Zubehör, das wirklich hält, was es verspricht. Kurz, klar, ohne Hype.',
     'home.latest': 'Neueste Ratgeber',
+    'post.new': 'Neu',
+    'home.quizTitle': 'Welche Kaffeemaschine passt zu dir?',
+    'home.quizText': 'Beantworte 6 kurze Fragen und finde die passende Maschine – je nach Getränk, Budget und Aufwand.',
+    'home.quizCta': 'Test starten',
     'home.cta': 'Kaffee-Rechner ausprobieren',
     'post.updated': 'Aktualisiert',
     'post.readingTime': 'Min. Lesezeit',
@@ -178,6 +186,10 @@ export const ui = {
     'home.lead':
       'Brew methods, step-by-step recipes and gear recommendations that actually hold up. Short, clear, no hype.',
     'home.latest': 'Latest guides',
+    'post.new': 'New',
+    'home.quizTitle': 'Which coffee maker is right for you?',
+    'home.quizText': 'Answer 6 quick questions to find the best machine for what you drink, your budget and how much effort you want.',
+    'home.quizCta': 'Start the quiz',
     'home.cta': 'Try the ratio calculator',
     'post.updated': 'Updated',
     'post.readingTime': 'min read',

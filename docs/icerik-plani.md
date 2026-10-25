@@ -178,6 +178,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 44 | Ramazan'da kahve: iftar ve sahurda kahve (kafein ve uyku) | Mevsimsel TR + DE Türk topluluğu | TR + DE | Ramazan'dan 4 hafta önce |
 | 45 | ✅ Kahve makinesi günlük temizliği (kireç dışında) | Bakım ürünlerine link | 3 dil | Mart |
 | 46 | ✅ Kahvede ne kadar kafein var? (yöntemlere göre tablo, sağlık tavsiyesi vermeden) | Çok aranan bilgi | 3 dil | Mart |
+| 47 | ✅ Türk kahvesi fincan takımı seçimi (porselen, zarflı, kaç kişilik) | Hediye dönemi, TR'de çok aranır | 3 dil | Kasım–Aralık |
 
 Notlar:
 - Sağlık konularında tıbbi tavsiye verilmez; genel bilgi ve "doktoruna danış" notu eklenir.

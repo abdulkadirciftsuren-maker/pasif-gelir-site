@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Terazinin üstünde bir espresso fincanı, içine akan espresso, yanında portafiltre ve tamper; terazide 36 g ve 28 saniye yazıyor">
+<rect width="640" height="360" fill="#f3e6d3"/>
+<circle cx="120" cy="70" r="120" fill="#ead6bc"/>
+<rect y="292" width="640" height="68" fill="#8a5a3c"/>
+<g stroke="#6e4630" stroke-width="2" opacity=".5"><path d="M0 312 H640 M0 338 H640"/></g>
+<!-- makine üst kısmı ve grup başlığı -->
+<rect x="200" y="0" width="240" height="70" fill="#b8c2c7"/>
+<rect x="200" y="60" width="240" height="12" fill="#8f9aa0"/>
+<rect x="276" y="72" width="88" height="22" rx="4" fill="#5b6870"/>
+<!-- portafiltre takılı -->
+<rect x="282" y="94" width="76" height="22" rx="6" fill="#2f3a40"/>
+<path d="M356 104 h110" stroke="#2f3a40" stroke-width="14" stroke-linecap="round"/>
+<g fill="#5b6870"><rect x="300" y="116" width="10" height="12"/><rect x="330" y="116" width="10" height="12"/></g>
+<!-- akış -->
+<path d="M305 128 q2 50 8 92" stroke="#7a3e18" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M335 128 q-2 50 -8 92" stroke="#7a3e18" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- terazi -->
+<rect x="236" y="262" width="168" height="30" rx="6" fill="#2f3a40"/>
+<rect x="250" y="270" width="140" height="16" rx="3" fill="#7fc4d6"/>
+<text x="286" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#1d2b30">36.0 g</text>
+<text x="356" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#1d2b30">0:28</text>
+<!-- fincan -->
+<g transform="translate(284 210)">
+<path d="M0 6 h72 l-6 40 q-2 8 -10 8 h-40 q-8 0 -10 -8 z" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/>
+<path d="M72 14 q20 2 16 18 q-3 10 -18 8" fill="none" stroke="#c9b9a2" stroke-width="5"/>
+<ellipse cx="36" cy="6" rx="36" ry="6" fill="#c98a52"/>
+<ellipse cx="36" cy="6" rx="26" ry="3.5" fill="#d9a46a"/>
+</g>
+<!-- tamper -->
+<g transform="translate(470 196)">
+<ellipse cx="30" cy="94" rx="34" ry="8" fill="#5b6870"/>
+<rect x="-4" y="70" width="68" height="24" fill="#aab4ba"/>
+<ellipse cx="30" cy="70" rx="34" ry="8" fill="#c9d1d5"/>
+<path d="M18 70 q-2 -30 4 -46 q8 -20 16 0 q6 16 4 46 z" fill="#8a5a3c"/>
+<circle cx="30" cy="16" r="16" fill="#8a5a3c"/>
+</g>
+<!-- çekirdekler -->
+<g fill="#5a3218">
+<g transform="translate(90 274) rotate(20)"><ellipse rx="11" ry="8"/><path d="M-9 0 q9 -3 18 0" stroke="#3a1e0e" stroke-width="1.5" fill="none"/></g>
+<g transform="translate(116 282) rotate(-25)"><ellipse rx="11" ry="8"/><path d="M-9 0 q9 -3 18 0" stroke="#3a1e0e" stroke-width="1.5" fill="none"/></g>
+<g transform="translate(102 258) rotate(60)"><ellipse rx="11" ry="8"/><path d="M-9 0 q9 -3 18 0" stroke="#3a1e0e" stroke-width="1.5" fill="none"/></g>
+<g transform="translate(138 270) rotate(10)"><ellipse rx="11" ry="8"/><path d="M-9 0 q9 -3 18 0" stroke="#3a1e0e" stroke-width="1.5" fill="none"/></g>
+</g>
+</svg>

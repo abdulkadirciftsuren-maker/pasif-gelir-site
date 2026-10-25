@@ -182,6 +182,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 48 | ✅ Moka pot mu, French press mi, V60 mı? (karşılaştırma + kısa test) | Kararsız okuru ürüne yönlendirir | 3 dil | Kasım |
 | 49 | ✅ Kapsül makinesi mi, tam otomatik mi? (maliyet hesabı) | Pahalı makine, yüksek komisyon | 3 dil | Kasım |
 | 50 | ✅ Espresso makinesi mi, tam otomatik mi? (DE: Siebträger oder Vollautomat) | DE'de çok aranır, pahalı ürün | 3 dil | Kasım |
+| 51 | ✅ Evde espresso nasıl yapılır? (oran, dial-in, sorun çözme) | Makine alanların ilk sorusu; terazi/tamper linki | 3 dil | Kasım |
 
 Notlar:
 - Sağlık konularında tıbbi tavsiye verilmez; genel bilgi ve "doktoruna danış" notu eklenir.

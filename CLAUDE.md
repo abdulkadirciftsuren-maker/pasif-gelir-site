@@ -24,7 +24,7 @@
 
 ## Gelir hesapları (durum)
 - Amazon.de PartnerNet: `fincanla-21` (Almanca sayfalar + Türkçe sayfalardaki "Amazon.de'de gör" düğmeleri).
-- Amazon.com Associates: `fincanla-20` (İngilizce sayfalar). 23.10.2026'da başvuruldu; 180 gün içinde 3 nitelikli satış gerekir (~21.04.2027), olmazsa yeniden başvurulabilir. Ödeme/vergi (W-8BEN) bilgileri henüz girilmedi; kullanıcı kendisi girecek.
+- Amazon.com Associates: `fincanla-20` (İngilizce sayfalar). 23.10.2026'da başvuruldu; 180 gün içinde 3 nitelikli satış gerekir (~21.04.2027), olmazsa yeniden başvurulabilir. ABD vergi formu (W-8BEN, bireysel, hizmetler ABD dışında) 25.10.2026'da gönderildi ve doğrulandı: kesinti oranı %0. Kanada vergi durumu ve ödeme yöntemi (IBAN) kontrol edilecek.
 - Amazon.com.tr: yalnızca Türkiye'de ikamet edenlere açık, kullanıcı başvuramıyor.
 - Google AdSense: `ca-pub-3936992976474644`, site 23.10.2026'da incelemeye gönderildi. Onay gelince AdSense → "Datenschutz und Mitteilungen" altında Avrupa (DSGVO) izin mesajı kurulacak; altbilgideki "Çerez ayarları" düğmesi bu araca bağlı.
-- Kullanıcı ~2 Kasım 2026'da otelden taşınıyor: Impressum (src/config.ts), AdSense ve Amazon adreslerini güncelle.
+- Kullanıcı ~2 Kasım 2026'da otelden taşınıyor: Impressum (src/config.ts), AdSense ve Amazon adreslerini güncelle. Amazon.com'da W-8BEN adresi de 30 gün içinde yeni formla güncellenmeli.

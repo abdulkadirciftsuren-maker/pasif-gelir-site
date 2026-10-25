@@ -6,6 +6,9 @@
 - Kullanıcı Almanya'da (Bad Tölz) yaşıyor; Türkçe, Almanca ve İngilizce siteleri var.
 - PR'leri main'e birleştirip yayına alma izni kalıcı olarak verildi ("bundan sonra sorma"); ama her seferinde ne değiştiğini anlat.
 
+## İçerik kuralı
+- Kullanıcı isteği: aynı konuda fazladan yazı yazma. Yeni yazıdan önce mevcut yazılarda konu (bölüm olarak bile) var mı kontrol et; varsa yeni yazı açmak yerine o yazıyı genişlet.
+
 ## Kullanıcının diğer projeleri (dokunma)
 - **Gloxorg.com** (GLOXORG – "The World's Platform"): kullanıcının kendi platformu; ilanlar, sanal ayna, AI sohbet vb. Kullanıcının bu tür platformlarda tecrübesi var.
 - Cloudflare ve Namecheap hesabında gloxorg-ai, gloxorg-adres, gloxoo gibi başka projeler var. Bunlara asla dokunma; sadece "fincanla" ile başlayan kaynakları kullan.

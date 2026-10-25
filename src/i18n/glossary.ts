@@ -92,6 +92,12 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Yarılanma ömrü (kafein)', m: ['yarılanma ömr'], d: 'Vücuttaki kafeinin yarısının atılması için geçen süre; yetişkinlerde ortalama 3–6 saat.' },
     { t: 'EFSA', m: ['efsa'], d: 'Avrupa Gıda Güvenliği Otoritesi; gıda güvenliği konusunda AB’ye bilimsel görüş veren kurum.' },
     { t: 'Biyofilm', m: ['biyofilm'], d: 'Islak yüzeylerde bakterilerin oluşturduğu kaygan tabaka; su haznesinde ve süt hortumunda birikebilir.' },
+    { t: 'Yıkanmış işleme (washed)', m: ['washed', 'yıkanmış işlem', 'yıkanmış kahve'], d: 'Kahve meyvesinin eti suyla ayrılıp çekirdeğin kurutulduğu yöntem; temiz, berrak ve asiditesi belirgin tatlar verir.' },
+    { t: 'Natural işleme (kuru işleme)', m: ['natural işlem', 'kuru işlem'], d: 'Kahve meyvesinin bütün olarak güneşte kurutulduğu yöntem; meyvemsi, tatlı ve yoğun tatlar verir.' },
+    { t: 'Honey işleme', m: ['honey işlem'], d: 'Meyve etinin bir kısmı çekirdekte bırakılarak kurutulur; tatlı ve dengeli, yıkanmış ile natural arası bir tat.' },
+    { t: 'Varyete', m: ['varyete'], d: 'Kahve bitkisinin çeşidi (ör. Bourbon, Typica, Geisha); tadı etkiler.' },
+    { t: 'Mikro lot', m: ['mikro lot'], d: 'Tek bir çiftliğin belirli bir parselinden gelen, ayrı işlenen küçük ve özel kahve partisi.' },
+    { t: 'Omni kavrum', m: ['omni'], d: 'Hem filtre hem espresso için uygun olacak şekilde kavrulmuş kahve.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -185,6 +191,12 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Halbwertszeit (Koffein)', m: ['halbwertszeit'], d: 'Zeit, bis die Hälfte des Koffeins im Körper abgebaut ist; bei Erwachsenen im Schnitt 3–6 Stunden.' },
     { t: 'EFSA', m: ['efsa'], d: 'Europäische Behörde für Lebensmittelsicherheit; berät die EU wissenschaftlich zu Lebensmittelsicherheit.' },
     { t: 'Biofilm', m: ['biofilm'], d: 'Schmieriger Belag aus Bakterien auf feuchten Flächen; bildet sich gern im Wassertank und im Milchschlauch.' },
+    { t: 'Gewaschen (Washed)', m: ['gewaschene', 'washed'], d: 'Das Fruchtfleisch wird mit Wasser entfernt, dann wird die Bohne getrocknet; klare, saubere Kaffees mit deutlicher Säure.' },
+    { t: 'Natural (Trockenaufbereitung)', m: ['natural-aufbereit', 'trockenaufbereit'], d: 'Die ganze Kaffeekirsche trocknet in der Sonne; fruchtige, süße, intensive Kaffees.' },
+    { t: 'Honey-Aufbereitung', m: ['honey-aufbereit'], d: 'Ein Teil des Fruchtfleischs bleibt beim Trocknen an der Bohne; süß und ausgewogen, zwischen Washed und Natural.' },
+    { t: 'Varietät', m: ['varietät'], d: 'Sorte der Kaffeepflanze (z. B. Bourbon, Typica, Geisha); beeinflusst den Geschmack.' },
+    { t: 'Microlot', m: ['microlot', 'mikrolot'], d: 'Kleine, separat verarbeitete Partie von einer bestimmten Parzelle einer Farm.' },
+    { t: 'Omni-Röstung', m: ['omni'], d: 'Röstung, die sich sowohl für Filter als auch für Espresso eignet.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -272,6 +284,12 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Half-life (caffeine)', m: ['half-life'], d: 'The time it takes your body to clear half of the caffeine; on average 3–6 hours in adults.' },
     { t: 'EFSA', m: ['efsa'], d: 'The European Food Safety Authority, which gives the EU scientific advice on food safety.' },
     { t: 'Biofilm', m: ['biofilm'], d: 'A slimy layer of bacteria on wet surfaces; it builds up in water tanks and milk tubes.' },
+    { t: 'Washed process', m: ['washed process', 'washed coffee'], d: 'The fruit is removed with water before the bean dries; gives clean, bright coffees with clear acidity.' },
+    { t: 'Natural process', m: ['natural process', 'naturals'], d: 'The whole coffee cherry dries in the sun; gives fruity, sweet, intense coffees.' },
+    { t: 'Honey process', m: ['honey process'], d: 'Some of the fruit stays on the bean as it dries; sweet and balanced, between washed and natural.' },
+    { t: 'Varietal', m: ['varietal'], d: 'The variety of coffee plant (e.g. Bourbon, Typica, Geisha); it affects the taste.' },
+    { t: 'Micro-lot', m: ['micro-lot', 'microlot'], d: 'A small batch from a specific plot of one farm, processed separately.' },
+    { t: 'Omni roast', m: ['omni roast', 'omni-roast'], d: 'A roast designed to work for both filter and espresso.' },
   ],
 };
 

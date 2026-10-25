@@ -79,6 +79,8 @@ Am besten zeigen ihn:
 
 **Eher nicht nötig, wenn:** du Kaffee mit viel Milch und Sirup trinkst oder vorgemahlenen Kaffee wochenlang offen lagerst. Dann tut es auch ein guter mittlerer Supermarktkaffee.
 
+**Wo kaufen?** Rösterei, Online-Shop, Abo und wie man die Tüte liest: [Specialty Coffee kaufen](/de/specialty-coffee-kaufen/).
+
 ## Häufige Fragen
 
 **Warum ist Specialty Coffee teurer?** Selektiv gepflückte Kirschen, sorgfältige Verarbeitung, kleine Mengen und meist fairere Preise für die Farmer.

@@ -79,6 +79,8 @@ These methods show it off best:
 
 **Probably not needed, if:** you drink coffee with lots of milk and syrup, or keep pre-ground coffee open for weeks. A good medium-roast supermarket coffee will do.
 
+**Where to buy it?** Roasters, online shops, subscriptions and how to read the bag: [where to buy specialty coffee](/en/where-to-buy-specialty-coffee/).
+
 ## FAQ
 
 **Why is specialty coffee more expensive?** Hand-selected cherries, careful processing, small lots and usually fairer prices for farmers.

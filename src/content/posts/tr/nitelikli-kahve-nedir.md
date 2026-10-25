@@ -83,6 +83,8 @@ Nitelikli kahvenin tadını en iyi gösteren yöntemler:
 
 Olabilir. Bazı kavurucular nitelikli çekirdekleri Türk kahvesi için öğütüyor. Ama Türk kahvesinin çok ince öğütülmesi ve pişirilmesi, açık kavrumların ince tatlarını daha az belirgin hale getirebilir. Türk kahvesi için taze ve orta kavrum çekirdek seçmek genelde daha önemlidir. Bkz. [Türk kahvesi nasıl seçilir](/turk-kahvesi-nasil-secilir/).
 
+**Nereden alacağını mı merak ediyorsun?** Kavurucu, online, abonelik ve paketteki bilgileri okuma: [nitelikli kahve nereden alınır](/nitelikli-kahve-nereden-alinir/).
+
 ## Sık sorulan sorular
 
 **Nitelikli kahve neden daha pahalı?** Seçilerek toplanan kirazlar, dikkatli işleme, küçük üretim ve çiftçiye daha adil ödeme fiyatı artırır.

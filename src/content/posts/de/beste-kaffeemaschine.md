@@ -43,6 +43,8 @@ Die eine „beste Kaffeemaschine“ gibt es nicht: Was für den Filterkaffee-Tri
 
 > **Kurz gesagt:** Trinkst du vor allem **schwarzen Kaffee**, bekommst du mit einer guten **Filterkaffeemaschine** am meisten Geschmack fürs Geld. Für **Tempo und Sauberkeit** die **Kapselmaschine**, für tägliche **Milchgetränke** den **Kaffeevollautomaten**, für Genießer mit Spaß am Handwerk **Siebträger + Mühle**. Wer türkischen Kaffee liebt, nimmt am bequemsten eine **türkische Kaffeemaschine**.
 
+🧭 **Noch unentschlossen?** Mach unseren Test mit 6 Fragen: [Welche Kaffeemaschine passt zu mir?](/de/welche-kaffeemaschine-passt-zu-mir/)
+
 ## Zuerst 3 Fragen an dich
 
 1. **Was trinkst du?** Filterkaffee, Espresso, Cappuccino oder türkischen Kaffee? Damit ist die halbe Entscheidung schon getroffen.

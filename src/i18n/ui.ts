@@ -23,6 +23,7 @@ export const ui = {
       'Evde kahve demleme rehberleri, tarifler ve bağımsız ekipman karşılaştırmaları. Reklam kokan listeler değil, denenmiş yöntemler.',
     'nav.guides': 'Rehberler',
     'nav.tools': 'Oran Hesaplayıcı',
+    'nav.quiz': 'Hangi makine bana uygun?',
     'nav.cafeCalc': 'Kafe Maliyet Hesaplayıcı',
     'nav.cafeSection': 'Kafe açacaklar için',
     'nav.cafeGuide': 'Kafe açmak rehberi',
@@ -93,6 +94,7 @@ export const ui = {
       'Anleitungen zur Kaffeezubereitung zu Hause, Rezepte und unabhängige Vergleiche von Kaffeezubehör. Erprobte Methoden statt Werbelisten.',
     'nav.guides': 'Ratgeber',
     'nav.tools': 'Kaffee-Rechner',
+    'nav.quiz': 'Welche Maschine passt zu mir?',
     'nav.cafeCalc': 'Café-Kalkulator',
     'nav.cafeSection': 'Für Café-Gründer',
     'nav.cafeGuide': 'Café eröffnen',
@@ -161,6 +163,7 @@ export const ui = {
       'Home coffee brewing guides, recipes and independent gear comparisons. Tested methods, not ad-stuffed lists.',
     'nav.guides': 'Guides',
     'nav.tools': 'Ratio Calculator',
+    'nav.quiz': 'Which coffee maker suits me?',
     'nav.cafeCalc': 'Coffee Shop Cost Calculator',
     'nav.cafeSection': 'Opening a café',
     'nav.cafeGuide': 'How to open a coffee shop',
@@ -236,6 +239,7 @@ export const staticPages = {
   cafeMenu: { tr: '/kafe-menu-fiyatlandirma/', en: '/en/coffee-shop-menu-pricing/', de: '/de/cafe-preise-kalkulieren/' },
   cafeSupply: { tr: '/kafe-kahve-tedariki/', en: '/en/coffee-supplier-for-cafe/', de: '/de/kaffee-fuer-cafe-roesterei/' },
   cafeCalculator: { tr: '/kafe-maliyet-hesaplayici/', en: '/en/coffee-shop-cost-calculator/', de: '/de/cafe-kalkulator/' },
+  machineQuiz: { tr: '/kahve-makinesi-testi/', en: '/en/coffee-maker-quiz/', de: '/de/welche-kaffeemaschine-passt-zu-mir/' },
   imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/' },
 } as const;
 

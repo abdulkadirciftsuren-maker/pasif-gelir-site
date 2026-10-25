@@ -11,7 +11,9 @@ import Greeting from './Greeting.astro';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const posts = await getPosts(lang);
-const latest = posts.slice(0, 4);
+const latest = posts.slice(0, 6);
+// Son 14 günde yayımlanan yazılara "Yeni" etiketi (site her yayında yeniden derlenir)
+const isNew = (d: Date) => Date.now() - d.valueOf() < 14 * 24 * 60 * 60 * 1000;
 // Arama kutusu için küçük dizin: başlık, açıklama, kategori adı ve adres
 const searchIndex = posts.map((p) => ({
   t: p.data.title,
@@ -46,17 +48,32 @@ const jsonLd = [
           <input id="q" type="search" placeholder={t(lang, 'search.placeholder')} autocomplete="off" />
           <ul id="results" hidden></ul>
         </form>
-        <a class="btn" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
+        <p class="hero-actions">
+          <a class="btn" href={staticPages.machineQuiz[lang]}>🧭 {t(lang, 'nav.quiz')}</a>
+          <a class="btn alt" href={staticPages.calculator[lang]}>{t(lang, 'home.cta')}</a>
+        </p>
       </div>
       <img src="/img/kapak/turk-kahvesi.svg" alt="" width="640" height="360" fetchpriority="high" />
     </div>
   </section>
 
+  <!-- Test kutusu: her ekranda görünür, okuru makine seçim testine yönlendirir -->
+  <div class="container">
+    <a class="quiz-banner" href={staticPages.machineQuiz[lang]}>
+      <span class="quiz-icon" aria-hidden="true">🧭</span>
+      <span class="quiz-copy">
+        <strong>{t(lang, 'home.quizTitle')}</strong>
+        <span>{t(lang, 'home.quizText')}</span>
+      </span>
+      <span class="btn">{t(lang, 'home.quizCta')} →</span>
+    </a>
+  </div>
+
   <!-- Geniş ekranda iki sütun: solda son rehberler, sağda okur fotoğrafları ve kısa yollar -->
   <div class="container home-main">
     <section class="section" id="rehberler" aria-labelledby="latest">
       <h2 id="latest">{t(lang, 'home.latest')}</h2>
-      <div class="grid">{latest.map((post) => <PostCard post={post} />)}</div>
+      <div class="grid">{latest.map((post) => <PostCard post={post} isNew={isNew(post.data.pubDate)} />)}</div>
     </section>
 
     <aside class="home-side">
@@ -72,6 +89,10 @@ const jsonLd = [
         </p>
       </section>
       <div class="side-extra">
+        <a class="promo quiz" href={staticPages.machineQuiz[lang]}>
+          <strong>🧭 {t(lang, 'nav.quiz')}</strong>
+          <span>{t(lang, 'home.quizCta')} →</span>
+        </a>
         <a class="promo" href={staticPages.calculator[lang]}>
           <strong>{t(lang, 'aside.calcTitle')}</strong>
           <span>{t(lang, 'aside.calcText')}</span>
@@ -191,6 +212,21 @@ const jsonLd = [
   .search :global(.empty) { padding: .6rem .8rem; color: #7a6a60; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .hero .btn { background: var(--warm); color: var(--espresso); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 0; }
+  .hero .btn.alt { background: transparent; color: var(--cream); border: 2px solid rgba(255, 255, 255, .35); }
+  .quiz-banner { display: flex; align-items: center; gap: 1.25rem; margin: 2rem 0 .5rem; padding: 1.25rem 1.5rem; border-radius: var(--radius); background: linear-gradient(120deg, #fdf0e3 0%, #f7dcc4 100%); border: 2px solid var(--warm); color: var(--text); text-decoration: none; transition: transform .15s; }
+  .quiz-banner:hover { transform: translateY(-2px); }
+  .quiz-icon { font-size: 2.6rem; line-height: 1; }
+  .quiz-copy { display: grid; gap: .25rem; flex: 1; }
+  .quiz-copy strong { font: 700 1.35rem var(--serif); color: var(--espresso); }
+  .quiz-copy span { color: #5a4636; }
+  .quiz-banner .btn { flex: none; }
+  @media (prefers-color-scheme: dark) {
+    .quiz-banner { background: linear-gradient(120deg, #3a2a22 0%, #4a3226 100%); }
+    .quiz-copy strong { color: #fbe9d7; }
+    .quiz-copy span { color: #e2d3c4; }
+  }
+  @media (max-width: 640px) { .quiz-banner { flex-wrap: wrap; } .quiz-icon { font-size: 2rem; } .quiz-banner .btn { width: 100%; text-align: center; } }
   .hero img { width: 100%; border-radius: 20px; box-shadow: 0 24px 50px -20px rgba(0, 0, 0, .6); }
   .section { padding: 1rem 0 2rem; }
   .community { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: var(--accent-soft); border-radius: var(--radius); padding: 1.5rem 1.75rem; }
@@ -223,6 +259,8 @@ const jsonLd = [
     .promo strong { font: 700 1.1rem var(--serif); color: #fff; }
     .promo span { opacity: .85; font-size: .95rem; }
     .promo:hover { filter: brightness(1.15); }
+    .promo.quiz { background: var(--warm); color: var(--espresso); }
+    .promo.quiz strong { color: var(--espresso); }
     .topics { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; }
     .topics p { margin: 0 0 .5rem; font-size: .8rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
     .topics ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .35rem; }

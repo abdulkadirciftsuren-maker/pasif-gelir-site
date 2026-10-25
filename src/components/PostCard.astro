@@ -2,14 +2,17 @@
 import { postLang, postUrl, readingMinutes, type Post } from '../lib';
 import { t } from '../i18n/ui';
 
-interface Props { post: Post }
-const { post } = Astro.props;
+interface Props { post: Post; isNew?: boolean }
+const { post, isNew = false } = Astro.props;
 const lang = postLang(post);
 ---
 
 <a class={`card cat-${post.data.category}`} href={postUrl(post)}>
   {post.data.cover && <img class="cover" src={post.data.cover} alt="" width="640" height="360" loading="lazy" decoding="async" />}
-  <span class="chip">{t(lang, `cat.${post.data.category}`)}</span>
+  <span class="chips">
+    <span class="chip">{t(lang, `cat.${post.data.category}`)}</span>
+    {isNew && <span class="new">{t(lang, 'post.new')}</span>}
+  </span>
   <h3>{post.data.title}</h3>
   <p>{post.data.description}</p>
   <span class="muted meta">{readingMinutes(post.body)} {t(lang, 'post.readingTime')}</span>
@@ -23,7 +26,8 @@ const lang = postLang(post);
   }
   .card:hover { transform: translateY(-3px); border-color: var(--cat); box-shadow: 0 10px 24px -14px var(--cat); }
   .cover { margin: -1.25rem -1.25rem .5rem; width: calc(100% + 2.5rem); max-width: none; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; }
-  .chip { align-self: flex-start; }
+  .chips { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+  .new { font-size: .75rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #fff; background: #c4562f; border-radius: 999px; padding: .15rem .6rem; }
   h3 { margin: .3rem 0 0; font-size: 1.3rem; }
   p { margin: 0; color: var(--muted); font-size: 1rem; flex: 1; }
   .meta { font-size: .85rem; }

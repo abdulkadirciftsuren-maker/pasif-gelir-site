@@ -101,6 +101,7 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Mikron (µm)', m: ['mikron'], d: 'Milimetrenin binde biri. Öğütme inceliği mikronla ölçülür; Türk kahvesi yaklaşık 100–200 mikron, espresso 200–300 mikron civarındadır.' },
     { t: 'Zarf', m: ['zarf', 'zarflı'], d: 'Kulpsuz Türk kahvesi fincanının konduğu işlemeli metal (gümüş, pirinç, bakır) tutacak; Osmanlı döneminden kalma bir gelenek.' },
     { t: 'Bone china (kemik porseleni)', m: ['bone china', 'kemik porseleni'], d: 'Kemik külü katılarak yapılan çok ince, hafif, dayanıklı ve ışığı geçiren porselen.' },
+    { t: 'Dial-in (espresso ayarı)', m: ['dial-in'], d: 'Yeni bir kahve için öğütme, doz ve oranı deneyerek espressoyu en iyi tada getirme.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -180,7 +181,7 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Dosierring', m: ['dosierring'], d: 'Ring, der auf den Siebträger gesetzt wird, damit beim Mahlen und Verteilen nichts danebengeht.' },
     { t: 'Channeling', m: ['channeling'], d: 'Das Wasser fließt nicht gleichmäßig durch den Kaffee, sondern durch Schwachstellen; der Espresso schmeckt sauer und bitter zugleich.' },
     { t: 'Blindsieb', m: ['blindsieb'], d: 'Sieb ohne Löcher, mit dem die Brühgruppe rückgespült wird.' },
-    { t: 'Vakuumisolierung', m: ['vakuumisol', 'doppelwandig'], d: 'Zwischen zwei Edelstahlwänden ist ein Vakuum, das kaum Wärme durchlässt – das Geheimnis guter Thermobecher.' },
+    { t: 'Vakuumisolierung', m: ['vakuumisol'], d: 'Zwischen zwei Edelstahlwänden ist ein Vakuum, das kaum Wärme durchlässt – das Geheimnis guter Thermobecher.' },
     { t: 'Mehrwegangebotspflicht', m: ['mehrwegangebot'], d: 'Seit 2023 müssen viele Betriebe, die To-go-Getränke verkaufen, auch eine Mehrweg-Alternative anbieten.' },
     { t: 'Long Black', m: ['long black'], d: 'Erst heißes Wasser, dann Espresso darauf – die Crema bleibt erhalten.' },
     { t: 'Piccolo', m: ['piccolo'], d: 'Ristretto mit wenig seidiger Milch in einem kleinen Glas.' },
@@ -203,6 +204,7 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Mikrometer (µm)', m: ['mikrometer', 'mikron'], d: 'Ein Tausendstel Millimeter. Der Mahlgrad wird in µm angegeben; Mokka liegt bei etwa 100–200 µm, Espresso bei 200–300 µm.' },
     { t: 'Zarf', m: ['zarf'], d: 'Verzierter Metallhalter (Silber, Messing, Kupfer) für die henkellose türkische Mokkatasse; Tradition aus osmanischer Zeit.' },
     { t: 'Bone China', m: ['bone china'], d: 'Sehr dünnes, leichtes und robustes Porzellan mit Knochenasche; leicht lichtdurchlässig.' },
+    { t: 'Dial-in', m: ['dial-in'], d: 'Mahlgrad, Dosis und Verhältnis für eine neue Bohne so lange anpassen, bis der Espresso am besten schmeckt.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -299,6 +301,7 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Micron (µm)', m: ['micron'], d: 'One thousandth of a millimeter. Grind size is measured in microns; Turkish coffee is about 100–200 µm, espresso about 200–300 µm.' },
     { t: 'Zarf', m: ['zarf'], d: 'An ornate metal holder (silver, brass or copper) for a handleless Turkish coffee cup; a tradition from Ottoman times.' },
     { t: 'Bone china', m: ['bone china'], d: 'Very thin, light, strong porcelain made with bone ash; slightly translucent.' },
+    { t: 'Dial-in', m: ['dial-in', 'dialing in'], d: 'Adjusting grind, dose and ratio for a new coffee until the espresso tastes its best.' },
   ],
 };
 

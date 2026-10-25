@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Yan yana bir moka pot, bir French press ve bir V60 demleyici; önlerinde üç fincan kahve">
+<rect width="640" height="360" fill="#e8efe9"/>
+<circle cx="320" cy="60" r="140" fill="#d6e4da"/>
+<rect y="292" width="640" height="68" fill="#8a5a3c"/>
+<g stroke="#6e4630" stroke-width="2" opacity=".5"><path d="M0 312 H640 M0 338 H640"/></g>
+<!-- moka pot -->
+<g transform="translate(70 110)">
+<path d="M22 0 h86 l-2 10 h-82 z" fill="#5b6870"/>
+<ellipse cx="65" cy="0" rx="10" ry="5" fill="#2f3a40"/>
+<path d="M18 10 h94 l-14 68 h-66 z" fill="#aab4ba"/>
+<path d="M28 16 l8 56" stroke="#dfe5e8" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<path d="M30 78 h70 l2 8 h-74 z" fill="#5b6870"/>
+<path d="M28 86 h74 l16 96 h-106 z" fill="#aab4ba"/>
+<path d="M34 92 l-8 84" stroke="#dfe5e8" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<path d="M102 20 q36 6 30 44 l-8 4" fill="none" stroke="#2f3a40" stroke-width="10" stroke-linecap="round"/>
+<path d="M20 16 l-12 -8" stroke="#aab4ba" stroke-width="8" stroke-linecap="round"/>
+</g>
+<!-- French press -->
+<g transform="translate(250 92)">
+<rect x="56" y="-14" width="6" height="24" fill="#2f3a40"/>
+<circle cx="59" cy="-18" r="8" fill="#2f3a40"/>
+<rect x="10" y="10" width="98" height="12" rx="4" fill="#2f3a40"/>
+<rect x="14" y="22" width="90" height="168" rx="6" fill="#d7ecf2" opacity=".85" stroke="#6f8f99" stroke-width="2"/>
+<rect x="18" y="70" width="82" height="116" rx="4" fill="#5a3218"/>
+<rect x="18" y="62" width="82" height="10" fill="#b77a48"/>
+<path d="M18 50 h82" stroke="#6f8f99" stroke-width="4"/>
+<path d="M28 30 v150" stroke="#fff" stroke-width="5" opacity=".6" stroke-linecap="round"/>
+<path d="M104 40 q30 4 26 50 q-2 40 -26 44" fill="none" stroke="#2f3a40" stroke-width="10" stroke-linecap="round"/>
+<rect x="8" y="188" width="102" height="8" rx="3" fill="#2f3a40"/>
+</g>
+<!-- V60 on a carafe -->
+<g transform="translate(440 96)">
+<path d="M0 0 h110 l-34 72 h-42 z" fill="#c4562f"/>
+<g stroke="#a8461f" stroke-width="2"><path d="M22 6 l22 60"/><path d="M55 6 v62"/><path d="M88 6 l-22 60"/></g>
+<path d="M6 0 h98 l-4 6 h-90 z" fill="#f6efe6"/>
+<rect x="28" y="72" width="54" height="8" rx="3" fill="#c4562f"/>
+<path d="M110 14 q18 4 10 26 l-14 4" fill="none" stroke="#c4562f" stroke-width="8" stroke-linecap="round"/>
+<path d="M24 80 h62 q22 30 22 70 q0 34 -20 46 h-66 q-20 -12 -20 -46 q0 -40 22 -70 z" fill="#d7ecf2" opacity=".85" stroke="#6f8f99" stroke-width="2"/>
+<path d="M10 150 q0 34 18 46 h54 q18 -12 18 -46 z" fill="#8a4a22" opacity=".85"/>
+<path d="M30 96 q-12 30 -10 80" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/>
+</g>
+<!-- fincanlar -->
+<g fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2">
+<g transform="translate(150 304)"><ellipse cx="30" cy="30" rx="44" ry="8" fill="#e9e2d6"/><path d="M6 4 h48 l-4 22 q-2 6 -8 6 h-24 q-6 0 -8 -6 z"/><ellipse cx="30" cy="4" rx="24" ry="4" fill="#3a1e0e"/></g>
+<g transform="translate(330 304)"><ellipse cx="30" cy="30" rx="44" ry="8" fill="#e9e2d6"/><path d="M6 4 h48 l-4 22 q-2 6 -8 6 h-24 q-6 0 -8 -6 z"/><ellipse cx="30" cy="4" rx="24" ry="4" fill="#5a3218"/></g>
+<g transform="translate(510 304)"><ellipse cx="30" cy="30" rx="44" ry="8" fill="#e9e2d6"/><path d="M6 4 h48 l-4 22 q-2 6 -8 6 h-24 q-6 0 -8 -6 z"/><ellipse cx="30" cy="4" rx="24" ry="4" fill="#8a4a22"/></g>
+</g>
+</svg>

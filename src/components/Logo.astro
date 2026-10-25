@@ -28,6 +28,8 @@ const { lang } = Astro.props;
   .name { font: italic 700 1.7rem/1 var(--serif); letter-spacing: -.01em; }
   .name small { font: 400 .55rem var(--sans); font-style: normal; opacity: .65; margin-left: .1rem; vertical-align: super; letter-spacing: .02em; }
   .slogan { font: .72rem var(--sans); letter-spacing: .18em; text-transform: uppercase; opacity: .7; }
+  /* Çok dar ekranlarda (ör. 320 px) slogan gizlenir, üst çubuk sığsın */
+  @media (max-width: 359px) { .slogan, .cup { display: none; } }
   @media (max-width: 560px) {
     .cup { width: 30px; height: 30px; }
     .name { font-size: 1.35rem; }

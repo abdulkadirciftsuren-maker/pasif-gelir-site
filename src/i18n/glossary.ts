@@ -99,6 +99,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Mikro lot', m: ['mikro lot'], d: 'Tek bir çiftliğin belirli bir parselinden gelen, ayrı işlenen küçük ve özel kahve partisi.' },
     { t: 'Omni kavrum', m: ['omni'], d: 'Hem filtre hem espresso için uygun olacak şekilde kavrulmuş kahve.' },
     { t: 'Mikron (µm)', m: ['mikron'], d: 'Milimetrenin binde biri. Öğütme inceliği mikronla ölçülür; Türk kahvesi yaklaşık 100–200 mikron, espresso 200–300 mikron civarındadır.' },
+    { t: 'Zarf', m: ['zarf', 'zarflı'], d: 'Kulpsuz Türk kahvesi fincanının konduğu işlemeli metal (gümüş, pirinç, bakır) tutacak; Osmanlı döneminden kalma bir gelenek.' },
+    { t: 'Bone china (kemik porseleni)', m: ['bone china', 'kemik porseleni'], d: 'Kemik külü katılarak yapılan çok ince, hafif, dayanıklı ve ışığı geçiren porselen.' },
   ],
   de: [
     { t: 'AeroPress', m: ['aeropress'], d: 'Leichter Kaffeebereiter, der wie eine Spritze per Handdruck brüht.' },
@@ -199,6 +201,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Microlot', m: ['microlot', 'mikrolot'], d: 'Kleine, separat verarbeitete Partie von einer bestimmten Parzelle einer Farm.' },
     { t: 'Omni-Röstung', m: ['omni'], d: 'Röstung, die sich sowohl für Filter als auch für Espresso eignet.' },
     { t: 'Mikrometer (µm)', m: ['mikrometer', 'mikron'], d: 'Ein Tausendstel Millimeter. Der Mahlgrad wird in µm angegeben; Mokka liegt bei etwa 100–200 µm, Espresso bei 200–300 µm.' },
+    { t: 'Zarf', m: ['zarf'], d: 'Verzierter Metallhalter (Silber, Messing, Kupfer) für die henkellose türkische Mokkatasse; Tradition aus osmanischer Zeit.' },
+    { t: 'Bone China', m: ['bone china'], d: 'Sehr dünnes, leichtes und robustes Porzellan mit Knochenasche; leicht lichtdurchlässig.' },
   ],
   en: [
     { t: 'AeroPress', m: ['aeropress'], d: 'A light, tough brewer that makes coffee by pressing it through like a syringe.' },
@@ -293,6 +297,8 @@ export const glossary: Record<Lang, GlossaryEntry[]> = {
     { t: 'Micro-lot', m: ['micro-lot', 'microlot'], d: 'A small batch from a specific plot of one farm, processed separately.' },
     { t: 'Omni roast', m: ['omni roast', 'omni-roast'], d: 'A roast designed to work for both filter and espresso.' },
     { t: 'Micron (µm)', m: ['micron'], d: 'One thousandth of a millimeter. Grind size is measured in microns; Turkish coffee is about 100–200 µm, espresso about 200–300 µm.' },
+    { t: 'Zarf', m: ['zarf'], d: 'An ornate metal holder (silver, brass or copper) for a handleless Turkish coffee cup; a tradition from Ottoman times.' },
+    { t: 'Bone china', m: ['bone china'], d: 'Very thin, light, strong porcelain made with bone ash; slightly translucent.' },
   ],
 };
 

@@ -12,6 +12,7 @@
 ## Kullanıcının diğer projeleri (dokunma)
 - **Gloxorg.com** (GLOXORG – "The World's Platform"): kullanıcının kendi platformu; ilanlar, sanal ayna, AI sohbet vb. Kullanıcının bu tür platformlarda tecrübesi var.
 - Cloudflare ve Namecheap hesabında gloxorg-ai, gloxorg-adres, gloxoo gibi başka projeler var. Bunlara asla dokunma; sadece "fincanla" ile başlayan kaynakları kullan.
+- **Bebelumo.com** (25.10.2026'da alındı): 0–5 yaş ebeveyn sitesi, ayrı bir depoda ve ayrı bir Claude Code konuşmasında kurulacak. Fincanla konuşmasında ona dokunma.
 
 ## Gizlilik
 - Kullanıcının Steuer-ID, IBAN, kart bilgisi, SMS kodu gibi bilgileri asla repoya ya da siteye yazılmaz.

@@ -2,6 +2,7 @@
 title: "Kaffeemühle kaufen: Welche passt zu dir? (2026)"
 description: "Scheibenmahlwerk oder Schlagmesser? Hand- oder elektrische Kaffeemühle? Ein klarer, unabhängiger Ratgeber für dein Budget und deine Zubereitungsart."
 pubDate: 2026-10-22
+updatedDate: 2026-10-25
 category: ekipman
 translationKey: grinder-guide
 cover: "/img/kapak/ogutucu.svg"
@@ -53,11 +54,19 @@ Trinkst du ein bis zwei Tassen Filterkaffee am Tag, ist eine Handmühle preislic
 
 ## Welcher Mahlgrad für welche Methode?
 
-- **Türkischer Kaffee:** pulverfein wie Mehl. Nicht jede Mühle schafft das – achte ausdrücklich auf die Angabe.
-- **Espresso:** fein, mit sehr genauer Einstellung.
-- **Handfilter / V60:** mittelfein, wie Sand.
-- **Espressokocher:** etwas gröber als Espresso. Mehr dazu in unserer [Espressokocher-Anleitung](/de/espressokocher-anleitung/).
-- **French Press / Cold Brew:** grob, wie Meersalz.
+| Methode | Mahlgrad | Fühlt sich an wie | Brühzeit |
+| --- | --- | --- | --- |
+| **Türkischer Kaffee** | Extrem fein | Mehl, Puderzucker | 3–4 Min. (auf dem Herd) |
+| **Espresso** | Fein | Zwischen Mehl und Zucker | 25–30 Sek. |
+| **Espressokocher** | Fein bis mittel | Feiner Sand (etwas gröber als Espresso) | 4–5 Min. |
+| **AeroPress** | Fein bis mittel | Feiner Sand | 1–2 Min. |
+| **Handfilter / V60** | Mittel | Sand, Kristallzucker | 2,5–3,5 Min. |
+| **Filterkaffeemaschine** | Mittel | Sand | 4–6 Min. |
+| **Chemex** | Mittel bis grob | Grober Sand | 4–5 Min. |
+| **French Press** | Grob | Meersalz | 4 Min. |
+| **Cold Brew** | Sehr grob | Grobes Salz, geschroteter Pfeffer | 12–24 Std. |
+
+**Stimmt der Mahlgrad?** Schmeckt der Kaffee **sauer und wässrig**, **feiner** mahlen; ist er **bitter und trocken**, **gröber** mahlen. Anleitungen: [Espresso](/de/espresso-zubereiten/), [V60](/de/v60-handfilter-anleitung/), [French Press](/de/french-press-anleitung/), [Espressokocher](/de/espressokocher-anleitung/).
 
 **Mühle für türkischen Kaffee gesucht?** Messingmühle und Handmühlen mit Mokka-Stufe: [türkische Kaffeemühle](/de/tuerkische-kaffeemuehle/).
 

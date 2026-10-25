@@ -83,7 +83,7 @@ Google'ın yapay zekâ özetleri ve sohbet botları "X nedir?" türü basit soru
 
 1. **Satın alma niyeti olan yazılara ağırlık:** Makine seçimi, set önerileri, karşılaştırmalar. Satın almak isteyen okur, ürünleri ve bağlantıları görmek için yine de sayfaya tıklar. Komisyon da buradan gelir.
 2. **Deneyim ve yerel bilgi:** Kendi fotoğraflarımız, kendi denemelerimiz, Mardin'in mırrası gibi yöresel konular ve Türkiye'deki markalar ve raflar. Yapay zekânın kendi başına üretemeyeceği şeyler bunlar.
-3. **Araçlar:** Oran hesaplayıcı gibi etkileşimli sayfalar; bir sohbet cevabı bunların yerini tutmaz. İleride yeni araçlar eklenecek (örneğin "hangi kahve makinesi bana uygun?" testi).
+3. **Araçlar:** Oran hesaplayıcı gibi etkileşimli sayfalar; bir sohbet cevabı bunların yerini tutmaz. İleride yeni araçlar eklenecek ("hangi kahve makinesi bana uygun?" testi ✅ eklendi).
 4. **Her bilgi yazısında pratik bir bölüm:** "Markette nasıl anlarsın", "Hangi yöntem için hangisi" gibi uygulamaya dönük kısımlar.
 
 Not: Yapay zekâ özetleri kaynak olarak sitelere bağlantı veriyor. Net, düzenli ve güvenilir yazılar bu kaynaklar arasına girme şansını artırır.

@@ -43,6 +43,8 @@ products:
 
 > **Kısa cevap:** Çoğunlukla **sade kahve** içiyorsan iyi bir **filtre kahve makinesi** en az parayla en çok lezzeti verir. **Hız ve temizlik** istiyorsan **kapsül makinesi**, her gün **sütlü kahve** içiyorsan **tam otomatik makine**, işin keyfini seviyorsan **espresso makinesi + öğütücü**. Türk kahvesi içenler için ayrı bir **Türk kahvesi makinesi** en rahat yol.
 
+🧭 **Kararsız mısın?** 6 soruluk testimizi çöz, sana uygun makine türünü bul: [Hangi kahve makinesi bana uygun?](/kahve-makinesi-testi/)
+
 ## Önce kendine 3 soru sor
 
 1. **Ne içiyorsun?** Sade filtre kahve, espresso, cappuccino ya da Türk kahvesi? Bu soru seçimin yarısıdır.

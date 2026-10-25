@@ -43,6 +43,8 @@ There's no single "best coffee maker": the perfect machine for someone who drink
 
 > **Short answer:** If you mostly drink **black coffee**, a good **drip coffee maker** gives you the most flavor for your money. For **speed and zero mess**, a **capsule machine**; for daily **milk drinks**, a **super-automatic**; if you enjoy the craft, an **espresso machine plus a grinder**. If you love Turkish coffee, a dedicated **Turkish coffee machine** is the easiest way.
 
+🧭 **Still not sure?** Take our 6-question quiz: [Which coffee maker is right for me?](/en/coffee-maker-quiz/)
+
 ## First, ask yourself 3 questions
 
 1. **What do you drink?** Drip coffee, espresso, cappuccino or Turkish coffee? That's half the decision.

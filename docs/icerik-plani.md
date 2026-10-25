@@ -176,7 +176,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 42 | ✅ Ofis için kahve makinesi seçimi | Yüksek tutarlı satış | DE + TR | Şubat |
 | 43 | ✅ Kahvenin tarihi: Osmanlı kahvehaneleri ve kahvenin Avrupa'ya yolculuğu | Kültür, TR ve DE için ilgi çekici, link alma şansı | TR + DE + EN | Şubat |
 | 44 | Ramazan'da kahve: iftar ve sahurda kahve (kafein ve uyku) | Mevsimsel TR + DE Türk topluluğu | TR + DE | Ramazan'dan 4 hafta önce |
-| 45 | Kahve makinesi günlük temizliği (kireç dışında) | Bakım ürünlerine link | 3 dil | Mart |
+| 45 | ✅ Kahve makinesi günlük temizliği (kireç dışında) | Bakım ürünlerine link | 3 dil | Mart |
 | 46 | ✅ Kahvede ne kadar kafein var? (yöntemlere göre tablo, sağlık tavsiyesi vermeden) | Çok aranan bilgi | 3 dil | Mart |
 
 Notlar:

@@ -89,6 +89,8 @@ Wer täglich mehrere Kannen kocht, entkalkt öfter. Bei Vollautomaten lässt sic
 - **Maschine nach Gebrauch abtrocknen lassen** und den Deckel des Tanks offen lassen.
 - **Wasserhärte im Vollautomaten richtig einstellen**, damit die Erinnerung rechtzeitig kommt.
 
+**Reinigen neben dem Entkalken:** Putzplan für Kaffeefett, Milchsystem und Brüheinheit: [Kaffeemaschine reinigen](/de/kaffeemaschine-reinigen/).
+
 ## Häufige Fragen
 
 **Kann ich mit Essig entkalken?** Möglich ist es, empfohlen wird es von den meisten Herstellern nicht. Essig kann Gummidichtungen und Metallteile angreifen, und der Geruch hält sich lange. Zitronensäure oder ein spezieller Entkalker sind die bessere Wahl.

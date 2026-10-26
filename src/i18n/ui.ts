@@ -319,19 +319,19 @@ export function localePath(lang: Lang, path = ''): string {
   return lang === defaultLang ? `/${clean}` : `/${lang}/${clean}`;
 }
 
-/** Sabit sayfaların diller arası karşılıkları (hreflang için). Kafe sayfalarının henüz Rusçası yok; menüde Rusça sürüm olmayan bağlantılar gizlenir. */
+/** Sabit sayfaların diller arası karşılıkları (hreflang için). Menüde o dilde sürümü olmayan bağlantılar gizlenir. */
 export const staticPages = {
   home: { tr: '/', en: '/en/', de: '/de/', ru: '/ru/' },
   about: { tr: '/hakkimizda/', en: '/en/about/', de: '/de/ueber-uns/', ru: '/ru/o-nas/' },
   privacy: { tr: '/gizlilik/', en: '/en/privacy/', de: '/de/datenschutz/', ru: '/ru/konfidentsialnost/' },
   disclosure: { tr: '/ortaklik-aciklamasi/', en: '/en/affiliate-disclosure/', de: '/de/affiliate-hinweis/', ru: '/ru/partnerskie-ssylki/' },
   calculator: { tr: '/kahve-orani-hesaplayici/', en: '/en/coffee-ratio-calculator/', de: '/de/kaffee-rechner/', ru: '/ru/kalkulyator-kofe/' },
-  cafeGuide: { tr: '/kafe-acmak/', en: '/en/how-to-open-a-coffee-shop/', de: '/de/cafe-eroeffnen/' },
-  cafeDesign: { tr: '/modern-kafe-tasarimi/', en: '/en/coffee-shop-design-ideas/', de: '/de/cafe-einrichtung-ideen/' },
-  cafeEspresso: { tr: '/profesyonel-espresso-makinesi/', en: '/en/commercial-espresso-machine-guide/', de: '/de/gastro-siebtraeger-kaufen/' },
-  cafeMenu: { tr: '/kafe-menu-fiyatlandirma/', en: '/en/coffee-shop-menu-pricing/', de: '/de/cafe-preise-kalkulieren/' },
-  cafeSupply: { tr: '/kafe-kahve-tedariki/', en: '/en/coffee-supplier-for-cafe/', de: '/de/kaffee-fuer-cafe-roesterei/' },
-  cafeCalculator: { tr: '/kafe-maliyet-hesaplayici/', en: '/en/coffee-shop-cost-calculator/', de: '/de/cafe-kalkulator/' },
+  cafeGuide: { tr: '/kafe-acmak/', en: '/en/how-to-open-a-coffee-shop/', de: '/de/cafe-eroeffnen/', ru: '/ru/kak-otkryt-kofejnyu/' },
+  cafeDesign: { tr: '/modern-kafe-tasarimi/', en: '/en/coffee-shop-design-ideas/', de: '/de/cafe-einrichtung-ideen/', ru: '/ru/dizajn-kofejni/' },
+  cafeEspresso: { tr: '/profesyonel-espresso-makinesi/', en: '/en/commercial-espresso-machine-guide/', de: '/de/gastro-siebtraeger-kaufen/', ru: '/ru/professionalnaya-espresso-mashina/' },
+  cafeMenu: { tr: '/kafe-menu-fiyatlandirma/', en: '/en/coffee-shop-menu-pricing/', de: '/de/cafe-preise-kalkulieren/', ru: '/ru/ceny-v-kofejne/' },
+  cafeSupply: { tr: '/kafe-kahve-tedariki/', en: '/en/coffee-supplier-for-cafe/', de: '/de/kaffee-fuer-cafe-roesterei/', ru: '/ru/postavshchik-kofe-dlya-kofejni/' },
+  cafeCalculator: { tr: '/kafe-maliyet-hesaplayici/', en: '/en/coffee-shop-cost-calculator/', de: '/de/cafe-kalkulator/', ru: '/ru/kalkulyator-kofejni/' },
   machineQuiz: { tr: '/kahve-makinesi-testi/', en: '/en/coffee-maker-quiz/', de: '/de/welche-kaffeemaschine-passt-zu-mir/', ru: '/ru/kakaya-kofevarka-mne-podhodit/' },
   imprint: { tr: '/kunye/', en: '/en/imprint/', de: '/de/impressum/', ru: '/ru/vyhodnye-dannye/' },
 } as const;

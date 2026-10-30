@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Pencere önünde ahşap masa: iki kupa filtre kahve, bir tabakta tarçınlı çörekler ve kırmızı ahşap bir Dalarna atı figürü">
+<rect width="640" height="360" fill="#dfe9ef"/>
+<!-- pencere -->
+<rect x="60" y="30" width="250" height="190" rx="6" fill="#f6f9fb" stroke="#ffffff" stroke-width="10"/>
+<path d="M185 30 V220 M60 125 H310" stroke="#ffffff" stroke-width="8"/>
+<g fill="#b7cbd6"><path d="M70 220 l40 -60 40 60z"/><path d="M130 220 l50 -80 50 80z"/><path d="M210 220 l40 -55 40 55z"/></g>
+<rect y="262" width="640" height="98" fill="#c99a6b"/>
+<rect y="254" width="640" height="12" fill="#b0824f"/>
+<!-- dalarna atı -->
+<g transform="translate(470 186)">
+<path d="M20 30 q-4 -26 16 -30 l10 -10 q10 -2 14 8 l6 18 q4 8 -4 10 l-8 -2 q-4 16 4 30 h-10 l-6 -20 h-16 l-4 20 h-10 l2 -24 q-10 -4 -8 -14z" fill="#c63a2c"/>
+<path d="M12 28 q-10 6 -10 18" stroke="#c63a2c" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M28 34 q6 -6 12 0 q6 6 12 0" stroke="#f4d58d" stroke-width="2.5" fill="none"/>
+<circle cx="50" cy="8" r="2" fill="#2f3a40"/>
+<rect x="-4" y="56" width="84" height="12" rx="3" fill="#8a5a3c"/>
+</g>
+<!-- kupalar -->
+<g transform="translate(330 196)">
+<path d="M0 0 h60 v52 q0 8 -8 8 h-44 q-8 0 -8 -8 z" fill="#2e6b8a"/>
+<path d="M60 12 q18 0 18 16 q0 16 -18 16" stroke="#2e6b8a" stroke-width="7" fill="none"/>
+<ellipse cx="30" cy="3" rx="28" ry="4" fill="#4a2a16"/>
+<path d="M18 -10 q-6 -10 2 -20 M36 -10 q-6 -10 2 -20" stroke="#8b949b" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(230 200)">
+<path d="M0 0 h56 v48 q0 8 -8 8 h-40 q-8 0 -8 -8 z" fill="#f6efe6"/>
+<path d="M56 10 q16 0 16 14 q0 14 -16 14" stroke="#f6efe6" stroke-width="7" fill="none"/>
+<ellipse cx="28" cy="3" rx="26" ry="4" fill="#4a2a16"/>
+</g>
+<!-- çörekler -->
+<g transform="translate(90 238)">
+<ellipse cx="60" cy="24" rx="80" ry="12" fill="#fbf8f2"/>
+<g>
+<circle cx="30" cy="10" r="22" fill="#c98a4b"/><path d="M30 10 m-14 0 a14 14 0 1 0 14 -14 a9 9 0 1 0 -9 9" stroke="#8a5428" stroke-width="3.5" fill="none"/>
+<circle cx="84" cy="8" r="24" fill="#d09251"/><path d="M84 8 m-15 0 a15 15 0 1 0 15 -15 a10 10 0 1 0 -10 10" stroke="#8a5428" stroke-width="3.5" fill="none"/>
+<g fill="#ffffff"><rect x="22" y="0" width="4" height="4"/><rect x="36" y="6" width="4" height="4"/><rect x="78" y="-4" width="4" height="4"/><rect x="92" y="6" width="4" height="4"/><rect x="70" y="10" width="4" height="4"/></g>
+</g>
+</g>
+</svg>

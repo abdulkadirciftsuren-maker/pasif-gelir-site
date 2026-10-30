@@ -213,3 +213,26 @@ A aşaması (rehberler ve hesaplayıcı, ek izin gerekmez):
 - ✅ Menü ve fiyatlandırma (TR/DE/EN)
 
 B aşaması (Gewerbe kaydından sonra): kafe kurulum teklif formu (tedarikçilere yönlendirme, aracılık payı), ücretli kafe rehberi, indirilebilir kontrol listesi.
+
+## Kahve Hikâyeleri bölümü (Ekim 2026)
+
+Kullanıcı fikri: "Fincanla kahve hikâyeleri" – her ülkeden kahve gelenekleri, efsaneler, insan hikâyeleri. Kategori: `hikaye` (menüde ve ana sayfada ayrı bölüm). 4 dilde yazılır.
+
+Kural: Her gün "haber" değil, **haftada 2–3 hikâye**. Sebep: haber doğrulanmadan yazılamaz; kısa sürede çok sayıda benzer yazı Google'da "seri üretim içerik" sayılabilir; AdSense incelemesi sürüyor. Her hikâye gerçek, kontrol edilebilir bilgiye dayanır; kesin olmayan bilgi "anlatılır / bilinmiyor" diye yazılır. Her hikâyenin sonunda "Bu hikâyenin kahvesi" bölümü (tarif + ilgili rehber + 1–2 ürün). Mevcut yazılarla çakışmaz (ör. Kaldi efsanesi ve Osmanlı kahvehaneleri "kahvenin tarihi" yazısında var).
+
+Hikâye listesi:
+- ✅ Askıda kahve: Napoli'nin caffè sospeso geleneği (+ askıda ekmek)
+- İsveç: fika – kahve molası bir yaşam biçimi
+- Etiyopya: kahve töreni (buna), üç tur ve tütsü
+- Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
+- Finlandiya: dünyada kişi başı en çok kahve içilen ülke
+- Kolombiya: "tinto" ve kahve bölgesi (Eje Cafetero)
+- Küba: cafecito ve colada – paylaşılan kahve
+- Japonya: kissaten kahve dükkânları
+- Yunanistan: frappé'nin tesadüfen doğuşu (1957, Selanik)
+- Brezilya: cafezinho – misafire ilk ikram
+- Yemen: Moka limanı ve "mocha" adının hikâyesi
+- Bosna: Bosna kahvesi ve "kahva" ritüeli
+- İrlanda: Irish coffee'nin doğuşu (Foynes havalimanı) – alkol içerdiği için dikkatli anlatım
+- Vietnam: yumurtalı kahve (cà phê trứng), süt kıtlığından doğan tarif
+- Hindistan: Güney Hindistan filtre kahvesi ve dabara

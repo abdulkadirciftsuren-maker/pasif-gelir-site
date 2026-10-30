@@ -14,6 +14,8 @@
   --c-ekipman-soft: #d9f0ea;
   --c-temel: #a8780f;
   --c-temel-soft: #f9edc9;
+  --c-hikaye: #7b4a91;
+  --c-hikaye-soft: #efe3f5;
   --text: #2a211c;
   --muted: #6f625a;
   --border: #e9e1d8;
@@ -41,6 +43,8 @@
     --c-ekipman-soft: #16302c;
     --c-temel: #e6bb55;
     --c-temel-soft: #33290f;
+    --c-hikaye: #c9a0e0;
+    --c-hikaye-soft: #2b2033;
     --text: #efe7e0;
     --muted: #b3a59a;
     --border: #3a2f28;
@@ -94,6 +98,7 @@ h3 { font-size: 1.25rem; margin: 1.75rem 0 0.5rem; }
 .cat-yontem { --cat: var(--c-yontem); --cat-soft: var(--c-yontem-soft); }
 .cat-ekipman { --cat: var(--c-ekipman); --cat-soft: var(--c-ekipman-soft); }
 .cat-temel { --cat: var(--c-temel); --cat-soft: var(--c-temel-soft); }
+.cat-hikaye { --cat: var(--c-hikaye); --cat-soft: var(--c-hikaye-soft); }
 
 /* Yazı gövdesi */
 .prose { font-size: 1.125rem; }

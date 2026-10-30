@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Etiyopya kahve töreni: hasır altlık üzerinde uzun boyunlu siyah toprak jebena demliği, tepside kulpsuz küçük fincanlar, yanında tütsü dumanı ve yerde taze yeşil otlar">
+<rect width="640" height="360" fill="#f0e2c8"/>
+<circle cx="520" cy="80" r="56" fill="#f2c46b" opacity=".5"/>
+<rect y="270" width="640" height="90" fill="#b98a5a"/>
+<!-- otlar -->
+<g stroke="#5f8f4a" stroke-width="3" stroke-linecap="round"><path d="M20 290 l6 -18 M34 292 l-4 -20 M48 290 l8 -16 M560 296 l6 -20 M574 294 l-3 -18 M590 296 l7 -16 M610 294 l-4 -20 M300 330 l5 -14 M316 332 l-3 -16"/></g>
+<!-- hasır altlık -->
+<g transform="translate(130 250)">
+<ellipse cx="70" cy="20" rx="80" ry="16" fill="#d9a85c"/>
+<ellipse cx="70" cy="20" rx="62" ry="11" fill="none" stroke="#b98236" stroke-width="3"/>
+<ellipse cx="70" cy="20" rx="40" ry="7" fill="none" stroke="#b98236" stroke-width="3"/>
+</g>
+<!-- jebena -->
+<g transform="translate(160 96)">
+<ellipse cx="40" cy="132" rx="46" ry="42" fill="#2a2420"/>
+<path d="M30 96 q-4 -40 4 -72 h12 q8 32 4 72 z" fill="#2a2420"/>
+<rect x="30" y="16" width="20" height="10" rx="3" fill="#3a322c"/>
+<path d="M70 106 q30 -10 40 -44" stroke="#2a2420" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M4 120 q-22 -6 -20 -40 q2 -16 26 -10" stroke="#2a2420" stroke-width="7" fill="none"/>
+<path d="M14 130 q26 -10 52 0" stroke="#c9a227" stroke-width="3" fill="none"/>
+<path d="M30 12 q10 -8 20 0" stroke="#6b8f4a" stroke-width="3" fill="none"/>
+</g>
+<!-- tepsi ve fincanlar -->
+<g transform="translate(330 232)">
+<ellipse cx="90" cy="40" rx="110" ry="18" fill="#8a5a3c"/>
+<ellipse cx="90" cy="36" rx="104" ry="15" fill="#a26c45"/>
+<g fill="#fbf8f2" stroke="#d6c4a6" stroke-width="2">
+<path d="M10 4 h28 l-4 24 q-1 4 -5 4 h-10 q-4 0 -5 -4 z"/>
+<path d="M56 0 h28 l-4 24 q-1 4 -5 4 h-10 q-4 0 -5 -4 z"/>
+<path d="M102 4 h28 l-4 24 q-1 4 -5 4 h-10 q-4 0 -5 -4 z"/>
+<path d="M148 0 h28 l-4 24 q-1 4 -5 4 h-10 q-4 0 -5 -4 z"/>
+</g>
+<g fill="#3b2213"><ellipse cx="24" cy="6" rx="12" ry="2.5"/><ellipse cx="70" cy="2" rx="12" ry="2.5"/><ellipse cx="116" cy="6" rx="12" ry="2.5"/><ellipse cx="162" cy="2" rx="12" ry="2.5"/></g>
+</g>
+<!-- tütsü -->
+<g transform="translate(560 228)">
+<path d="M0 30 h40 l-6 22 h-28 z" fill="#8a5a3c"/>
+<ellipse cx="20" cy="30" rx="20" ry="5" fill="#6e4630"/>
+<path d="M20 24 q-14 -20 0 -40 q14 -20 0 -44 q-12 -20 4 -40" stroke="#b5aca4" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+</g>
+</svg>

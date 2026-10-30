@@ -19,7 +19,7 @@ const posts = defineCollection({
     description: z.string().min(70).max(160),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    category: z.enum(['yontem', 'ekipman', 'temel']),
+    category: z.enum(['yontem', 'ekipman', 'temel', 'hikaye']),
     // Aynı yazının farklı dillerdeki sürümleri aynı anahtarı paylaşır (hreflang bağlantısı için).
     translationKey: z.string(),
     // Kapak görseli: public/img altındaki dosyanın yolu, ör. "/img/kapak/v60.svg"

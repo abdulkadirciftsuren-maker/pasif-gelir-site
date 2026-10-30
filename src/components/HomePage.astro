@@ -22,7 +22,7 @@ const searchIndex = posts.map((p) => ({
   u: postUrl(p),
 }));
 const searchTexts = { empty: t(lang, 'search.empty') };
-const categories = (['yontem', 'ekipman', 'temel'] as const)
+const categories = (['yontem', 'ekipman', 'temel', 'hikaye'] as const)
   .map((cat) => ({ cat, posts: posts.filter((p) => p.data.category === cat) }))
   .filter((c) => c.posts.length > 0);
 const jsonLd = [

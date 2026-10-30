@@ -222,7 +222,7 @@ Kural: Her gün "haber" değil, **haftada 2–3 hikâye**. Sebep: haber doğrula
 
 Hikâye listesi:
 - ✅ Askıda kahve: Napoli'nin caffè sospeso geleneği (+ askıda ekmek)
-- İsveç: fika – kahve molası bir yaşam biçimi
+- ✅ İsveç: fika – kahve molası bir yaşam biçimi
 - Etiyopya: kahve töreni (buna), üç tur ve tütsü
 - Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
 - Finlandiya: dünyada kişi başı en çok kahve içilen ülke

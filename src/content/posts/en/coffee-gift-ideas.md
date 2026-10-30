@@ -64,6 +64,8 @@ Coffee is always a safe bet – but what gift will really delight a coffee lover
 
 **Do they take coffee with them every day?** A good travel mug always goes down well: [best travel mug for coffee](/en/travel-mug-guide/).
 
+**A little surprise every day in December?** A [coffee advent calendar](/en/coffee-advent-calendar/), store-bought or homemade.
+
 ## $50–100
 
 10. **Hand grinder:** The biggest jump in flavor for anyone who buys pre-ground. More in [Best coffee grinder](/en/best-coffee-grinder/).

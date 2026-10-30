@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Numaralı küçük kapıları olan kahverengi bir advent takvimi kutusu, bir kapısı açık ve içinden kahve çekirdekleri görünüyor; yanında bir fincan kahve, köknar dalı ve yıldızlar">
+<rect width="640" height="360" fill="#1f3a34"/>
+<g fill="#f4d58d"><path d="M70 50 l5 11 12 1 -9 8 3 12 -11 -6 -11 6 3 -12 -9 -8 12 -1z"/><path d="M570 70 l4 8 9 1 -7 6 2 9 -8 -5 -8 5 2 -9 -7 -6 9 -1z"/><circle cx="520" cy="40" r="3"/><circle cx="120" cy="120" r="2"/><circle cx="600" cy="170" r="2"/></g>
+<rect y="296" width="640" height="64" fill="#8a5a3c"/>
+<g stroke="#6e4630" stroke-width="2" opacity=".5"><path d="M0 314 H640 M0 338 H640"/></g>
+<!-- takvim kutusu -->
+<g transform="translate(130 70)">
+<rect x="0" y="0" width="290" height="226" rx="10" fill="#b5743f"/>
+<rect x="0" y="0" width="290" height="26" rx="10" fill="#c9853f"/>
+<g fill="#9a5f30" stroke="#7a4823" stroke-width="2">
+<rect x="16" y="40" width="54" height="40" rx="5"/><rect x="84" y="40" width="54" height="40" rx="5"/><rect x="152" y="40" width="54" height="40" rx="5"/><rect x="220" y="40" width="54" height="40" rx="5"/>
+<rect x="16" y="94" width="54" height="40" rx="5"/><rect x="152" y="94" width="54" height="40" rx="5"/><rect x="220" y="94" width="54" height="40" rx="5"/>
+<rect x="16" y="148" width="54" height="40" rx="5"/><rect x="84" y="148" width="54" height="40" rx="5"/><rect x="152" y="148" width="54" height="40" rx="5"/><rect x="220" y="148" width="54" height="40" rx="5"/>
+</g>
+<g font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#f6efe6" text-anchor="middle">
+<text x="43" y="66">7</text><text x="111" y="66">12</text><text x="179" y="66">3</text><text x="247" y="66">20</text>
+<text x="43" y="120">15</text><text x="179" y="120">9</text><text x="247" y="120">1</text>
+<text x="43" y="174">22</text><text x="111" y="174">5</text><text x="179" y="174">18</text><text x="247" y="174">24</text>
+</g>
+<!-- açık kapı -->
+<rect x="84" y="94" width="54" height="40" rx="5" fill="#3a2214"/>
+<path d="M84 94 l-22 6 v38 l22 -4 z" fill="#9a5f30" stroke="#7a4823" stroke-width="2"/>
+<g fill="#6b3f22"><ellipse cx="100" cy="122" rx="7" ry="5"/><ellipse cx="116" cy="118" rx="7" ry="5"/><ellipse cx="124" cy="127" rx="7" ry="5"/><ellipse cx="108" cy="128" rx="7" ry="5"/></g>
+<g stroke="#3a2214" stroke-width="1.5"><path d="M95 122 h10 M111 118 h10 M119 127 h10 M103 128 h10"/></g>
+<rect x="0" y="206" width="290" height="20" rx="6" fill="#9a5f30"/>
+</g>
+<!-- köknar dalı -->
+<g transform="translate(560 80)" stroke="#2e6b4f" stroke-width="5" stroke-linecap="round">
+<path d="M0 0 l40 120"/><path d="M8 24 l-22 6 M14 42 l-24 8 M20 60 l-24 10 M26 78 l-22 12 M12 22 l20 -10 M18 40 l22 -10 M24 58 l22 -8 M30 76 l20 -6"/>
+<circle cx="-6" cy="64" r="7" fill="#e2482f" stroke="none"/>
+</g>
+<!-- fincan -->
+<g transform="translate(470 238)">
+<path d="M0 0 h64 l-6 46 q-1 8 -10 8 h-32 q-9 0 -10 -8 z" fill="#fbf8f2"/>
+<path d="M62 10 q20 0 18 16 q-2 14 -22 14" stroke="#fbf8f2" stroke-width="7" fill="none"/>
+<ellipse cx="32" cy="3" rx="29" ry="5" fill="#6b3f22"/>
+<path d="M20 -12 q-8 -12 2 -24 M38 -12 q-8 -12 2 -24" stroke="#a9b4b0" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+</svg>

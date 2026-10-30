@@ -57,6 +57,8 @@ Kahve seven birine hediye almak kolay gibi görünür, ama raflarda o kadar çok
 
 **Her gün yanında kahve taşıyan biri mi?** İyi bir termos kupa çok sevilen bir hediye: [termos kupa seçimi](/termos-kupa-secimi/).
 
+**Aralık'ta her gün küçük bir sürpriz mi?** Kendin hazırlayabileceğin bir [kahve advent takvimi](/kahve-advent-takvimi/).
+
 ## Orta bütçe
 
 6. **Moka pot:** İtalyan klasiği. Kullanımı [moka pot rehberimizde](/moka-pot-ile-kahve/).

@@ -87,6 +87,6 @@ Bir gün kahven harika, ertesi gün aynı kahve acı ya da ekşi... Bunun nedeni
 
 **Şeker ya da süt eklemek acılığı giderir mi?** Bastırır ama sebebini çözmez. Önce öğütme ve süreyi ayarla. Sütlü içiyorsan [süt köpürtücü](/sut-kopurtucu-secimi/) ve bir pompa [şurup](/kahve-surubu/) tadı yumuşatır.
 
-**Bir tutam tuz acılığı azaltır mı?** Çok az tuz acılık algısını biraz azaltabilir. Ama asıl çözüm demleme ayarı.
+**Bir tutam tuz acılığı azaltır mı?** Çok az tuz acılık algısını biraz azaltabilir. Ama asıl çözüm demleme ayarı. Tuzun kahvedeki geleneksel kullanımları için bkz. [tuzlu kahve](/tuzlu-kahve/).
 
 **Kapsül kahvem neden acı?** Genelde fazla su yüzünden. Espresso kapsülünü büyük fincana akıtma, bunun için lungo kapsül kullan. Bkz. [kapsül kahve makinesi](/kapsul-kahve-makinesi/).

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Tam otomatik bir kahve makinesi, ekranında ünlem işaretli bir uyarı; önünde bir anahtar, temizleme tabletleri ve boş bir fincan">
+<rect width="640" height="360" fill="#e8eef0"/>
+<circle cx="520" cy="90" r="70" fill="#d6e2e6"/>
+<rect y="292" width="640" height="68" fill="#8a5a3c"/>
+<g stroke="#6e4630" stroke-width="2" opacity=".5"><path d="M0 312 H640 M0 338 H640"/></g>
+<!-- makine -->
+<g transform="translate(200 82)">
+<rect x="0" y="0" width="170" height="210" rx="16" fill="#3d454c"/>
+<rect x="12" y="-14" width="80" height="22" rx="6" fill="#2f3a40"/>
+<rect x="16" y="-22" width="72" height="12" rx="5" fill="#5a3218"/>
+<rect x="18" y="18" width="134" height="50" rx="8" fill="#1b2024"/>
+<path d="M60 58 l16 -30 l16 30 z" fill="#f2b632"/>
+<rect x="74.5" y="37" width="3" height="11" rx="1" fill="#1b2024"/><circle cx="76" cy="52" r="2" fill="#1b2024"/>
+<rect x="104" y="30" width="38" height="6" rx="3" fill="#56616a"/><rect x="104" y="44" width="26" height="6" rx="3" fill="#56616a"/>
+<rect x="58" y="84" width="54" height="18" rx="5" fill="#1b2024"/>
+<rect x="68" y="102" width="10" height="12" fill="#1b2024"/><rect x="92" y="102" width="10" height="12" fill="#1b2024"/>
+<g transform="translate(60 150)"><path d="M0 0 h50 l-4 34 q-1 6 -7 6 h-28 q-6 0 -7 -6 z" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/></g>
+<rect x="12" y="192" width="146" height="10" rx="3" fill="#1b2024"/>
+</g>
+<!-- anahtar -->
+<g transform="translate(410 282) rotate(-6)">
+<rect x="0" y="-7" width="110" height="14" rx="7" fill="#8b949b"/>
+<path d="M110 0 m-4 -20 a22 22 0 1 1 0 40 l0 -12 l-10 0 l0 -16 l10 0 z" fill="#8b949b"/>
+</g>
+<!-- tabletler -->
+<g transform="translate(90 250)">
+<ellipse cx="0" cy="26" rx="18" ry="8" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/>
+<ellipse cx="34" cy="30" rx="18" ry="8" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/>
+<ellipse cx="16" cy="14" rx="18" ry="8" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/>
+</g>
+</svg>

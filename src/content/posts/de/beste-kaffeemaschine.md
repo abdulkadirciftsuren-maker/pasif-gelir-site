@@ -120,6 +120,7 @@ Die Kapselmaschine ist also günstig in der Anschaffung, aber über die Jahre te
 - [ ] **Größe:** Höhe unter dem Hängeschrank messen.
 - [ ] **Lautstärke:** Wer früh aufsteht, achtet auf das Mahlwerk.
 - [ ] **Service und Ersatzteile:** Gibt es Service und Teile für die Marke?
+- [ ] **Preis:** Im Angebot kaufen? Erst den Preisverlauf prüfen: [Kaffeemaschine am Black Friday](/de/black-friday-kaffeemaschine/).
 
 ## Häufige Fragen
 

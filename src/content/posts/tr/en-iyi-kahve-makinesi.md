@@ -120,6 +120,7 @@ Yani kapsül makinesi ucuza alınır ama yıllar içinde daha pahalıya gelir. �
 - [ ] **Boyut:** Üst dolabın altındaki yüksekliği ölç.
 - [ ] **Ses:** Sabah erken kalkıyorsan öğütücünün sesine dikkat et.
 - [ ] **Servis ve yedek parça:** Markanın servisi ve parçası kolay bulunuyor mu?
+- [ ] **Fiyat:** İndirim döneminde alıyorsan önce fiyat geçmişine bak: [Black Friday'de kahve makinesi](/black-friday-kahve-makinesi/).
 
 ## Sık sorulan sorular
 

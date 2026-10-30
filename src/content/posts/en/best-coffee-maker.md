@@ -120,6 +120,7 @@ So a capsule machine is cheap to buy but costs more over the years. If you drink
 - [ ] **Size:** Measure the height under your wall cabinets.
 - [ ] **Noise:** Early riser? Pay attention to the grinder noise.
 - [ ] **Service and parts:** Are service and spare parts easy to get for the brand?
+- [ ] **Price:** Buying on sale? Check the price history first: [Black Friday coffee maker deals](/en/black-friday-coffee-maker-deals/).
 
 ## FAQ
 

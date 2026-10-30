@@ -185,6 +185,7 @@ Site sahibi Almanya'da yaşadığı için öncelik sırası: **Türkçe → Alma
 | 50 | ✅ Espresso makinesi mi, tam otomatik mi? (DE: Siebträger oder Vollautomat) | DE'de çok aranır, pahalı ürün | 3 dil | Kasım |
 | 51 | ✅ Evde espresso nasıl yapılır? (oran, dial-in, sorun çözme) | Makine alanların ilk sorusu; terazi/tamper linki | 3 dil | Kasım |
 | 52 | ✅ Black Friday'de kahve makinesi: gerçek indirim nasıl anlaşılır? | Kasım'da satın alma niyeti çok yüksek | 4 dil | Ekim sonu (her yıl Ekim sonunda tarihleri güncelle) |
+| 53 | ✅ Kahve advent takvimi (hazır + kendin hazırla) | DE'de Ekim–Kasım çok aranır, hediye | 4 dil | Ekim sonu (her yıl Ekim sonunda tarihleri güncelle) |
 
 Notlar:
 - Sağlık konularında tıbbi tavsiye verilmez; genel bilgi ve "doktoruna danış" notu eklenir.

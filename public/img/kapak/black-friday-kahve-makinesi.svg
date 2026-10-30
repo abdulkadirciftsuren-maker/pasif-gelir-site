@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Koyu arka plan önünde tam otomatik bir kahve makinesi, üzerinde yüzde işaretli büyük bir indirim etiketi ve yanında bir fincan kahve">
+<rect width="640" height="360" fill="#23272b"/>
+<g fill="#3a4046"><circle cx="70" cy="60" r="3"/><circle cx="560" cy="48" r="3"/><circle cx="600" cy="140" r="2"/><circle cx="40" cy="190" r="2"/><circle cx="480" cy="90" r="2"/></g>
+<rect y="292" width="640" height="68" fill="#8a5a3c"/>
+<g stroke="#6e4630" stroke-width="2" opacity=".5"><path d="M0 312 H640 M0 338 H640"/></g>
+<!-- tam otomatik makine -->
+<g transform="translate(150 92)">
+<rect x="0" y="0" width="150" height="200" rx="16" fill="#3d454c"/>
+<rect x="10" y="-14" width="70" height="22" rx="6" fill="#2f3a40"/>
+<rect x="14" y="-22" width="62" height="12" rx="5" fill="#5a3218"/>
+<rect x="16" y="16" width="118" height="44" rx="8" fill="#1b2024"/>
+<rect x="26" y="26" width="52" height="8" rx="3" fill="#7fc4a8"/>
+<rect x="26" y="40" width="34" height="6" rx="3" fill="#56616a"/>
+<circle cx="112" cy="38" r="10" fill="#c9a227"/>
+<rect x="50" y="76" width="50" height="18" rx="5" fill="#1b2024"/>
+<rect x="60" y="94" width="10" height="12" fill="#1b2024"/><rect x="80" y="94" width="10" height="12" fill="#1b2024"/>
+<path d="M65 108 v26 M85 108 v26" stroke="#5a3218" stroke-width="4" stroke-dasharray="4 4"/>
+<g transform="translate(52 136)"><path d="M0 0 h46 l-4 32 q-1 6 -7 6 h-24 q-6 0 -7 -6 z" fill="#fbf8f2" stroke="#c9b9a2" stroke-width="2"/></g>
+<rect x="10" y="182" width="130" height="10" rx="3" fill="#1b2024"/>
+</g>
+<!-- indirim etiketi -->
+<g transform="translate(330 70) rotate(12)">
+<path d="M0 0 h150 l40 60 l-40 60 h-150 z" fill="#e2482f"/>
+<circle cx="150" cy="60" r="9" fill="#23272b"/>
+<path d="M150 60 q40 -70 90 -40" stroke="#c9b9a2" stroke-width="3" fill="none"/>
+<text x="72" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="66" fill="#fff">%</text>
+</g>
+<!-- fincan -->
+<g transform="translate(450 226)">
+<path d="M0 0 h70 l-6 52 q-1 8 -10 8 h-38 q-9 0 -10 -8 z" fill="#fbf8f2"/>
+<path d="M68 12 q22 0 20 18 q-2 16 -24 16" stroke="#fbf8f2" stroke-width="7" fill="none"/>
+<ellipse cx="35" cy="3" rx="32" ry="5" fill="#6b3f22"/>
+<path d="M22 -14 q-8 -12 2 -24 M42 -14 q-8 -12 2 -24" stroke="#8b949b" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+</svg>

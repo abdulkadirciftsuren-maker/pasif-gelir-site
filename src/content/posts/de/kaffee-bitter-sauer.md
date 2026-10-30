@@ -87,6 +87,6 @@ Heute schmeckt der Kaffee großartig, morgen ist derselbe Kaffee bitter oder sau
 
 **Hilft Zucker oder Milch gegen Bitterkeit?** Es überdeckt sie, löst aber nicht die Ursache. Erst Mahlgrad und Zeit anpassen. Für Milchkaffee helfen ein [Milchaufschäumer](/de/milchaufschaeumer-kaufen/) und ein Schuss [Sirup](/de/kaffeesirup/).
 
-**Hilft eine Prise Salz?** Sehr wenig Salz kann die Bitterkeit etwas dämpfen. Die eigentliche Lösung bleibt die Zubereitung.
+**Hilft eine Prise Salz?** Sehr wenig Salz kann die Bitterkeit etwas dämpfen. Die eigentliche Lösung bleibt die Zubereitung. Traditionen und Rezepte: [Kaffee mit Salz](/de/kaffee-mit-salz/).
 
 **Warum ist mein Kapselkaffee bitter?** Meist durch zu viel Wasser. Espresso-Kapseln nicht als große Tasse laufen lassen, dafür Lungo-Kapseln nutzen – siehe [Kapselmaschine kaufen](/de/kapselmaschine-kaufen/).

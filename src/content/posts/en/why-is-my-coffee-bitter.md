@@ -87,6 +87,6 @@ Great coffee yesterday, bitter or sour coffee today – from the same beans? Tha
 
 **Do sugar or milk fix bitterness?** They mask it but don't fix the cause. Adjust grind and time first. For milk drinks, a [milk frother](/en/milk-frother-guide/) and a pump of [syrup](/en/coffee-syrup-guide/) soften the taste.
 
-**Does a pinch of salt help?** A tiny amount of salt can reduce perceived bitterness a little. The real fix is still the brew.
+**Does a pinch of salt help?** A tiny amount of salt can reduce perceived bitterness a little. The real fix is still the brew. Traditions and recipes: [salt in coffee](/en/salt-in-coffee/).
 
 **Why is my capsule coffee bitter?** Usually too much water. Don't run espresso capsules as a large cup – use lungo capsules instead. See the [capsule coffee machine guide](/en/capsule-coffee-machine-guide/).

@@ -67,6 +67,8 @@ Tam otomatik makine fincan başına **kapsülden belirgin şekilde ucuzdur**, ç
 3. **Düzenli:** Makine uyarınca kireç çöz. Su filtresi aralıkları uzatır. Nasıl yapılacağı [kireç temizleme rehberimizde](/kahve-makinesi-kirec-temizleme/).
 4. **Talimata göre:** Demleme ünitesindeki kahve yağlarına karşı temizlik tableti.
 
+Makine sorun mu çıkarıyor (kahve gelmiyor, süt köpürmüyor)? Bkz. [tam otomatik makine sorunları ve çözümleri](/tam-otomatik-makine-sorunlari/).
+
 ## Tam otomatik makine için çekirdek
 
 En uygunu **orta kavrum**. Çok koyu, parlak ve yağlı çekirdekler öğütücüyü tıkayabilir. Çekirdek seçimini [kahve çekirdeği rehberimizde](/kahve-cekirdegi-nasil-secilir/) anlattık.

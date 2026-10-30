@@ -67,6 +67,8 @@ Ein Vollautomat ist pro Tasse deutlich günstiger als Kapseln (siehe [Kapselmasc
 3. **Regelmäßig:** Entkalken, wenn die Maschine es anzeigt – ein Wasserfilter verlängert die Abstände. Wie es geht, steht in [Kaffeemaschine entkalken](/de/kaffeemaschine-entkalken/).
 4. **Nach Anleitung:** Reinigungstabletten gegen Kaffeeöle in der Brühgruppe.
 
+Macht die Maschine Probleme (kein Kaffee, Milch schäumt nicht)? Siehe [Kaffeevollautomat-Probleme und Lösungen](/de/kaffeevollautomat-probleme/).
+
 ## Die richtigen Bohnen für den Vollautomaten
 
 Am besten passen **mittlere Röstungen** – „Café Crème“ oder „Espresso“ für Vollautomaten. Sehr dunkle, glänzend-ölige Bohnen können das Mahlwerk verkleben. Worauf du beim Bohnenkauf achtest, erklären wir in [Kaffeebohnen kaufen](/de/kaffeebohnen-kaufen/). Den Unterschied der Sorten findest du in [Arabica oder Robusta](/de/arabica-robusta-unterschied/).

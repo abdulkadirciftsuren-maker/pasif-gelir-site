@@ -67,6 +67,8 @@ Per cup, a super-automatic is much cheaper than capsules (see the [capsule coffe
 3. **Regularly:** Descale when the machine tells you to – a water filter extends the intervals. How to do it: [How to descale a coffee maker](/en/how-to-descale-a-coffee-maker/).
 4. **As instructed:** Cleaning tablets against coffee oils in the brew group.
 
+Machine acting up (no coffee, milk won't froth)? See [super-automatic espresso machine problems and fixes](/en/super-automatic-troubleshooting/).
+
 ## The right beans for a super-automatic
 
 **Medium roasts** work best – look for blends sold for espresso or for bean-to-cup machines. Very dark, shiny, oily beans can gum up the grinder. What to look for when buying beans: [How to buy coffee beans](/en/how-to-buy-coffee-beans/). The difference between the species: [Arabica vs robusta](/en/arabica-vs-robusta/).

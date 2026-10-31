@@ -224,7 +224,7 @@ Hikâye listesi:
 - ✅ Askıda kahve: Napoli'nin caffè sospeso geleneği (+ askıda ekmek)
 - ✅ İsveç: fika – kahve molası bir yaşam biçimi
 - ✅ Etiyopya: kahve töreni (buna), üç tur ve tütsü
-- Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
+- ✅ Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
 - Finlandiya: dünyada kişi başı en çok kahve içilen ülke
 - Kolombiya: "tinto" ve kahve bölgesi (Eje Cafetero)
 - Küba: cafecito ve colada – paylaşılan kahve

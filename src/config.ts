@@ -40,7 +40,7 @@ export function amazonDeSearchUrl(name: string): string {
 // Yayına almadan önce MUTLAKA doldur. Boş alanlar sayfada "[Bitte ausfüllen]" olarak görünür.
 export const IMPRESSUM = {
   name: 'Abdülkadir Ciftsüren',
-  street: 'Rieschstraße 21',
+  street: 'Kyreinstraße 7',
   city: '83646 Bad Tölz',
   country: 'Deutschland',
   email: 'abdulkadirciftsuren@gmail.com',

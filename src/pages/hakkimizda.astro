@@ -1,9 +1,13 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { staticPages } from '../i18n/ui';
+import { IMPRESSUM } from '../config';
 ---
 
-<PageLayout lang="tr" title="Hakkımızda" description="Fincanla, evde kahve demleyenler için bağımsız, sade ve denenmiş rehberler yayınlayan bir kahve sitesidir. Nasıl çalıştığımızı anlatıyoruz." alternates={staticPages.about}>
+<PageLayout lang="tr" title="Hakkımızda" description="Fincanla, evde kahve demleyenler için bağımsız, sade ve anlaşılır rehberler yayınlayan bir kahve sitesidir. Nasıl çalıştığımızı anlatıyoruz." alternates={staticPages.about}>
+  <h2>Fincanla'nın arkasında kim var?</h2>
+  <p>Merhaba, ben <strong>Abdul</strong>. Benim ve ailemin hayatında kahvenin yeri çok büyük: Evimizde günde birkaç kez cezve ocağa çıkar, misafire ilk ikram her zaman bir fincan Türk kahvesidir. Almanya'da yaşıyoruz ve bu gelenek bizimle birlikte geldi.</p>
+  <p>Kahveyle bu kadar iç içe olunca, bildiklerimizi ve öğrendiklerimizi bir yerde toplamak istedim. Fincanla böyle doğdu: Türk kahvesinden filtre kahveye, cezveden kahve makinesine kadar, evde kahve yapan herkes için sade ve anlaşılır bir rehber.</p>
   <p>Fincanla, evde daha iyi kahve yapmak isteyenler için kuruldu. Amacımız basit: kafa karıştıran terimleri sadeleştirmek, işe yarayan yöntemleri adım adım anlatmak ve paranı doğru ekipmana harcamana yardım etmek.</p>
   <h2>Nasıl çalışıyoruz?</h2>
   <ul>
@@ -13,4 +17,8 @@ import { staticPages } from '../i18n/ui';
   </ul>
   <h2>Gelirimiz nereden geliyor?</h2>
   <p>Site; reklamlar ve ortaklık bağlantılarıyla ayakta durur. Bir bağlantıdan alışveriş yaparsan küçük bir komisyon alabiliriz, bu sana ek maliyet getirmez. Ayrıntılar için <a href={staticPages.disclosure.tr}>ortaklık açıklamamızı</a> okuyabilirsin.</p>
+  <h2>Yazılarımızı nasıl hazırlıyoruz?</h2>
+  <p>Yazılar; kendi kahve alışkanlıklarımız, üreticilerin verdiği bilgiler ve güvenilir kaynaklar üzerinden hazırlanır. Yazım ve diğer dillere çeviride yapay zekâ dahil dijital araçlardan yardım alıyoruz. Bir hata görürsen bize yazman yeterli; düzeltiriz.</p>
+  <h2>Bize ulaş</h2>
+  <p>Soruların, önerilerin ya da kendi kahve fotoğrafın için: <a href={`mailto:${IMPRESSUM.email}`}>{IMPRESSUM.email}</a></p>
 </PageLayout>

@@ -1,9 +1,13 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import { staticPages } from '../../i18n/ui';
+import { IMPRESSUM } from '../../config';
 ---
 
-<PageLayout lang="en" title="About" description="Fincanla is an independent coffee site publishing simple, tested guides for people who brew at home. Here is how we work and how we are funded." alternates={staticPages.about}>
+<PageLayout lang="en" title="About" description="Fincanla is an independent coffee site publishing simple, clear guides for people who brew at home. Here is how we work and how we are funded." alternates={staticPages.about}>
+  <h2>Who is behind Fincanla?</h2>
+  <p>Hi, I'm <strong>Abdul</strong>. Coffee plays a big part in my family's life: the cezve goes on the stove several times a day at our home, and the first thing we offer guests is always a cup of Turkish coffee. We live in Germany, and that tradition came with us.</p>
+  <p>With coffee so much a part of our everyday life, I wanted to gather what we know and keep learning in one place. That's how Fincanla started: a simple, clear guide for everyone who makes coffee at home, from Turkish coffee to drip, from the cezve to the espresso machine.</p>
   <p>Fincanla exists for people who want better coffee at home. Our goal is simple: cut through the jargon, explain methods that work step by step, and help you spend money on the right gear.</p>
   <h2>How we work</h2>
   <ul>
@@ -13,4 +17,8 @@ import { staticPages } from '../../i18n/ui';
   </ul>
   <h2>How we make money</h2>
   <p>The site is funded by ads and affiliate links. If you buy through a link we may earn a small commission at no extra cost to you. See our <a href={staticPages.disclosure.en}>affiliate disclosure</a>.</p>
+  <h2>How we write our articles</h2>
+  <p>Our articles are based on our own coffee habits, manufacturer information and reliable sources. We use digital tools, including artificial intelligence, for writing and translating. If you spot a mistake, just let us know and we'll fix it.</p>
+  <h2>Contact</h2>
+  <p>For questions, suggestions or your own coffee photo: <a href={`mailto:${IMPRESSUM.email}`}>{IMPRESSUM.email}</a></p>
 </PageLayout>

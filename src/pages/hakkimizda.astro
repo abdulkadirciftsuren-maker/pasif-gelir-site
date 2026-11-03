@@ -2,12 +2,14 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { staticPages } from '../i18n/ui';
 import { IMPRESSUM } from '../config';
+import AboutPhotos from '../components/AboutPhotos.astro';
 ---
 
 <PageLayout lang="tr" title="Hakkımızda" description="Fincanla, evde kahve demleyenler için bağımsız, sade ve anlaşılır rehberler yayınlayan bir kahve sitesidir. Nasıl çalıştığımızı anlatıyoruz." alternates={staticPages.about}>
   <h2>Fincanla'nın arkasında kim var?</h2>
   <p>Merhaba, ben <strong>Abdul</strong>. Benim ve ailemin hayatında kahvenin yeri çok büyük: Evimizde günde birkaç kez cezve ocağa çıkar, misafire ilk ikram her zaman bir fincan Türk kahvesidir. Almanya'da yaşıyoruz ve bu gelenek bizimle birlikte geldi.</p>
   <p>Kahveyle bu kadar iç içe olunca, bildiklerimizi ve öğrendiklerimizi bir yerde toplamak istedim. Fincanla böyle doğdu: Türk kahvesinden filtre kahveye, cezveden kahve makinesine kadar, evde kahve yapan herkes için sade ve anlaşılır bir rehber.</p>
+  <AboutPhotos lang="tr" />
   <p>Fincanla, evde daha iyi kahve yapmak isteyenler için kuruldu. Amacımız basit: kafa karıştıran terimleri sadeleştirmek, işe yarayan yöntemleri adım adım anlatmak ve paranı doğru ekipmana harcamana yardım etmek.</p>
   <h2>Nasıl çalışıyoruz?</h2>
   <ul>

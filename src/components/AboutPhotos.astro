@@ -1,0 +1,37 @@
+---
+// Hakkımızda sayfasındaki aile fotoğrafları (kullanıcının ailesinin çektiği, 03.11.2026).
+import type { Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const texts = {
+  tr: { title: 'Bizim evden', alts: ['Kalp şeklinde ahşap tepsilerde dört fincan Türk kahvesi, yanlarında su bardakları; cezveden kahve dökülüyor', 'Duvarda fincan rafı ve asılı bakır kahve kapları, altta yeşil dolapta cezve ve bir fincan kahve', 'Siyah masa örtüsü üzerinde köpüklü bir fincan Türk kahvesi ve kristal kâsede çikolatalar'] },
+  de: { title: 'Bei uns zu Hause', alts: ['Vier Tassen türkischer Kaffee auf herzförmigen Holztabletts mit Wassergläsern; Kaffee wird aus der Cezve eingeschenkt', 'Tassenregal und hängende Kupferbecher an der Wand, darunter ein grüner Schrank mit Cezve und einer Tasse Kaffee', 'Eine Tasse türkischer Kaffee mit Schaum auf schwarzem Tischläufer, daneben Pralinen in einer Kristallschale'] },
+  en: { title: 'From our home', alts: ['Four cups of Turkish coffee on heart-shaped wooden trays with glasses of water; coffee being poured from a cezve', 'A cup shelf and hanging copper cups on the wall, below a green cabinet with a cezve and a cup of coffee', 'A cup of foamy Turkish coffee on a black table runner, with chocolates in a crystal bowl'] },
+  ru: { title: 'У нас дома', alts: ['Четыре чашки кофе по-турецки на деревянных подносах в форме сердца со стаканами воды; кофе наливают из турки', 'Полка с чашками и подвешенные медные кружки на стене, внизу зелёный шкаф с туркой и чашкой кофе', 'Чашка кофе по-турецки с пенкой на чёрной дорожке и конфеты в хрустальной вазочке'] },
+} as const;
+const L = texts[lang];
+const photos = ['turk-kahvesi-servisi', 'kahve-kosesi', 'fincan-ve-cikolata'];
+const sizes = [[800, 936], [800, 946], [750, 1000]];
+---
+
+<figure class="about-photos">
+  <div class="grid">
+    {photos.map((p, i) => (
+      <img src={`/img/hakkimizda/${p}.webp`} alt={L.alts[i]} width={sizes[i][0]} height={sizes[i][1]} loading="lazy" decoding="async" />
+    ))}
+  </div>
+  <figcaption>{L.title}</figcaption>
+</figure>
+
+<style>
+  .about-photos { margin: 1.5rem 0; }
+  .about-photos .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+  .about-photos img { width: 100%; height: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 12px; }
+  .about-photos figcaption { margin-top: 0.4rem; font-size: 0.9rem; opacity: 0.75; text-align: center; }
+  @media (max-width: 520px) {
+    .about-photos .grid { grid-template-columns: 1fr 1fr; }
+    .about-photos img:first-child { grid-column: 1 / -1; aspect-ratio: 4 / 3; }
+  }
+</style>

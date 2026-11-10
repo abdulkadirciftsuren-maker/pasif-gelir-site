@@ -225,7 +225,7 @@ Hikâye listesi:
 - ✅ İsveç: fika – kahve molası bir yaşam biçimi
 - ✅ Etiyopya: kahve töreni (buna), üç tur ve tütsü
 - ✅ Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
-- Finlandiya: dünyada kişi başı en çok kahve içilen ülke
+- ✅ Finlandiya: dünyada kişi başı en çok kahve içilen ülke
 - Kolombiya: "tinto" ve kahve bölgesi (Eje Cafetero)
 - Küba: cafecito ve colada – paylaşılan kahve
 - Japonya: kissaten kahve dükkânları

@@ -93,6 +93,9 @@ Farklı şekerlerde kahveler yapacaksan, çoğunluğa göre tek cezvede pişir y
 
 ## Servis
 
+![Mavi bir fincanda köpüklü Türk kahvesi, yanında bir şişe maden suyu ve tabakta çilekli tartletler](/img/foto/turk-kahvesi-ikram.webp)
+*Bizim evden: Türk kahvesi, yanında maden suyu ve çilekli tartlet.*
+
 Türk kahvesi geleneksel olarak yanında **bir bardak su** ile servis edilir. Su, kahveden önce içilerek ağız temizlenir ve kahvenin tadı daha iyi alınır. Yanına bir lokum ya da küçük bir çikolata koymak da güzel bir gelenektir.
 
 Kahve telvesiyle birlikte servis edildiği için son yudumları içme. Telve fincanın dibinde kalmalı.

@@ -93,6 +93,9 @@ Der Zucker kommt immer **vor dem Kochen** in die Cezve. Wird er später hinzugef
 
 ## Servieren
 
+![Türkischer Kaffee mit Schaum in einer blauen Tasse, daneben eine Flasche Mineralwasser und Erdbeertörtchen auf einem Teller](/img/foto/turk-kahvesi-ikram.webp)
+*Bei uns zu Hause: türkischer Kaffee mit Mineralwasser und Erdbeertörtchen.*
+
 Türkischer Kaffee wird traditionell mit **einem Glas Wasser** serviert. Das Wasser trinkt man vor dem Kaffee, um den Gaumen zu neutralisieren. Ein Stück Lokum (türkischer Honig) oder ein kleines Stück Schokolade dazu ist eine schöne Tradition.
 
 Da der Kaffee mit dem Satz serviert wird, trinkt man die letzten Schlucke nicht: Der Satz bleibt am Boden der Tasse.

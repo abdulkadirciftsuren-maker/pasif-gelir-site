@@ -93,6 +93,9 @@ Sugar always goes in **before heating**. Added later, it makes the foam collapse
 
 ## Serving
 
+![Foamy Turkish coffee in a blue cup, next to a bottle of mineral water and strawberry tartlets on a plate](/img/foto/turk-kahvesi-ikram.webp)
+*From our home: Turkish coffee with mineral water and strawberry tartlets.*
+
 Turkish coffee is traditionally served with **a glass of water**, drunk before the coffee to cleanse the palate. A piece of Turkish delight or a small chocolate on the side is a lovely tradition. Because the coffee is served with its grounds, you don't drink the last sips – the grounds stay at the bottom of the cup.
 
 ## Cezve or machine?

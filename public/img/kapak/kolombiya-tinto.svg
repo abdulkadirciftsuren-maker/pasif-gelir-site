@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kolombiya'nın yeşil kahve dağları önünde bir sokak tezgâhı: büyük bir termos, plastik küçük bardaklarda siyah kahve ve bir kalıp panela şekeri">
+<rect width="640" height="360" fill="#f4e3c3"/>
+<circle cx="520" cy="80" r="44" fill="#f2b632" opacity=".8"/>
+<!-- dağlar -->
+<path d="M0 230 Q90 120 190 200 T380 170 T640 190 V360 H0Z" fill="#3f8f5a"/>
+<path d="M0 260 Q120 180 250 240 T500 220 T640 235 V360 H0Z" fill="#2e7046"/>
+<g fill="#255c39"><circle cx="70" cy="250" r="6"/><circle cx="100" cy="242" r="6"/><circle cx="130" cy="250" r="6"/><circle cx="420" cy="232" r="6"/><circle cx="450" cy="226" r="6"/><circle cx="480" cy="232" r="6"/><circle cx="560" cy="236" r="6"/><circle cx="590" cy="230" r="6"/></g>
+<!-- tezgâh -->
+<rect x="150" y="268" width="340" height="16" rx="4" fill="#c63a2c"/>
+<rect x="150" y="284" width="340" height="76" fill="#e8d2ad"/>
+<g fill="#f2b632"><rect x="150" y="284" width="40" height="76"/><rect x="230" y="284" width="40" height="76"/><rect x="310" y="284" width="40" height="76"/><rect x="390" y="284" width="40" height="76"/><rect x="470" y="284" width="20" height="76"/></g>
+<!-- termos -->
+<g transform="translate(190 158)">
+<rect x="0" y="18" width="70" height="92" rx="12" fill="#c63a2c"/>
+<rect x="10" y="0" width="50" height="22" rx="6" fill="#2f3a40"/>
+<rect x="60" y="40" width="22" height="10" rx="3" fill="#2f3a40"/>
+<rect x="0" y="56" width="70" height="10" fill="#a12d22"/>
+<rect x="18" y="70" width="34" height="18" rx="3" fill="#fbf8f2"/>
+</g>
+<!-- bardaklar -->
+<g transform="translate(300 222)">
+<g><path d="M0 0 h30 l-4 44 h-22 z" fill="#ffffff" stroke="#d6c4a6" stroke-width="2"/><ellipse cx="15" cy="3" rx="13" ry="3" fill="#3b2213"/></g>
+<g transform="translate(44 0)"><path d="M0 0 h30 l-4 44 h-22 z" fill="#ffffff" stroke="#d6c4a6" stroke-width="2"/><ellipse cx="15" cy="3" rx="13" ry="3" fill="#3b2213"/></g>
+<g transform="translate(88 0)"><path d="M0 0 h30 l-4 44 h-22 z" fill="#ffffff" stroke="#d6c4a6" stroke-width="2"/><ellipse cx="15" cy="3" rx="13" ry="3" fill="#3b2213"/></g>
+<path d="M10 -10 q-6 -10 2 -20 M54 -10 q-6 -10 2 -20 M98 -10 q-6 -10 2 -20" stroke="#8b949b" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<!-- panela -->
+<g transform="translate(430 236)"><path d="M0 14 l14 -14 h30 l14 14 v18 h-58 z" fill="#b5743f"/><path d="M0 14 h58" stroke="#8a5428" stroke-width="2"/></g>
+</svg>

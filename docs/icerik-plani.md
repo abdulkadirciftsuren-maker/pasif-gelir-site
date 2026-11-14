@@ -226,7 +226,7 @@ Hikâye listesi:
 - ✅ Etiyopya: kahve töreni (buna), üç tur ve tütsü
 - ✅ Viyana kahvehaneleri: UNESCO listesindeki kahvehane kültürü
 - ✅ Finlandiya: dünyada kişi başı en çok kahve içilen ülke
-- Kolombiya: "tinto" ve kahve bölgesi (Eje Cafetero)
+- ✅ Kolombiya: "tinto" ve kahve bölgesi (Eje Cafetero)
 - Küba: cafecito ve colada – paylaşılan kahve
 - Japonya: kissaten kahve dükkânları
 - Yunanistan: frappé'nin tesadüfen doğuşu (1957, Selanik)

@@ -70,12 +70,18 @@ Türk kahvesinin tadı kadar **sunumu** da önemlidir: ince bir fincan, küçük
 
 ## Sunum: Türk kahvesi nasıl ikram edilir?
 
+![Pembe çiçekli porselen fincanda Türk kahvesi, yanında baklava ve gümüş kâsede kuruyemiş](/img/foto/turk-kahvesi-ikram-sofrasi.webp)
+*Bizim evden: Türk kahvesi, baklava ve kuruyemişle misafir sofrası.*
+
 1. Fincanı önceden **sıcak suyla ısıt**: Kahve daha uzun sıcak kalır.
 2. Kahveyi pişir, köpüğü önce fincanlara paylaştır. Tarif: [Türk kahvesi nasıl yapılır](/turk-kahvesi-nasil-yapilir/).
 3. Fincanı **tabağıyla** ver; yanına bir **bardak su** ve bir **lokum** ya da çikolata koy.
 4. Su, kahveden **önce** içilir: Ağzı temizler, kahvenin tadı daha iyi anlaşılır.
 
 ## Fincan takımıyla birlikte ne alınır?
+
+![Leopar desenli fincanda Türk kahvesi, gümüş kapaklı lokumluk ve tabaklarda kuru incir](/img/foto/turk-kahvesi-incir.webp)
+*Bizim evden: Türk kahvesinin yanında kuru incir de çok yakışır.*
 
 - **Cezve:** İyi bir cezve olmadan güzel köpük olmaz. Bkz. [cezve seçimi](/cezve-secimi/).
 - **Taze kahve:** [Türk kahvesi nasıl seçilir](/turk-kahvesi-nasil-secilir/) ve evde öğütmek için [Türk kahvesi öğütücü](/turk-kahvesi-ogutucu/).

@@ -70,12 +70,18 @@ With Turkish coffee, the **serving** matters almost as much as the taste: a deli
 
 ## How to serve Turkish coffee
 
+![Turkish coffee in a porcelain cup with pink flowers, with baklava and nuts in a silver bowl](/img/foto/turk-kahvesi-ikram-sofrasi.webp)
+*From our home: Turkish coffee with baklava and nuts for guests.*
+
 1. **Warm the cups** with hot water first so the coffee stays hot longer.
 2. Brew the coffee and spoon the foam into the cups first. Recipe: [how to make Turkish coffee](/en/how-to-make-turkish-coffee/).
 3. Serve the cup **on its saucer** with a **glass of water** and a piece of **Turkish delight** or chocolate.
 4. Drink the water **before** the coffee: it cleanses the palate.
 
 ## What goes with a cup set?
+
+![Turkish coffee in a leopard-print cup, a silver Turkish delight dish and dried figs on plates](/img/foto/turk-kahvesi-incir.webp)
+*From our home: dried figs go beautifully with Turkish coffee too.*
 
 - **Cezve:** No good foam without a good pot. See [how to choose a cezve](/en/how-to-choose-a-cezve/).
 - **Fresh coffee:** [how to buy Turkish coffee](/en/how-to-buy-turkish-coffee/) and, to grind your own, a [Turkish coffee grinder](/en/turkish-coffee-grinder/).

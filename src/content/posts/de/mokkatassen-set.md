@@ -70,12 +70,18 @@ Beim türkischen Kaffee zählt nicht nur der Geschmack, sondern auch das **Servi
 
 ## So servierst du türkischen Kaffee
 
+![Türkischer Kaffee in einer Porzellantasse mit rosa Blumen, daneben Baklava und Nüsse in einer Silberschale](/img/foto/turk-kahvesi-ikram-sofrasi.webp)
+*Bei uns zu Hause: türkischer Kaffee mit Baklava und Nüssen für Gäste.*
+
 1. Die Tassen vorher **mit heißem Wasser anwärmen**: Der Kaffee bleibt länger warm.
 2. Kaffee kochen und zuerst den Schaum auf die Tassen verteilen. Rezept: [türkischen Kaffee zubereiten](/de/tuerkischen-kaffee-zubereiten/).
 3. Die Tasse **mit Untertasse** reichen, dazu ein **Glas Wasser** und ein **Lokum** oder ein Stück Schokolade.
 4. Das Wasser trinkt man **vor** dem Kaffee: Es neutralisiert den Gaumen.
 
 ## Was passt zum Mokkatassen-Set?
+
+![Türkischer Kaffee in einer Tasse mit Leopardenmuster, eine silberne Lokum-Dose und getrocknete Feigen auf Tellern](/img/foto/turk-kahvesi-incir.webp)
+*Bei uns zu Hause: Auch getrocknete Feigen passen wunderbar zu türkischem Kaffee.*
 
 - **Cezve:** Ohne gutes Kännchen kein schöner Schaum. Siehe [Cezve kaufen](/de/cezve-kaufen/).
 - **Frischer Kaffee:** [türkischen Kaffee kaufen](/de/tuerkischen-kaffee-kaufen/) und zum Selbermahlen die [türkische Kaffeemühle](/de/tuerkische-kaffeemuehle/).
